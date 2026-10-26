@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-25",
+  "kind": "Actual browser screenshots recorded at wall-clock timings, edited into 16 scenes; no synthetic UI; no audio",
+  "viewportDesktop": "1440x1000 content; 10px desktop scrollbar cropped from 1450px captures",
+  "viewportMobile": "390x844 Chrome responsive, not iOS",
+  "duration": 207.702,
+  "scenes": [
+    {
+      "scene": "01-desktop",
+      "start": 0,
+      "duration": 10.497,
+      "title": "01 / 16   Maison Célestine · Intégration Shopify KNR",
+      "detail": "Revue du 25 octobre 2026 · Horizon 4.3.0 · Liquid, CSS et JavaScript natif"
+    },
+    {
+      "scene": "02-variants",
+      "start": 10.497,
+      "duration": 12.291,
+      "title": "02 / 16   Variantes et achat",
+      "detail": "150 mL · prix, prix barré, prix unitaire, média et URL synchronisés"
+    },
+    {
+      "scene": "03-cart",
+      "start": 22.788,
+      "duration": 15.086,
+      "title": "03 / 16   Panier Shopify",
+      "detail": "Deux flacons de 150 mL : 300 € · suppression et focus du panier vide"
+    },
+    {
+      "scene": "04-ingredients",
+      "start": 37.874,
+      "duration": 10.951,
+      "title": "04 / 16   Présentation des ingrédients",
+      "detail": "Image Figma hébergée par Shopify · contenu administrable"
+    },
+    {
+      "scene": "05-usage",
+      "start": 48.825,
+      "duration": 10.696,
+      "title": "05 / 16   Le rituel",
+      "detail": "Images, titres, textes et destinations éditables par carte"
+    },
+    {
+      "scene": "06-comparison",
+      "start": 59.521,
+      "duration": 15.465,
+      "title": "06 / 16   Comparateur au clavier",
+      "detail": "Début, Fin et flèches · position et libellé accessibles synchronisés"
+    },
+    {
+      "scene": "07-testimonials-faq",
+      "start": 74.986,
+      "duration": 18.164,
+      "title": "07 / 16   Témoignages et FAQ",
+      "detail": "Témoignages de démonstration · métaobjets produit · blocs question/réponse"
+    },
+    {
+      "scene": "08-reviews",
+      "start": 93.15,
+      "duration": 18.06,
+      "title": "08 / 16   Avis de démonstration",
+      "detail": "Quatre étoiles : deux avis · état sans résultat · pagination à six avis"
+    },
+    {
+      "scene": "09-forms",
+      "start": 111.21,
+      "duration": 14.328,
+      "title": "09 / 16   Avis et questions",
+      "detail": "Contact natif Shopify · validation · publication après modération"
+    },
+    {
+      "scene": "10-news",
+      "start": 125.538,
+      "duration": 10.041,
+      "title": "10 / 16   Journal",
+      "detail": "Articles, images, extraits et liens issus du blog Shopify"
+    },
+    {
+      "scene": "11-newsletter",
+      "start": 135.579,
+      "duration": 12.133,
+      "title": "11 / 16   Newsletter",
+      "detail": "Formulaire client Shopify · validation native sans inscription supplémentaire"
+    },
+    {
+      "scene": "12-footer",
+      "start": 147.712,
+      "duration": 12.786,
+      "title": "12 / 16   Réassurance et pied de page",
+      "detail": "Menus, liens et localisation · palette Figma et réseaux sociaux configurables"
+    },
+    {
+      "scene": "13-mobile",
+      "start": 160.498,
+      "duration": 12.136,
+      "title": "13 / 16   Version mobile · 390 px",
+      "detail": "Même produit et mêmes prix · disposition mobile · galerie principale sans zoom"
+    },
+    {
+      "scene": "14-mobile-usage",
+      "start": 172.634,
+      "duration": 10.134,
+      "title": "14 / 16   Cartes du rituel sur mobile",
+      "detail": "Écart de 16 px avant Lire plus, ajustement approuvé après revue"
+    },
+    {
+      "scene": "15-mobile-gallery",
+      "start": 182.768,
+      "duration": 14.756,
+      "title": "15 / 16   Galerie mobile",
+      "detail": "Navigation suivante et clavier · retour à la première image"
+    },
+    {
+      "scene": "16-mobile-menu",
+      "start": 197.524,
+      "duration": 10.178,
+      "title": "16 / 16   Navigation mobile",
+      "detail": "Menu modal · fermeture par Échap · focus rendu au déclencheur"
+    }
+  ]
+}

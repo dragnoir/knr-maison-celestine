@@ -1,0 +1,26 @@
+{% doc %}
+  Renders variant prices and actual unit pricing, shared by all purchase controls.
+
+  @param {variant} variant - Selected Shopify variant.
+  @param {boolean} [compact] - Omit comparison and unit prices in the floating card.
+{% enddoc %}
+<div class='knr-price' data-knr-price>
+  <span class='knr-price__current' data-knr-current>{{ variant.price | money }}</span>
+  {% unless compact %}
+    <s
+      class='knr-price__compare'
+      data-knr-compare
+      {% unless variant.compare_at_price > variant.price %}
+        hidden
+      {% endunless %}
+    >
+      {{- variant.compare_at_price | money -}}
+    </s>
+    <span class='knr-price__unit' data-knr-unit>
+      {%- if variant.unit_price_measurement -%}
+        {{- variant.unit_price | money }} / {{ variant.unit_price_measurement.reference_value }}
+        {{ variant.unit_price_measurement.reference_unit -}}
+      {%- endif -%}
+    </span>
+  {% endunless %}
+</div>

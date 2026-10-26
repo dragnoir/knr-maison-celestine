@@ -1,0 +1,148 @@
+[
+  {
+    "mode": "desktop",
+    "name": "top",
+    "selector": ".knr-product__root",
+    "scroll": 0,
+    "top": 32
+  },
+  {
+    "mode": "desktop",
+    "name": "product-details",
+    "selector": ".knr-product__secondary",
+    "scroll": 760,
+    "top": 0
+  },
+  {
+    "mode": "desktop",
+    "name": "ingredients",
+    "selector": ".knr-ingredients",
+    "scroll": 1377,
+    "top": 0
+  },
+  {
+    "mode": "desktop",
+    "name": "usage",
+    "selector": ".knr-usage",
+    "scroll": 2177,
+    "top": 0
+  },
+  {
+    "mode": "desktop",
+    "name": "results",
+    "selector": ".knr-results",
+    "scroll": 3011,
+    "top": 0
+  },
+  {
+    "mode": "desktop",
+    "name": "testimonials",
+    "selector": ".knr-testimonials",
+    "scroll": 3839,
+    "top": 80
+  },
+  {
+    "mode": "desktop",
+    "name": "faq",
+    "selector": ".knr-faq",
+    "scroll": 4379,
+    "top": 0
+  },
+  {
+    "mode": "desktop",
+    "name": "reviews",
+    "selector": ".knr-reviews",
+    "scroll": 5167,
+    "top": 0
+  },
+  {
+    "mode": "desktop",
+    "name": "reviews-bottom",
+    "selector": ".knr-reviews__more",
+    "scroll": 5153,
+    "top": 850
+  },
+  {
+    "mode": "desktop",
+    "name": "news",
+    "selector": ".knr-news",
+    "scroll": 6225,
+    "top": 0
+  },
+  {
+    "mode": "desktop",
+    "name": "reviews-bottom",
+    "selector": ".knr-reviews__more",
+    "scroll": 5503,
+    "top": 500
+  },
+  {
+    "mode": "desktop",
+    "name": "newsletter",
+    "selector": ".knr-newsletter",
+    "scroll": 6846,
+    "top": -0.203125
+  },
+  {
+    "mode": "desktop",
+    "name": "reassurance",
+    "selector": ".knr-reassurance",
+    "scroll": 7597,
+    "top": 28.796875
+  },
+  {
+    "mode": "desktop",
+    "name": "footer",
+    "selector": ".knr-footer",
+    "scroll": 7597,
+    "top": 286.796875
+  },
+  {
+    "mode": "mobile",
+    "name": "product-details",
+    "selector": ".knr-product__details",
+    "nativePixels": true,
+    "scroll": 884,
+    "top": -0.1875
+  },
+  {
+    "mode": "mobile",
+    "name": "ingredients",
+    "selector": ".knr-ingredients",
+    "nativePixels": true,
+    "scroll": 884,
+    "top": 704.203125
+  },
+  {
+    "mode": "mobile",
+    "name": "usage",
+    "selector": ".knr-usage",
+    "nativePixels": true,
+    "scroll": 1588,
+    "top": 747.203125
+  },
+  {
+    "mode": "mobile",
+    "name": "results",
+    "selector": ".knr-results",
+    "nativePixels": true,
+    "scroll": 2335,
+    "top": 684
+  },
+  {
+    "mode": "mobile",
+    "name": "testimonials",
+    "selector": ".knr-testimonials",
+    "nativePixels": true,
+    "scroll": 3019,
+    "top": 498
+  },
+  {
+    "mode": "mobile",
+    "name": "top",
+    "selector": ".knr-product__root",
+    "nativePixels": true,
+    "scroll": 0,
+    "top": 32
+  }
+]

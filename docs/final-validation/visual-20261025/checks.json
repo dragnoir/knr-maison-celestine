@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-25",
+  "theme": {
+    "id": 189290447076,
+    "role": "unpublished"
+  },
+  "figma": {
+    "file": "gkR3Ew3ksO4sd8AmoMeAHB",
+    "desktop": "720:729",
+    "mobile": "653:1125",
+    "freshDesignContext": true,
+    "freshGeometryAndTextMetrics": true,
+    "referenceSectionScreenshots": "Existing 22 October exports; unchanged frame geometry confirmed against fresh context and metrics."
+  },
+  "sectionsReviewed": 12,
+  "captureCount": 26,
+  "viewportContentWidths": [
+    1440,
+    390
+  ],
+  "additionalWidths": [
+    320,
+    375,
+    768,
+    1024,
+    1920
+  ],
+  "horizontalOverflow": false,
+  "typography": {
+    "desktop": {
+      "styleComparisons": 116,
+      "exactStyleMatches": 116,
+      "differences": [],
+      "unmatchedLiteralTexts": 28,
+      "unmatchedReason": "Dynamic/corrected content and text aggregation; checked visually using section captures and the separate complete text audit."
+    },
+    "mobile": {
+      "styleComparisons": 76,
+      "exactStyleMatches": 74,
+      "differences": [
+        {
+          "node": "653:1128",
+          "text": "Livraison estimée sous 48h",
+          "diffs": {
+            "color": [
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rgb(255, 255, 255)"
+            ]
+          },
+          "reason": "White announcement text remains legible on black, as previously agreed."
+        },
+        {
+          "node": "653:1154",
+          "text": "1",
+          "diffs": {
+            "line": [
+              8,
+              "12px"
+            ]
+          },
+          "reason": "8px badge glyph centered in its 12px circular container; line box differs, visible geometry preserved."
+        }
+      ],
+      "unmatchedLiteralTexts": 31,
+      "unmatchedReason": "Dynamic/corrected content and text aggregation; checked visually using section captures and the separate complete text audit."
+    }
+  },
+  "changes": [
+    "Intrinsic selected-label width for native footer country/language controls",
+    "Mobile reassurance cards keep 14px heading height and 24px heading/body gap; desktop text uses full card width",
+    "Original chevrons use 6.41421 x 10.8284 intrinsic proportions",
+    "Original footer SVG ratio reserved before image load"
+  ],
+  "functionalChecks": "interactions.json",
+  "responsiveChecks": "responsive.json",
+  "npmCheck": "passed",
+  "themeCheck": {
+    "errors": 0,
+    "warnings": 2,
+    "scope": "Existing Horizon bento snippet warnings"
+  },
+  "performance": "No new Lighthouse measurement; no new assets, dependencies, network requests or scroll listeners introduced. Historical reports remain dated.",
+  "realIOS": "Not tested; Chrome touch emulation only.",
+  "published": false,
+  "committed": false
+}

@@ -1,0 +1,228 @@
+{% comment %}
+  KNR latest news. Editable content is supplied through section settings or Shopify resources.
+{% endcomment %}
+<h2 class='knr-heading knr-news__heading'>{{ section.settings.heading | escape }}</h2>
+<knr-scroller>
+  <div
+    class='knr-news__list'
+    data-knr-scroll
+    tabindex='0'
+    role='region'
+    aria-label='{{ section.settings.heading | escape }}'
+  >
+    {% for article in section.settings.blog.articles limit: 4 %}
+      {% liquid
+        assign card_heading = article.title
+        assign close_crop = false
+        for block in section.blocks
+          if block.settings.article.id == article.id
+            assign card_heading = block.settings.heading | default: article.title
+            assign close_crop = block.settings.close_crop
+            break
+          endif
+        endfor
+      %}
+      <article class='knr-news__card'>
+        <a href='{{ article.url }}'>
+          <div class='knr-news__image {% if close_crop %}knr-news__image--close{% endif %}'>
+            {% assign article_sizes = '(min-width: 750px) 24vw, 255px' %}
+            {% if close_crop -%}
+              {%- assign article_sizes = '(min-width: 750px) 67vw, 710px' -%}
+            {%- endif %}
+            {% render 'knr-image',
+              image: article.image,
+              sizes: article_sizes,
+              alt: article.image.alt
+            %}
+          </div>
+          <div class='knr-news__body'>
+            <span class='knr-news__category'>{{ article.tags.first | escape }}</span>
+            <h3>{{ card_heading | escape | newline_to_br }}</h3>
+            <div>{{ article.excerpt_or_content | strip_html | truncatewords: 35 }}</div>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+  {% render 'knr-scroll-progress' -%}
+</knr-scroller>
+{%- if section.settings.blog != blank -%}
+  <a href='{{ section.settings.blog.url }}' class='knr-link knr-news__all'>
+    {{- 'knr.all_articles' | t -}}
+  </a>
+{%- endif %}
+{% stylesheet %}
+  .knr-news {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px;
+  }
+  .knr-news__heading {
+    padding-inline-start: 40px;
+  }
+  .knr-news > knr-scroller {
+    grid-column: 1/-1;
+    grid-row: 2;
+  }
+  .knr-news__all {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    justify-self: end;
+    margin-inline-end: 40px;
+  }
+  .knr-news__header {
+    padding-inline: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 24px;
+  }
+  .knr-news__list {
+    display: flex;
+    gap: 8px;
+    padding-inline: 40px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .knr-news__card {
+    flex: 1;
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+  .knr-news__image {
+    aspect-ratio: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  .knr-news__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .knr-news__image--close img {
+    position: absolute;
+    max-width: none;
+    width: 278.26%;
+    height: 166.17%;
+    left: -40.33%;
+    top: -33.08%;
+  }
+  .knr-news__body {
+    display: grid;
+    gap: 16px;
+    padding: 16px 15px 0 0;
+  }
+  .knr-news__category::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 0.8px;
+    background: var(--knr-accent);
+    margin-top: 8px;
+  }
+  .knr-news__body h3 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    max-width: 250px;
+  }
+  .knr-news__body > div {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+  @media (max-width: 749px) {
+    .knr-news {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding-bottom: 64px;
+    }
+    .knr-news__heading {
+      padding-inline: 24px;
+    }
+    .knr-news__all {
+      align-self: center;
+      margin: 0;
+    }
+    .knr-news__list {
+      padding-inline: 24px;
+      scroll-padding-inline: 24px;
+    }
+    .knr-news__card {
+      flex: 0 0 255px;
+    }
+    .knr-news__body {
+      padding: 24px 0 0;
+    }
+  }
+
+  .knr-news__body h3 {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    transition: text-decoration-color var(--knr-hover-duration) var(--knr-hover-ease);
+  }
+  .knr-news__card > a:focus-visible .knr-news__body h3 {
+    text-decoration-color: currentColor;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .knr-news__card > a:hover .knr-news__body h3 {
+      text-decoration-color: currentColor;
+    }
+  }
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .knr-news__image img {
+      transition: scale 300ms var(--knr-hover-ease);
+    }
+    .knr-news__card > a:hover .knr-news__image img {
+      scale: 1.025;
+    }
+  }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "t:knr.knr_latest_news",
+  "tag": "section",
+  "class": "knr-section knr-news",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:knr.heading"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "t:knr.blog"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "headline",
+      "name": "t:knr.card_headline",
+      "settings": [
+        {
+          "type": "article",
+          "id": "article",
+          "label": "t:knr.article"
+        },
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "t:knr.card_headline"
+        },
+        {
+          "type": "checkbox",
+          "id": "close_crop",
+          "label": "t:knr.close_crop",
+          "default": false
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,341 @@
+{
+  "cart_type": "drawer",
+  "auto_open_cart_drawer": true,
+  "show_accelerated_checkout_buttons": false,
+  "page_transition_enabled": false,
+  "transition_to_main_product": false,
+  "sections": {
+    "knr-announcement": {
+      "type": "knr-announcement",
+      "settings": {
+        "text": "Livraison estimée sous 48h",
+        "link_text": "En savoir plus",
+        "link": "/pages/livraison-et-retours"
+      }
+    },
+    "knr-header": {
+      "type": "knr-header",
+      "settings": {
+        "menu": "main-menu",
+        "location_link": "/pages/nous-contacter"
+      }
+    },
+    "knr-product": {
+      "type": "knr-product",
+      "settings": {
+        "collection": "collection-cactus",
+        "mobile_hero": "shopify://shop_images/knr-desktop-product-image.png",
+        "quality": "<strong>Yuka</strong> 100/100 · <strong>INCI Beauty</strong> 20/20",
+        "delivery": "En stock, livraison estimée sous 48h.",
+        "related_heading": "Complétez votre rituel",
+        "related_products": [],
+        "reassurance_shipping": "Livraison offerte dès 60 € en France métropolitaine.",
+        "reassurance_returns": "Retours acceptés jusqu’à 30 jours après réception.",
+        "reassurance_payment": "Paiement 100 % sécurisé.",
+        "reassurance_autoplay": true,
+        "reassurance_interval": 4,
+        "sticky_image": "shopify://shop_images/knr-desktop-product-image1.png"
+      },
+      "blocks": {
+        "knr_product_1": {
+          "type": "benefit",
+          "settings": {
+            "text": "Unifie"
+          }
+        },
+        "knr_product_2": {
+          "type": "benefit",
+          "settings": {
+            "text": "Protège"
+          }
+        },
+        "knr_product_3": {
+          "type": "detail",
+          "settings": {
+            "title": "Bienfaits",
+            "metafield_key": "benefits_detail",
+            "body": "<p>Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides.</p>"
+          }
+        },
+        "knr_product_4": {
+          "type": "detail",
+          "settings": {
+            "title": "Ingrédients clés",
+            "metafield_key": "ingredients",
+            "body": "<p>Huile de rosier muscat, rétinol végétal et extrait de cactus.</p>"
+          }
+        },
+        "knr_product_5": {
+          "type": "detail",
+          "settings": {
+            "title": "Adapté aux peaux",
+            "metafield_key": "skin_types",
+            "body": "<p>Consultez les conseils d’utilisation et la liste des ingrédients avant application.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "knr_product_1",
+        "knr_product_2",
+        "knr_product_3",
+        "knr_product_4",
+        "knr_product_5"
+      ]
+    },
+    "knr-ingredients": {
+      "type": "knr-ingredients",
+      "settings": {
+        "heading": "Notre engagement pour une beauté régénérée",
+        "body": "Fusionnant l’huile de rosier muscat, le rétinol végétal et l’extrait de cactus, notre sérum pénètre en profondeur pour stimuler le renouvellement cellulaire, atténuer les rides et redonner à la peau son éclat et sa fermeté naturels.",
+        "author": "Sophie M.",
+        "image": "shopify://shop_images/knr-desktop-product-image2.png",
+        "mobile_image": "shopify://shop_images/knr-mobile-image.png"
+      }
+    },
+    "knr-usage": {
+      "type": "knr-usage",
+      "settings": {
+        "heading": "Comment l’utiliser"
+      },
+      "blocks": {
+        "knr_usage_1": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/knr-desktop-product-image-container2.png",
+            "heading": "Découvrir",
+            "body": "<p>Concentré de pureté active. Huile végétale aux propriétés antioxydantes puissantes pour un éclat retrouvé.</p>",
+            "link": "/pages/le-rituel"
+          }
+        },
+        "knr_usage_2": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/knr-desktop-product-image-container.png",
+            "heading": "Découvrir",
+            "body": "<p>Éclat et uniformité retrouvés. Cible les taches et les irrégularités de grain de peau.</p>",
+            "link": "/pages/le-rituel"
+          }
+        },
+        "knr_usage_3": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/knr-desktop-product-image-container3.png",
+            "heading": "Découvrir",
+            "body": "<p>Fermeté et nutrition intense. Répare la barrière cutanée et lisse les contours du visage.</p>",
+            "link": "/pages/le-rituel"
+          }
+        }
+      },
+      "block_order": [
+        "knr_usage_1",
+        "knr_usage_2",
+        "knr_usage_3"
+      ]
+    },
+    "knr-results": {
+      "type": "knr-results",
+      "settings": {
+        "heading": "Ce que disent nos clientes",
+        "body": "Des transformations visibles dès 4 semaines. Nos clientes témoignent d’une peau visiblement régénérée, plus ferme et lumineuse.",
+        "before_image": "shopify://shop_images/knr-desktop-before-image.jpg",
+        "before_alt": "Portrait avant le rituel — visuel de démonstration fourni",
+        "after_image": "shopify://shop_images/knr-desktop-before-and-after-image.jpg",
+        "after_alt": "Portrait après le rituel — visuel de démonstration fourni"
+      }
+    },
+    "knr-faq": {
+      "type": "knr-faq",
+      "settings": {
+        "heading": "Questions fréquentes"
+      },
+      "blocks": {
+        "knr_faq_1": {
+          "type": "question",
+          "settings": {
+            "question": "Comment utiliser ?",
+            "answer": "<p>Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.</p>"
+          }
+        },
+        "knr_faq_2": {
+          "type": "question",
+          "settings": {
+            "question": "Quand voir les effets ?",
+            "answer": "<p>Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.</p>"
+          }
+        },
+        "knr_faq_3": {
+          "type": "question",
+          "settings": {
+            "question": "Convient-il à tous ?",
+            "answer": "<p>Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.</p>"
+          }
+        },
+        "knr_faq_4": {
+          "type": "question",
+          "settings": {
+            "question": "Est-il naturel ?",
+            "answer": "<p>97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.</p>"
+          }
+        },
+        "knr_faq_5": {
+          "type": "question",
+          "settings": {
+            "question": "Peut-on l’associer ?",
+            "answer": "<p>Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "knr_faq_1",
+        "knr_faq_2",
+        "knr_faq_3",
+        "knr_faq_4",
+        "knr_faq_5"
+      ]
+    },
+    "knr-reviews": {
+      "type": "knr-reviews",
+      "settings": {
+        "heading": "Avis clients",
+        "note": "Avis de démonstration — contenus fictifs fournis pour ce test, sans achat réel vérifié."
+      }
+    },
+    "knr-news": {
+      "type": "knr-news",
+      "settings": {
+        "heading": "Dernières actualités",
+        "blog": "journal"
+      },
+      "blocks": {
+        "knr_headline_1": {
+          "type": "headline",
+          "settings": {
+            "article": "journal/fondee-en-2012-dans-les-alpes",
+            "heading": "Fondée en 2012\ndans les Alpes"
+          }
+        },
+        "knr_headline_2": {
+          "type": "headline",
+          "settings": {
+            "article": "journal/12-ingredients-actifs-selectionnes",
+            "heading": "12 ingrédients\nactifs sélectionnés"
+          }
+        },
+        "knr_headline_3": {
+          "type": "headline",
+          "settings": {
+            "article": "journal/15-ans-de-recherche-en-laboratoire",
+            "heading": "15 ans de recherche\nen laboratoire"
+          }
+        },
+        "knr_headline_4": {
+          "type": "headline",
+          "settings": {
+            "article": "journal/notre-engagement",
+            "heading": "97 % naturel\ncertifié",
+            "close_crop": true
+          }
+        }
+      },
+      "block_order": [
+        "knr_headline_1",
+        "knr_headline_2",
+        "knr_headline_3",
+        "knr_headline_4"
+      ]
+    },
+    "knr-newsletter": {
+      "type": "knr-newsletter",
+      "settings": {
+        "image": "shopify://shop_images/knr-desktop-reinsurance-image.png",
+        "heading": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines.",
+        "note": "Formule brevetée, testée dermatologiquement, 97 % d’ingrédients d’origine naturelle."
+      }
+    },
+    "knr-reassurance": {
+      "type": "knr-reassurance",
+      "settings": {},
+      "blocks": {
+        "knr_reassurance_1": {
+          "type": "promise",
+          "settings": {
+            "heading": "Livraison offerte",
+            "body": "<p>Livraison offerte<br> dès 60 € d’achat<br> en France métropolitaine.</p>"
+          }
+        },
+        "knr_reassurance_2": {
+          "type": "promise",
+          "settings": {
+            "heading": "Retours gratuits",
+            "body": "<p>Retours acceptés<br> jusqu’à 30 jours<br> après réception.</p>"
+          }
+        },
+        "knr_reassurance_3": {
+          "type": "promise",
+          "settings": {
+            "heading": "Paiement sécurisé",
+            "body": "<p>Paiement 100 % sécurisé<br> par carte bancaire,<br> PayPal ou virement.</p>"
+          }
+        },
+        "knr_reassurance_4": {
+          "type": "promise",
+          "settings": {
+            "heading": "Service client",
+            "body": "<p>Du lundi au vendredi<br> de 9h à 18h par email<br> et téléphone.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "knr_reassurance_1",
+        "knr_reassurance_2",
+        "knr_reassurance_3",
+        "knr_reassurance_4"
+      ]
+    },
+    "knr-footer": {
+      "type": "knr-footer",
+      "settings": {
+        "cookie_preferences_link": "/pages/informations-legales#confidentialite",
+        "heading": "À propos de Maison Célestine",
+        "body": "<p>Maison Célestine est une marque de soins anti-âge haut de gamme formulée autour d’actifs rares et certifiés biologiques, guidée par une expertise médicale et un rituel simple, précis et efficace.</p>",
+        "certification_text": "Certifié COSMOS ORGANIC par ECOCERT Greenlife",
+        "certification_link": "/pages/nos-engagements",
+        "certification_link_label": "Voir le certificat",
+        "copyright": "© [year] Maison Célestine. Tous droits réservés.",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "tiktok": "https://www.tiktok.com/",
+        "linkedin": "https://www.linkedin.com/"
+      },
+      "blocks": {
+        "knr_footer_1": {
+          "type": "menu",
+          "settings": {
+            "heading": "Découvrir",
+            "menu": "decouvrir"
+          }
+        },
+        "knr_footer_2": {
+          "type": "menu",
+          "settings": {
+            "heading": "Service client",
+            "menu": "service-client"
+          }
+        },
+        "knr_footer_3": {
+          "type": "menu",
+          "settings": {
+            "heading": "Légal & Transparence",
+            "menu": "legal-transparence"
+          }
+        }
+      },
+      "block_order": [
+        "knr_footer_1",
+        "knr_footer_2",
+        "knr_footer_3"
+      ]
+    }
+  },
+  "knr_scroll_reveals": true
+}

@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-26",
+  "themeId": 189290447076,
+  "codeChanged": false,
+  "published": false,
+  "committed": false,
+  "rootCause": "Visitors outside active France/US markets received a non-purchasable backup-region experience; international cart was also rejected under early-access market shipping, including in unchanged Horizon.",
+  "adminInventory": {
+    "size15": 100,
+    "size150": 100,
+    "location": "Shop location",
+    "inventoryTracking": true,
+    "overselling": false
+  },
+  "changes": {
+    "internationalMarket": {
+      "id": 64046465252,
+      "name": "International — revue KNR",
+      "regions": 235,
+      "excludes": [
+        "FR",
+        "US"
+      ],
+      "currency": "EUR",
+      "language": "fr"
+    },
+    "shippingMode": "standard profiles; switched back from early-access shipping by market",
+    "profileId": 116504723684,
+    "zone": "France et international — test KNR",
+    "zoneRegions": 236,
+    "demoRateEUR": 5.9,
+    "freeFromEUR": 60,
+    "usRatesPreserved": true
+  },
+  "tests": [
+    {
+      "test": "Before fix",
+      "sharedVariantsAvailable": false,
+      "normalFranceAvailable": true
+    },
+    {
+      "test": "Native Horizon control before standard profile",
+      "country": "TN",
+      "cartRejectedAsSoldOut": true
+    },
+    {
+      "test": "After standard profile saved",
+      "normalTunisia": {
+        "count": "1",
+        "country": "TN",
+        "dialogOpen": true,
+        "dialogText": "Panier 1 Nombre total d’articles dans le panier: 1 1 Total du panier 75,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 75,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 75,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "Produit ajouté au panier.",
+          "",
+          "",
+          ""
+        ]
+      },
+      "sharedTunisia": {
+        "count": "1",
+        "country": "TN",
+        "dialogOpen": true,
+        "dialogText": "Panier 1 Nombre total d’articles dans le panier: 1 1 Total du panier 75,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 75,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 75,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "Produit ajouté au panier.",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "test": "Original iPhone URL, Tunisia, 150 mL add",
+      "count": "2",
+      "country": "TN",
+      "dialogOpen": true,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 225,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 150 mL Prix promotionnel 150,00 € Prix régulier 170,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 100,00 €/100 ml Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 75,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 225,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "Tunisia direct upsell",
+      "count": "3",
+      "country": "TN",
+      "dialogOpen": true,
+      "dialogText": "Panier 3 Nombre total d’articles dans le panier: 3 3 Total du panier 290,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 65,00 € Sérum Précieux Régénérant Taille: 150 mL Prix promotionnel 150,00 € Prix régulier 170,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 100,00 €/100 ml Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 75,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 290,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "Produit ajouté au panier.",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "Tunisia test cart restored empty",
+      "count": "0",
+      "country": "TN",
+      "dialogOpen": true,
+      "dialogText": "Votre panier est vide Vous possédez un compte ? Connectez-vous pour payer plus vite. Continuer vos achats",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "Produit ajouté au panier.",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "Shared preview after US localization request",
+      "requestedCountry": "US",
+      "count": "1",
+      "country": "FR",
+      "dialogOpen": true,
+      "dialogText": "Panier 1 Nombre total d’articles dans le panier: 1 1 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 150 mL Prix promotionnel 150,00 € Prix régulier 170,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 100,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "Normal draft US 150 mL cart",
+      "count": "1",
+      "country": "US",
+      "dialogOpen": true,
+      "dialogText": "Panier 1 Nombre total d’articles dans le panier: 1 1 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 150 mL Prix promotionnel 150,00 € Prix régulier 170,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 100,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "Shared preview France 15 mL cart after fix",
+      "count": "1",
+      "country": "FR",
+      "dialogOpen": true,
+      "dialogText": "Panier 1 Nombre total d’articles dans le panier: 1 1 Total du panier 75,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 75,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 75,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "France quantity and baseline restored",
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": true,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "testCleanup": {
+    "normalCart": {
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "",
+        "",
+        ""
+      ]
+    },
+    "visitorCart": {
+      "count": "0",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Votre panier est vide Vous possédez un compte ? Connectez-vous pour payer plus vite. Continuer vos achats",
+      "productStatus": [
+        "Produit ajouté au panier.",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "realDevice": {
+    "device": "iPhone 16 Pro",
+    "initialEvidence": "Candidate screenshot showed Messenger in-app browser",
+    "retest": "Candidate confirmed: Both sizes and cart work",
+    "fullSafariAudit": false
+  },
+  "safety": {
+    "inventoryTrackingRetained": true,
+    "stockQuantitiesUnchanged": true,
+    "availabilityNotHardcoded": true,
+    "newOrders": 0,
+    "passwordUnchanged": true,
+    "themeUnpublished": true,
+    "commits": 0
+  }
+}

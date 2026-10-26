@@ -1,0 +1,810 @@
+{
+  "date": "2026-10-26",
+  "theme": 189290447076,
+  "reportedDevice": "iPhone; user reports Safari, supplied screenshot shows Messenger chrome",
+  "baselineUrl": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+  "baselineCart": {
+    "count": "2",
+    "country": "FR",
+    "dialogOpen": false,
+    "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+    "productStatus": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "records": [
+    {
+      "test": "baseline-precise-touch-center",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "cart": {
+        "count": "3",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 3 Nombre total d’articles dans le panier: 3 3 Total du panier 215,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 65,00 € Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 215,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "test": "touch-expanded-fringe-huile",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "cart": {
+        "count": "3",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 3 Nombre total d’articles dans le panier: 3 3 Total du panier 215,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 65,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 215,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "test": "touch-expanded-fringe-serum",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "cart": {
+        "count": "4",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 4 Nombre total d’articles dans le panier: 4 4 Total du panier 274,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Éclat Prix promotionnel 59,00 € Prix régulier 69,00 € Diminuer la quantité Augmenter la quantité Retirer 59,00 € Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 65,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 274,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier.",
+          ""
+        ]
+      }
+    },
+    {
+      "test": "touch-carousel-scroll",
+      "scrollLeft": 162,
+      "thirdTarget": {
+        "x": 204.65625,
+        "y": 357.8125,
+        "width": 44,
+        "height": 44,
+        "top": 357.8125,
+        "right": 248.65625,
+        "bottom": 401.8125,
+        "left": 204.65625
+      }
+    },
+    {
+      "test": "touch-expanded-fringe-creme-after-swipe",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "cart": {
+        "count": "5",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 5 Nombre total d’articles dans le panier: 5 5 Total du panier 359,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Crème Régénérante Prix promotionnel 85,00 € Prix régulier 95,00 € Diminuer la quantité Augmenter la quantité Retirer 85,00 € Sérum Éclat Prix promotionnel 59,00 € Prix régulier 69,00 € Diminuer la quantité Augmenter la quantité Retirer 59,00 € Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 65,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 359,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier."
+        ]
+      }
+    },
+    {
+      "test": "desktop-keyboard-quick-add",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "cart": {
+        "count": "6",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 6 Nombre total d’articles dans le panier: 6 6 Total du panier 424,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Crème Régénérante Prix promotionnel 85,00 € Prix régulier 95,00 € Diminuer la quantité Augmenter la quantité Retirer 85,00 € Sérum Éclat Prix promotionnel 59,00 € Prix régulier 69,00 € Diminuer la quantité Augmenter la quantité Retirer 59,00 € Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 130,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 424,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier."
+        ]
+      }
+    },
+    {
+      "test": "cleanup-Crème Régénérante",
+      "cart": {
+        "count": "5",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 5 Nombre total d’articles dans le panier: 5 5 Total du panier 339,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Éclat Prix promotionnel 59,00 € Prix régulier 69,00 € Diminuer la quantité Augmenter la quantité Retirer 59,00 € Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 130,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 339,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier."
+        ]
+      }
+    },
+    {
+      "test": "cleanup-Sérum Éclat",
+      "cart": {
+        "count": "4",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 4 Nombre total d’articles dans le panier: 4 4 Total du panier 280,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 130,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 280,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier."
+        ]
+      }
+    },
+    {
+      "test": "cleanup-Huile Précieuse",
+      "cart": {
+        "count": "2",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier.",
+          "Produit ajouté au panier."
+        ]
+      }
+    }
+  ],
+  "beforeGeometry": [
+    {
+      "title": "Huile Précieuse65,00 €",
+      "button": {
+        "x": 36,
+        "y": 374.8125,
+        "width": 24,
+        "height": 24,
+        "top": 374.8125,
+        "right": 60,
+        "bottom": 398.8125,
+        "left": 36
+      },
+      "image": {
+        "x": 32,
+        "y": 193.8125,
+        "width": 159.328125,
+        "height": 208,
+        "top": 193.8125,
+        "right": 191.328125,
+        "bottom": 401.8125,
+        "left": 32
+      },
+      "centerHit": "<img src=\"//maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-product-price-icon.svg?v=93298422603684166861792690659\" width=\"16\" height=\"16\" style=\"--knr-icon-width: 16px; --knr-icon-height: 16px\" a",
+      "nearbyHit": "<a href=\"/products/huile-precieuse\">\n\n  \n  <img src=\"//maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_ac70a3ba-d286-485c-b68b-0c9fadc3e0e9.png?v=1792690050&amp;width=2880\" alt"
+    },
+    {
+      "title": "Sérum Éclat59,00 €",
+      "button": {
+        "x": 203.328125,
+        "y": 370.8125,
+        "width": 24,
+        "height": 24,
+        "top": 370.8125,
+        "right": 227.328125,
+        "bottom": 394.8125,
+        "left": 203.328125
+      },
+      "image": {
+        "x": 199.328125,
+        "y": 193.8125,
+        "width": 159.328125,
+        "height": 208,
+        "top": 193.8125,
+        "right": 358.65625,
+        "bottom": 401.8125,
+        "left": 199.328125
+      },
+      "centerHit": "<img src=\"//maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-product-price-icon.svg?v=93298422603684166861792690659\" width=\"16\" height=\"16\" style=\"--knr-icon-width: 16px; --knr-icon-height: 16px\" a",
+      "nearbyHit": "<a href=\"/products/serum-eclat\">\n\n  \n  <img src=\"//maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_af13ef09-6d53-42e9-8f21-50dcd487d89c.png?v=1792690053&amp;width=2880\" alt=\"Sé"
+    },
+    {
+      "title": "Crème Régénérante85,00 €",
+      "button": {
+        "x": 370.65625,
+        "y": 374.8125,
+        "width": 24,
+        "height": 24,
+        "top": 374.8125,
+        "right": 394.65625,
+        "bottom": 398.8125,
+        "left": 370.65625
+      },
+      "image": {
+        "x": 366.65625,
+        "y": 193.8125,
+        "width": 159.328125,
+        "height": 208,
+        "top": 193.8125,
+        "right": 525.984375,
+        "bottom": 401.8125,
+        "left": 366.65625
+      }
+    }
+  ],
+  "afterGeometry": [
+    {
+      "title": "Huile Précieuse65,00 €",
+      "button": {
+        "x": 32,
+        "y": 357.8125,
+        "width": 44,
+        "height": 44,
+        "top": 357.8125,
+        "right": 76,
+        "bottom": 401.8125,
+        "left": 32
+      },
+      "image": {
+        "x": 32,
+        "y": 193.8125,
+        "width": 159.328125,
+        "height": 208,
+        "top": 193.8125,
+        "right": 191.328125,
+        "bottom": 401.8125,
+        "left": 32
+      },
+      "icon": {
+        "x": 40,
+        "y": 378.8125,
+        "width": 16,
+        "height": 16,
+        "top": 378.8125,
+        "right": 56,
+        "bottom": 394.8125,
+        "left": 40
+      },
+      "iconPointerEvents": "none",
+      "nearbyHit": "<button type=\"submit\" class=\"knr-related-card__plus knr-icon-control\" data-knr-quick-add=\"\" data-available=\"true\" data-label=\"Ajouter Huile Précieuse au panier\" aria-label=\"Ajouter Huile Précieuse au panier\" aria-busy=\"false\">\n\n<img src=\"//maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/"
+    },
+    {
+      "title": "Sérum Éclat59,00 €",
+      "button": {
+        "x": 199.328125,
+        "y": 357.8125,
+        "width": 44,
+        "height": 44,
+        "top": 357.8125,
+        "right": 243.328125,
+        "bottom": 401.8125,
+        "left": 199.328125
+      },
+      "image": {
+        "x": 199.328125,
+        "y": 193.8125,
+        "width": 159.328125,
+        "height": 208,
+        "top": 193.8125,
+        "right": 358.65625,
+        "bottom": 401.8125,
+        "left": 199.328125
+      },
+      "icon": {
+        "x": 207.328125,
+        "y": 378.8125,
+        "width": 16,
+        "height": 16,
+        "top": 378.8125,
+        "right": 223.328125,
+        "bottom": 394.8125,
+        "left": 207.328125
+      },
+      "iconPointerEvents": "none",
+      "nearbyHit": "<button type=\"submit\" class=\"knr-related-card__plus knr-icon-control\" data-knr-quick-add=\"\" data-available=\"true\" data-label=\"Ajouter Sérum Éclat au panier\" aria-label=\"Ajouter Sérum Éclat au panier\" aria-busy=\"false\">\n\n<img src=\"//maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desk"
+    },
+    {
+      "title": "Crème Régénérante85,00 €",
+      "button": {
+        "x": 366.65625,
+        "y": 357.8125,
+        "width": 44,
+        "height": 44,
+        "top": 357.8125,
+        "right": 410.65625,
+        "bottom": 401.8125,
+        "left": 366.65625
+      },
+      "image": {
+        "x": 366.65625,
+        "y": 193.8125,
+        "width": 159.328125,
+        "height": 208,
+        "top": 193.8125,
+        "right": 525.984375,
+        "bottom": 401.8125,
+        "left": 366.65625
+      },
+      "icon": {
+        "x": 374.65625,
+        "y": 378.8125,
+        "width": 16,
+        "height": 16,
+        "top": 378.8125,
+        "right": 390.65625,
+        "bottom": 394.8125,
+        "left": 374.65625
+      },
+      "iconPointerEvents": "none"
+    }
+  ],
+  "responsive": [
+    {
+      "cards": [
+        {
+          "icon": {
+            "bottom": 1508.8125,
+            "height": 16,
+            "left": 40,
+            "right": 56,
+            "top": 1492.8125,
+            "width": 16,
+            "x": 40,
+            "y": 1492.8125
+          },
+          "image": {
+            "bottom": 1519.8125,
+            "height": 208,
+            "left": 32,
+            "right": 191.328125,
+            "top": 1311.8125,
+            "width": 159.328125,
+            "x": 32,
+            "y": 1311.8125
+          },
+          "imageLink": "/products/huile-precieuse",
+          "target": {
+            "bottom": 1515.8125,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 1471.8125,
+            "width": 44,
+            "x": 32,
+            "y": 1471.8125
+          },
+          "titleLink": "/products/huile-precieuse"
+        },
+        {
+          "icon": {
+            "bottom": 1512.8125,
+            "height": 16,
+            "left": 207.328125,
+            "right": 223.328125,
+            "top": 1496.8125,
+            "width": 16,
+            "x": 207.328125,
+            "y": 1496.8125
+          },
+          "image": {
+            "bottom": 1519.8125,
+            "height": 208,
+            "left": 199.328125,
+            "right": 358.65625,
+            "top": 1311.8125,
+            "width": 159.328125,
+            "x": 199.328125,
+            "y": 1311.8125
+          },
+          "imageLink": "/products/serum-eclat",
+          "target": {
+            "bottom": 1519.8125,
+            "height": 44,
+            "left": 199.328125,
+            "right": 243.328125,
+            "top": 1475.8125,
+            "width": 44,
+            "x": 199.328125,
+            "y": 1475.8125
+          },
+          "titleLink": "/products/serum-eclat"
+        },
+        {
+          "icon": {
+            "bottom": 1512.8125,
+            "height": 16,
+            "left": 374.65625,
+            "right": 390.65625,
+            "top": 1496.8125,
+            "width": 16,
+            "x": 374.65625,
+            "y": 1496.8125
+          },
+          "image": {
+            "bottom": 1519.8125,
+            "height": 208,
+            "left": 366.65625,
+            "right": 525.984375,
+            "top": 1311.8125,
+            "width": 159.328125,
+            "x": 366.65625,
+            "y": 1311.8125
+          },
+          "imageLink": "/products/creme-regenerante",
+          "target": {
+            "bottom": 1519.8125,
+            "height": 44,
+            "left": 366.65625,
+            "right": 410.65625,
+            "top": 1475.8125,
+            "width": 44,
+            "x": 366.65625,
+            "y": 1475.8125
+          },
+          "titleLink": "/products/creme-regenerante"
+        }
+      ],
+      "overflow": 0,
+      "width": 320
+    },
+    {
+      "cards": [
+        {
+          "icon": {
+            "bottom": 1468.8125,
+            "height": 16,
+            "left": 40,
+            "right": 56,
+            "top": 1452.8125,
+            "width": 16,
+            "x": 40,
+            "y": 1452.8125
+          },
+          "image": {
+            "bottom": 1479.8125,
+            "height": 208,
+            "left": 32,
+            "right": 191.328125,
+            "top": 1271.8125,
+            "width": 159.328125,
+            "x": 32,
+            "y": 1271.8125
+          },
+          "imageLink": "/products/huile-precieuse",
+          "target": {
+            "bottom": 1475.8125,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 1431.8125,
+            "width": 44,
+            "x": 32,
+            "y": 1431.8125
+          },
+          "titleLink": "/products/huile-precieuse"
+        },
+        {
+          "icon": {
+            "bottom": 1472.8125,
+            "height": 16,
+            "left": 207.328125,
+            "right": 223.328125,
+            "top": 1456.8125,
+            "width": 16,
+            "x": 207.328125,
+            "y": 1456.8125
+          },
+          "image": {
+            "bottom": 1479.8125,
+            "height": 208,
+            "left": 199.328125,
+            "right": 358.65625,
+            "top": 1271.8125,
+            "width": 159.328125,
+            "x": 199.328125,
+            "y": 1271.8125
+          },
+          "imageLink": "/products/serum-eclat",
+          "target": {
+            "bottom": 1479.8125,
+            "height": 44,
+            "left": 199.328125,
+            "right": 243.328125,
+            "top": 1435.8125,
+            "width": 44,
+            "x": 199.328125,
+            "y": 1435.8125
+          },
+          "titleLink": "/products/serum-eclat"
+        },
+        {
+          "icon": {
+            "bottom": 1472.8125,
+            "height": 16,
+            "left": 374.65625,
+            "right": 390.65625,
+            "top": 1456.8125,
+            "width": 16,
+            "x": 374.65625,
+            "y": 1456.8125
+          },
+          "image": {
+            "bottom": 1479.8125,
+            "height": 208,
+            "left": 366.65625,
+            "right": 525.984375,
+            "top": 1271.8125,
+            "width": 159.328125,
+            "x": 366.65625,
+            "y": 1271.8125
+          },
+          "imageLink": "/products/creme-regenerante",
+          "target": {
+            "bottom": 1479.8125,
+            "height": 44,
+            "left": 366.65625,
+            "right": 410.65625,
+            "top": 1435.8125,
+            "width": 44,
+            "x": 366.65625,
+            "y": 1435.8125
+          },
+          "titleLink": "/products/creme-regenerante"
+        }
+      ],
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "cards": [
+        {
+          "icon": {
+            "bottom": 1468.8125,
+            "height": 16,
+            "left": 40,
+            "right": 56,
+            "top": 1452.8125,
+            "width": 16,
+            "x": 40,
+            "y": 1452.8125
+          },
+          "image": {
+            "bottom": 1479.8125,
+            "height": 208,
+            "left": 32,
+            "right": 191.328125,
+            "top": 1271.8125,
+            "width": 159.328125,
+            "x": 32,
+            "y": 1271.8125
+          },
+          "imageLink": "/products/huile-precieuse",
+          "target": {
+            "bottom": 1475.8125,
+            "height": 44,
+            "left": 32,
+            "right": 76,
+            "top": 1431.8125,
+            "width": 44,
+            "x": 32,
+            "y": 1431.8125
+          },
+          "titleLink": "/products/huile-precieuse"
+        },
+        {
+          "icon": {
+            "bottom": 1472.8125,
+            "height": 16,
+            "left": 207.328125,
+            "right": 223.328125,
+            "top": 1456.8125,
+            "width": 16,
+            "x": 207.328125,
+            "y": 1456.8125
+          },
+          "image": {
+            "bottom": 1479.8125,
+            "height": 208,
+            "left": 199.328125,
+            "right": 358.65625,
+            "top": 1271.8125,
+            "width": 159.328125,
+            "x": 199.328125,
+            "y": 1271.8125
+          },
+          "imageLink": "/products/serum-eclat",
+          "target": {
+            "bottom": 1479.8125,
+            "height": 44,
+            "left": 199.328125,
+            "right": 243.328125,
+            "top": 1435.8125,
+            "width": 44,
+            "x": 199.328125,
+            "y": 1435.8125
+          },
+          "titleLink": "/products/serum-eclat"
+        },
+        {
+          "icon": {
+            "bottom": 1472.8125,
+            "height": 16,
+            "left": 374.65625,
+            "right": 390.65625,
+            "top": 1456.8125,
+            "width": 16,
+            "x": 374.65625,
+            "y": 1456.8125
+          },
+          "image": {
+            "bottom": 1479.8125,
+            "height": 208,
+            "left": 366.65625,
+            "right": 525.984375,
+            "top": 1271.8125,
+            "width": 159.328125,
+            "x": 366.65625,
+            "y": 1271.8125
+          },
+          "imageLink": "/products/creme-regenerante",
+          "target": {
+            "bottom": 1479.8125,
+            "height": 44,
+            "left": 366.65625,
+            "right": 410.65625,
+            "top": 1435.8125,
+            "width": 44,
+            "x": 366.65625,
+            "y": 1435.8125
+          },
+          "titleLink": "/products/creme-regenerante"
+        }
+      ],
+      "overflow": 0,
+      "width": 402
+    },
+    {
+      "cards": [
+        {
+          "icon": {
+            "bottom": 515,
+            "height": 16,
+            "left": 985.328125,
+            "right": 1001.328125,
+            "top": 499,
+            "width": 16,
+            "x": 985.328125,
+            "y": 499
+          },
+          "image": {
+            "bottom": 526,
+            "height": 208,
+            "left": 977.328125,
+            "right": 1136.65625,
+            "top": 318,
+            "width": 159.328125,
+            "x": 977.328125,
+            "y": 318
+          },
+          "imageLink": "/products/huile-precieuse",
+          "target": {
+            "bottom": 522,
+            "height": 44,
+            "left": 977.328125,
+            "right": 1021.328125,
+            "top": 478,
+            "width": 44,
+            "x": 977.328125,
+            "y": 478
+          },
+          "titleLink": "/products/huile-precieuse"
+        },
+        {
+          "icon": {
+            "bottom": 519,
+            "height": 16,
+            "left": 1152.65625,
+            "right": 1168.65625,
+            "top": 503,
+            "width": 16,
+            "x": 1152.65625,
+            "y": 503
+          },
+          "image": {
+            "bottom": 526,
+            "height": 208,
+            "left": 1144.65625,
+            "right": 1303.984375,
+            "top": 318,
+            "width": 159.328125,
+            "x": 1144.65625,
+            "y": 318
+          },
+          "imageLink": "/products/serum-eclat",
+          "target": {
+            "bottom": 526,
+            "height": 44,
+            "left": 1144.65625,
+            "right": 1188.65625,
+            "top": 482,
+            "width": 44,
+            "x": 1144.65625,
+            "y": 482
+          },
+          "titleLink": "/products/serum-eclat"
+        },
+        {
+          "icon": {
+            "bottom": 519,
+            "height": 16,
+            "left": 1319.984375,
+            "right": 1335.984375,
+            "top": 503,
+            "width": 16,
+            "x": 1319.984375,
+            "y": 503
+          },
+          "image": {
+            "bottom": 526,
+            "height": 208,
+            "left": 1311.984375,
+            "right": 1471.3125,
+            "top": 318,
+            "width": 159.328125,
+            "x": 1311.984375,
+            "y": 318
+          },
+          "imageLink": "/products/creme-regenerante",
+          "target": {
+            "bottom": 526,
+            "height": 44,
+            "left": 1311.984375,
+            "right": 1355.984375,
+            "top": 482,
+            "width": 44,
+            "x": 1311.984375,
+            "y": 482
+          },
+          "titleLink": "/products/creme-regenerante"
+        }
+      ],
+      "overflow": 0,
+      "width": 1440
+    }
+  ],
+  "cleanup": {
+    "cart": {
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "pageReloaded": true,
+    "touchEmulation": false,
+    "viewport": "restored to browser default",
+    "published": false,
+    "committed": false,
+    "orders": 0
+  },
+  "scope": {
+    "codeChanged": "CSS in sections/knr-product.liquid only",
+    "javascriptChanged": false,
+    "visualIcon": {
+      "width": 16,
+      "height": 16,
+      "left": 8,
+      "bottom": 7
+    },
+    "target": {
+      "before": 24,
+      "after": 44
+    },
+    "realIPhoneRetestAfterFix": false,
+    "newLighthouseAfterFix": false
+  }
+}

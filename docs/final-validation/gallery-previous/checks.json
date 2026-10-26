@@ -1,0 +1,1411 @@
+{
+  "date": "2026-10-26",
+  "theme": 189290447076,
+  "records": [
+    {
+      "test": "initial",
+      "state": {
+        "count": 4,
+        "focus": null,
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(0%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "previous-wraps-first-to-last",
+      "state": {
+        "count": 4,
+        "focus": "Image précédente",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 3,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(300%)",
+          "width": "25%"
+        },
+        "scrollLeft": 1140,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "next-wraps-last-to-first",
+      "state": {
+        "count": 4,
+        "focus": "Image suivante",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(0%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "next-to-second",
+      "state": {
+        "count": 4,
+        "focus": "Image suivante",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 1,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(100%)",
+          "width": "25%"
+        },
+        "scrollLeft": 380,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "previous-keyboard-enter",
+      "state": {
+        "count": 4,
+        "focus": "Image précédente",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(0%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "previous-keyboard-space-wrap",
+      "state": {
+        "count": 4,
+        "focus": "Image précédente",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 3,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(300%)",
+          "width": "25%"
+        },
+        "scrollLeft": 1140,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "gallery-keyboard-right-wrap",
+      "state": {
+        "count": 4,
+        "focus": "Images du produit",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(0%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "gallery-keyboard-left-wrap",
+      "state": {
+        "count": 4,
+        "focus": "Images du produit",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 3,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(300%)",
+          "width": "25%"
+        },
+        "scrollLeft": 1140,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-previous",
+      "state": {
+        "count": 4,
+        "focus": "Image précédente",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 3,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(300%)",
+          "width": "25%"
+        },
+        "scrollLeft": 1140,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-next",
+      "state": {
+        "count": 4,
+        "focus": "Image suivante",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(0%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-swipe",
+      "settled": {
+        "index": 1,
+        "aligned": true,
+        "stable": 3
+      },
+      "state": {
+        "count": 4,
+        "focus": "Image suivante",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 1,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(100%)",
+          "width": "25%"
+        },
+        "scrollLeft": 380,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "previous-after-swipe",
+      "state": {
+        "count": 4,
+        "focus": "Image précédente",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(0%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "reduced-motion-previous-immediate",
+      "state": {
+        "count": 4,
+        "focus": "Image précédente",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 3,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(300%)",
+          "width": "25%"
+        },
+        "scrollLeft": 1140,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "reduced-motion-next-immediate",
+      "state": {
+        "count": 4,
+        "focus": "Image suivante",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(0%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    },
+    {
+      "test": "variant-150-media-selection",
+      "expectedIndex": 3,
+      "state": {
+        "count": 4,
+        "focus": null,
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 3,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": -45,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": -89,
+            "width": 44,
+            "x": 334,
+            "y": -89
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": -45,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": -89,
+            "width": 44,
+            "x": 2,
+            "y": -89
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "150,00 €",
+          "150,00 €",
+          "150,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(299.737%)",
+          "width": "25%"
+        },
+        "scrollLeft": 1140,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438416612",
+        "width": 390
+      }
+    },
+    {
+      "test": "previous-keeps-variant-price",
+      "state": {
+        "count": 4,
+        "focus": "Image précédente",
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 2,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": 222,
+            "width": 44,
+            "x": 334,
+            "y": 222
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": 266,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": 222,
+            "width": 44,
+            "x": 2,
+            "y": 222
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "150,00 €",
+          "150,00 €",
+          "150,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(300%)",
+          "width": "25%"
+        },
+        "scrollLeft": 760,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438416612",
+        "width": 390
+      }
+    },
+    {
+      "test": "variant-15-restored",
+      "state": {
+        "count": 4,
+        "focus": null,
+        "galleryId": "KnrGallery-knr-product",
+        "galleryWidth": 380,
+        "heroZooms": 0,
+        "index": 0,
+        "next": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image suivante",
+          "rect": {
+            "bottom": -45,
+            "height": 44,
+            "left": 334,
+            "right": 378,
+            "top": -89,
+            "width": 44,
+            "x": 334,
+            "y": -89
+          }
+        },
+        "overflow": 0,
+        "previous": {
+          "controls": "KnrGallery-knr-product",
+          "display": "grid",
+          "label": "Image précédente",
+          "rect": {
+            "bottom": -45,
+            "height": 44,
+            "left": 2,
+            "right": 46,
+            "top": -89,
+            "width": 44,
+            "x": 2,
+            "y": -89
+          },
+          "rotation": "180deg"
+        },
+        "price": [
+          "75,00 €",
+          "75,00 €",
+          "75,00 €"
+        ],
+        "progress": {
+          "transform": "translateX(200%)",
+          "width": "25%"
+        },
+        "scrollLeft": 0,
+        "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+        "width": 390
+      }
+    }
+  ],
+  "baselineCart": {
+    "count": "2",
+    "country": "FR",
+    "dialogOpen": false,
+    "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+    "productStatus": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "staticHero": {
+    "openDialogs": 0,
+    "heroZoomControls": 0
+  },
+  "responsive": [
+    {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 310,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 264,
+          "right": 308,
+          "top": 222,
+          "width": 44,
+          "x": 264,
+          "y": 222
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 2,
+          "right": 46,
+          "top": 222,
+          "width": 44,
+          "x": 2,
+          "y": 222
+        },
+        "rotation": "180deg"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 320
+    },
+    {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 365,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 319,
+          "right": 363,
+          "top": 222,
+          "width": 44,
+          "x": 319,
+          "y": 222
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 2,
+          "right": 46,
+          "top": 222,
+          "width": 44,
+          "x": 2,
+          "y": 222
+        },
+        "rotation": "180deg"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 375
+    },
+    {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 380,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 334,
+          "right": 378,
+          "top": 222,
+          "width": 44,
+          "x": 334,
+          "y": 222
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 2,
+          "right": 46,
+          "top": 222,
+          "width": 44,
+          "x": 2,
+          "y": 222
+        },
+        "rotation": "180deg"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 390
+    },
+    {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 392,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 346,
+          "right": 390,
+          "top": 222,
+          "width": 44,
+          "x": 346,
+          "y": 222
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 2,
+          "right": 46,
+          "top": 222,
+          "width": 44,
+          "x": 2,
+          "y": 222
+        },
+        "rotation": "180deg"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 402
+    },
+    {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 739,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 693,
+          "right": 737,
+          "top": 222,
+          "width": 44,
+          "x": 693,
+          "y": 222
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 2,
+          "right": 46,
+          "top": 222,
+          "width": 44,
+          "x": 2,
+          "y": 222
+        },
+        "rotation": "180deg"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 749
+    },
+    {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 740,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "none",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "none",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "rotation": "none"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 750
+    },
+    {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 1430,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "none",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "none",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "rotation": "none"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 1440
+    }
+  ],
+  "cleanup": {
+    "gallery": {
+      "count": 4,
+      "focus": "Images du produit",
+      "galleryId": "KnrGallery-knr-product",
+      "galleryWidth": 380,
+      "heroZooms": 0,
+      "index": 0,
+      "next": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image suivante",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 334,
+          "right": 378,
+          "top": 222,
+          "width": 44,
+          "x": 334,
+          "y": 222
+        }
+      },
+      "overflow": 0,
+      "previous": {
+        "controls": "KnrGallery-knr-product",
+        "display": "grid",
+        "label": "Image précédente",
+        "rect": {
+          "bottom": 266,
+          "height": 44,
+          "left": 2,
+          "right": 46,
+          "top": 222,
+          "width": 44,
+          "x": 2,
+          "y": 222
+        },
+        "rotation": "180deg"
+      },
+      "price": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "progress": {
+        "transform": "translateX(0%)",
+        "width": "25%"
+      },
+      "scrollLeft": 0,
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438383844",
+      "width": 390
+    },
+    "selectedSize": "15 mL",
+    "cart": {
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "touchEmulation": false,
+    "mediaOverride": false,
+    "viewport": "reset after capture",
+    "published": false,
+    "committed": false,
+    "newOrders": 0
+  },
+  "scope": {
+    "figmaExceptionApproved": true,
+    "controlSize": 44,
+    "iconSize": 16,
+    "arrows": "mobile below 750px, rendered only for products with multiple images",
+    "rightIconCenterPreserved": true,
+    "realIPhoneRetestAfterFix": false,
+    "newPageSpeed": false
+  }
+}

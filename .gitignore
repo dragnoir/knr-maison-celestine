@@ -1,0 +1,10 @@
+node_modules/
+.shopify/
+.env*
+.local-theme/
+dist/
+*.log
+!docs/**/code-check.log
+*.zip
+.DS_Store
+Thumbs.db

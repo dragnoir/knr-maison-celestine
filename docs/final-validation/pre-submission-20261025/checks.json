@@ -1,0 +1,1140 @@
+{
+  "date": "2026-10-25",
+  "plannedSubmission": "2026-10-27",
+  "deadline": "2026-10-27T14:55:00+01:00",
+  "theme": {
+    "id": 189290447076,
+    "role": "unpublished"
+  },
+  "baselineCart": {
+    "items": 2,
+    "totalEUR": 150,
+    "variant": "15 mL"
+  },
+  "interactions": [
+    {
+      "compare": [
+        "170,00 €",
+        "170,00 €"
+      ],
+      "gallery": {
+        "left": 0,
+        "width": 1440
+      },
+      "prices": [
+        "150,00 €",
+        "150,00 €",
+        "150,00 €"
+      ],
+      "selected": [
+        "150 mL",
+        "150 mL"
+      ],
+      "test": "150 mL selection",
+      "unit": "100,00 € / 100 ml",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?pb=0&view=knr-serum&variant=67758438416612"
+    },
+    {
+      "gallery": {
+        "left": 4320,
+        "width": 1440
+      },
+      "price": "150,00 €",
+      "selected": "150 mL",
+      "test": "150 mL direct reload",
+      "unit": "100,00 € / 100 ml",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?pb=0&view=knr-serum&variant=67758438416612"
+    },
+    {
+      "test": "Main 150 mL add",
+      "count": "3",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 1440,
+      "rows": [
+        {
+          "quantity": "1",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "150 mL"
+        },
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "300,00 € EUR"
+    },
+    {
+      "test": "150 mL quantity two",
+      "count": "4",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 1440,
+      "rows": [
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "150 mL"
+        },
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "450,00 € EUR"
+    },
+    {
+      "test": "150 mL removed",
+      "count": "2",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 1440,
+      "rows": [
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "150,00 € EUR"
+    },
+    {
+      "buttonDisabled": false,
+      "cartCount": "2",
+      "message": "L’ajout au panier a échoué. Vérifiez votre connexion et réessayez.",
+      "test": "Ajax add network error"
+    },
+    {
+      "test": "Network retry succeeded",
+      "count": "3",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 1440,
+      "rows": [
+        {
+          "quantity": "3",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "225,00 € EUR"
+    },
+    {
+      "test": "Baseline before recording",
+      "count": "2",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 1440,
+      "rows": [
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "150,00 € EUR"
+    },
+    {
+      "test": "Recorded two 150 mL bottles",
+      "count": "2",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 1440,
+      "rows": [
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "150 mL"
+        }
+      ],
+      "total": "300,00 € EUR"
+    },
+    {
+      "count": "0",
+      "focus": "Fermer",
+      "modal": true,
+      "test": "Empty cart after server update"
+    },
+    {
+      "label": "0 % de l’image avant visible",
+      "position": "0%",
+      "test": "Comparison keyboard",
+      "value": "0"
+    },
+    {
+      "label": "100 % de l’image avant visible",
+      "position": "100%",
+      "test": "Comparison keyboard",
+      "value": "100"
+    },
+    {
+      "test": "Comparison keyboard arrow",
+      "value": "5"
+    },
+    {
+      "index": 1,
+      "test": "Testimonial next"
+    },
+    {
+      "test": "FAQ toggle",
+      "initial": true,
+      "toggled": false,
+      "label": "Comment utiliser ?"
+    },
+    {
+      "test": "FAQ toggle",
+      "initial": false,
+      "toggled": true,
+      "label": "Quand voir les effets ?"
+    },
+    {
+      "test": "FAQ toggle",
+      "initial": false,
+      "toggled": true,
+      "label": "Convient-il à tous ?"
+    },
+    {
+      "test": "FAQ toggle",
+      "initial": false,
+      "toggled": true,
+      "label": "Est-il naturel ?"
+    },
+    {
+      "test": "FAQ toggle",
+      "initial": false,
+      "toggled": true,
+      "label": "Peut-on l’associer ?"
+    },
+    {
+      "count": 2,
+      "filter": "4",
+      "focusRating": "4",
+      "test": "4-star filter and focus"
+    },
+    {
+      "count": 0,
+      "emptyVisible": true,
+      "test": "Empty review filter"
+    },
+    {
+      "count": 6,
+      "moreHidden": true,
+      "status": "6 avis affichés sur 6",
+      "test": "Review pagination"
+    },
+    {
+      "action": "/contact#KnrReviewForm-knr-reviews",
+      "dialog": "#KnrReview-knr-reviews",
+      "fieldShadow": "color(srgb 0.468471 0.419294 0.336471) 0px -2px 0px 0px inset",
+      "focus": "contact[name]",
+      "modal": true,
+      "test": "Required form validation",
+      "valueMissing": true
+    },
+    {
+      "action": "/contact#KnrQuestionForm-knr-reviews",
+      "dialog": "#KnrQuestion-knr-reviews",
+      "fieldShadow": "color(srgb 0.468471 0.419294 0.336471) 0px -2px 0px 0px inset",
+      "focus": "contact[name]",
+      "modal": true,
+      "test": "Required form validation",
+      "valueMissing": true
+    },
+    {
+      "articles": [
+        {
+          "href": "/blogs/journal/fondee-en-2012-dans-les-alpes",
+          "text": "L’origine\nFondée en 2012\ndans les Alpes\nMaison Célestine est née de la passion d’une botan"
+        },
+        {
+          "href": "/blogs/journal/12-ingredients-actifs-selectionnes",
+          "text": "La formule\n12 ingrédients\nactifs sélectionnés\nChaque ingrédient est sourcé chez des produc"
+        },
+        {
+          "href": "/blogs/journal/15-ans-de-recherche-en-laboratoire",
+          "text": "L’expertise\n15 ans de recherche\nen laboratoire\nNotre laboratoire indépendant teste chaque "
+        },
+        {
+          "href": "/blogs/journal/notre-engagement",
+          "text": "L’engagement\n97 % naturel\ncertifié\nEmballages recyclables, formules biodégradables, compen"
+        }
+      ],
+      "test": "Shopify news destinations"
+    },
+    {
+      "focus": "email",
+      "shadow": "color(srgb 0.468471 0.419294 0.336471) 0px -2px 0px 0px inset",
+      "test": "Newsletter validation without submission",
+      "typeMismatch": true
+    },
+    {
+      "heroZoom": 0,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "stickyDisplay": "none",
+      "test": "Mobile shared product data",
+      "unit": "500,00 € / 100 ml",
+      "width": 390
+    },
+    {
+      "gaps": [
+        16,
+        16,
+        16
+      ],
+      "test": "Approved mobile link spacing"
+    },
+    {
+      "index": 1,
+      "progress": "translateX(100%)",
+      "test": "Mobile gallery next"
+    },
+    {
+      "index": 2,
+      "progress": "translateX(200%)",
+      "test": "Mobile gallery next"
+    },
+    {
+      "expanded": "true",
+      "links": [
+        "/collections/collection-cactus",
+        "/pages/le-rituel#choisir",
+        "/pages/nos-engagements",
+        "/blogs/journal",
+        "/account"
+      ],
+      "modal": true,
+      "test": "Mobile menu open"
+    },
+    {
+      "expanded": "false",
+      "focus": "Ouvrir le menu",
+      "test": "Mobile menu close"
+    },
+    {
+      "after": 550,
+      "before": 550,
+      "open": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "test": "Mobile product accordions keep hero height"
+    },
+    {
+      "controls": 4,
+      "lastSelected": "true",
+      "message": "Paiement 100 % sécurisé.",
+      "test": "Editable reassurance controls"
+    },
+    {
+      "carouselPaused": "true",
+      "headingAnimation": "none",
+      "matches": true,
+      "test": "Reduced motion"
+    },
+    {
+      "test": "Mobile main add",
+      "count": "1",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 390,
+      "rows": [
+        {
+          "quantity": "1",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "75,00 € EUR"
+    },
+    {
+      "test": "Mobile quantity and baseline restored",
+      "count": "2",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 390,
+      "rows": [
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "150,00 € EUR"
+    },
+    {
+      "test": "Mobile direct upsell confirmed",
+      "count": "3",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 390,
+      "rows": [
+        {
+          "quantity": "1",
+          "title": "Huile Précieuse",
+          "variant": "default"
+        },
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "215,00 € EUR"
+    },
+    {
+      "test": "Temporary upsell removed",
+      "count": "2",
+      "ctaRadius": "2px",
+      "modal": true,
+      "pageWidth": 390,
+      "rows": [
+        {
+          "quantity": "2",
+          "title": "Sérum Précieux Régénérant",
+          "variant": "15 mL"
+        }
+      ],
+      "total": "150,00 € EUR"
+    },
+    {
+      "count": "2",
+      "price": "75,00 €",
+      "selected": "15 mL",
+      "test": "Cart persistence after reload"
+    },
+    {
+      "label": "Découvrir",
+      "open": true,
+      "test": "Mobile footer accordion"
+    },
+    {
+      "label": "Service client",
+      "open": true,
+      "test": "Mobile footer accordion"
+    },
+    {
+      "label": "Légal & Transparence",
+      "open": true,
+      "test": "Mobile footer accordion"
+    },
+    {
+      "cart": "2",
+      "country": "US",
+      "label": "États-Unis (€)",
+      "test": "Country automatically saved",
+      "view": "knr-serum"
+    },
+    {
+      "cart": "2",
+      "country": "FR",
+      "language": "fr",
+      "test": "France restored"
+    },
+    {
+      "hidden": true,
+      "test": "Floating purchase hides near footer"
+    },
+    {
+      "after": [
+        626.234375,
+        15.313232421875,
+        609,
+        15.313232421875
+      ],
+      "before": [
+        626.234375,
+        15.313232421875,
+        609,
+        15.313232421875
+      ],
+      "test": "Desktop gallery keeps height with expanded details"
+    },
+    {
+      "open": true,
+      "test": "Zoom image click keeps modal open"
+    },
+    {
+      "focusIsOpener": true,
+      "open": false,
+      "test": "Zoom Escape and focus restoration"
+    },
+    {
+      "closed": true,
+      "test": "Zoom close button and backdrop"
+    },
+    {
+      "hidden": false,
+      "price": "75,00 €",
+      "size": {
+        "h": 104,
+        "w": 104
+      },
+      "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_ac70a3ba-d286-485c-b68b-0c9fadc3e0e9.png?v=1792690050&width=320",
+      "test": "Floating purchase current state and image"
+    },
+    {
+      "h1": "Collection Cactus",
+      "test": "Upsell collection destination",
+      "url": "https://maison-celestine-knr-test.myshopify.com/collections/collection-cactus"
+    },
+    {
+      "h1": "Fondée en 2012 dans les Alpes",
+      "test": "Shopify article destination",
+      "url": "https://maison-celestine-knr-test.myshopify.com/blogs/journal/fondee-en-2012-dans-les-alpes"
+    }
+  ],
+  "captures": [
+    {
+      "scene": "06-comparison",
+      "file": "desktop-results-keyboard.png"
+    },
+    {
+      "mode": "mobile",
+      "name": "top",
+      "file": "mobile-top.png",
+      "height": 844,
+      "top": 32,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "product-details",
+      "file": "mobile-product-details.png",
+      "height": 844,
+      "top": -0.1875,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "ingredients",
+      "file": "mobile-ingredients.png",
+      "height": 844,
+      "top": 0.203125,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "usage",
+      "file": "mobile-usage.png",
+      "height": 844,
+      "top": 0.203125,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "results",
+      "file": "mobile-results.png",
+      "height": 844,
+      "top": 0,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "testimonials",
+      "file": "mobile-testimonials.png",
+      "height": 844,
+      "top": 80,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "faq",
+      "file": "mobile-faq.png",
+      "height": 844,
+      "top": 0,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "reviews",
+      "file": "mobile-reviews.png",
+      "height": 844,
+      "top": 0,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "news",
+      "file": "mobile-news.png",
+      "height": 844,
+      "top": 0,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "newsletter",
+      "file": "mobile-newsletter.png",
+      "height": 844,
+      "top": -0.40625,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "reassurance",
+      "file": "mobile-reassurance.png",
+      "height": 844,
+      "top": 0.59375,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "mobile",
+      "name": "footer",
+      "file": "mobile-footer.png",
+      "height": 844,
+      "top": 7.390625,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "mode": "desktop",
+      "name": "top",
+      "file": "desktop-top.png",
+      "height": 1000,
+      "top": 32,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "ingredients",
+      "file": "desktop-ingredients.png",
+      "height": 1000,
+      "top": 0,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "usage",
+      "file": "desktop-usage.png",
+      "height": 1000,
+      "top": 0,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "results",
+      "file": "desktop-results.png",
+      "height": 1000,
+      "top": 0,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "testimonials",
+      "file": "desktop-testimonials.png",
+      "height": 1000,
+      "top": 80,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "faq",
+      "file": "desktop-faq.png",
+      "height": 1000,
+      "top": 0,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "reviews",
+      "file": "desktop-reviews.png",
+      "height": 1000,
+      "top": 0,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "news",
+      "file": "desktop-news.png",
+      "height": 1000,
+      "top": 0,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "newsletter",
+      "file": "desktop-newsletter.png",
+      "height": 1000,
+      "top": -0.203125,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "reassurance",
+      "file": "desktop-reassurance.png",
+      "height": 1000,
+      "top": 28.796875,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "footer",
+      "file": "desktop-footer.png",
+      "height": 1000,
+      "top": 286.796875,
+      "viewport": 1450,
+      "width": 1440
+    },
+    {
+      "mode": "desktop",
+      "name": "product-details",
+      "file": "desktop-product-details.png",
+      "height": 1000,
+      "top": 187,
+      "viewport": 1450,
+      "width": 1440
+    }
+  ],
+  "responsive": [
+    {
+      "requested": 320,
+      "content": 320,
+      "heading": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "overflow": 0,
+      "overflowingSections": [],
+      "usageLinkGaps": [
+        16,
+        16,
+        16
+      ],
+      "viewport": 320
+    },
+    {
+      "requested": 375,
+      "content": 375,
+      "heading": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "overflow": 0,
+      "overflowingSections": [],
+      "usageLinkGaps": [
+        16,
+        16,
+        16
+      ],
+      "viewport": 375
+    },
+    {
+      "requested": 390,
+      "content": 390,
+      "heading": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "overflow": 0,
+      "overflowingSections": [],
+      "usageLinkGaps": [
+        16,
+        16,
+        16
+      ],
+      "viewport": 390
+    },
+    {
+      "requested": 768,
+      "content": 768,
+      "heading": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "overflow": 0,
+      "overflowingSections": [],
+      "usageLinkGaps": [
+        null,
+        null,
+        null
+      ],
+      "viewport": 778
+    },
+    {
+      "requested": 1024,
+      "content": 1024,
+      "heading": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "overflow": 0,
+      "overflowingSections": [],
+      "usageLinkGaps": [
+        null,
+        null,
+        null
+      ],
+      "viewport": 1034
+    },
+    {
+      "requested": 1440,
+      "content": 1440,
+      "heading": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "overflow": 0,
+      "overflowingSections": [],
+      "usageLinkGaps": [
+        null,
+        null,
+        null
+      ],
+      "viewport": 1450
+    },
+    {
+      "requested": 1920,
+      "content": 1920,
+      "heading": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "overflow": 0,
+      "overflowingSections": [],
+      "usageLinkGaps": [
+        null,
+        null,
+        null
+      ],
+      "viewport": 1930
+    }
+  ],
+  "published": false,
+  "committed": false,
+  "submitted": false,
+  "autoplayStart": {
+    "current": "",
+    "message": "En stock, livraison estimée sous 48h.",
+    "paused": "false",
+    "time": 1792962646283
+  },
+  "autoplayEnd": {
+    "message": "Livraison offerte dès 60 € en France métropolitaine.",
+    "paused": "false",
+    "time": 1792962666933
+  },
+  "initial": {
+    "announcement": "Livraison estimée sous 48h\nEn savoir plus",
+    "cartCount": "2",
+    "data": {
+      "labels": {
+        "add": "Ajouter au panier",
+        "added": "Produit ajouté au panier.",
+        "adding": "Ajout en cours…",
+        "delivery": "En stock, livraison estimée sous 48h.",
+        "error": "L’ajout au panier a échoué. Vérifiez votre connexion et réessayez.",
+        "refreshError": "Le produit a été ajouté. Ouvrez le panier pour vérifier son contenu avant un nouvel ajout.",
+        "soldOut": "Indisponible",
+        "viewCart": "Voir le panier"
+      },
+      "variants": [
+        {
+          "available": true,
+          "compare": "85,00 €",
+          "id": 67758438383844,
+          "mediaId": 74751388942564,
+          "minimum": 1,
+          "price": "75,00 €",
+          "unit": "500,00 € / 100 ml"
+        },
+        {
+          "available": true,
+          "compare": "170,00 €",
+          "id": 67758438416612,
+          "mediaId": 74751422071012,
+          "minimum": 1,
+          "price": "150,00 €",
+          "unit": "100,00 € / 100 ml"
+        }
+      ]
+    },
+    "footerColor": "rgb(249, 248, 245)",
+    "heroZoomControls": 0,
+    "motionActive": true,
+    "price": "75,00 €\n85,00 €\n500,00 € / 100 ml",
+    "secondaryZoomControls": 2,
+    "title": "Sérum Précieux Régénérant"
+  },
+  "footer": {
+    "applyHidden": true,
+    "color": "rgb(249, 248, 245)",
+    "country": "FR",
+    "images": [
+      {
+        "h": 0,
+        "loaded": false,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-icon1.svg?v=139148507433160638701792690659",
+        "w": 0
+      },
+      {
+        "h": 0,
+        "loaded": false,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-icon1.svg?v=139148507433160638701792690659",
+        "w": 0
+      },
+      {
+        "h": 0,
+        "loaded": false,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-icon1.svg?v=139148507433160638701792690659",
+        "w": 0
+      },
+      {
+        "h": 56,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-calque1.svg?v=87590590740744594421792690660",
+        "w": 47
+      },
+      {
+        "h": 141.296875,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-union1.svg?v=125810391936748533581792690659",
+        "w": 1360
+      },
+      {
+        "h": 6.40625,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-icon1.svg?v=139148507433160638701792690659",
+        "w": 10.828125
+      },
+      {
+        "h": 6.40625,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-icon1.svg?v=139148507433160638701792690659",
+        "w": 10.828125
+      },
+      {
+        "h": 20,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-facebook-link.svg?v=44932350116599549271792702764",
+        "w": 20
+      },
+      {
+        "h": 20,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-instagram-link.svg?v=93062917518356435461792702764",
+        "w": 20
+      },
+      {
+        "h": 20,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-tik-tok-link.svg?v=65566170606601747311792702764",
+        "w": 20
+      },
+      {
+        "h": 20,
+        "loaded": true,
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-linked-in-link.svg?v=60934103608503503191792702764",
+        "w": 20
+      }
+    ],
+    "links": [
+      {
+        "href": "/collections/collection-cactus",
+        "label": "Acheter"
+      },
+      {
+        "href": "/blogs/journal/fondee-en-2012-dans-les-alpes",
+        "label": "Notre histoire"
+      },
+      {
+        "href": "/blogs/journal/15-ans-de-recherche-en-laboratoire",
+        "label": "Science"
+      },
+      {
+        "href": "/pages/nous-contacter#presse",
+        "label": "Presse"
+      },
+      {
+        "href": "/pages/nous-contacter#ou-nous-trouver",
+        "label": "Où nous trouver"
+      },
+      {
+        "href": "https://maison-celestine-knr-test.myshopify.com/account",
+        "label": "Mon compte"
+      },
+      {
+        "href": "/pages/livraison-et-retours#suivi",
+        "label": "Suivre mon colis"
+      },
+      {
+        "href": "/pages/livraison-et-retours",
+        "label": "Livraison & retour"
+      },
+      {
+        "href": "/products/serum-precieux-regenerant?view=knr-serum#knr-faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "/pages/nous-contacter",
+        "label": "Nous contacter"
+      },
+      {
+        "href": "/pages/informations-legales#conditions",
+        "label": "Conditions générales de vente"
+      },
+      {
+        "href": "/pages/informations-legales#mentions",
+        "label": "Mentions légales"
+      },
+      {
+        "href": "/pages/informations-legales#confidentialite",
+        "label": "Paramètre des cookies"
+      },
+      {
+        "href": "/pages/informations-legales#accessibilite",
+        "label": "Accessibilité"
+      },
+      {
+        "href": "/pages/nos-engagements",
+        "label": "Voir le certificat"
+      },
+      {
+        "href": "https://www.facebook.com/",
+        "label": "Facebook"
+      },
+      {
+        "href": "https://www.instagram.com/",
+        "label": "Instagram"
+      },
+      {
+        "href": "https://www.tiktok.com/",
+        "label": "TikTok"
+      },
+      {
+        "href": "https://www.linkedin.com/",
+        "label": "LinkedIn"
+      }
+    ],
+    "reassuranceColor": "rgb(220, 213, 195)"
+  },
+  "mobileCartRestored": {
+    "count": "2",
+    "ctaRadius": "2px",
+    "modal": true,
+    "pageWidth": 390,
+    "rows": [
+      {
+        "quantity": "2",
+        "title": "Sérum Précieux Régénérant",
+        "variant": "15 mL"
+      }
+    ],
+    "total": "150,00 € EUR"
+  },
+  "restoredCart": {
+    "count": "2",
+    "ctaRadius": "2px",
+    "modal": true,
+    "pageWidth": 390,
+    "rows": [
+      {
+        "quantity": "2",
+        "title": "Sérum Précieux Régénérant",
+        "variant": "15 mL"
+      }
+    ],
+    "total": "150,00 € EUR"
+  },
+  "structure": {
+    "bannerLandmarks": 1,
+    "duplicateIds": [],
+    "emptyLinks": [],
+    "footerLandmarks": 1,
+    "h1": 1,
+    "heroZoomControls": 0,
+    "imagesWithoutAlt": [],
+    "lang": "fr",
+    "mainLandmarks": 1,
+    "temporaryFigmaImages": 0,
+    "unlabeledVisibleFields": [],
+    "unnamedVisibleButtons": []
+  },
+  "phase": "Final visual inspection completed; review package prepared; approval gates remain open",
+  "packageReviewedOn": "2026-10-26",
+  "visualReview": {
+    "date": "2026-10-26",
+    "figmaFrames": [
+      "720:729",
+      "653:1125"
+    ],
+    "pairsInspected": 22,
+    "newThemeDefects": 0,
+    "desktopCaptureRefresh": [
+      "top",
+      "product-details"
+    ],
+    "desktopContentWidth": 1440,
+    "mobileContentWidth": 390,
+    "approvedContentDifferencesRetained": true,
+    "codeChanged": false
+  },
+  "videoVerification": {
+    "seconds": 207.666667,
+    "scenes": 16,
+    "resolution": [
+      1440,
+      1080
+    ],
+    "codec": "h264",
+    "audio": false,
+    "chapterMidpointsInspected": 16,
+    "actionErrors": 0
+  },
+  "limits": {
+    "freshLighthouse": "Completed 2026-10-26: three runs per profile; mobile median 81 (68–90), desktop median 98 (96–98). Mobile LCP remains an open concern. See ../pagespeed-20261026/results.json.",
+    "realIOS": "Candidate confirmed both sizes and cart on iPhone 16 Pro after international configuration fix; initial screenshot showed Messenger in-app browser. No full Safari audit.",
+    "contactSuccess": "Historical Shopify server success and candidate email receipt; no new successful form submission during this pass.",
+    "checkout": "No new checkout handoff or order in this pass; native cart actions preserved.",
+    "editableContent": "Real merchant edits and restoration previously verified; no new merchant changes made in this pass."
+  },
+  "freshPageSpeed": {
+    "report": "../pagespeed-20261026/results.json",
+    "medians": {
+      "mobile": {
+        "performance": 81,
+        "accessibility": 96,
+        "bestPractices": 92,
+        "seo": 69,
+        "fcpMs": 2138,
+        "lcpMs": 4632,
+        "tbtMs": 28,
+        "cls": 0,
+        "speedIndexMs": 3214,
+        "range": [
+          68,
+          90
+        ]
+      },
+      "desktop": {
+        "performance": 98,
+        "accessibility": 96,
+        "bestPractices": 92,
+        "seo": 69,
+        "fcpMs": 561,
+        "lcpMs": 1098,
+        "tbtMs": 58,
+        "cls": 0,
+        "speedIndexMs": 1002,
+        "range": [
+          96,
+          98
+        ]
+      }
+    },
+    "codeChanged": false
+  },
+  "internationalAvailability": {
+    "report": "../../DISPONIBILITE-INTERNATIONALE.md",
+    "evidence": "../market-availability/checks.json",
+    "configurationChanged": true,
+    "themeCodeChanged": false,
+    "candidateIPhoneCartConfirmed": true
+  }
+}

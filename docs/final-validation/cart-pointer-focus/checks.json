@@ -1,0 +1,512 @@
+{
+  "date": "2026-10-26",
+  "theme": 189290447076,
+  "reportedDevice": "Candidate iPhone Chrome screenshots",
+  "records": [
+    {
+      "test": "keyboard-header-open",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-header-return",
+      "state": {
+        "cartOpen": false,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": true,
+          "inCart": false,
+          "label": "Panier",
+          "outline": "rgb(255, 255, 255) solid 2px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "A"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-header-open-after-keyboard",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-header-return",
+      "state": {
+        "cartOpen": false,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": true,
+          "inCart": false,
+          "label": "Panier",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "A"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-upsell-open-after-keyboard",
+      "state": {
+        "cartOpen": true,
+        "count": "3",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": false,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 1078,
+        "width": 390
+      },
+      "cart": {
+        "count": "3",
+        "country": "FR",
+        "dialogOpen": true,
+        "dialogText": "Panier 3 Nombre total d’articles dans le panier: 3 3 Total du panier 235,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Crème Régénérante Prix promotionnel 85,00 € Prix régulier 95,00 € Diminuer la quantité Augmenter la quantité Retirer 85,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 235,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+        "productStatus": [
+          "",
+          "",
+          "",
+          "Produit ajouté au panier."
+        ]
+      }
+    },
+    {
+      "test": "touch-upsell-return",
+      "state": {
+        "cartOpen": false,
+        "count": "3",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": false,
+          "inCart": false,
+          "label": "Ajouter Crème Régénérante au panier",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": true,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 1078,
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-tab-in-cart-after-touch",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "A"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-close-focus-after-touch",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-close-return-after-touch",
+      "state": {
+        "cartOpen": false,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": true,
+          "inCart": false,
+          "label": "Panier",
+          "outline": "rgb(255, 255, 255) solid 2px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "A"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-upsell-open",
+      "state": {
+        "cartOpen": true,
+        "count": "4",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 1032,
+        "width": 390
+      }
+    },
+    {
+      "test": "fresh-upsell-pointer-open",
+      "state": {
+        "cartOpen": true,
+        "count": "3",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": false,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 1078,
+        "width": 390
+      }
+    },
+    {
+      "test": "fresh-upsell-pointer-return",
+      "state": {
+        "cartOpen": false,
+        "count": "3",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": false,
+          "inCart": false,
+          "label": "Ajouter Crème Régénérante au panier",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": true,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 1078,
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-upsell-return",
+      "state": {
+        "cartOpen": false,
+        "count": "4",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": true,
+          "inCart": false,
+          "label": "Ajouter Crème Régénérante au panier",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "quickAdd": true,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 1032,
+        "width": 390
+      }
+    },
+    {
+      "test": "pointer-open-after-cleanup",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "pointer-quantity-field-focus",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "Quantité",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": false,
+          "shadow": "color(srgb 0.468471 0.419294 0.336471) 0px -2px 0px 0px inset",
+          "tag": "INPUT"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-from-quantity-field",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": true,
+          "inCart": true,
+          "label": "Augmenter la quantité",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "keyboard",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "pointer-return-after-cleanup",
+      "state": {
+        "cartOpen": false,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": false,
+          "inCart": false,
+          "label": "Panier",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "A"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 390
+      }
+    },
+    {
+      "test": "desktop-default-viewport-pointer-open",
+      "state": {
+        "cartOpen": true,
+        "count": "2",
+        "focus": {
+          "cartClose": true,
+          "focusVisible": false,
+          "inCart": true,
+          "label": "Fermer",
+          "outline": "rgb(0, 0, 0) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "BUTTON"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 1864
+      }
+    },
+    {
+      "test": "desktop-default-viewport-pointer-return",
+      "state": {
+        "cartOpen": false,
+        "count": "2",
+        "focus": {
+          "cartClose": false,
+          "focusVisible": false,
+          "inCart": false,
+          "label": "Panier",
+          "outline": "rgb(255, 255, 255) none 3px",
+          "quickAdd": false,
+          "shadow": "none",
+          "tag": "A"
+        },
+        "mode": "pointer",
+        "overflow": 0,
+        "scrollY": 0,
+        "width": 1864
+      }
+    }
+  ],
+  "baselineCart": {
+    "count": "2",
+    "country": "FR",
+    "dialogOpen": false,
+    "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+    "productStatus": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "beforeKeyboard": {
+    "cartOpen": true,
+    "count": "2",
+    "focus": {
+      "cartClose": true,
+      "focusVisible": true,
+      "inCart": true,
+      "label": "Fermer",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "quickAdd": false,
+      "shadow": "none",
+      "tag": "BUTTON"
+    },
+    "mode": null,
+    "overflow": 0,
+    "scrollY": 0,
+    "width": 390
+  },
+  "beforeTouch": {
+    "cartOpen": true,
+    "count": "2",
+    "focus": {
+      "cartClose": true,
+      "focusVisible": true,
+      "inCart": true,
+      "label": "Fermer",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "quickAdd": false,
+      "shadow": "none",
+      "tag": "BUTTON"
+    },
+    "mode": null,
+    "overflow": 0,
+    "scrollY": 0,
+    "width": 390
+  },
+  "iphoneConfirmation": {
+    "device": "iPhone Chrome, candidate",
+    "result": "Both are clear",
+    "scope": "top cart icon and upsell quick add; close button and returned plus"
+  },
+  "cleanup": {
+    "cart": {
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "dialogsClosed": true,
+    "helperInstances": 1,
+    "published": false,
+    "committed": false,
+    "newOrders": 0,
+    "testTabClosed": true,
+    "temporaryOverrides": "cleared",
+    "restoredViewport": "tab metrics and browser override cleared"
+  },
+  "scope": {
+    "selectors": [
+      "native cart close",
+      "header cart trigger",
+      "quick-add controls",
+      "main and floating purchase controls"
+    ],
+    "pointerRingsSuppressed": true,
+    "keyboardRingsPreserved": true,
+    "globalFocusRemoval": false,
+    "inputFocusStylingPreserved": true,
+    "realIPhoneConfirmed": true,
+    "newPageSpeed": false
+  },
+  "qaNotes": [
+    "The iPhone report was reproduced in Chrome: focus-visible stayed true after touch; the pointer selector now suppresses only the cart controls ring.",
+    "A second QA tab shared the same cart; two temporary Creme units were removed before completion.",
+    "Some screenshot captures returned scaled previews or timed out. The retained mobile image was visually inspected; invalid captures are excluded."
+  ]
+}

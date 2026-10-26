@@ -1,0 +1,22 @@
+{
+  "links": [
+    {
+      "href": "/collections/collection-cactus",
+      "label": "Tous nos soins botaniques pour le visage et le corps"
+    },
+    {
+      "href": "/pages/le-rituel#choisir",
+      "label": "Diagnostic"
+    },
+    {
+      "href": "/pages/nos-engagements",
+      "label": "La marque"
+    },
+    {
+      "href": "/blogs/journal",
+      "label": "Journal"
+    }
+  ],
+  "navWidth": 379,
+  "width": 768
+}

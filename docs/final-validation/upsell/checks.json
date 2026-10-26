@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-23",
+  "theme": 189290447076,
+  "role": "unpublished",
+  "initialCart": {
+    "variant": "67758438383844",
+    "quantity": 2,
+    "total": "150,00 EUR"
+  },
+  "cards": [
+    {
+      "available": "true",
+      "button": "Ajouter Huile Précieuse au panier",
+      "title": "Huile Précieuse"
+    },
+    {
+      "available": "true",
+      "button": "Ajouter Sérum Éclat au panier",
+      "title": "Sérum Éclat"
+    },
+    {
+      "available": "true",
+      "button": "Ajouter Crème Régénérante au panier",
+      "title": "Crème Régénérante"
+    }
+  ],
+  "collection": "https://maison-celestine-knr-test.myshopify.com/collections/collection-cactus",
+  "firstAdd": {
+    "cart": "Panier\n3\nNombre total d’articles dans le panier: 3\n3\nTotal du panier 215,00 € EUR\nImage de produit\nInformations sur le produit\nQuantité\nNombre total de produits\nHuile Précieuse\nPrix promotionnel\n65,00 € \nPrix régulier\n75,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n65,00 €\nSérum Précieux Régénérant\nTaille:\n15 mL\nPrix promotionnel\n75,00 € \nPrix régulier\n85,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n500,00 €/100 ml\nRéduction\nTotal estimé\n215,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer",
+    "count": "3",
+    "focus": "Fermer",
+    "modal": true,
+    "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum"
+  },
+  "collectionNavigation": {
+    "hasProductLinks": true,
+    "heading": "Collection Cactus",
+    "url": "https://maison-celestine-knr-test.myshopify.com/collections/collection-cactus"
+  },
+  "keyboardAdd": {
+    "cart": "Panier\n4\nNombre total d’articles dans le panier: 4\n4\nTotal du panier 274,00 € EUR\nImage de produit\nInformations sur le produit\nQuantité\nNombre total de produits\nSérum Éclat\nPrix promotionnel\n59,00 € \nPrix régulier\n69,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n59,00 €\nHuile Précieuse\nPrix promotionnel\n65,00 € \nPrix régulier\n75,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n65,00 €\nSérum Précieux Régénérant\nTaille:\n15 mL\nPrix promotionnel\n75,00 € \nPrix régulier\n85,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n500,00 €/100 ml\nRéduction\nTotal estimé\n274,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer",
+    "count": "4",
+    "focus": "Fermer",
+    "modal": true,
+    "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum"
+  },
+  "keyboardReturnFocus": "Ajouter Sérum Éclat au panier",
+  "failedAdd": {
+    "buttons": [
+      {
+        "busy": "false",
+        "disabled": false
+      },
+      {
+        "busy": "false",
+        "disabled": false
+      },
+      {
+        "busy": "false",
+        "disabled": false
+      }
+    ],
+    "cartCount": "4",
+    "drawerOpen": false,
+    "error": [
+      {
+        "text": "",
+        "visible": false
+      },
+      {
+        "text": "Produit ajouté au panier.",
+        "visible": true
+      },
+      {
+        "text": "L’ajout au panier a échoué. Vérifiez votre connexion et réessayez.",
+        "visible": true
+      }
+    ]
+  },
+  "retryDoubleClick": {
+    "cart": "Panier\n5\nNombre total d’articles dans le panier: 5\n5\nTotal du panier 359,00 € EUR\nImage de produit\nInformations sur le produit\nQuantité\nNombre total de produits\nCrème Régénérante\nPrix promotionnel\n85,00 € \nPrix régulier\n95,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n85,00 €\nSérum Éclat\nPrix promotionnel\n59,00 € \nPrix régulier\n69,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n59,00 €\nHuile Précieuse\nPrix promotionnel\n65,00 € \nPrix régulier\n75,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n65,00 €\nSérum Précieux Régénérant\nTaille:\n15 mL\nPrix promotionnel\n75,00 € \nPrix régulier\n85,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n500,00 €/100 ml\nRéduction\nTotal estimé\n359,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer",
+    "count": "5",
+    "focus": "Fermer",
+    "modal": true,
+    "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum"
+  },
+  "mainProductRegression": {
+    "cart": "Panier\n6\nNombre total d’articles dans le panier: 6\n6\nTotal du panier 509,00 € EUR\nImage de produit\nInformations sur le produit\nQuantité\nNombre total de produits\nSérum Précieux Régénérant\nTaille:\n150 mL\nPrix promotionnel\n150,00 € \nPrix régulier\n170,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n100,00 €/100 ml\nCrème Régénérante\nPrix promotionnel\n85,00 € \nPrix régulier\n95,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n85,00 €\nSérum Éclat\nPrix promotionnel\n59,00 € \nPrix régulier\n69,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n59,00 €\nHuile Précieuse\nPrix promotionnel\n65,00 € \nPrix régulier\n75,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n65,00 €\nSérum Précieux Régénérant\nTaille:\n15 mL\nPrix promotionnel\n75,00 € \nPrix régulier\n85,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n500,00 €/100 ml\nRéduction\nTotal estimé\n509,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer",
+    "count": "6",
+    "focus": "Fermer",
+    "modal": true,
+    "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438416612"
+  },
+  "mobileAdd": {
+    "cart": "Panier\n3\nNombre total d’articles dans le panier: 3\n3\nTotal du panier 215,00 € EUR\nImage de produit\nInformations sur le produit\nQuantité\nNombre total de produits\nHuile Précieuse\nPrix promotionnel\n65,00 € \nPrix régulier\n75,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n65,00 €\nSérum Précieux Régénérant\nTaille:\n15 mL\nPrix promotionnel\n75,00 € \nPrix régulier\n85,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n500,00 €/100 ml\nRéduction\nTotal estimé\n215,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer",
+    "count": "3",
+    "focus": "Fermer",
+    "modal": true,
+    "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438416612"
+  },
+  "finalCart": {
+    "cart": "Panier\n2\nNombre total d’articles dans le panier: 2\n2\nTotal du panier 150,00 € EUR\nImage de produit\nInformations sur le produit\nQuantité\nNombre total de produits\nSérum Précieux Régénérant\nTaille:\n15 mL\nPrix promotionnel\n75,00 € \nPrix régulier\n85,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n500,00 €/100 ml\nRéduction\nTotal estimé\n150,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer",
+    "count": "2",
+    "focus": null,
+    "modal": true,
+    "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&variant=67758438416612"
+  },
+  "mobileLayout": {
+    "buttons": [
+      {
+        "action": "https://maison-celestine-knr-test.myshopify.com/cart/add",
+        "height": 24,
+        "label": "Ajouter Huile Précieuse au panier",
+        "method": "post",
+        "width": 24
+      },
+      {
+        "action": "https://maison-celestine-knr-test.myshopify.com/cart/add",
+        "height": 24,
+        "label": "Ajouter Sérum Éclat au panier",
+        "method": "post",
+        "width": 24
+      },
+      {
+        "action": "https://maison-celestine-knr-test.myshopify.com/cart/add",
+        "height": 24,
+        "label": "Ajouter Crème Régénérante au panier",
+        "method": "post",
+        "width": 24
+      }
+    ],
+    "collectionLink": "https://maison-celestine-knr-test.myshopify.com/collections/collection-cactus",
+    "overflow": false,
+    "viewport": 390
+  }
+}

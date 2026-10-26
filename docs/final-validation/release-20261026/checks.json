@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-26",
+  "themeId": 189290447076,
+  "themeRole": "live",
+  "productId": 15385323372772,
+  "productTemplate": "knr-serum",
+  "cleanProductUrl": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant",
+  "passwordGateObserved": true,
+  "passwordAccepted": true,
+  "previewBarAbsentInVisitorSession": true,
+  "visitorCountry": "TN",
+  "variants": [
+    {
+      "volumeMl": 15,
+      "priceEUR": 75,
+      "compareAtEUR": 85,
+      "unitPricePer100mlEUR": 500,
+      "available": true,
+      "confirmedCartAdd": true
+    },
+    {
+      "volumeMl": 150,
+      "priceEUR": 150,
+      "compareAtEUR": 170,
+      "unitPricePer100mlEUR": 100,
+      "available": true,
+      "confirmedCartAdd": true
+    }
+  ],
+  "bothVariantsCartTotalEUR": 225,
+  "visitorCartEmptied": true,
+  "originalStorefrontCookiesRestored": true,
+  "originalCartCount": 2,
+  "originalCountry": "FR",
+  "mobileWidth": 390,
+  "mobileOverflow": 0,
+  "viewportReset": true,
+  "ordersPlaced": 0,
+  "formsSubmitted": 0,
+  "newLighthouseAudit": false,
+  "npmCheck": "passed",
+  "themeCheckErrors": 0,
+  "themeCheckWarnings": 2,
+  "customFilesLocalParity": 52,
+  "deployableCustomFilesLiveParity": 50,
+  "nonDeployableFiles": [
+    ".shopifyignore",
+    ".theme-check.yml"
+  ],
+  "nativePatchFilesLiveParity": 3,
+  "savedSettingsEquivalent": true,
+  "completeThemeLicenseRetained": true
+}

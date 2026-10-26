@@ -1,0 +1,1565 @@
+{
+  "incomplete": [
+    {
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<a href=\"/products/creme-regenerante\">Crème Régénérante</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-related-card__info > a[href$=\"creme-regenerante\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<span>85,00 €</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-related-card:nth-child(3) > .knr-related-card__info > span"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-ingredients__scene\">",
+                  "target": [
+                    ".knr-ingredients__scene"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+          "html": "<h2 class=\"knr-ingredients__eyebrow\">Notre engagement pour une beauté régénérée</h2>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-ingredients__eyebrow"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "16.5pt (22px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-ingredients__scene\">",
+                  "target": [
+                    ".knr-ingredients__scene"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+          "html": "<p>\n        Fusionnant l’huile de rosier muscat, le rétinol végétal et l’extrait de cactus, notre sérum pénètre en profondeur pour stimuler le renouvellement cellulaire, atténuer les rides et redonner à la peau son éclat et sa fermeté naturels.\n      </p>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-ingredients__quote > p"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-ingredients__scene\">",
+                  "target": [
+                    ".knr-ingredients__scene"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+          "html": "<span>Sophie M.</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-ingredients__quote > span"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "3:1",
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h3>Découvrir</h3>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-usage__card:nth-child(2) > .knr-usage__body > h3"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<p>Éclat et uniformité retrouvés. Cible les taches et les irrégularités de grain de peau.</p>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-usage__card:nth-child(2) > .knr-usage__body > .knr-usage__text > p"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<span class=\"knr-usage__number\">03</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-usage__card:nth-child(3) > .knr-usage__body > .knr-usage__number"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "3:1",
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h3>Découvrir</h3>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-usage__card:nth-child(3) > .knr-usage__body > h3"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<p>Fermeté et nutrition intense. Répare la barrière cutanée et lisse les contours du visage.</p>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-usage__card:nth-child(3) > .knr-usage__body > .knr-usage__text > p"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<a class=\"knr-link\" href=\"/pages/le-rituel\">Lire plus</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-usage__card:nth-child(3) > .knr-usage__body > .knr-link[href$=\"le-rituel\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node",
+              "relatedNodes": [
+                {
+                  "html": "<img src=\"//maison-celestine-k...\" alt=\"Portrait avant le ri...\" srcset=\"//maison-celestine-k...\" width=\"2880\" height=\"1538\" loading=\"lazy\" sizes=\"(min-width: 750px) c...\" fetchpriority=\"auto\">",
+                  "target": [
+                    "img[height=\"1538\"]"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+          "html": "<span class=\"knr-comparison__label knr-comparison__label--before\">Avant</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-comparison__label--before"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node",
+              "relatedNodes": [
+                {
+                  "html": "<img src=\"//maison-celestine-k...\" alt=\"Portrait avant le ri...\" srcset=\"//maison-celestine-k...\" width=\"2880\" height=\"1538\" loading=\"lazy\" sizes=\"(min-width: 750px) c...\" fetchpriority=\"auto\">",
+                  "target": [
+                    "img[height=\"1538\"]"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node",
+          "html": "<span class=\"knr-comparison__label knr-comparison__label--after\">Après</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-comparison__label--after"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-results\" class=\"shopify-section knr-section knr-results\">",
+                  "target": [
+                    "#shopify-section-knr-results"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<span>Mathilde S.</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "figure:nth-child(2) > figcaption > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "3:1",
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-results\" class=\"shopify-section knr-section knr-results\">",
+                  "target": [
+                    "#shopify-section-knr-results"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<blockquote>La texture est agréable et quelques gouttes suffisent pour mon rituel du soir. Le sérum s’étale facilement et laisse ma peau douce, sans sensation grasse.</blockquote>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "figure:nth-child(2) > blockquote"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-results\" class=\"shopify-section knr-section knr-results\">",
+                  "target": [
+                    "#shopify-section-knr-results"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<span>Camille R.</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "figure:nth-child(3) > figcaption > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "3:1",
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-results\" class=\"shopify-section knr-section knr-results\">",
+                  "target": [
+                    "#shopify-section-knr-results"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<blockquote>J’aime prendre le temps de masser quelques gouttes avant ma crème. Le flacon compte-gouttes est pratique et la texture soyeuse rend ce moment particulièrement agréable.</blockquote>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "figure:nth-child(3) > blockquote"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+          "html": "<span>4</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "button[data-knr-rating=\"5\"] > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+          "html": "<span>2</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "button[data-knr-rating=\"4\"] > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+          "html": "<span>0</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "button[data-knr-rating=\"3\"] > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+          "html": "<span>0</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "button[data-knr-rating=\"2\"] > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+          "html": "<span>0</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "button[data-knr-rating=\"1\"] > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "3:1",
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h3>12 ingrédients<br>\nactifs sélectionnés</h3>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(2) > a > .knr-news__body > h3"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<div>Chaque ingrédient est sourcé chez des producteurs engagés : huile de rosier muscat, rétinol végétal, extrait de cactus Cactaceae.</div>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(2) > a > .knr-news__body > div"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<span class=\"knr-news__category\">L’expertise</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(3) > a > .knr-news__body > .knr-news__category"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "3:1",
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h3>15 ans de recherche<br>\nen laboratoire</h3>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(3) > a > .knr-news__body > h3"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<div>Notre laboratoire indépendant teste chaque formule sur des panels de peaux diverses, garantissant efficacité et tolérance.</div>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(3) > a > .knr-news__body > div"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+          "html": "<span class=\"knr-news__category\">L’engagement</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(4) > a > .knr-news__body > .knr-news__category"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "3:1",
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h3>97 % naturel<br>\ncertifié</h3>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(4) > a > .knr-news__body > h3"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<div>Emballages recyclables, formules biodégradables, compensation carbone intégrale. Beauté responsable, du champ au flacon.</div>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-news__card:nth-child(4) > a > .knr-news__body > div"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-reassurance\" class=\"shopify-section knr-section knr-reassurance\">",
+                  "target": [
+                    "#shopify-section-knr-reassurance"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h2>Retours gratuits</h2>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reassurance__item:nth-child(2) > h2"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-reassurance\" class=\"shopify-section knr-section knr-reassurance\">",
+                  "target": [
+                    "#shopify-section-knr-reassurance"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<p>Retours acceptés<br> jusqu’à 30 jours<br> après réception.</p>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reassurance__item:nth-child(2) > div > p"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-reassurance\" class=\"shopify-section knr-section knr-reassurance\">",
+                  "target": [
+                    "#shopify-section-knr-reassurance"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h2>Paiement sécurisé</h2>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reassurance__item:nth-child(3) > h2"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-reassurance\" class=\"shopify-section knr-section knr-reassurance\">",
+                  "target": [
+                    "#shopify-section-knr-reassurance"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<p>Paiement 100 % sécurisé<br> par carte bancaire,<br> PayPal ou virement.</p>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reassurance__item:nth-child(3) > div > p"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-reassurance\" class=\"shopify-section knr-section knr-reassurance\">",
+                  "target": [
+                    "#shopify-section-knr-reassurance"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<h2>Service client</h2>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reassurance__item:nth-child(4) > h2"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": 0,
+                "expectedContrastRatio": "4.5:1",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-reassurance\" class=\"shopify-section knr-section knr-reassurance\">",
+                  "target": [
+                    "#shopify-section-knr-reassurance"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+          "html": "<p>Du lundi au vendredi<br> de 9h à 18h par email<br> et téléphone.</p>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reassurance__item:nth-child(4) > div > p"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ]
+    },
+    {
+      "description": "Ensure <iframe> and <frame> elements contain the axe-core script",
+      "help": "Frames should be tested with axe-core",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-tested?application=axeAPI",
+      "id": "frame-tested",
+      "impact": "critical",
+      "nodes": [
+        {
+          "all": [
+            {
+              "data": null,
+              "id": "frame-tested",
+              "impact": "critical",
+              "message": "The iframe still has to be tested with axe-core",
+              "relatedNodes": []
+            }
+          ],
+          "any": [],
+          "failureSummary": "Fix all of the following:\n  The iframe still has to be tested with axe-core",
+          "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify....\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "#PBarNextFrame"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.structure",
+        "best-practice",
+        "review-item"
+      ]
+    }
+  ],
+  "passes": [
+    "aria-allowed-attr",
+    "aria-allowed-role",
+    "aria-conditional-attr",
+    "aria-deprecated-role",
+    "aria-hidden-body",
+    "aria-hidden-focus",
+    "aria-prohibited-attr",
+    "aria-required-attr",
+    "aria-roles",
+    "aria-valid-attr-value",
+    "aria-valid-attr",
+    "autocomplete-valid",
+    "avoid-inline-spacing",
+    "button-name",
+    "bypass",
+    "color-contrast",
+    "document-title",
+    "duplicate-id-aria",
+    "empty-heading",
+    "form-field-multiple-labels",
+    "heading-order",
+    "html-has-lang",
+    "html-lang-valid",
+    "image-alt",
+    "image-redundant-alt",
+    "label-title-only",
+    "label",
+    "landmark-banner-is-top-level",
+    "landmark-contentinfo-is-top-level",
+    "landmark-main-is-top-level",
+    "landmark-no-duplicate-banner",
+    "landmark-no-duplicate-contentinfo",
+    "landmark-no-duplicate-main",
+    "landmark-one-main",
+    "landmark-unique",
+    "link-name",
+    "meta-viewport-large",
+    "meta-viewport",
+    "nested-interactive",
+    "page-has-heading-one",
+    "presentation-role-conflict",
+    "region",
+    "role-img-alt",
+    "scrollable-region-focusable",
+    "select-name",
+    "skip-link",
+    "summary-name",
+    "tabindex"
+  ],
+  "scrollY": 0,
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.14.0"
+  },
+  "testEnvironment": {
+    "orientationAngle": 0,
+    "orientationType": "landscape-primary",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "windowHeight": 844,
+    "windowWidth": 390
+  },
+  "timestamp": "2026-10-23T09:49:58.210Z",
+  "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum#knr-reviews",
+  "violations": [
+    {
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "6.0pt (8px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"knr-price__unit\" data-knr-unit=\"\">500,00 € / 100 ml</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__mobile-price > .knr-price[data-knr-price=\"\"] > .knr-price__unit[data-knr-unit=\"\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.47,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#e2d3bb",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span>4.7</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__rating > span:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.47,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#e2d3bb",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span>6 avis</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__rating > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#f9f8f5",
+                "contrastRatio": 2.33,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.33 (foreground color: #b5a282, background color: #f9f8f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"shopify-section-knr-results\" class=\"shopify-section knr-section knr-results\">",
+                  "target": [
+                    "#shopify-section-knr-results"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #b5a282, background color: #f9f8f5, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span>Clara T.</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "figure:nth-child(1) > figcaption > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span>4.7 sur 5</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reviews__average > div > span:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"knr-page\" style=\"--knr-paper:#f9f8f5;--knr-sand:#dcd5c3;--knr-accent:#b5a282;--knr-ink:#000000\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<p>Basé sur 6 avis</p>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-reviews__average > p"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ]
+    },
+    {
+      "description": "Ensure <iframe> and <frame> elements have an accessible name",
+      "help": "Frames must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axeAPI",
+      "id": "frame-title",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "presentational-role",
+              "impact": "serious",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+          "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify....\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "#PBarNextFrame"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.i",
+        "TTv5",
+        "TT12.d",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-2.1.1"
+      ]
+    }
+  ]
+}

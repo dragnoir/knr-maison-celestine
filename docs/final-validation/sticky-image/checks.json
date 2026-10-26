@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-25",
+  "figmaNode": "720:878",
+  "assetSha256": "da18f1377ac6192cd2717089e1382eb718bcea68588426c37cbe5af05b8b7f9a",
+  "desktop": {
+    "image": {
+      "fit": "cover",
+      "height": 104,
+      "position": "50% 69.23%",
+      "width": 104
+    },
+    "loaded": true,
+    "price": "75,00 €",
+    "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_ac70a3ba-d286-485c-b68b-0c9fadc3e0e9.png?v=1792690050&width=320",
+    "visible": true,
+    "blockRect": {
+      "height": 120,
+      "width": 561,
+      "x": 839,
+      "y": 688
+    }
+  },
+  "variants": [
+    {
+      "mainPrice": "150,00 €",
+      "stickyPrice": "150,00 €",
+      "stickySrc": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_ac70a3ba-d286-485c-b68b-0c9fadc3e0e9.png?v=1792690050&width=320",
+      "unit": "100,00 € / 100 ml",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&variant=67758438416612"
+    },
+    {
+      "mainPrice": "75,00 €",
+      "stickyPrice": "75,00 €",
+      "unit": "500,00 € / 100 ml",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&variant=67758438383844"
+    }
+  ],
+  "mobile": {
+    "mainPrice": "75,00 €",
+    "overflow": 0,
+    "stickyDisplay": "none",
+    "unit": [
+      "500,00 € / 100 ml"
+    ],
+    "width": 390
+  },
+  "announcement": {
+    "figma": "consectetur.",
+    "chosen": "En savoir plus",
+    "candidateReconfirmed": true
+  },
+  "unitPrice": {
+    "figma": "75 EUR / 100 mL",
+    "calculated": "75 / 15 * 100 = 500 EUR / 100 mL",
+    "preserved": true
+  },
+  "setting": "KNR · Produit → Image de la barre d’achat flottante",
+  "seedImage": "knr-desktop-product-image1.png",
+  "noNewAssets": true,
+  "theme": {
+    "id": 189290447076,
+    "role": "unpublished"
+  },
+  "npmCheck": "passed",
+  "themeCheck": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "published": false,
+  "committed": false
+}

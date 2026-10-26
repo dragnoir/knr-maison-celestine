@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-25",
+  "before": [
+    {
+      "containerGap": "16px",
+      "gap": -6,
+      "margin": "-22px"
+    },
+    {
+      "containerGap": "16px",
+      "gap": -6,
+      "margin": "-22px"
+    },
+    {
+      "containerGap": "16px",
+      "gap": -6,
+      "margin": "-22px"
+    }
+  ],
+  "after": [
+    {
+      "cards": [
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        },
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        },
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        }
+      ],
+      "height": 705.796875,
+      "overflow": 0,
+      "width": 320
+    },
+    {
+      "cards": [
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        },
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        },
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        }
+      ],
+      "height": 705.796875,
+      "overflow": 0,
+      "width": 375
+    },
+    {
+      "cards": [
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        },
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        },
+        {
+          "gap": 16,
+          "href": "/pages/le-rituel",
+          "margin": "0px",
+          "visible": "block"
+        }
+      ],
+      "height": 705.796875,
+      "overflow": 0,
+      "width": 390
+    }
+  ],
+  "desktop": {
+    "height": 834,
+    "links": [
+      "none",
+      "none",
+      "none"
+    ],
+    "width": 1440
+  },
+  "theme": {
+    "id": 189290447076,
+    "role": "unpublished"
+  },
+  "npmCheck": "passed",
+  "themeCheck": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "approvedDesignAdjustment": true,
+  "published": false,
+  "committed": false
+}

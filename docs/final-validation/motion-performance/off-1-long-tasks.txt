@@ -1,0 +1,120 @@
+Browser tab: 732698430, Title: "PageSpeed Insights", URL: "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/rp2ud2k6gq?form_factor=mobile".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 169-172
++								306 container
++									307 button (expanded) Avoid long main-thread tasks —10 long tasks found, Secondary Actions: Collapse
++										308 text Avoid long main-thread tasks
++										309 text —
++										310 text 10 long tasks found
++									311 text Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. 
++									312 link Description: Learn how to avoid long main-thread tasks, Value: web.dev/articles/optimize-long-tasks?utm_source=lighthouse&utm_medium=lr
++									313 text TBT
++									314 text Unscored
++									315 table
++										316 row
++											317 cell
++												318 text URL
++											319 cell
++												320 text Start Time
++											321 cell
++												322 text Duration
++										323 row
++											324 cell
++												325 text shopifypreview.com
++												326 text 1st Party
++											327 cell
++												328 text 1,086 ms
++										329 row
++											330 cell
++												331 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/wpm/b212ce547w31cd49a8p9bec2579mf0e5c5cam.js
++													332 link Description: …wpm/b212ce547w31cd49a8p9bec2579mf0e5c5cam.js, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/wpm/b212ce547w31cd49a8p9bec2579mf0e5c5cam.js
++													333 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											334 cell
++												335 text 5,235 ms
++											336 cell
++												337 text 423 ms
++										338 row
++											339 cell
++												340 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/s/trekkie.storefront.6efba1340ec6769622eb0d10b5cb070d43fb8d55.min.js
++													341 link Description: …s/trekkie.storefront.6efba13….min.js, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/s/trekkie.storefront.6efba1340ec6769622eb0d10b5cb070d43fb8d55.min.js
++													342 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											343 cell
++												344 text 5,101 ms
++											345 cell
++												346 text 134 ms
++										347 row
++											348 cell
++												349 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/s/trekkie.storefront.6efba1340ec6769622eb0d10b5cb070d43fb8d55.min.js
++													350 link Description: …s/trekkie.storefront.6efba13….min.js, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/s/trekkie.storefront.6efba1340ec6769622eb0d10b5cb070d43fb8d55.min.js
++													351 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											352 cell
++												353 text 5,658 ms
++											354 cell
++												355 text 112 ms
++										356 row
++											357 cell
++												358 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_motion_ab=off-1-1792780472254
++													359 link Description: /products/serum-precieux-regenerant?view=…, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_motion_ab=off-1-1792780472254
++													360 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											361 cell
++												362 text 1,140 ms
++											363 cell
++												364 text 105 ms
++										365 row
++											366 cell
++												367 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-components.js?v=105031462064216294381792779193
++													368 link Description: …assets/knr-components.js?v=1050314…, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-components.js?v=105031462064216294381792779193
++													369 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											370 cell
++												371 text 999 ms
++											372 cell
++												373 text 71 ms
++										374 row
++											375 cell
++												376 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.11.0.min.js
++													377 link Description: …perf-kit/shopify-perf-kit-3.11.0.min.js, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.11.0.min.js
++													378 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											379 cell
++												380 text 5,782 ms
++											381 cell
++												382 text 70 ms
++										383 row
++											384 cell
++												385 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js
++													386 link Description: …assets/shop_events_listener-4e26a9ce.js, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js
++													387 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											388 cell
++												389 text 5,906 ms
++											390 cell
++												391 text 62 ms
++										392 row
++											393 cell
++												394 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_motion_ab=off-1-1792780472254
++													395 link Description: /products/serum-precieux-regenerant?view=…, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_motion_ab=off-1-1792780472254
++													396 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											397 cell
++												398 text 1,390 ms
++											399 cell
++												400 text 55 ms
++										401 row
++											402 cell
++												403 container https://7den3zgw47juxmn5-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_motion_ab=off-1-1792780472254
++													404 link Description: /products/serum-precieux-regenerant?view=…, Value: 7den3zgw47juxmn5-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_motion_ab=off-1-1792780472254
++													405 text (7den3zgw47juxmn5-85280489700.shopifypreview.com)
++											406 cell
++												407 text 1,465 ms
++											408 cell
++												409 text 54 ms
++										410 row
++											411 cell
++												412 text Unattributable
++											413 cell
++												414 text 73 ms
++										415 row
++											416 cell
++												417 text Unattributable
++											418 cell
++												419 text 901 ms
++											420 cell
++												421 text 73 ms
+The focused UI element is 307 button (expanded) Avoid long main-thread tasks —10 long tasks found, Secondary Actions: Collapse

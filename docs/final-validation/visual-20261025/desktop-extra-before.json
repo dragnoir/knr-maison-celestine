@@ -1,0 +1,684 @@
+{
+  "breadcrumb": [
+    {
+      "color": "rgb(181, 162, 130)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        984,
+        168,
+        376,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "Soins anti-âge\n       / \n        Collection Cactus",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "cart": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "12px",
+      "padding": "0px",
+      "rect": [
+        1408,
+        49,
+        12,
+        12
+      ],
+      "size": "8px",
+      "spacing": "normal",
+      "text": "2",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "compare": [
+    {
+      "color": "rgba(0, 0, 0, 0.2)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        1070.921875,
+        578,
+        42.21875,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "85,00 €",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "country": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px 20px 0px 0px",
+      "rect": [
+        40,
+        8536.890625,
+        96,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "États-Unis (€)\n                \n              \n                \n                  France (€)",
+      "value": "FR",
+      "weight": "400"
+    }
+  ],
+  "current": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "32px",
+      "padding": "0px",
+      "rect": [
+        984,
+        572,
+        82.921875,
+        32
+      ],
+      "size": "24px",
+      "spacing": "-0.48px",
+      "text": "75,00 €",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "delivery": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        984,
+        730,
+        376,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "En stock, livraison estimée sous 48h.",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        984,
+        730,
+        376,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "Livraison offerte dès 60 € en France métropolitaine.",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        984,
+        730,
+        376,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "Retours acceptés jusqu’à 30 jours après réception.",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        984,
+        730,
+        376,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "Paiement 100 % sécurisé.",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "footerForm": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "16px",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        40,
+        8536.890625,
+        179,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Pays et devise\n          \n            \n              \n                \n                  États-Unis (€)\n                \n              \n                \n                  France (€)\n                \n              \n            \n            \n              \n\n\n\n            \n          \n          Langue\n          \n            \n              \n                \n                  Français\n                \n              \n            \n            \n              \n\n\n\n            \n          \n          La sélection du pays ou de la langue recharge automatiquement la page.\n          Appliquer",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "language": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px 20px 0px 0px",
+      "rect": [
+        152,
+        8536.890625,
+        67,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Français",
+      "value": "fr",
+      "weight": "400"
+    }
+  ],
+  "newsletterInput": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "12px 24px",
+      "rect": [
+        760,
+        7312.796875,
+        440,
+        48
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "ratingCount": [
+    {
+      "color": "rgb(181, 162, 130)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        772,
+        5287,
+        13,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "4",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        772,
+        5309,
+        13,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "2",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        772,
+        5331,
+        13,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "0",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        772,
+        5353,
+        13,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "0",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        772,
+        5375,
+        13,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "0",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "relatedPrice": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "16px",
+      "padding": "0px",
+      "rect": [
+        1102.734375,
+        1385,
+        36.59375,
+        25
+      ],
+      "size": "10px",
+      "spacing": "normal",
+      "text": "65,00 €",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "16px",
+      "padding": "0px",
+      "rect": [
+        1270.046875,
+        1385,
+        36.609375,
+        25
+      ],
+      "size": "10px",
+      "spacing": "normal",
+      "text": "59,00 €",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "16px",
+      "padding": "0px",
+      "rect": [
+        1437.40625,
+        1385,
+        36.578125,
+        25
+      ],
+      "size": "10px",
+      "spacing": "normal",
+      "text": "85,00 €",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "reviewAuthor": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "8px",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5511,
+        720,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Mathilde S.Démo",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "8px",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5677,
+        720,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Camille R.Démo",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "8px",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5843,
+        720,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Élodie L.Démo",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "reviewBadge": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "8px",
+      "padding": "5px 4px 4px",
+      "rect": [
+        428.65625,
+        5512.5,
+        30.65625,
+        17
+      ],
+      "size": "8px",
+      "spacing": "-0.32px",
+      "text": "Démo",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "8px",
+      "padding": "5px 4px 4px",
+      "rect": [
+        421.890625,
+        5678.5,
+        30.65625,
+        17
+      ],
+      "size": "8px",
+      "spacing": "-0.32px",
+      "text": "Démo",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "8px",
+      "padding": "5px 4px 4px",
+      "rect": [
+        414.03125,
+        5844.5,
+        30.65625,
+        17
+      ],
+      "size": "8px",
+      "spacing": "-0.32px",
+      "text": "Démo",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "reviewBody": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5575,
+        640,
+        40
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "La texture est agréable et quelques gouttes suffisent pour mon rituel du soir. Le sérum s’étale facilement et laisse ma peau douce, sans sensation grasse.",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5741,
+        640,
+        40
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "J’aime prendre le temps de masser quelques gouttes avant ma crème. Le flacon compte-gouttes est pratique et la texture soyeuse rend ce moment particulièrement agréable.",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5907,
+        640,
+        40
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Le sérum trouve facilement sa place dans ma routine. Deux ou trois gouttes suffisent et je peux appliquer ma crème juste après. J’apprécie surtout sa texture légère.",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "reviewDate": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        1041.453125,
+        5481,
+        38.546875,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "18/10/26",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        1041.703125,
+        5647,
+        38.296875,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "15/10/26",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "14px",
+      "padding": "0px",
+      "rect": [
+        1041.546875,
+        5813,
+        38.453125,
+        14
+      ],
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "12/10/26",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "reviewTitle": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5547,
+        640,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Une belle découverte",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5713,
+        640,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Mon nouveau rituel du soir",
+      "value": "",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px",
+      "rect": [
+        360,
+        5879,
+        640,
+        20
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "Un soin facile à adopter",
+      "value": "",
+      "weight": "400"
+    }
+  ],
+  "unit": [
+    {
+      "color": "rgb(181, 162, 130)",
+      "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+      "gap": "normal",
+      "line": "20px",
+      "padding": "0px 0px 2px",
+      "rect": [
+        984,
+        604,
+        376,
+        22
+      ],
+      "size": "12px",
+      "spacing": "-0.24px",
+      "text": "500,00 € / 100 ml",
+      "value": "",
+      "weight": "400"
+    }
+  ]
+}

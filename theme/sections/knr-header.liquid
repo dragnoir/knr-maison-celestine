@@ -1,0 +1,276 @@
+{% comment %}
+  KNR header. Editable content is supplied through section settings or Shopify resources.
+{% endcomment %}
+<knr-header class='knr-header__inner' role='banner'>
+  <a href='{{ routes.root_url }}' class='knr-header__logo' aria-label='{{ shop.name | escape }}'>
+    {% if section.settings.logo != blank -%}
+      {{-
+        section.settings.logo
+        | image_url: width: 400
+        | image_tag: widths: '160,320,400', sizes: '160px', alt: shop.name
+      -}}
+    {%- else -%}
+      {%- render 'knr-icon', name: 'knr-desktop-union', width: 160, height: 17 -%}
+    {%- endif %}
+  </a>
+  <nav class='knr-header__nav' aria-label='{{ 'knr.navigation' | t }}'>
+    {% for link in section.settings.menu.links -%}
+      <a class='knr-text-link' href='{{ link.url }}'>{{ link.title | escape }}</a>
+    {%- endfor %}
+  </nav>
+  <div class='knr-header__actions'>
+    {% if section.settings.location_link != blank -%}
+      <a
+        class='knr-icon-control'
+        href='{{ section.settings.location_link }}'
+        aria-label='{{ 'knr.locations' | t }}'
+      >
+        {%- render 'knr-icon', name: 'knr-desktop-marker-pin01' -%}
+      </a>
+    {%- endif %}
+    <a
+      href='{{ routes.account_url }}'
+      class='knr-header__account knr-icon-control'
+      aria-label='{{ 'knr.account' | t }}'
+    >
+      {%- render 'knr-icon', name: 'knr-desktop-user-icon', width: 18, height: 18 -%}
+    </a>
+    <a class='knr-icon-control' href='{{ routes.search_url }}' aria-label='{{ 'knr.search' | t }}'>
+      {%- render 'knr-icon', name: 'knr-desktop-search-icon' -%}
+    </a>
+    <a
+      class='knr-icon-control'
+      href='{{ routes.cart_url }}'
+      data-knr-open-cart
+      aria-label='{{ 'knr.cart' | t }}'
+    >
+      {%- render 'knr-icon', name: 'knr-desktop-shopping-bag-icon' -%}
+      <span class='knr-header__count' data-knr-cart-count>{{ cart.item_count }}</span></a
+    >
+    <button
+      type='button'
+      class='knr-header__toggle knr-icon-control'
+      aria-expanded='false'
+      aria-controls='KnrMenu-{{ section.id }}'
+      aria-label='{{ 'knr.menu' | t }}'
+      data-knr-menu-toggle
+    >
+      <span></span><span></span>
+    </button>
+  </div>
+  <dialog
+    class='knr-header__menu'
+    id='KnrMenu-{{ section.id }}'
+    aria-label='{{ 'knr.navigation' | t }}'
+  >
+    <button type='button' class='knr-close' data-knr-menu-close aria-label='{{ 'knr.close' | t }}'>
+      ×
+    </button>
+    <nav>
+      {% for link in section.settings.menu.links -%}
+        <a class='knr-text-link' href='{{ link.url }}'>{{ link.title | escape }}</a>
+      {%- endfor -%}
+      <a class='knr-text-link' href='{{ routes.account_url }}'>{{ 'knr.account' | t }}</a>
+    </nav>
+  </dialog>
+</knr-header>
+{% stylesheet %}
+  .knr-header {
+    position: absolute;
+    inset-inline: 0;
+    top: 32px;
+    z-index: 20;
+    color: #fff;
+  }
+  .knr-header__inner {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 24px;
+    position: relative;
+  }
+  .knr-header__logo {
+    display: block;
+    width: 160px;
+    flex-shrink: 0;
+  }
+  .knr-header__logo img {
+    height: auto;
+  }
+  .knr-header__nav {
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 12px;
+    letter-spacing: 0;
+  }
+  .knr-header__actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .knr-header__actions > a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+  }
+  .knr-header__count {
+    position: absolute;
+    top: 8px;
+    right: -4px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    min-width: 12px;
+    height: 12px;
+    text-align: center;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0;
+  }
+  .knr-header__toggle {
+    display: none;
+    background: none;
+    border: 0;
+    padding: 12px 0;
+    width: 16px;
+  }
+  .knr-header__toggle span {
+    display: block;
+    height: 1px;
+    background: currentColor;
+    margin-block: 3px;
+  }
+  .knr-header__menu {
+    border: 0;
+    margin: 0 0 0 auto;
+    width: min(390px, 100%);
+    max-width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    background: var(--knr-paper);
+    color: #000;
+    padding: 72px 32px;
+    transform: translateX(100%);
+    transition: transform var(--knr-drawer-exit-duration) var(--knr-drawer-exit-ease);
+  }
+  .knr-header__menu[data-knr-menu-open] {
+    transform: translateX(0);
+    transition-duration: var(--knr-drawer-enter-duration);
+    transition-timing-function: var(--knr-drawer-enter-ease);
+  }
+  .knr-header__menu::backdrop {
+    background: #0006;
+    opacity: 0;
+    transition: opacity var(--knr-drawer-backdrop-duration, 220ms) ease-out;
+  }
+  .knr-header__menu[data-knr-menu-open]::backdrop {
+    opacity: 1;
+  }
+  .knr-header__inner[data-knr-menu-input='pointer'] :is(.knr-header__toggle, .knr-close):focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .knr-header__menu nav {
+    display: grid;
+    gap: 24px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .knr-header__menu:modal {
+    display: block;
+  }
+  @media (min-width: 750px) {
+    .knr-header {
+      top: 33px;
+    }
+  }
+  @media (max-width: 749px) {
+    .knr-header__logo {
+      width: 130px;
+    }
+    .knr-header__nav,
+    .knr-header__account {
+      display: none !important;
+    }
+    .knr-header__actions {
+      gap: 16px;
+    }
+    .knr-header__toggle {
+      display: block;
+    }
+    .knr-header__actions > a {
+      min-width: 16px;
+    }
+  }
+
+  .knr-header__actions .knr-icon-control {
+    --knr-control-hover: transparent;
+    position: relative;
+    isolation: isolate;
+  }
+  .knr-header__actions .knr-icon-control::before {
+    content: '';
+    position: absolute;
+    inset: 50% auto auto 50%;
+    translate: -50% -50%;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #ffffff26;
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1;
+    transition: opacity var(--knr-hover-duration) var(--knr-hover-ease);
+  }
+  .knr-header__logo {
+    transition: opacity var(--knr-hover-duration) var(--knr-hover-ease);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .knr-header__actions .knr-icon-control:hover::before {
+      opacity: 1;
+    }
+    .knr-header__logo:hover {
+      opacity: 0.82;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .knr-header__menu,
+    .knr-header__menu::backdrop {
+      transition: none;
+    }
+    .knr-header__actions .knr-icon-control::before {
+      transition: none;
+    }
+  }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "t:knr.knr_header",
+  "tag": "section",
+  "class": "knr-section knr-header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "t:knr.logo"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "t:knr.main_navigation",
+      "default": "main-menu"
+    },
+    {
+      "type": "url",
+      "id": "location_link",
+      "label": "t:knr.store_locator"
+    }
+  ]
+}
+{% endschema %}

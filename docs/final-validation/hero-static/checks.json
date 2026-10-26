@@ -1,0 +1,123 @@
+{
+  "themeId": 189290447076,
+  "date": "2026-10-23",
+  "checks": [
+    {
+      "name": "desktop-initial",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 1430,
+      "galleryX": 0,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 1440,
+      "zoomControls": 0
+    },
+    {
+      "name": "desktop-image-click",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 1430,
+      "galleryX": 0,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 1440,
+      "zoomControls": 0
+    },
+    {
+      "name": "secondary-zoom-still-opens",
+      "cursor": "auto",
+      "dialogOpen": true,
+      "galleryWidth": 1430,
+      "galleryX": 0,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 1440,
+      "zoomControls": 0
+    },
+    {
+      "name": "secondary-escape-closes",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 1430,
+      "galleryX": 0,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 1440,
+      "zoomControls": 0
+    },
+    {
+      "name": "mobile-image-tap",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 390,
+      "galleryX": 0,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 390,
+      "zoomControls": 0
+    },
+    {
+      "name": "mobile-next-image",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 390,
+      "galleryX": 390,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 390,
+      "zoomControls": 0
+    },
+    {
+      "name": "mobile-next-image-tap",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 390,
+      "galleryX": 390,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 390,
+      "zoomControls": 0
+    },
+    {
+      "name": "mobile-keyboard-previous",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 390,
+      "galleryX": 0,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 390,
+      "zoomControls": 0
+    },
+    {
+      "name": "narrow-mobile",
+      "cursor": "auto",
+      "dialogOpen": false,
+      "galleryWidth": 320,
+      "galleryX": 0,
+      "imageInteractiveAncestor": false,
+      "imageLoaded": true,
+      "overflow": false,
+      "secondaryZooms": 2,
+      "width": 320,
+      "zoomControls": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "on": {
+    "scores": [
+      90,
+      90,
+      88
+    ],
+    "medianScore": 90,
+    "medianMetrics": {
+      "FCP": 2197,
+      "LCP": 3301,
+      "TBT": 41,
+      "CLS": 0,
+      "SI": 2552
+    }
+  },
+  "off": {
+    "scores": [
+      75,
+      57,
+      94
+    ],
+    "medianScore": 75,
+    "medianMetrics": {
+      "FCP": 2299,
+      "LCP": 3451,
+      "TBT": 387,
+      "CLS": 0,
+      "SI": 2668
+    }
+  },
+  "restored": {
+    "scrollReveals": true,
+    "reassuranceIntervalSeconds": 4,
+    "themeRole": "unpublished",
+    "commitCreated": false
+  }
+}

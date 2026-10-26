@@ -1,0 +1,66 @@
+{% doc %}
+  Native Shopify contact form for moderated product questions and demonstration reviews.
+
+  @param {string} id - Unique form ID.
+  @param {string} kind - review or question.
+  @param {product} product - Related Shopify product.
+
+  @example {% render 'knr-contact-form', id: 'ReviewForm', kind: 'review', product: product %}
+{% enddoc %}
+{% assign return_url = request.path | append: '?view=knr-serum&contact_posted=true#' | append: id %}
+{% form 'contact', id: id, return_to: return_url %}
+  <input
+    type='hidden'
+    name='contact[product]'
+    value='{{ product.title | escape }} — {{ product.url }}'
+  >
+  <input type='hidden' name='contact[type]' value='{{ kind }}'>
+  {% if form.posted_successfully? %}
+    <p role='status' tabindex='-1' data-knr-form-result>{{ 'knr.contact_success' | t }}</p>
+  {% else %}
+    {% if form.errors %}
+      <div role='alert' tabindex='-1' data-knr-form-result>{{ form.errors | default_errors }}</div>
+    {% endif %}
+    <label class='knr-field' for='{{ id }}-name'>
+      {{- 'knr.name' | t -}}
+      <input
+        id='{{ id }}-name'
+        name='contact[name]'
+        type='text'
+        autocomplete='name'
+        required
+        value='{{ form.name | escape }}'
+    ></label>
+    <label class='knr-field' for='{{ id }}-email'>
+      {{- 'knr.email' | t -}}
+      <input
+        id='{{ id }}-email'
+        name='contact[email]'
+        type='email'
+        autocomplete='email'
+        required
+        value='{{ form.email | escape }}'
+    ></label>
+    {% if kind == 'review' -%}
+      <label class='knr-field' for='{{ id }}-rating'>
+        {{- 'knr.rating' | t -}}
+        <select id='{{ id }}-rating' name='contact[rating]'>
+          {% for number in (1..5) reversed %}
+            <option value='{{ number }}'>{{ number }} / 5</option>
+          {% endfor %}
+        </select></label
+      >
+    {%- endif %}
+    <label class='knr-field' for='{{ id }}-body'>
+      {{- 'knr.message' | t -}}
+      <textarea
+        id='{{ id }}-body'
+        name='contact[body]'
+        rows='5'
+        required
+      >{{ form.body | escape }}</textarea>
+    </label>
+    <p class='knr-note'>{{ 'knr.moderation' | t }}</p>
+    <button class='knr-button' type='submit'>{{ 'knr.send' | t }}</button>
+  {% endif %}
+{% endform %}

@@ -1,0 +1,32 @@
+{% doc %}
+  Responsive Shopify-hosted editorial image with reserved dimensions.
+
+  @param {image} image - Merchant-selected Shopify image.
+  @param {string} [class] - Scoped class name.
+  @param {string} [sizes] - Responsive image slot sizes.
+  @param {string} [alt] - Accessible description; defaults to media alt.
+  @param {boolean} [eager] - Preload only the initially visible hero.
+{% enddoc %}
+{% if image != blank %}
+  {% liquid
+    assign image_alt = alt | default: image.alt | default: ''
+    assign image_sizes = sizes | default: '100vw'
+    assign image_loading = 'lazy'
+    assign image_priority = 'auto'
+    if eager
+      assign image_loading = 'eager'
+      assign image_priority = 'high'
+    endif
+  %}
+  {{
+    image
+    | image_url: width: 2880
+    | image_tag:
+      widths: '320,390,550,750,960,1280,1440,1920,2560,2880',
+      sizes: image_sizes,
+      class: class,
+      alt: image_alt,
+      loading: image_loading,
+      fetchpriority: image_priority
+  }}
+{% endif %}

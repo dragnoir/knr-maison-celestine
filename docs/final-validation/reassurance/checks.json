@@ -1,0 +1,3023 @@
+{
+  "baseline": {
+    ".knr-product__delivery": {
+      "height": 14,
+      "width": 372.671875,
+      "x": 977.328125,
+      "y": 730
+    },
+    ".knr-product__details": {
+      "height": 288,
+      "width": 372.671875,
+      "x": 977.328125,
+      "y": 801
+    },
+    ".knr-product__ticks": {
+      "height": 1,
+      "width": 372.671875,
+      "x": 977.328125,
+      "y": 760
+    }
+  },
+  "checks": [
+    {
+      "name": "desktop-initial",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777533743,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "desktop-auto-advanced",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 1,
+      "interval": "6000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777541840,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "desktop-manual-third",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 3",
+      "index": 2,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 470
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 541
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 488
+        }
+      },
+      "time": 1792777543270,
+      "visibleMessage": "Retours acceptés jusqu’à 30 jours après réception."
+    },
+    {
+      "name": "manual-still-paused",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 3",
+      "index": 2,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 470
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 541
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 488
+        }
+      },
+      "time": 1792777554598,
+      "visibleMessage": "Retours acceptés jusqu’à 30 jours après réception."
+    },
+    {
+      "name": "resume",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Mettre les messages en pause",
+      "index": 2,
+      "interval": "6000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 459
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 530
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 477
+        }
+      },
+      "time": 1792777556319,
+      "visibleMessage": "Retours acceptés jusqu’à 30 jours après réception."
+    },
+    {
+      "name": "rotation-after-other-tab",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Mettre les messages en pause",
+      "index": 2,
+      "interval": "6000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 459
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 530
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 477
+        }
+      },
+      "time": 1792777611917,
+      "visibleMessage": "Retours acceptés jusqu’à 30 jours après réception."
+    },
+    {
+      "name": "pause-button",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Reprendre le défilement des messages",
+      "index": 2,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 459
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 530
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 477
+        }
+      },
+      "time": 1792777612547,
+      "visibleMessage": "Retours acceptés jusqu’à 30 jours après réception."
+    },
+    {
+      "name": "keyboard-fourth",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 4",
+      "index": 3,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 459
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 530
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 477
+        }
+      },
+      "time": 1792777613036,
+      "visibleMessage": "Paiement 100 % sécurisé."
+    },
+    {
+      "name": "mobile-second",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 2",
+      "index": 1,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 326,
+          "x": 32,
+          "y": 393.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 446.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 409.8125
+        }
+      },
+      "time": 1792777641657,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "mobile-variant-resets-availability",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 326,
+          "x": 32,
+          "y": 519.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 572.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 535.8125
+        }
+      },
+      "time": 1792777643133,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "mobile-reduced-motion",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 326,
+          "x": 32,
+          "y": 519.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 572.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 535.8125
+        }
+      },
+      "time": 1792777651454,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "reduced-motion-manual",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 4",
+      "index": 3,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 326,
+          "x": 32,
+          "y": 393.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 446.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 409.8125
+        }
+      },
+      "time": 1792777652075,
+      "visibleMessage": "Paiement 100 % sécurisé."
+    },
+    {
+      "name": "layout-320",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 256,
+          "x": 32,
+          "y": 539.8125
+        },
+        ".knr-product__details": {
+          "height": 328,
+          "width": 256,
+          "x": 32,
+          "y": 592.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 112,
+          "y": 555.8125
+        }
+      },
+      "time": 1792777662994,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "layout-375",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 311,
+          "x": 32,
+          "y": 519.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 311,
+          "x": 32,
+          "y": 572.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 139.5,
+          "y": 535.8125
+        }
+      },
+      "time": 1792777663443,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "layout-768",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 253.953125,
+          "x": 456.046875,
+          "y": 395
+        },
+        ".knr-product__details": {
+          "height": 328,
+          "width": 253.953125,
+          "x": 456.046875,
+          "y": 450
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 535.015625,
+          "y": 413
+        }
+      },
+      "time": 1792777663611,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "layout-1024",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 364.03125,
+          "x": 601.96875,
+          "y": 658
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 364.03125,
+          "x": 601.96875,
+          "y": 713
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 735.984375,
+          "y": 676
+        }
+      },
+      "time": 1792777663924,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "layout-1920",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 532.671875,
+          "x": 1297.328125,
+          "y": 678
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 532.671875,
+          "x": 1297.328125,
+          "y": 749
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1515.65625,
+          "y": 696
+        }
+      },
+      "time": 1792777664066,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "shopify-edited-message-autoplay-off",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 24,
+          "hidden": false,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 4",
+      "index": 3,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 326,
+          "x": 32,
+          "y": 393.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 446.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 409.8125
+        }
+      },
+      "time": 1792777702667,
+      "visibleMessage": "Paiement 100 % sécurisé."
+    },
+    {
+      "name": "shopify-saved-message-confirmed",
+      "autoplay": "false",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 0,
+          "hidden": true,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 0
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 4",
+      "index": 3,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 24,
+          "width": 326,
+          "x": 32,
+          "y": 381.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 446.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 409.8125
+        }
+      },
+      "time": 1792777715251,
+      "visibleMessage": "Paiement sécurisé — message de recette Shopify, éditable sans modification du code."
+    },
+    {
+      "name": "long-message-height-first",
+      "autoplay": "false",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 0,
+          "hidden": true,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 0
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 1",
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 24,
+          "width": 326,
+          "x": 32,
+          "y": 381.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 446.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 409.8125
+        }
+      },
+      "time": 1792777729804,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "long-message-height-fourth",
+      "autoplay": "false",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": true,
+          "height": 0,
+          "hidden": true,
+          "label": "Défilement désactivé : réduction des animations",
+          "width": 0
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 4",
+      "index": 3,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 24,
+          "width": 326,
+          "x": 32,
+          "y": 381.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 446.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 409.8125
+        }
+      },
+      "time": 1792777730382,
+      "visibleMessage": "Paiement sécurisé — message de recette Shopify, éditable sans modification du code."
+    },
+    {
+      "name": "speed-four-seconds",
+      "autoplay": "false",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 0,
+          "hidden": true,
+          "label": "Reprendre le défilement des messages",
+          "width": 0
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 28,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 815
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 762
+        }
+      },
+      "time": 1792777744914,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "saved-speed-four-confirmed",
+      "autoplay": "false",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 0,
+          "hidden": true,
+          "label": "Reprendre le défilement des messages",
+          "width": 0
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 28,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 815
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 762
+        }
+      },
+      "time": 1792777768874,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "saved-four-second-autoplay-confirmed",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777804966,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "automatic-cycle-observation",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 3,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777818754,
+      "visibleMessage": "Paiement 100 % sécurisé."
+    },
+    {
+      "name": "hover-start",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 1,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777827903,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "hover-held",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 1,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777874971,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "offscreen-start",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 1,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": -3535
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": -3464
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": -3517
+        }
+      },
+      "time": 1792777875348,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "offscreen-held",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 1,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": -3535
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": -3464
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": -3517
+        }
+      },
+      "time": 1792777941305,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "final-settings-six-seconds",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777943608,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "no-javascript-fallback",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 0,
+          "hidden": true,
+          "label": "Mettre les messages en pause",
+          "width": 0
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777944523,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "javascript-restored",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777957586,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "keyboard-enter-pauses",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 1",
+      "index": 3,
+      "interval": "4000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777970111,
+      "visibleMessage": "Paiement 100 % sécurisé."
+    },
+    {
+      "name": "keyboard-space-select",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 2",
+      "index": 1,
+      "interval": "4000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792777983429,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "resume-for-loop",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Mettre les messages en pause",
+      "index": 1,
+      "interval": "4000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 470
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 541
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 488
+        }
+      },
+      "time": 1792777985415,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "final-six-second-setting-confirmed",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": null,
+      "index": 0,
+      "interval": "6000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 730
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 801
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 748
+        }
+      },
+      "time": 1792778061904,
+      "visibleMessage": "En stock, livraison estimée sous 48h."
+    },
+    {
+      "name": "wrap-start-fourth",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Mettre les messages en pause",
+      "index": 3,
+      "interval": "6000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 470
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 541
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 488
+        }
+      },
+      "time": 1792778087340,
+      "visibleMessage": "Paiement 100 % sécurisé."
+    },
+    {
+      "name": "wrap-after-six-seconds",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Mettre les messages en pause",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Mettre les messages en pause",
+      "index": 1,
+      "interval": "6000",
+      "live": "off",
+      "overflow": false,
+      "paused": "false",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 470
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 541
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 488
+        }
+      },
+      "time": 1792778104889,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "final-mobile",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 2",
+      "index": 1,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 12,
+          "width": 326,
+          "x": 32,
+          "y": 393.8125
+        },
+        ".knr-product__details": {
+          "height": 308,
+          "width": 326,
+          "x": 32,
+          "y": 446.8125
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 147,
+          "y": 409.8125
+        }
+      },
+      "time": 1792778122473,
+      "visibleMessage": "Livraison offerte dès 60 € en France métropolitaine."
+    },
+    {
+      "name": "final-desktop-confirmed",
+      "autoplay": "true",
+      "available": "true",
+      "controls": [
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Reprendre le défilement des messages",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 1",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 2",
+          "width": 24
+        },
+        {
+          "current": "true",
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 3",
+          "width": 24
+        },
+        {
+          "current": null,
+          "disabled": false,
+          "height": 24,
+          "hidden": false,
+          "label": "Afficher le message 4",
+          "width": 24
+        }
+      ],
+      "focus": "Afficher le message 3",
+      "index": 2,
+      "interval": "6000",
+      "live": "polite",
+      "overflow": false,
+      "paused": "true",
+      "rects": {
+        ".knr-product__delivery": {
+          "height": 14,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 470
+        },
+        ".knr-product__details": {
+          "height": 288,
+          "width": 372.671875,
+          "x": 977.328125,
+          "y": 541
+        },
+        ".knr-product__ticks": {
+          "height": 24,
+          "width": 96,
+          "x": 1115.65625,
+          "y": 488
+        }
+      },
+      "time": 1792778355699,
+      "visibleMessage": "Retours acceptés jusqu’à 30 jours après réception."
+    }
+  ]
+}

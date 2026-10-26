@@ -1,0 +1,11 @@
+{
+  "verifiedOn": "2026-10-26",
+  "method": "GitHub connector repository metadata and branches GET; local git rev-list --all --count",
+  "repository": "dragnoir/knr-maison-celestine",
+  "public": true,
+  "size": 0,
+  "branches": [],
+  "localCommits": 0,
+  "published": false,
+  "submitted": false
+}

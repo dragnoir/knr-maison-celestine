@@ -1,0 +1,42 @@
+[
+  {
+    "name": "t:knr.design_settings",
+    "settings": [
+      {
+        "type": "color",
+        "id": "knr_paper",
+        "label": "t:knr.paper",
+        "default": "#f9f8f5"
+      },
+      {
+        "type": "color",
+        "id": "knr_sand",
+        "label": "t:knr.sand",
+        "default": "#dcd5c3"
+      },
+      {
+        "type": "color",
+        "id": "knr_accent",
+        "label": "t:knr.accent",
+        "default": "#b5a282"
+      },
+      {
+        "type": "color",
+        "id": "knr_ink",
+        "label": "t:knr.ink",
+        "default": "#000000"
+      },
+      {
+        "type": "header",
+        "content": "t:knr.motion_heading"
+      },
+      {
+        "type": "checkbox",
+        "id": "knr_scroll_reveals",
+        "label": "t:knr.scroll_reveals",
+        "info": "t:knr.scroll_reveals_info",
+        "default": true
+      }
+    ]
+  }
+]

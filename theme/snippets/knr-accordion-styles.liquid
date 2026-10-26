@@ -1,0 +1,30 @@
+{% doc %}
+  Shared motion styles for native product and FAQ disclosures.
+  The inner answer retains its spacing; only the outer clipping panel animates.
+
+  @example
+  {% render 'knr-accordion-styles' %}
+{% enddoc %}
+{% stylesheet %}
+  knr-accordions {
+    --knr-accordion-duration: 260ms;
+    --knr-accordion-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+    display: block;
+  }
+  knr-accordions .knr-accordion__content {
+    overflow: hidden;
+  }
+  .knr-section knr-accordions:is(.knr-product__details, .knr-faq__list) summary .knr-icon {
+    transition:
+      transform var(--knr-accordion-duration) var(--knr-accordion-ease),
+      translate var(--knr-hover-duration) var(--knr-hover-ease);
+  }
+  .knr-section knr-accordions details[data-knr-accordion-closing] summary .knr-icon {
+    transform: rotate(90deg);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .knr-section knr-accordions:is(.knr-product__details, .knr-faq__list) summary .knr-icon {
+      transition: none;
+    }
+  }
+{% endstylesheet %}

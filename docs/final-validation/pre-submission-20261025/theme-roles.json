@@ -1,0 +1,23 @@
+[
+  {
+    "id": 189289103588,
+    "name": "Horizon",
+    "processing": false,
+    "createdAtRuntime": false,
+    "role": "live"
+  },
+  {
+    "id": 189290447076,
+    "name": "KNR - Preview",
+    "processing": false,
+    "createdAtRuntime": false,
+    "role": "unpublished"
+  },
+  {
+    "id": 189290807524,
+    "name": "Development (10dbbf-DESKTOP-HU962IE)",
+    "processing": false,
+    "createdAtRuntime": false,
+    "role": "development"
+  }
+]

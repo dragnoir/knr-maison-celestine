@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-25",
+  "checks": [
+    {
+      "test": "desktop-expanded-faq",
+      "answers": [
+        {
+          "height": 60,
+          "open": true,
+          "scrollHeight": 60,
+          "scrollWidth": 720,
+          "text": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+          "width": 720
+        },
+        {
+          "height": 60,
+          "open": true,
+          "scrollHeight": 60,
+          "scrollWidth": 720,
+          "text": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+          "width": 720
+        },
+        {
+          "height": 60,
+          "open": true,
+          "scrollHeight": 60,
+          "scrollWidth": 720,
+          "text": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+          "width": 720
+        },
+        {
+          "height": 60,
+          "open": true,
+          "scrollHeight": 60,
+          "scrollWidth": 720,
+          "text": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+          "width": 720
+        },
+        {
+          "height": 60,
+          "open": true,
+          "scrollHeight": 60,
+          "scrollWidth": 720,
+          "text": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+          "width": 720
+        }
+      ],
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "test": "mobile-expanded-faq",
+      "width": 390,
+      "overflow": 0,
+      "answers": [
+        {
+          "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+          "height": 126,
+          "open": true,
+          "question": "Comment utiliser ?",
+          "scrollHeight": 126,
+          "scrollWidth": 332,
+          "width": 332
+        },
+        {
+          "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+          "height": 104,
+          "open": true,
+          "question": "Quand voir les effets ?",
+          "scrollHeight": 104,
+          "scrollWidth": 332,
+          "width": 332
+        },
+        {
+          "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+          "height": 126,
+          "open": true,
+          "question": "Convient-il à tous ?",
+          "scrollHeight": 126,
+          "scrollWidth": 332,
+          "width": 332
+        },
+        {
+          "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+          "height": 104,
+          "open": true,
+          "question": "Est-il naturel ?",
+          "scrollHeight": 104,
+          "scrollWidth": 332,
+          "width": 332
+        },
+        {
+          "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+          "height": 126,
+          "open": true,
+          "question": "Peut-on l’associer ?",
+          "scrollHeight": 126,
+          "scrollWidth": 332,
+          "width": 332
+        }
+      ]
+    },
+    {
+      "test": "mobile-150ml",
+      "price": "150,00 €\n170,00 €\n100,00 € / 100 ml",
+      "selectedInputs": [
+        "<redacted>"
+      ],
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?pb=0&view=knr-serum&variant=67758438416612"
+    },
+    {
+      "test": "mobile-15ml-restored",
+      "price": "75,00 €\n85,00 €\n500,00 € / 100 ml",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?pb=0&view=knr-serum&variant=67758438383844"
+    },
+    {
+      "test": "breadcrumb-category-destination",
+      "url": "https://maison-celestine-knr-test.myshopify.com/collections/all",
+      "title": "Produits – Maison Celestine - KNR Test"
+    },
+    {
+      "test": "restored-state",
+      "faq": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "overflow": 0,
+      "price": "75,00 €\n85,00 €\n500,00 € / 100 ml"
+    }
+  ],
+  "published": false,
+  "commit": false
+}

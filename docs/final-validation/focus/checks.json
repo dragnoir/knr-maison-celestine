@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-23",
+  "theme": 189290447076,
+  "role": "unpublished",
+  "browser": "Chrome",
+  "before": {
+    "ratingClick": {
+      "activeId": "KnrReviewFilter-knr-reviews",
+      "activeLabel": null,
+      "activeTag": "SELECT",
+      "activeText": "Tous les avis\n        \n          5 étoiles\n        \n          4 étoiles\n        \n          3 étoiles",
+      "filterOutline": "solid",
+      "filterValue": "5",
+      "keyboardIndicator": true,
+      "scroll": 4786,
+      "status": "3 avis affichés sur 4",
+      "visibleReviews": 3
+    },
+    "loadMoreKeyboard": {
+      "activeId": "",
+      "activeLabel": null,
+      "activeTag": "BODY",
+      "activeText": "Aller au contenu\n    \n      \n\n  Livraison estimée sous 48h\n  En savoir plus\n\n\n\n\n      \n\n  \n    \n\n\n\n ",
+      "filterOutline": "none",
+      "filterValue": "all",
+      "keyboardIndicator": false,
+      "scroll": 4786,
+      "status": "6 avis affichés sur 6",
+      "visibleReviews": 6
+    }
+  },
+  "after": {
+    "mouseRating5": {
+      "activeId": "",
+      "activeLabel": "5 étoiles",
+      "activeRating": "5",
+      "activeTag": "BUTTON",
+      "activeText": "44",
+      "filterOutline": "none",
+      "filterValue": "5",
+      "keyboardIndicator": false,
+      "scroll": 4786,
+      "status": "3 avis affichés sur 4",
+      "visibleReviews": 3
+    },
+    "mouseRating4": {
+      "activeId": "",
+      "activeLabel": "4 étoiles",
+      "activeRating": "4",
+      "activeTag": "BUTTON",
+      "activeText": "22",
+      "filterOutline": "none",
+      "filterValue": "4",
+      "keyboardIndicator": false,
+      "scroll": 4808,
+      "status": "2 avis affichés sur 2",
+      "visibleReviews": 2
+    },
+    "mouseRatingEmpty": {
+      "activeId": "",
+      "activeLabel": "3 étoiles",
+      "activeRating": "3",
+      "activeTag": "BUTTON",
+      "activeText": "00",
+      "filterOutline": "none",
+      "filterValue": "3",
+      "keyboardIndicator": false,
+      "scroll": 4830,
+      "status": "0 avis affichés sur 0",
+      "visibleReviews": 0
+    },
+    "keyboardRating": {
+      "activeId": "",
+      "activeLabel": "5 étoiles",
+      "activeRating": "5",
+      "activeTag": "BUTTON",
+      "activeText": "44",
+      "filterOutline": "none",
+      "filterValue": "5",
+      "keyboardIndicator": true,
+      "scroll": 4830,
+      "status": "3 avis affichés sur 4",
+      "visibleReviews": 3
+    },
+    "keyboardFilter": {
+      "activeId": "KnrReviewFilter-knr-reviews",
+      "activeLabel": null,
+      "activeTag": "SELECT",
+      "activeText": "Tous les avis\n        \n          5 étoiles\n        \n          4 étoiles\n        \n          3 étoiles",
+      "filterOutline": "solid",
+      "filterValue": "5",
+      "keyboardIndicator": true,
+      "scroll": 4830,
+      "status": "3 avis affichés sur 4",
+      "visibleReviews": 3
+    },
+    "loadMoreKeyboard": {
+      "activeId": "",
+      "activeLabel": null,
+      "activeTag": "H3",
+      "activeText": "Une texture soyeuse",
+      "filterOutline": "none",
+      "filterValue": "all",
+      "keyboardIndicator": true,
+      "scroll": 4841,
+      "status": "6 avis affichés sur 6",
+      "visibleReviews": 6
+    },
+    "pressedState": [
+      {
+        "pressed": "true",
+        "rating": "5"
+      },
+      {
+        "pressed": "false",
+        "rating": "4"
+      },
+      {
+        "pressed": "false",
+        "rating": "3"
+      },
+      {
+        "pressed": "false",
+        "rating": "2"
+      },
+      {
+        "pressed": "false",
+        "rating": "1"
+      }
+    ]
+  },
+  "pageAudit": {
+    "Écrire un avis": {
+      "opened": {
+        "id": "",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": "Fermer",
+        "outline": "solid",
+        "scroll": 4841,
+        "tag": "BUTTON",
+        "text": "×"
+      },
+      "tabbed": {
+        "id": "KnrReviewForm-knr-reviews-name",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": null,
+        "outline": "solid",
+        "scroll": 4841,
+        "tag": "INPUT",
+        "text": ""
+      },
+      "closed": {
+        "id": "",
+        "inDialog": false,
+        "keyboardIndicator": true,
+        "label": null,
+        "outline": "solid",
+        "scroll": 4841,
+        "tag": "BUTTON",
+        "text": "Écrire un avis"
+      }
+    },
+    "Poser une question": {
+      "opened": {
+        "id": "",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": "Fermer",
+        "outline": "solid",
+        "scroll": 4841,
+        "tag": "BUTTON",
+        "text": "×"
+      },
+      "tabbed": {
+        "id": "KnrQuestionForm-knr-reviews-name",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": null,
+        "outline": "solid",
+        "scroll": 4841,
+        "tag": "INPUT",
+        "text": ""
+      },
+      "closed": {
+        "id": "",
+        "inDialog": false,
+        "keyboardIndicator": true,
+        "label": null,
+        "outline": "solid",
+        "scroll": 4841,
+        "tag": "BUTTON",
+        "text": "Poser une question"
+      }
+    },
+    "comparisonPointer": {
+      "focus": "KnrComparison-knr-results",
+      "outline": "none",
+      "value": "50"
+    },
+    "comparisonKeyboard": {
+      "focus": "KnrComparison-knr-results",
+      "outline": "solid",
+      "value": "51"
+    },
+    "testimonial": {
+      "id": "",
+      "inDialog": false,
+      "keyboardIndicator": true,
+      "label": "Témoignage suivant",
+      "outline": "solid",
+      "scroll": 3055,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    "faq": {
+      "id": "",
+      "inDialog": false,
+      "keyboardIndicator": true,
+      "label": null,
+      "outline": "solid",
+      "scroll": 3055,
+      "tag": "SUMMARY",
+      "text": "Quand voir les effets ?"
+    },
+    "newsletterValidation": {
+      "focus": "KnrNewsletter-knr-newsletter-email",
+      "keyboardIndicator": true,
+      "missing": true,
+      "type": "email"
+    },
+    "lightbox": {
+      "opened": {
+        "id": "",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": "Fermer",
+        "outline": "solid",
+        "scroll": 7308,
+        "tag": "BUTTON",
+        "text": "×"
+      },
+      "closed": {
+        "id": "",
+        "inDialog": false,
+        "keyboardIndicator": true,
+        "label": "Agrandir l’image",
+        "outline": "solid",
+        "scroll": 7308,
+        "tag": "BUTTON",
+        "text": "+"
+      }
+    },
+    "cart": {
+      "opened": {
+        "id": "",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": "Fermer",
+        "outline": "solid",
+        "scroll": 279,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "closed": {
+        "id": "",
+        "inDialog": false,
+        "keyboardIndicator": true,
+        "label": "Panier",
+        "outline": "solid",
+        "scroll": 279,
+        "tag": "A",
+        "text": "2"
+      }
+    },
+    "productAccordion": {
+      "id": "",
+      "inDialog": false,
+      "keyboardIndicator": true,
+      "label": null,
+      "outline": "solid",
+      "scroll": 279,
+      "tag": "SUMMARY",
+      "text": "Bienfaits"
+    }
+  },
+  "mobile": {
+    "ratingClick": {
+      "activeId": "",
+      "activeLabel": "4 étoiles",
+      "activeRating": "4",
+      "activeTag": "BUTTON",
+      "activeText": "22",
+      "filterOutline": "none",
+      "filterValue": "4",
+      "keyboardIndicator": false,
+      "scroll": 4493,
+      "status": "2 avis affichés sur 2",
+      "visibleReviews": 2
+    },
+    "menu": {
+      "opened": {
+        "id": "",
+        "inDialog": true,
+        "keyboardIndicator": false,
+        "label": "Fermer",
+        "outline": "none",
+        "scroll": 0,
+        "tag": "BUTTON",
+        "text": "×"
+      },
+      "closed": {
+        "id": "",
+        "inDialog": false,
+        "keyboardIndicator": true,
+        "label": "Ouvrir le menu",
+        "outline": "solid",
+        "scroll": 0,
+        "tag": "BUTTON",
+        "text": ""
+      },
+      "tabForward": {
+        "id": "",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": null,
+        "outline": "solid",
+        "scroll": 0,
+        "tag": "A",
+        "text": "Produits"
+      },
+      "tabAgain": {
+        "id": "",
+        "inDialog": true,
+        "keyboardIndicator": true,
+        "label": null,
+        "outline": "solid",
+        "scroll": 0,
+        "tag": "A",
+        "text": "Diagnostic"
+      }
+    },
+    "footerAccordion": {
+      "id": "",
+      "inDialog": false,
+      "keyboardIndicator": true,
+      "label": null,
+      "outline": "solid",
+      "scroll": 21,
+      "tag": "SUMMARY",
+      "text": "Service client"
+    },
+    "skipLink": {
+      "id": "MainContent",
+      "inDialog": false,
+      "keyboardIndicator": true,
+      "label": null,
+      "outline": "none",
+      "scroll": 183,
+      "tag": "MAIN",
+      "text": "+\n            \n          \n        \n          \n            \n           "
+    }
+  },
+  "validationNotes": {
+    "serverContactError": "Error summary is now programmatically focusable; no new contact message submitted.",
+    "nativeMenu": "Forward Tab visits menu links; Escape restores trigger. Browser chrome remains reachable using native dialog behavior.",
+    "publication": "Draft only; no publish or commit."
+  }
+}

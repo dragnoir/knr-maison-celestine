@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-23",
+  "browser": "Chrome; responsive emulation, not real Safari/iOS",
+  "before": {
+    "main": {
+      "bottom": 8074.296875,
+      "height": 8042.296875,
+      "left": 0,
+      "right": 1854,
+      "top": 32,
+      "width": 1854,
+      "x": 0,
+      "y": 32
+    },
+    "scroll": 0,
+    "viewport": 1864,
+    "wrapper": {
+      "bottom": 967,
+      "height": 967,
+      "left": 0,
+      "right": 1864,
+      "top": 0,
+      "width": 1864,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "closed1440": {
+    "main": {
+      "bottom": 7614.96875,
+      "height": 7582.96875,
+      "left": 0,
+      "right": 1430,
+      "top": 32,
+      "width": 1430,
+      "x": 0,
+      "y": 32
+    },
+    "scroll": 0,
+    "width": 1440,
+    "wrapper": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "interactions": [
+    {
+      "test": "refresh closes modal",
+      "passed": true
+    },
+    {
+      "test": "desktop empty overlay settled",
+      "result": {
+        "backdrop": "rgba(0, 0, 0, 0.15)",
+        "dialog": {
+          "bottom": 1000,
+          "height": 1000,
+          "left": 960,
+          "right": 1440,
+          "top": 0,
+          "width": 480,
+          "x": 960,
+          "y": 0
+        },
+        "locked": true,
+        "mainWidth": 1430,
+        "modal": true,
+        "width": 1440,
+        "wrapperWidth": 1440
+      }
+    },
+    {
+      "test": "tab moves inside cart",
+      "result": {
+        "focus": "Connectez-vous",
+        "inside": true
+      }
+    },
+    {
+      "test": "escape closes and restores trigger",
+      "result": {
+        "focus": true,
+        "locked": false,
+        "open": false
+      }
+    },
+    {
+      "test": "quantity 2 updates total and retains modal",
+      "result": {
+        "modal": true,
+        "quantity": "2",
+        "total": "Réduction\nTotal estimé\n150,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer"
+      }
+    },
+    {
+      "test": "backdrop closes without moving page",
+      "result": {
+        "locked": false,
+        "open": false,
+        "scroll": 190
+      },
+      "scrollBefore": 190
+    },
+    {
+      "test": "mobile add then reload persists the 150 mL item",
+      "result": {
+        "modal": true,
+        "quantity": "1",
+        "text": "Panier\n1\nNombre total d’articles dans le panier: 1\n1\nTotal du panier 150,00 € EUR\nImage de produit\nInformations sur le produit\nQuantité\nNombre total de produits\nSérum Précieux Régénérant\nTaille:\n150 mL\nPrix promotionnel\n150,00 € \nPrix régulier\n170,00 €\nDiminuer la quantité\nAugmenter la quantité\nRetirer\n150,00 €\nPrix unitaire\n100,00 €/100 ml\nRéduction\nTotal estimé\n150,00 € EUR\nTaxes et expédition calculés lors du paiement.\nPayer"
+      }
+    },
+    {
+      "test": "remove last item and close after section transition",
+      "result": {
+        "count": "0",
+        "hasCartForm": false,
+        "locked": false,
+        "open": false
+      }
+    },
+    {
+      "test": "reduced motion",
+      "result": {
+        "animation": "none",
+        "modal": true
+      }
+    },
+    {
+      "test": "three open/close cycles",
+      "result": {
+        "locked": false,
+        "open": false,
+        "viewport": 1440,
+        "wrapper": 1440
+      }
+    }
+  ],
+  "responsive": [
+    {
+      "checkout": {
+        "bottom": 820,
+        "height": 52,
+        "left": 569,
+        "right": 1000,
+        "top": 768,
+        "width": 431,
+        "x": 569,
+        "y": 768
+      },
+      "dialog": {
+        "bottom": 844,
+        "height": 844,
+        "left": 544,
+        "right": 1024,
+        "top": 0,
+        "width": 480,
+        "x": 544,
+        "y": 0
+      },
+      "drawerOverflow": false,
+      "locked": true,
+      "modal": true,
+      "pageOverflow": false,
+      "viewport": 1024,
+      "wrapper": 1024
+    },
+    {
+      "checkout": {
+        "bottom": 820,
+        "height": 52,
+        "left": 313,
+        "right": 744,
+        "top": 768,
+        "width": 431,
+        "x": 313,
+        "y": 768
+      },
+      "dialog": {
+        "bottom": 844,
+        "height": 844,
+        "left": 288,
+        "right": 768,
+        "top": 0,
+        "width": 480,
+        "x": 288,
+        "y": 0
+      },
+      "drawerOverflow": false,
+      "locked": true,
+      "modal": true,
+      "pageOverflow": false,
+      "viewport": 768,
+      "wrapper": 768
+    },
+    {
+      "checkout": {
+        "bottom": 828,
+        "height": 52,
+        "left": 17,
+        "right": 374,
+        "top": 776,
+        "width": 357,
+        "x": 17,
+        "y": 776
+      },
+      "dialog": {
+        "bottom": 844,
+        "height": 844,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "drawerOverflow": false,
+      "locked": true,
+      "modal": true,
+      "pageOverflow": false,
+      "viewport": 390,
+      "wrapper": 390
+    },
+    {
+      "checkout": {
+        "bottom": 828,
+        "height": 52,
+        "left": 17,
+        "right": 359,
+        "top": 776,
+        "width": 342,
+        "x": 17,
+        "y": 776
+      },
+      "dialog": {
+        "bottom": 844,
+        "height": 844,
+        "left": 0,
+        "right": 375,
+        "top": 0,
+        "width": 375,
+        "x": 0,
+        "y": 0
+      },
+      "drawerOverflow": false,
+      "locked": true,
+      "modal": true,
+      "pageOverflow": false,
+      "viewport": 375,
+      "wrapper": 375
+    },
+    {
+      "checkout": {
+        "bottom": 828,
+        "height": 52,
+        "left": 17,
+        "right": 304,
+        "top": 776,
+        "width": 287,
+        "x": 17,
+        "y": 776
+      },
+      "dialog": {
+        "bottom": 844,
+        "height": 844,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "drawerOverflow": false,
+      "locked": true,
+      "modal": true,
+      "pageOverflow": false,
+      "viewport": 320,
+      "wrapper": 320
+    }
+  ]
+}

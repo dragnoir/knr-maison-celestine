@@ -1,0 +1,124 @@
+{
+  "localization": {
+    "USPersistedAfterReload": true,
+    "FranceRestored": true,
+    "language": "fr",
+    "keyboardFocus": "warm 2px inset underline",
+    "forcedColors": "2px system outline"
+  },
+  "noJavaScript": {
+    "action": "/localization",
+    "apply": {
+      "display": "block",
+      "hidden": false
+    },
+    "mirrors": [
+      {
+        "display": "none",
+        "hidden": true
+      },
+      {
+        "display": "none",
+        "hidden": true
+      }
+    ],
+    "nativeSelects": [
+      {
+        "name": "country_code",
+        "opacity": "1",
+        "width": 96
+      },
+      {
+        "name": "language_code",
+        "opacity": "1",
+        "width": 67
+      }
+    ]
+  },
+  "accordions": [
+    {
+      "section": ".knr-product__details",
+      "label": "Description",
+      "initial": true,
+      "toggled": false,
+      "restored": true
+    },
+    {
+      "section": ".knr-product__details",
+      "label": "Bienfaits",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-product__details",
+      "label": "Ingrédients clés",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-product__details",
+      "label": "Adapté aux peaux",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-faq",
+      "label": "Comment utiliser ?",
+      "initial": true,
+      "toggled": false,
+      "restored": true
+    },
+    {
+      "section": ".knr-faq",
+      "label": "Quand voir les effets ?",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-faq",
+      "label": "Convient-il à tous ?",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-faq",
+      "label": "Est-il naturel ?",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-faq",
+      "label": "Peut-on l’associer ?",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-footer",
+      "label": "Découvrir",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-footer",
+      "label": "Service client",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    },
+    {
+      "section": ".knr-footer",
+      "label": "Légal & Transparence",
+      "initial": false,
+      "toggled": true,
+      "restored": true
+    }
+  ]
+}

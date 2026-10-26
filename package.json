@@ -1,0 +1,19 @@
+{
+  "name": "knr-maison-celestine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npm run check:js && npm run check:content && npm run check:reassurance && npm run check:format",
+    "check:reassurance": "node --test scripts/test-reassurance.mjs",
+    "check:content": "node scripts/check-content.mjs",
+    "check:js": "node --check theme/assets/knr-components.js && node --check scripts/assemble.mjs && node --check scripts/patch-cart-overlay.mjs",
+    "check:format": "prettier --check \"theme/**/*.liquid\" \"theme/assets/*.css\" \"theme/assets/*.js\" \"scripts/*.mjs\"",
+    "format": "prettier --write \"theme/**/*.liquid\" \"theme/assets/*.css\" \"theme/assets/*.js\" \"scripts/*.mjs\""
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "1.11.2",
+    "prettier": "3.9.10"
+  },
+  "engines": { "node": ">=24" }
+}

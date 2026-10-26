@@ -1,0 +1,28 @@
+{
+  "mobile": {
+    "device": "mobile",
+    "score": 92,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/bz0q3k3etz?form_factor=mobile",
+    "captured": "Oct 23, 2026, 7:47 PM GMT+1",
+    "metrics": {
+      "FCP": 1981,
+      "LCP": 3151,
+      "TBT": 33,
+      "CLS": 0,
+      "SI": 2504
+    }
+  },
+  "desktop": {
+    "device": "desktop",
+    "score": 98,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/bz0q3k3etz?form_factor=desktop",
+    "captured": "Oct 23, 2026, 7:47 PM GMT+1",
+    "metrics": {
+      "FCP": 526,
+      "LCP": 1001,
+      "TBT": 0,
+      "CLS": 0,
+      "SI": 962
+    }
+  }
+}

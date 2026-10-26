@@ -1,0 +1,28 @@
+{% doc %}
+  Decorative progress indicator enhanced by the owning scroll component.
+
+  @example {% render 'knr-scroll-progress' %}
+{% enddoc %}
+<div class='knr-scroll-progress' aria-hidden='true'><span data-knr-scroll-progress></span></div>
+{% stylesheet %}
+  .knr-scroll-progress {
+    display: none;
+    width: 97.5px;
+    height: 0.8px;
+    background: var(--knr-sand);
+    margin: 40px auto 0;
+    overflow: hidden;
+  }
+  .knr-scroll-progress span {
+    display: block;
+    background: var(--knr-ink);
+    height: 1px;
+    width: 25%;
+    transform: translateX(var(--knr-progress, 0%));
+  }
+  @media (max-width: 749px) {
+    .knr-scroll-progress {
+      display: block;
+    }
+  }
+{% endstylesheet %}

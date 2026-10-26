@@ -1,0 +1,510 @@
+- banner:
+  - link "PageSpeed Insights logo PageSpeed Insights":
+    - /url: ./
+    - img "PageSpeed Insights logo"
+    - generic: PageSpeed Insights
+  - button "Copy Link":
+    - generic: Copy Link
+  - generic: Docs
+  - link "Docs":
+    - /url: https://developers.google.com/speed/docs/insights/v5/about
+- generic: Report from Oct 26, 2026, 9:00:48 AM
+- textbox:
+  - /placeholder: Enter a web page URL
+  - text: https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_audit=pre-submission-20261026-3
+- paragraph: Enter a valid URL
+- button "Analyze":
+  - generic: Analyze
+- tablist:
+  - tab "Mobile" [selected]:
+    - generic: smartphone
+    - generic: Mobile
+  - tab "Desktop":
+    - generic: computer
+    - generic: Desktop
+- tabpanel "Mobile":
+  - generic: Discover what your real users are experiencing
+  - button "button":
+  - generic: No Data
+  - separator
+  - generic: Diagnose performance issues
+  - article:
+    - link "68 Performance":
+      - /url: "#performance"
+      - generic: "68"
+      - generic: Performance
+    - link "96 Accessibility":
+      - /url: "#accessibility"
+      - generic: "96"
+      - generic: Accessibility
+    - link "92 Best Practices":
+      - /url: "#best-practices"
+      - generic: "92"
+      - generic: Best Practices
+    - link "69 SEO":
+      - /url: "#seo"
+      - generic: "69"
+      - generic: SEO
+    - link "4/5 Agentic Browsing":
+      - /url: "#agentic-browsing"
+      - generic: 4/5
+      - generic: Agentic Browsing
+    - text: Values are estimated and may vary. The
+    - link "performance score is calculated":
+      - /url: https://developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+    - text: directly from these metrics.
+    - link "See calculator.":
+      - /url: https://googlechrome.github.io/lighthouse/scorecalc/#FCP=3429&LCP=5689&TBT=39&CLS=0&SI=5361&TTI=5720&device=mobile&version=13.5.0
+    - generic: 0–49
+    - generic: 50–89
+    - generic: 90–100
+    - img "Final Screenshot"
+    - checkbox "Toggle the display of metric descriptions"
+    - generic: Metrics
+    - generic: Expand view
+    - generic: First Contentful Paint
+    - generic: 3.4 s
+    - generic: Largest Contentful Paint
+    - generic: 5.7 s
+    - generic: Total Blocking Time
+    - generic: 40 ms
+    - generic: Cumulative Layout Shift
+    - generic: "0"
+    - generic: Speed Index
+    - generic: 5.4 s
+    - list:
+      - listitem: Captured at Oct 26, 2026, 9:00 AM GMT+1
+      - listitem: Emulated Moto G Power with Lighthouse 13.5.0
+      - listitem: Single page session
+      - listitem: Initial page load
+      - listitem: Slow 4G throttling
+      - listitem: Using HeadlessChromium 153.0.8010.36 with lr
+    - button "View Treemap"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - img "Screenshot"
+    - generic: "Show audits relevant to:"
+    - radio "All" [checked]
+    - generic: All
+    - radio "FCP"
+    - generic "First Contentful Paint": FCP
+    - radio "LCP"
+    - generic "Largest Contentful Paint": LCP
+    - radio "TBT"
+    - generic "Total Blocking Time": TBT
+    - generic: Insights
+    - generic "Render-blocking requests —Est savings of 320 ms":
+      - generic: Render-blocking requests
+      - text: —Est savings of 320 ms
+    - generic "Use efficient cache lifetimes —Est savings of 5 KiB":
+      - generic: Use efficient cache lifetimes
+      - text: —Est savings of 5 KiB
+    - generic "Forced reflow":
+      - generic: Forced reflow
+    - generic "Network dependency tree" [active]:
+      - generic: Network dependency tree
+    - link "Avoid chaining critical requests":
+      - /url: https://developer.chrome.com/docs/performance/insights/network-dependency-tree?utm_source=lighthouse&utm_medium=lr
+    - text: by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.
+    - generic "Relevant to Largest Contentful Paint": LCP
+    - generic "This audit does not contribute to the overall category score.": Unscored
+    - generic: "Maximum critical path latency: 1,374 ms"
+    - generic: Initial Navigation
+    - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_audit=pre-submission-20261026-3":
+      - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_audit=pre-submission-20261026-3":
+        - link "/products/serum-precieux-regenerant?view=…":
+          - /url: https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_audit=pre-submission-20261026-3
+        - text: (38mjaon6zx1j18jh-85280489700.shopifypreview.com)
+      - text: "- 280 ms, 44.14 KiB"
+    - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/page-view-event.js?v=12823247316348680231792690659":
+      - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/page-view-event.js?v=12823247316348680231792690659":
+        - link "…assets/page-view-event.js?v=1282324…":
+          - /url: https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/page-view-event.js?v=12823247316348680231792690659
+        - text: (38mjaon6zx1j18jh-85280489700.shopifypreview.com)
+      - text: "- 394 ms, 1.50 KiB"
+    - generic "https://cdn.shopify.com/storefront/standard-events.js":
+      - generic "https://cdn.shopify.com/storefront/standard-events.js":
+        - link "/storefront/standard-events.js":
+          - /url: https://cdn.shopify.com/storefront/standard-events.js
+        - text: (cdn.shopify.com)
+      - text: "- 418 ms, 3.84 KiB"
+    - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-inter-700.woff2?v=37103102831173106451792696993":
+      - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-inter-700.woff2?v=37103102831173106451792696993":
+        - link "…assets/knr-inter-700.woff2?v=3710310…":
+          - /url: https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-inter-700.woff2?v=37103102831173106451792696993
+        - text: (38mjaon6zx1j18jh-85280489700.shopifypreview.com)
+      - text: "- 880 ms, 41.28 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.fr.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.fr.esm.js":
+        - link "…v2/loader.init-shop-cart-sync.fr.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.fr.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 287 ms, 1.50 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_BY_vZJsD.fr.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_BY_vZJsD.fr.esm.js":
+        - link "…v2/client.init-shop-cart-sync_BY_vZJsD.fr.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_BY_vZJsD.fr.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 434 ms, 2.02 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js":
+        - link "…v2/chunk.document_DMcRsBXN.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 435 ms, 1.47 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js":
+        - link "…v2/chunk.window_CAbVMZox.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 446 ms, 1.70 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_nGEMFljJ.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_nGEMFljJ.esm.js":
+        - link "…v2/chunk.init_nGEMFljJ.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_nGEMFljJ.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 450 ms, 1.57 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_BK1wmFlx.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_BK1wmFlx.esm.js":
+        - link "…v2/chunk.register_BK1wmFlx.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_BK1wmFlx.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 443 ms, 15.36 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_DIkDbO6W.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_DIkDbO6W.esm.js":
+        - link "…v2/chunk.networkEr….esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_DIkDbO6W.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 436 ms, 1.44 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_DNv0FZve.fr.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_DNv0FZve.fr.esm.js":
+        - link "…v2/client.shop-cart….fr.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_DNv0FZve.fr.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 452 ms, 3.93 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_CIjOjzsO.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_CIjOjzsO.esm.js":
+        - link "…v2/chunk.defineInitFunction_CIjOjzsO.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_CIjOjzsO.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 447 ms, 1.38 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js":
+        - link "…v2/chunk.casing_U_9x-Om3.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 450 ms, 5.76 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js":
+        - link "…v2/chunk.utils_K8y2k-BJ.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 444 ms, 4.29 KiB"
+    - generic "https://otlp-http-production.shopifysvc.com/v1/metrics":
+      - generic "https://otlp-http-production.shopifysvc.com/v1/metrics":
+        - link "/v1/metrics":
+          - /url: https://otlp-http-production.shopifysvc.com/v1/metrics
+        - text: (otlp-http-production.shopifysvc.com)
+      - text: "- 1,374 ms, 0.31 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_C3N_0s0v.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_C3N_0s0v.esm.js":
+        - link "…v2/chunk.v4_C3N_0s0v.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_C3N_0s0v.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 454 ms, 1.74 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_DzeL7kzX.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_DzeL7kzX.esm.js":
+        - link "…v2/chunk.useUserRe….esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_DzeL7kzX.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 453 ms, 1.63 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_DQF5v-OM.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_DQF5v-OM.esm.js":
+        - link "…v2/chunk.storage_DQF5v-OM.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_DQF5v-OM.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 445 ms, 1.50 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_CxK9kmB_.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_CxK9kmB_.esm.js":
+        - link "…v2/chunk.hooks_CxK9kmB_.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_CxK9kmB_.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 448 ms, 1.33 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_DINGMyE5.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_DINGMyE5.esm.js":
+        - link "…v2/chunk.authorize_DINGMyE5.esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_DINGMyE5.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 461 ms, 1.35 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_U2SBfutp.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_U2SBfutp.esm.js":
+        - link "…v2/chunk.useEventL….esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_U2SBfutp.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 454 ms, 1.85 KiB"
+    - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_09U1U9sZ.esm.js":
+      - generic "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_09U1U9sZ.esm.js":
+        - link "…v2/chunk.validator….esm.js":
+          - /url: https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_09U1U9sZ.esm.js
+        - text: (cdn.shopify.com)
+      - text: "- 455 ms, 1.66 KiB"
+    - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-components.js?v=46085348872757524751792957276":
+      - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-components.js?v=46085348872757524751792957276":
+        - link "…assets/knr-components.js?v=4608534…":
+          - /url: https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/knr-components.js?v=46085348872757524751792957276
+        - text: (38mjaon6zx1j18jh-85280489700.shopifypreview.com)
+      - text: "- 370 ms, 6.70 KiB"
+    - generic "https://cdn.shopify.com/storefront/standard-actions.js":
+      - generic "https://cdn.shopify.com/storefront/standard-actions.js":
+        - link "/storefront/standard-actions.js":
+          - /url: https://cdn.shopify.com/storefront/standard-actions.js
+        - text: (cdn.shopify.com)
+      - text: "- 288 ms, 5.42 KiB"
+    - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/standard-actions-override.js?v=171683365447094389611792690660":
+      - generic "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/standard-actions-override.js?v=171683365447094389611792690660":
+        - link "…assets/standard-actions-override.js?v=1716833…":
+          - /url: https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/t/2/assets/standard-actions-override.js?v=171683365447094389611792690660
+        - text: (38mjaon6zx1j18jh-85280489700.shopifypreview.com)
+      - text: "- 423 ms, 1.56 KiB"
+    - generic: Preconnected origins
+    - link "preconnect":
+      - /url: https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=lr
+    - text: hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.
+    - table:
+      - rowgroup:
+        - row "Origin Source":
+          - columnheader "Origin":
+            - generic: Origin
+          - columnheader "Source":
+            - generic: Source
+      - rowgroup:
+        - row "https://cdn.shopify.com <https://cdn.shopify.com>; rel=\"preconnect\"":
+          - cell "https://cdn.shopify.com":
+            - generic: https://cdn.shopify.com
+          - cell "<https://cdn.shopify.com>; rel=\"preconnect\"":
+            - generic: <https://cdn.shopify.com>; rel="preconnect"
+        - row "https://cdn.shopify.com <https://cdn.shopify.com>; rel=\"preconnect\"; crossorigin":
+          - cell "https://cdn.shopify.com":
+            - generic: https://cdn.shopify.com
+          - cell "<https://cdn.shopify.com>; rel=\"preconnect\"; crossorigin":
+            - generic: <https://cdn.shopify.com>; rel="preconnect"; crossorigin
+    - generic: Preconnect candidates
+    - text: Add
+    - link "preconnect":
+      - /url: https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=lr
+    - text: hints to your most important origins, but try to use no more than 4.
+    - generic: No additional origins are good candidates for preconnecting
+    - generic "LCP breakdown":
+      - generic: LCP breakdown
+    - text: Each
+    - link "subpart has specific improvement strategies":
+      - /url: https://developer.chrome.com/docs/performance/insights/lcp-breakdown?utm_source=lighthouse&utm_medium=lr
+    - text: . Ideally, most of the LCP time should be spent on loading the resources, not within delays.
+    - generic "Relevant to Largest Contentful Paint": LCP
+    - generic "This audit does not contribute to the overall category score.": Unscored
+    - table:
+      - rowgroup:
+        - row "Subpart Duration":
+          - columnheader "Subpart":
+            - generic: Subpart
+          - columnheader "Duration":
+            - generic: Duration
+      - rowgroup:
+        - row "Time to first byte 50 ms":
+          - cell "Time to first byte":
+            - generic: Time to first byte
+          - cell "50 ms":
+            - generic: 50 ms
+        - row "Resource load delay 210 ms":
+          - cell "Resource load delay":
+            - generic: Resource load delay
+          - cell "210 ms":
+            - generic: 210 ms
+        - row "Resource load duration 110 ms":
+          - cell "Resource load duration":
+            - generic: Resource load duration
+          - cell "110 ms":
+            - generic: 110 ms
+        - row "Element render delay 2,030 ms":
+          - cell "Element render delay":
+            - generic: Element render delay
+          - cell "2,030 ms":
+            - generic: 2,030 ms
+    - generic "div.knr-product__slides > div.knr-product__slide > picture > img":
+      - generic: Sérum Précieux Régénérant
+      - generic: <img src="https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/files/knr…" alt="Sérum Précieux Régénérant" srcset="//38mjaon6zx1j18jh-85280489700.shopifypreview.com/cdn/shop/files/5aab8d21-…" width="2880" height="1567" loading="eager" sizes="100vw" fetchpriority="high">
+    - generic "3rd parties":
+      - generic: 3rd parties
+    - text: These insights are also available in the Chrome DevTools Performance Panel -
+    - link "record a trace":
+      - /url: https://developer.chrome.com/docs/devtools/performance/reference?utm_source=lighthouse&utm_medium=lr
+    - text: to view more detailed information.
+    - generic: Diagnostics
+    - generic "Reduce unused CSS —Est savings of 51 KiB":
+      - generic: Reduce unused CSS
+      - text: —Est savings of 51 KiB
+    - generic "Reduce unused JavaScript —Est savings of 38 KiB":
+      - generic: Reduce unused JavaScript
+      - text: —Est savings of 38 KiB
+    - generic "Avoid long main-thread tasks —1 long task found":
+      - generic: Avoid long main-thread tasks
+      - text: —1 long task found
+    - generic "User Timing marks and measures —11 user timings":
+      - generic: User Timing marks and measures
+      - text: —11 user timings
+    - text: More information about the performance of your application. These numbers don't
+    - link "directly affect":
+      - /url: https://developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+    - text: the Performance score.
+    - generic "Passed audits (17) Show":
+      - generic: Passed audits (17)
+      - generic: Show
+    - text: — — —
+    - heading "96 Accessibility" [level=2]:
+      - generic: "96"
+      - generic: Accessibility
+    - text: These checks highlight opportunities to
+    - link "improve the accessibility of your web app":
+      - /url: https://developer.chrome.com/docs/lighthouse/accessibility/?utm_source=lighthouse&utm_medium=lr
+    - text: . Automatic detection can only detect a subset of issues and does not guarantee the accessibility of your web app, so
+    - link "manual testing":
+      - /url: https://web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+    - text: is also encouraged.
+    - generic: Contrast
+    - generic "Background and foreground colors do not have a sufficient contrast ratio.":
+      - generic: Background and foreground colors do not have a sufficient contrast ratio.
+    - generic: These are opportunities to improve the legibility of your content.
+    - generic "Additional items to manually check (10) Show":
+      - generic: Additional items to manually check (10)
+      - generic: Show
+    - text: These items address areas which an automated testing tool cannot cover. Learn more in our guide on
+    - link "conducting an accessibility review":
+      - /url: https://web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+    - text: .
+    - generic "Passed audits (26) Show":
+      - generic: Passed audits (26)
+      - generic: Show
+    - generic "Not applicable (36) Show":
+      - generic: Not applicable (36)
+      - generic: Show
+    - heading "92 Best Practices" [level=2]:
+      - generic: "92"
+      - generic: Best Practices
+    - generic: General
+    - generic "Browser errors were logged to the console":
+      - generic: Browser errors were logged to the console
+    - generic "Issues were logged in the Issues panel in Chrome Devtools":
+      - text: Issues were logged in the
+      - code: Issues
+      - text: panel in Chrome Devtools
+    - generic "Detected JavaScript libraries":
+      - generic: Detected JavaScript libraries
+    - generic: Trust and Safety
+    - generic "Ensure CSP is effective against XSS attacks":
+      - generic: Ensure CSP is effective against XSS attacks
+    - generic "Use a strong HSTS policy":
+      - generic: Use a strong HSTS policy
+    - generic "Ensure proper origin isolation with COOP":
+      - generic: Ensure proper origin isolation with COOP
+    - generic "Mitigate DOM-based XSS with Trusted Types":
+      - generic: Mitigate DOM-based XSS with Trusted Types
+    - generic: Browser Compatibility
+    - generic "Baseline Features":
+      - generic: Baseline Features
+    - generic "Passed audits (11) Show":
+      - generic: Passed audits (11)
+      - generic: Show
+    - generic "Not applicable (2) Show":
+      - generic: Not applicable (2)
+      - generic: Show
+    - heading "69 SEO" [level=2]:
+      - generic: "69"
+      - generic: SEO
+    - text: These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on
+    - link "Core Web Vitals":
+      - /url: https://web.dev/explore/vitals?utm_source=lighthouse&utm_medium=lr
+    - text: .
+    - link "Learn more about Google Search Essentials":
+      - /url: https://support.google.com/webmasters/answer/35769
+    - text: .
+    - generic: Crawling and Indexing
+    - generic "Page is blocked from indexing":
+      - generic: Page is blocked from indexing
+    - generic: To appear in search results, crawlers need access to your app.
+    - generic "Additional items to manually check (1) Show":
+      - generic: Additional items to manually check (1)
+      - generic: Show
+    - generic: Run these additional validators on your site to check additional SEO best practices.
+    - generic "Passed audits (9) Show":
+      - generic: Passed audits (9)
+      - generic: Show
+    - heading "4/5 Agentic Browsing" [level=2]:
+      - generic: 4/5
+      - generic: Agentic Browsing
+    - text: These checks ensure high-quality,
+    - link "browsable websites for AI agents":
+      - /url: https://goo.gle/lighthouse-agentic-web
+    - text: and validate the correctness of WebMCP integrations. This category is still under development and subject to change.
+    - generic: Agent Discoverability
+    - generic "ai-catalog.json schema is invalid":
+      - code: ai-catalog.json
+      - text: schema is invalid
+    - generic: These audits validate that websites expose discoverable resources, documentation, and catalogs for AI agents.
+    - generic: WebMCP
+    - generic "WebMCP form coverage —9 forms missing annotations":
+      - generic: WebMCP form coverage
+      - text: —9 forms missing annotations
+    - generic "WebMCP tools registered":
+      - generic: WebMCP tools registered
+    - generic: Audits validating WebMCP integration.
+    - generic "Passed audits (4) Show":
+      - generic: Passed audits (4)
+      - generic: Show
+    - text: — —
+- text: — — — — — — — — — — — —
+- contentinfo:
+  - generic: More on PageSpeed Insights
+  - link "What's new":
+    - /url: https://developers.google.com/speed/docs/insights/release_notes
+  - link "Documentation":
+    - /url: https://developers.google.com/speed/docs/insights/v5/about
+  - link "Learn about Web Performance":
+    - /url: https://developers.google.com/speed
+  - link "Ask questions on Stack Overflow":
+    - /url: https://stackoverflow.com/questions/tagged/pagespeed-insights
+  - link "Mailing list":
+    - /url: https://groups.google.com/g/pagespeed-insights-discuss
+  - generic: Related Content
+  - link "Updates":
+    - /url: https://developer.chrome.com/blog
+  - link "Web Fundamentals":
+    - /url: https://developers.google.com/focus/web-development
+  - link "Case Studies":
+    - /url: https://web.dev/case-studies
+  - link "Podcasts":
+    - /url: https://web.dev/shows
+  - generic: Connect
+  - link "Twitter":
+    - /url: https://twitter.com/ChromiumDev
+  - link "Youtube":
+    - /url: https://www.youtube.com/user/ChromeDevelopers
+  - link "Google Developers Logo":
+    - /url: https://developers.google.com/
+    - img "Google Developers Logo"
+  - link "Chrome":
+    - /url: https://developer.chrome.com/
+  - link "Firebase":
+    - /url: https://firebase.google.com/
+  - link "All products":
+    - /url: https://developers.google.com/products/
+  - link "Terms and Privacy Policy":
+    - /url: https://policies.google.com/
+  - text: For details, see the
+  - link "Google Developers Site Policies":
+    - /url: https://developers.google.com/terms/site-policies
+  - text: .

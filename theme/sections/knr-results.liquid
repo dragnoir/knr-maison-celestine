@@ -1,0 +1,337 @@
+{% comment %}
+  KNR results. Editable content is supplied through section settings or Shopify resources.
+{% endcomment %}
+<div class='knr-results__intro'>
+  <h2>{{ section.settings.heading | escape }}</h2>
+  <p>{{ section.settings.body | escape }}</p>
+</div>
+<knr-comparison class='knr-comparison' style='--knr-compare:50%'>
+  <div class='knr-comparison__after'>
+    {% render 'knr-image',
+      image: section.settings.after_image,
+      sizes: '(min-width: 750px) calc(155.45vw - 248.72px), 96vw',
+      alt: section.settings.after_alt
+    %}
+  </div>
+  <div class='knr-comparison__before'>
+    {% render 'knr-image',
+      image: section.settings.before_image,
+      sizes: '(min-width: 750px) calc(155.45vw - 248.72px), 96vw',
+      alt: section.settings.before_alt
+    %}
+  </div>
+  <span class='knr-comparison__label knr-comparison__label--before'>{{ 'knr.before' | t }}</span
+  ><span class='knr-comparison__label knr-comparison__label--after'>{{ 'knr.after' | t }}</span>
+  <div class='knr-comparison__divider' aria-hidden='true'>
+    <span>{% render 'knr-icon', name: 'knr-desktop-menu-icon', width: 12, height: 12 %}</span>
+  </div>
+  <label class='knr-sr-only' for='KnrComparison-{{ section.id }}'>{{ 'knr.comparison' | t }}</label
+  ><input
+    id='KnrComparison-{{ section.id }}'
+    type='range'
+    min='0'
+    max='100'
+    value='50'
+    step='1'
+    aria-valuetext='{{ 'knr.comparison_value' | t: value: 50 }}'
+    data-knr-comparison
+    data-value-label='{{ 'knr.comparison_value' | t: value: '[value]' }}'
+  >
+</knr-comparison>
+{% assign testimonials = product.metafields.knr.testimonials.value %}
+{% if testimonials != blank -%}
+  <knr-testimonials
+    class='knr-testimonials'
+    role='region'
+    aria-roledescription='{{ 'knr.carousel' | t }}'
+    aria-label='{{ 'knr.testimonials' | t }}'
+  >
+    <div class='knr-testimonials__slides' data-knr-scroll tabindex='0'>
+      {% for testimonial in testimonials %}
+        <figure class='knr-testimonials__slide'>
+          <figcaption>
+            {% render 'knr-stars', rating: testimonial.rating.value -%}
+            <span class='knr-sr-only'>
+              {{- 'knr.review_average' | t: score: testimonial.rating.value -}}
+            </span>
+            <span>{{ testimonial.author.value | escape }}</span>
+          </figcaption>
+          <blockquote>{{ testimonial.body.value | escape }}</blockquote>
+        </figure>
+      {% endfor %}
+    </div>
+    <div class='knr-testimonials__controls'>
+      <button
+        class='knr-icon-control knr-hover-previous'
+        type='button'
+        data-knr-previous
+        aria-label='{{ 'knr.previous' | t }}'
+      >
+        {% render 'knr-icon', name: 'knr-desktop-chevron-icon', width: 48, height: 48 %}</button
+      ><button
+        class='knr-icon-control knr-hover-next'
+        type='button'
+        data-knr-next
+        aria-label='{{ 'knr.next' | t }}'
+      >
+        {% render 'knr-icon', name: 'knr-desktop-chevron-icon1', width: 48, height: 48 %}
+      </button>
+    </div>
+    <p class='knr-sr-only' role='status' data-knr-slide-status></p>
+  </knr-testimonials>
+{%- endif %}
+{% stylesheet %}
+  .knr-results {
+    background: var(--knr-paper);
+    padding: 80px;
+    display: grid;
+    gap: 40px;
+  }
+  .knr-results__intro {
+    text-align: center;
+    display: grid;
+    gap: 16px;
+    justify-items: center;
+  }
+  .knr-results__intro h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+  }
+  .knr-results__intro p {
+    max-width: 540px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+  .knr-comparison {
+    position: relative;
+    display: block;
+    aspect-ratio: 2;
+    overflow: hidden;
+    background: #fff;
+  }
+  .knr-comparison__after,
+  .knr-comparison__before {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+  .knr-comparison__after img {
+    position: absolute;
+    width: 155.45%;
+    height: 169.58%;
+    left: -27.73%;
+    top: -23.85%;
+    max-width: none;
+  }
+  .knr-comparison__before {
+    clip-path: inset(0 calc(100% - var(--knr-compare)) 0 0);
+  }
+  .knr-comparison__before img {
+    position: absolute;
+    width: 155.295%;
+    height: 165.62%;
+    left: -27.685%;
+    top: -21.56%;
+    max-width: none;
+  }
+  .knr-comparison__label {
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    pointer-events: none;
+  }
+  .knr-comparison__label--before {
+    left: 40px;
+  }
+  .knr-comparison__label--after {
+    right: 40px;
+  }
+  .knr-comparison__divider {
+    position: absolute;
+    inset-block: 0;
+    left: var(--knr-compare);
+    width: 2px;
+    background: #fff;
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+  .knr-comparison__divider span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #fff;
+    display: grid;
+    place-items: center;
+  }
+  .knr-comparison__divider img {
+    transform: rotate(-90deg);
+  }
+  .knr-comparison input {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: ew-resize;
+    margin: 0;
+  }
+  .knr-comparison:has(input:focus-visible) {
+    outline: 2px solid #000;
+    outline-offset: 5px;
+  }
+  .knr-testimonials {
+    display: block;
+    padding-block-start: 40px;
+    min-width: 0;
+  }
+  .knr-testimonials__slides {
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    max-width: 970px;
+    margin: auto;
+  }
+  .knr-testimonials__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    scroll-snap-align: center;
+    text-align: center;
+  }
+  .knr-testimonials__slide figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 40px;
+  }
+  .knr-testimonials__slide figcaption > span:last-child {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.04em;
+    color: var(--knr-accent);
+  }
+  .knr-testimonials__slide blockquote {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+  }
+  .knr-testimonials__controls {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-block-start: 40px;
+  }
+  .knr-testimonials__controls button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    border-radius: 50%;
+  }
+  .knr-testimonials__controls button:first-child img {
+    transform: rotate(180deg);
+  }
+  @media (max-width: 749px) {
+    .knr-results {
+      padding: 64px 24px 40px;
+    }
+    .knr-results__intro h2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .knr-comparison {
+      aspect-ratio: 342/192;
+    }
+    .knr-comparison__after img {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      object-fit: cover;
+    }
+    .knr-comparison__before img {
+      width: 105.73%;
+      height: 100%;
+      left: -2.57%;
+      top: 0;
+      object-fit: cover;
+    }
+    .knr-comparison__label {
+      top: 24px;
+    }
+    .knr-comparison__label--before {
+      left: 24px;
+    }
+    .knr-comparison__label--after {
+      right: 24px;
+    }
+    .knr-testimonials {
+      padding: 0;
+    }
+    .knr-testimonials__slide blockquote {
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+    }
+  }
+
+  .knr-comparison__divider span {
+    transition:
+      background-color var(--knr-hover-duration) var(--knr-hover-ease),
+      box-shadow var(--knr-hover-duration) var(--knr-hover-ease);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .knr-comparison:has(input:hover) .knr-comparison__divider span {
+      background-color: var(--knr-paper);
+      box-shadow: inset 0 0 0 1px var(--knr-accent);
+    }
+  }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "t:knr.knr_results",
+  "tag": "section",
+  "class": "knr-section knr-results",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:knr.heading"
+    },
+    {
+      "type": "textarea",
+      "id": "body",
+      "label": "t:knr.description"
+    },
+    {
+      "type": "image_picker",
+      "id": "before_image",
+      "label": "t:knr.before_image"
+    },
+    {
+      "type": "text",
+      "id": "before_alt",
+      "label": "t:knr.before_image_description"
+    },
+    {
+      "type": "image_picker",
+      "id": "after_image",
+      "label": "t:knr.after_image"
+    },
+    {
+      "type": "text",
+      "id": "after_alt",
+      "label": "t:knr.after_image_description"
+    }
+  ]
+}
+{% endschema %}

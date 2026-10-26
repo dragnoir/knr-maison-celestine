@@ -1,0 +1,30 @@
+{
+  "desktop": {
+    "faqOrder": [
+      "Quand voir les effets ?",
+      "Comment utiliser ?",
+      "Convient-il à tous ?",
+      "Est-il naturel ?",
+      "Peut-on l’associer ?"
+    ],
+    "image": {
+      "box": {
+        "bottom": 934.65625,
+        "height": 444.65625,
+        "left": 40,
+        "right": 484.65625,
+        "top": 490,
+        "width": 444.65625,
+        "x": 40,
+        "y": 490
+      },
+      "fit": "cover",
+      "naturalHeight": 251,
+      "naturalWidth": 460,
+      "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/knr-desktop-before-and-after-image.jpg?v=1792690114&width=550"
+    },
+    "overflow": false,
+    "width": 1440
+  },
+  "method": "Temporary Shopify section configuration changed via CLI; other editorial edits tested in Shopify UI."
+}

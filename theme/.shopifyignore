@@ -1,0 +1,10 @@
+.git/**
+.github/**
+docs/**
+tests/**
+scripts/**
+README.md
+AGENTS.md
+package*.json
+LICENSE*
+licenses/**

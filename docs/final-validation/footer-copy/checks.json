@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-25",
+  "theme": 189290447076,
+  "figmaNode": "720:1232",
+  "menusMatch": true,
+  "expectedMenus": [
+    [
+      "Découvrir",
+      "Acheter",
+      "Notre histoire",
+      "Science",
+      "Presse",
+      "Où nous trouver"
+    ],
+    [
+      "Service client",
+      "Mon compte",
+      "Suivre mon colis",
+      "Livraison & retour",
+      "FAQs",
+      "Nous contacter"
+    ],
+    [
+      "Légal & Transparence",
+      "Conditions générales de vente",
+      "Mentions légales",
+      "Paramètre des cookies",
+      "Accessibilité"
+    ]
+  ],
+  "actual": {
+    "body": "Maison Célestine est une marque de soins anti-âge haut de gamme formulée autour d’actifs rares et certifiés biologiques, guidée par une expertise médicale et un rituel simple, précis et efficace.",
+    "certificateDestination": "/pages/nos-engagements",
+    "certificateLink": "Voir le certificat",
+    "certification": "Certifié COSMOS ORGANIC par ECOCERT Greenlife",
+    "heading": "À propos de Maison Célestine",
+    "menus": [
+      {
+        "heading": "Découvrir",
+        "links": [
+          {
+            "label": "Acheter",
+            "url": "/collections/collection-cactus"
+          },
+          {
+            "label": "Notre histoire",
+            "url": "/blogs/journal/fondee-en-2012-dans-les-alpes"
+          },
+          {
+            "label": "Science",
+            "url": "/blogs/journal/15-ans-de-recherche-en-laboratoire"
+          },
+          {
+            "label": "Presse",
+            "url": "/pages/nous-contacter#presse"
+          },
+          {
+            "label": "Où nous trouver",
+            "url": "/pages/nous-contacter#ou-nous-trouver"
+          }
+        ]
+      },
+      {
+        "heading": "Service client",
+        "links": [
+          {
+            "label": "Mon compte",
+            "url": "https://maison-celestine-knr-test.myshopify.com/account"
+          },
+          {
+            "label": "Suivre mon colis",
+            "url": "/pages/livraison-et-retours#suivi"
+          },
+          {
+            "label": "Livraison & retour",
+            "url": "/pages/livraison-et-retours"
+          },
+          {
+            "label": "FAQs",
+            "url": "/products/serum-precieux-regenerant?view=knr-serum#knr-faq"
+          },
+          {
+            "label": "Nous contacter",
+            "url": "/pages/nous-contacter"
+          }
+        ]
+      },
+      {
+        "heading": "Légal & Transparence",
+        "links": [
+          {
+            "label": "Conditions générales de vente",
+            "url": "/pages/informations-legales#conditions"
+          },
+          {
+            "label": "Mentions légales",
+            "url": "/pages/informations-legales#mentions"
+          },
+          {
+            "label": "Paramètre des cookies",
+            "url": "/pages/informations-legales#confidentialite"
+          },
+          {
+            "label": "Accessibilité",
+            "url": "/pages/informations-legales#accessibilite"
+          }
+        ]
+      }
+    ]
+  },
+  "certificateMatches": true,
+  "published": false,
+  "commit": false,
+  "desktop": {
+    "certificateImage": [
+      {
+        "height": 56,
+        "loaded": true,
+        "width": 47
+      }
+    ],
+    "overflow": 0,
+    "width": 1440
+  },
+  "mobile": {
+    "legalLinkVisible": true,
+    "legalOpen": true,
+    "overflow": 0,
+    "width": 390
+  }
+}

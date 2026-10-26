@@ -1,0 +1,10 @@
+{
+  "serverSuccess": {
+    "open": true,
+    "result": "Merci, votre message a été envoyé pour modération. Il n’est pas publié automatiquement.",
+    "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&contact_posted=true#KnrQuestionForm-knr-reviews"
+  },
+  "emailReceipt": "Candidate supplied the Shopify notification screenshot on 2026-10-23, containing product reference, type question and test marker KNR-RECETTE-20261023.",
+  "invalidForm": "Required blank fields rejected; dialog stayed modal.",
+  "captcha": "Shopify protection kept enabled. Form releases modal top layer but remains visible during verification."
+}

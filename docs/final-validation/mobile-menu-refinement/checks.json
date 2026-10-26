@@ -1,0 +1,895 @@
+{
+  "date": "2026-10-26",
+  "theme": 189290447076,
+  "reportedBrowser": "iPhone Messenger in-app browser",
+  "verificationBrowser": "Chrome extension, 390px and touch emulation",
+  "records": [
+    {
+      "test": "rapid-reopen-reduced-0",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "none",
+        "width": 390
+      }
+    },
+    {
+      "test": "rapid-reopen-reduced-1",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "none",
+        "width": 390
+      }
+    },
+    {
+      "test": "rapid-reopen-reduced-2",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "none",
+        "width": 390
+      }
+    },
+    {
+      "test": "reduced-closed-final",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": null,
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "none",
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-first-link-final",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Produits",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-close-indicator-final",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-after-keyboard-final",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 380, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-settled-final",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-closed-final",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "responsive-final-320",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 320
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 310,
+        "height": 844,
+        "top": 0,
+        "right": 310,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "test": "close-final-320",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 320
+      }
+    },
+    {
+      "test": "responsive-final-402",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 402
+      },
+      "rect": {
+        "x": 2,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "top": 0,
+        "right": 392,
+        "bottom": 844,
+        "left": 2
+      }
+    },
+    {
+      "test": "close-final-402",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 402
+      }
+    },
+    {
+      "test": "responsive-final-430",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 430
+      },
+      "rect": {
+        "x": 30,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "top": 0,
+        "right": 420,
+        "bottom": 844,
+        "left": 30
+      }
+    },
+    {
+      "test": "backdrop-final",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 430
+      }
+    },
+    {
+      "test": "simulated-component-refresh-final",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "open-after-refresh-final",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": false,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "live-reduced-motion-final",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "none",
+        "width": 390
+      }
+    }
+  ],
+  "exitTrace": [
+    {
+      "ms": 0,
+      "open": true,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "backdropOpacity": "1"
+    },
+    {
+      "ms": 3,
+      "open": true,
+      "transform": "matrix(1, 0, 0, 1, 94.016, 0)",
+      "backdropOpacity": "0.87675"
+    },
+    {
+      "ms": 20,
+      "open": true,
+      "transform": "matrix(1, 0, 0, 1, 181.034, 0)",
+      "backdropOpacity": "0.761647"
+    },
+    {
+      "ms": 1047,
+      "open": false,
+      "transform": "none",
+      "backdropOpacity": "0"
+    }
+  ],
+  "notes": [
+    "Chrome baseline did not reproduce the iPhone heuristic without prior keyboard focus. Touch after keyboard yielded focus-visible=true and outline:none after the fix.",
+    "A scripted close click during initial entry missed the moving control at 320px. Subsequent pointer tests await the actual transition finish before targeting the close button."
+  ],
+  "preFinalRevisionRecords": [
+    {
+      "test": "keyboard-open",
+      "state": {
+        "backdropOpacity": "0.238185",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 209.084, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-first-link",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Produits",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-back-to-close",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-wrap-inside-dialog",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": false,
+        "focused": "Aller au contenu\n    \n      \n\n  Livraison estimée ",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "escape-exit-start",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Mon compte",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "escape-closed-focus-restored",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": null,
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-open-after-keyboard",
+      "state": {
+        "backdropOpacity": "0.123342",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 295.911, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-open-settled",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "touch-close-focus-restored",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "reduced-motion-open",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "none",
+        "width": 390
+      }
+    },
+    {
+      "test": "reduced-motion-close",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "none",
+        "width": 390
+      }
+    },
+    {
+      "test": "latest-revision-loaded",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Aller au contenu\n    \n      \n\n  Livraison estimée ",
+        "input": null,
+        "modal": false,
+        "open": false,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "pointer-open-width-320",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "true",
+        "focusVisible": false,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 310, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 320
+      },
+      "rect": {
+        "bottom": 844,
+        "height": 844,
+        "left": 310,
+        "right": 620,
+        "top": 0,
+        "width": 310,
+        "x": 310,
+        "y": 0
+      }
+    },
+    {
+      "test": "settled-close-320",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 320
+      }
+    },
+    {
+      "test": "settled-open-width-320",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": false,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 320
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 310,
+        "height": 844,
+        "top": 0,
+        "right": 310,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "test": "settled-close-width-320",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 320
+      }
+    },
+    {
+      "test": "settled-open-width-390",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": false,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 380,
+        "height": 844,
+        "top": 0,
+        "right": 380,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "test": "settled-close-width-390",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "settled-open-width-402",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": false,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 402
+      },
+      "rect": {
+        "x": 2,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "top": 0,
+        "right": 392,
+        "bottom": 844,
+        "left": 2
+      }
+    },
+    {
+      "test": "settled-close-width-402",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 402
+      }
+    },
+    {
+      "test": "settled-open-width-430",
+      "state": {
+        "backdropOpacity": "1",
+        "expanded": "true",
+        "focusVisible": false,
+        "focused": "Fermer",
+        "input": "pointer",
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 430
+      },
+      "rect": {
+        "x": 30,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "top": 0,
+        "right": 420,
+        "bottom": 844,
+        "left": 30
+      }
+    },
+    {
+      "test": "touch-backdrop-closed",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": false,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 430
+      }
+    },
+    {
+      "test": "escape-during-entry",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": null,
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "interrupted-entry-closed",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": null,
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    },
+    {
+      "test": "reduce-motion-during-exit",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "true",
+        "focusVisible": true,
+        "focused": "Ouvrir le menu",
+        "input": "pointer",
+        "modal": false,
+        "open": false,
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "transform": "none",
+        "transition": "none",
+        "width": 390
+      }
+    },
+    {
+      "test": "keyboard-resumes-after-touch",
+      "state": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "focusVisible": true,
+        "focused": "Produits",
+        "input": null,
+        "modal": true,
+        "open": true,
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "transform": "matrix(1, 0, 0, 1, 380, 0)",
+        "transition": "transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "width": 390
+      }
+    }
+  ],
+  "developmentFindings": [
+    "Delayed native close events could reset a rapid reopen; fixed with an open-state guard and synchronous aria-expanded cleanup.",
+    "Drawer width now uses the available containing width to avoid a scrollbar-gutter offset."
+  ],
+  "desktopRegression": {
+    "cartCount": "2",
+    "cartOpen": true,
+    "country": "FR",
+    "menuOpen": false,
+    "menuToggleDisplay": "none",
+    "navDisplay": "flex",
+    "overflow": 0,
+    "width": 1440
+  },
+  "cleanup": {
+    "viewport": "reset to browser default",
+    "touchEmulation": false,
+    "mediaOverride": false,
+    "temporaryComponentRefresh": "removed by reload",
+    "cart": "2 x 15 mL / 150 EUR, unchanged",
+    "country": "FR",
+    "menuOpen": false,
+    "cartOpen": false
+  },
+  "realDeviceRetest": "Not yet performed after this menu fix; initial report supplied by candidate on iPhone.",
+  "published": false,
+  "committed": false
+}

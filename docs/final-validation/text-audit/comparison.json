@@ -1,0 +1,2854 @@
+{
+  "date": "2026-10-25",
+  "method": "Exact Figma TEXT layers mapped to actual desktop/mobile section textContent. Mobile uses agreed desktop canonical content where explicitly listed. Closed FAQ text included and checked after expansion.",
+  "normalization": "Whitespace, straight/curly apostrophes and CSS display case only; price/data differences are explicit exceptions.",
+  "counts": {
+    "matched": 176,
+    "agreed_correction": 86,
+    "not_displayed": 17
+  },
+  "sections": {
+    "knr-announcement": {
+      "matched": 2,
+      "agreed_correction": 2
+    },
+    "knr-header": {
+      "matched": 3,
+      "agreed_correction": 2
+    },
+    "knr-product": {
+      "matched": 44,
+      "agreed_correction": 19,
+      "not_displayed": 4
+    },
+    "knr-ingredients": {
+      "matched": 5,
+      "agreed_correction": 1
+    },
+    "knr-usage": {
+      "agreed_correction": 6,
+      "not_displayed": 9,
+      "matched": 13
+    },
+    "knr-results": {
+      "matched": 8,
+      "agreed_correction": 4
+    },
+    "knr-faq": {
+      "matched": 18,
+      "agreed_correction": 4
+    },
+    "knr-reviews": {
+      "matched": 12,
+      "agreed_correction": 42
+    },
+    "knr-news": {
+      "agreed_correction": 3,
+      "not_displayed": 4,
+      "matched": 19
+    },
+    "knr-newsletter": {
+      "matched": 7,
+      "agreed_correction": 1
+    },
+    "knr-reassurance": {
+      "matched": 13
+    },
+    "knr-footer": {
+      "matched": 32,
+      "agreed_correction": 2
+    }
+  },
+  "records": [
+    {
+      "frame": "720:729",
+      "node": "720:736",
+      "figmaSection": "Hero",
+      "section": "knr-header",
+      "figmaText": "Produits",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:737",
+      "figmaSection": "Hero",
+      "section": "knr-header",
+      "figmaText": "Diagnostique",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Corrected French navigation: Diagnostic."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:738",
+      "figmaSection": "Hero",
+      "section": "knr-header",
+      "figmaText": "La marque",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:739",
+      "figmaSection": "Hero",
+      "section": "knr-header",
+      "figmaText": "Journal",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:750",
+      "figmaSection": "Hero",
+      "section": "knr-header",
+      "figmaText": "1",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Live cart count, not fixed design number."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:752",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Soins anti-âge / Collection Cactus",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:756",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Unifie",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:758",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "protège",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:762",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Sérum Précieux Régénérant",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:776",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "4.7",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:777",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "200 avis",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Six editable demonstration reviews; computed counts."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:778",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "100/100 Yuka",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:779",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Anti-âge régénérant",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:782",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Yuka 100/100",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:784",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "INCI Beauty 20/20",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:786",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Une huile anti-âge sèche ultra fine qui travaille en synergie avec la peau pour la maintenir ferme, pleine de vitalité tout en lissant les rides.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:789",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Taille",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:792",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "15 mL",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:794",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "150 mL",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:797",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "€75.00",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Native French money formatting; 15 mL 75 EUR."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:798",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "€85.00",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Native French money formatting; 15 mL compare-at 85 EUR."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:800",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "€75.00 par 100 mL",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Actual unit price 500 EUR/100 mL for 15 mL; 100 EUR/100 mL for 150 mL."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:803",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Ajouter au panier",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:805",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "En stock, livraison estimée Mercredi 25 février.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Editable current delivery estimate, not obsolete fixed date."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:814",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Description",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:816",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Formulé à partir de 97 % d'ingrédients d'origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:819",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Bienfaits",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:823",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Ingrédients clés",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:827",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Adapté aux peaux",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:832",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Complétez votre rituel",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:842",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Huile Précieuse",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:843",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "00.00€",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Related Shopify product test price, not zero placeholder."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:850",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Sérum Éclat",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:851",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "00.00€",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Related Shopify product test price, not zero placeholder."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:858",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "Crème Régénérante",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:859",
+      "figmaSection": "Breadcrumb",
+      "section": "knr-product",
+      "figmaText": "00.00€",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Related Shopify product test price, not zero placeholder."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:870",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-ingredients",
+      "figmaText": "Notre engagement pour une beauté régénérée",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:873",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-ingredients",
+      "figmaText": "Fusionnant l'huile de rosier muscat, le rétinol végétal et l'extrait de cactus, notre sérum pénètre en profondeur pour stimuler le renouvellement cellulaire, atténuer les rides et redonner à la peau son éclat et sa fermeté naturels.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:875",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-ingredients",
+      "figmaText": "Sophie M.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:881",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-product",
+      "figmaText": "Sérum Précieux Régénérant",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:882",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-product",
+      "figmaText": "150 mL",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:885",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-product",
+      "figmaText": "15 mL",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:887",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-product",
+      "figmaText": "150 mL",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:889",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-product",
+      "figmaText": "€75.00",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Native French money formatting; floating price shares selected variant."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:891",
+      "figmaSection": "Ingredient Container",
+      "section": "knr-product",
+      "figmaText": "Ajouter au panier",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:894",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "How to use",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French heading: Comment l’utiliser."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:895",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Ingrédients",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:896",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Rituels",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:897",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Consectetur",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:898",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Routine",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:903",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "01",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:905",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Découvrir",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:906",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "01",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:907",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Concentré de pureté active. Huile végétale aux propriétés anti-oxydantes puissantes pour un éclat retrouvé.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed spelling correction: antioxydantes."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:911",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "02",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:913",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Découvrir",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:914",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "02",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:915",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Éclat et uniformité retrouvés. Cible les taches et les irrégularités de grain de peau.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:919",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "03",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:921",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "03",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:922",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Découvrir",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:923",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Fermeté et nutrition intense. Répare la barrière cutanée et lisse les contours du visage.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:926",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Ce que disent nos clientes",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:927",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Des transformations visibles dès 4 semaines. Nos clientes témoignent d'une peau visiblement régénérée, plus ferme et lumineuse.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:930",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Before",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French comparison label: Avant."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:931",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "after",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French comparison label: Après."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:951",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Clara T.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:953",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "J'utilise ce sérum depuis trois mois et la différence est saisissante. Mes rides d'expression se sont considérablement atténuées et mon teint a retrouvé une luminosité que je n'avais plus depuis des années. Une texture soyeuse qui pénètre instantanément. Je ne peux plus m'en passer.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:961",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Questions fréquentes",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:965",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Comment utiliser ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:967",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu'à absorption complète. Peut s'utiliser seul ou sous votre crème habituelle.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:969",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Les premières améliorations sont visibles dès 4 semaines d'utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:971",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Quand voir les effets ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:974",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:976",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Convient-il à tous ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:979",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "97 % d'ingrédients d'origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:981",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Est-il naturel ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:984",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d'abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l'association avec d'autres rétinoïdes actifs.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:986",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Peut-on l'associer ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:990",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Avis clients",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1005",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "4.7 sur 5",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1006",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Basé sur 200 avis",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Six demonstration reviews, not 200."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1023",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "32",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1039",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "10",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1055",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "5",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1071",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "6",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1087",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "1",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1090",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Écrire un avis",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1092",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Poser une question",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1097",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Filtrer",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1111",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "09/02/26",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1113",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Mathilde S",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1115",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Vérifié",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1117",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Après usage d’1 mois",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1118",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulée autour d’actifs rares et certifiés biologiques, guidée par une expertise médicale et un rituel simple, précis et efficace.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1132",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "09/02/26",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1134",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Mathilde S",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1136",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Vérifié",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1138",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Après usage d’1 mois",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1139",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulée autour d’actifs rares et certifiés biologiques, guidée par une expertise médicale et un rituel simple, précis et efficace.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1153",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "09/02/26",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1155",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Mathilde S",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1157",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Vérifié",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1159",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Après usage d’1 mois",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1160",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulée autour d’actifs rares et certifiés biologiques, guidée par une expertise médicale et un rituel simple, précis et efficace.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1163",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Charger plus",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1166",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Latest news",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French heading: Dernières actualités."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1167",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Ingrédients",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1168",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Rituels",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1169",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Consectetur",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1170",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Routine",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1172",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Voir tous les articles",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1179",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "L'origine",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1181",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Fondée en 2012\ndans les Alpes",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1182",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Maison Célestine est née de la passion d'une botaniste pour les plantes alpines et leurs propriétés régénérantes exceptionnelles.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1188",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "La formule",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1190",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "12 ingrédients\nactifs sélectionnés",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1191",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Chaque ingrédient est sourcé chez des producteurs engagés : huile de rosier muscat, rétinol végétal, extrait de cactus Cactaceae.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1196",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "L'expertise",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1198",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "15 ans de\nrecherche en lab",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed complete word laboratoire, not lab."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1199",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Notre laboratoire indépendant teste chaque formule sur des panels de peaux diverses, garantissant efficacité et tolérance.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1204",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "L'engagement",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1206",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "97 % naturel\ncertifié",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1207",
+      "figmaSection": "News Section",
+      "section": "knr-news",
+      "figmaText": "Emballages recyclables, formules biodégradables, compensation carbone intégrale. Beauté responsable, du champ au flacon.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1212",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "L'alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1215",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "E-mail",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1217",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "S’inscrire",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1218",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "Formule brevetée, testée dermatologiquement, 97 % d'ingrédients d'origine naturelle.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1221",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Livraison offerte",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1222",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Livraison offerte\ndès 60 € d'achat\nen France métropolitaine.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1224",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Retours gratuits",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1225",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Retours acceptés\njusqu'à 30 jours\naprès réception.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1227",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Paiement sécurisé",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1228",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Paiement 100 % sécurisé\npar carte bancaire,\nPayPal ou virement.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1230",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Service client",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1231",
+      "figmaSection": "Reinsurance Container",
+      "section": "knr-reassurance",
+      "figmaText": "Du lundi au vendredi\nde 9h à 18h par email\net téléphone.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1235",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Découvrir",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1237",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Acheter",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1238",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Notre histoire",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1239",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Science",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1240",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Presse",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1241",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Où nous trouver",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1244",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Service client",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1246",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Mon compte",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1247",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Suivre mon colis",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1248",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Livraison & retour",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1249",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "FAQs",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1250",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Nous contacter",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1253",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Légal & Transparence",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1255",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Conditions générales de vente",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1256",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Mentions légales",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1257",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Paramètre des cookies",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1258",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Accessibilité",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1260",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "À propos de Maison Célestine",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1261",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulée autour d’actifs rares et certifiés biologiques, guidée par une expertise médicale et un rituel simple, précis et efficace.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1309",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Certifié COSMOS ORGANIC par ECOCERT Greenlife",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1311",
+      "figmaSection": "Structure Site Container",
+      "section": "knr-footer",
+      "figmaText": "Voir le certificat",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1318",
+      "figmaSection": "Logo Container",
+      "section": "knr-footer",
+      "figmaText": "France (€) ",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1322",
+      "figmaSection": "Logo Container",
+      "section": "knr-footer",
+      "figmaText": "Français",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1326",
+      "figmaSection": "Logo Container",
+      "section": "knr-footer",
+      "figmaText": "© 2026 Maison Célestine. Tous droits réservés.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1338",
+      "figmaSection": "Announcement Region",
+      "section": "knr-announcement",
+      "figmaText": "Livraison estimée sous 48h",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "720:729",
+      "node": "720:1340",
+      "figmaSection": "Announcement Region",
+      "section": "knr-announcement",
+      "figmaText": "consectetur.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "En savoir plus replaces consectetur placeholder."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1128",
+      "figmaSection": "Announcement Region",
+      "section": "knr-announcement",
+      "figmaText": "Livraison estimée sous 48h",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1130",
+      "figmaSection": "Announcement Region",
+      "section": "knr-announcement",
+      "figmaText": "consectetur.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "En savoir plus replaces consectetur placeholder."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1154",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "1",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Live cart count, not fixed design number."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1169",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Sérum Précieux Régénérant",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1172",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "€00.00",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Shared variant price; mobile zero placeholder corrected."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1173",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "€00.00",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Shared compare-at price; mobile zero placeholder corrected."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1175",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "€00.00 par 100 mL",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Computed shared unit price; mobile zero placeholder corrected."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1189",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "4.7",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1191",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "200 avis",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Six editable demonstration reviews; computed counts."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1193",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Yuka 100/100",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1195",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "INCI Beauty 20/20",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1196",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Une huile anti-âge sèche ultra fine qui travaille en synergie avec la peau pour la maintenir ferme, pleine de vitalité tout en lissant les rides.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1199",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Taille : 15 mL",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1202",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Taille",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1205",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "15 mL",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1207",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "150 mL",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1210",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Ajouter au panier",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1212",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "En stock, livraison estimée Mercredi 25 février.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Editable current delivery estimate, not obsolete fixed date."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1221",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Description",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1223",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Formulé à partir de 97 % d'ingrédients d'origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1226",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Bienfaits",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1230",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Ingrédients clés",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1234",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Adapté aux",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical complete label: Adapté aux peaux."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1239",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Complétez votre rituel",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1249",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Huile Précieuse",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1250",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "00.00€",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Related Shopify product test price, not zero placeholder."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1257",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Sérum Éclat",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1258",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "00.00€",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Related Shopify product test price, not zero placeholder."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1265",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Crème Régénérante",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1266",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "00.00€",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Related Shopify product test price, not zero placeholder."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1269",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "Unifie",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1271",
+      "figmaSection": "Main Container",
+      "section": "knr-product",
+      "figmaText": "protège",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1274",
+      "figmaSection": "Image",
+      "section": "knr-ingredients",
+      "figmaText": "Notre engagement pour une beauté régénérée",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1277",
+      "figmaSection": "Image",
+      "section": "knr-ingredients",
+      "figmaText": "Fusionnant l'huile de rosier muscat, le rétinol végétal et l'extrait de cactus, notre sérum pénètre en profondeur pour stimuler le renouvellement cellulaire, atténuer les rides et redonner à la peau son éclat et sa fermeté naturels.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1279",
+      "figmaSection": "Image",
+      "section": "knr-ingredients",
+      "figmaText": "Doctor Name",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical author Sophie M., not Doctor Name placeholder."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1282",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "How to use",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French heading: Comment l’utiliser."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1288",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "01",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1290",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Régénérer & Lisser",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical card heading Découvrir."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1291",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "01",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1292",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Concentré de pureté active. Huile végétale aux propriétés anti-oxydantes puissantes pour un éclat retrouvé.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed spelling correction: antioxydantes."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1294",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Lire plus",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1298",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "02",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1300",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Hydrater & Repulper",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical card heading Découvrir."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1301",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "01",
+      "visible": false,
+      "status": "not_displayed",
+      "reason": "Hidden alternative in design, not a displayed label or expandable FAQ answer."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1302",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Éclat et uniformité retrouvés. Cible les taches et les irrégularités de grain de peau.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1304",
+      "figmaSection": "Usage Container",
+      "section": "knr-usage",
+      "figmaText": "Lire plus",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1309",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Ce que disent nos clientes",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1310",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Des transformations visibles dès 4 semaines. Nos clientes témoignent d'une peau visiblement régénérée, plus ferme et lumineuse.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1313",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Before",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French comparison label: Avant."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1314",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "after",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French comparison label: Après."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1334",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "Clara T.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1336",
+      "figmaSection": "Before/After Container",
+      "section": "knr-results",
+      "figmaText": "J'utilise ce sérum depuis trois mois et la différence est saisissante. Mes rides d'expression se sont considérablement atténuées et mon teint a retrouvé une luminosité que je n'avais plus depuis des années. Une texture soyeuse qui pénètre instantanément. Je ne peux plus m'en passer.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1344",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Questions fréquentes",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1348",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Comment utiliser ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1350",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu'à absorption complète.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical complete usage answer."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1352",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Les premières améliorations sont visibles dès 4 semaines d'utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines.",
+      "visible": false,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical complete FAQ answer."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1354",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Quand voir les effets ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1357",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1359",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Convient-il à tous ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1362",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "97 % d'ingrédients d'origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant.",
+      "visible": false,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical complete FAQ answer."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1364",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Est-il naturel ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1367",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d'abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème.",
+      "visible": false,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical complete FAQ answer."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1369",
+      "figmaSection": "FAQs Container",
+      "section": "knr-faq",
+      "figmaText": "Peut-on l'associer ?",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1373",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Avis clients",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1388",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "4.7 sur 5",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1389",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Basé sur 200 avis",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Six demonstration reviews, not 200."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1406",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "32",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1422",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "10",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1438",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "5",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1454",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "6",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1470",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "1",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Star distribution calculated from the six demonstration reviews."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1473",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Écrire un avis",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1475",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Poser une question",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1480",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Filtrer",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1494",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "09/02/26",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1496",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Mathilde S",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1498",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Vérifié",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1500",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Après usage d’1 mois",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1501",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulés à partir d'ingrédients d'origine naturelle soigneusement sélectionnés.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1515",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "09/02/26",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1517",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Mathilde S",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1519",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Vérifié",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1521",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Après usage d’1 mois",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1522",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulés à partir d'ingrédients d'origine naturelle soigneusement sélectionnés.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1536",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "09/02/26",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1538",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Mathilde S",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1540",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Vérifié",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1542",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Après usage d’1 mois",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1543",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulés à partir d'ingrédients d'origine naturelle soigneusement sélectionnés.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Agreed editable demonstration review content; no fabricated verified-purchase claim."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1546",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-reviews",
+      "figmaText": "Charger plus",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1549",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "Latest news",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "French heading: Dernières actualités."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1556",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "L'origine",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1558",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "Fondée en 2012\ndans les Alpes",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1559",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "Maison Célestine est née de la passion d'une botaniste pour les plantes alpines et leurs propriétés régénérantes exceptionnelles.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1565",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "La formule",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1567",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "12 ingrédients\nactifs sélectionnés",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1568",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "Chaque ingrédient est sourcé chez des producteurs engagés : huile de rosier muscat, rétinol végétal, extrait de cactus Cactaceae.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1572",
+      "figmaSection": "Usage Container",
+      "section": "knr-news",
+      "figmaText": "Voir tous les articles",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1577",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "Sérum précieux régénérant — l'alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical newsletter headline, without repeated product name."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1580",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "E-mail",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1582",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "S’inscrire",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1583",
+      "figmaSection": "Newsletter Container",
+      "section": "knr-newsletter",
+      "figmaText": "Formule brevetée, testée dermatologiquement, 97 % d'ingrédients d'origine naturelle.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1587",
+      "figmaSection": "Main Container",
+      "section": "knr-reassurance",
+      "figmaText": "Service client",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1588",
+      "figmaSection": "Main Container",
+      "section": "knr-reassurance",
+      "figmaText": "Du lundi au vendredi de 9h à 18h par email et téléphone.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1597",
+      "figmaSection": "Main Container",
+      "section": "knr-reassurance",
+      "figmaText": "Livraison offerte dès 60 € d'achat en France métropolitaine.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1599",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "Découvrir",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1602",
+      "figmaSection": "Main Container",
+      "section": "knr-reassurance",
+      "figmaText": "Retours acceptés jusqu'à 30 jours après réception.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1604",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "Service client",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1607",
+      "figmaSection": "Main Container",
+      "section": "knr-reassurance",
+      "figmaText": "Paiement 100 % sécurisé par carte bancaire, PayPal ou virement.",
+      "visible": false,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1609",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "Légal & Trasnparence",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical spelling: Légal & Transparence."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1612",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "À propos de Maison Célestine",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1613",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "Maison Célestine est une marque de soins anti-âge haut de gamme formulés à partir d'ingrédients d'origine naturelle soigneusement sélectionnés.",
+      "visible": true,
+      "status": "agreed_correction",
+      "reason": "Desktop canonical complete brand paragraph."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1661",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "Certifié COSMOS ORGANIC par ECOCERT Greenlife",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1663",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "Voir le certificat",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1670",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "France (€) ",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1674",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "Français",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    },
+    {
+      "frame": "653:1125",
+      "node": "653:1678",
+      "figmaSection": "Main Container",
+      "section": "knr-footer",
+      "figmaText": "© 2026 Maison Célestine. Tous droits réservés.",
+      "visible": true,
+      "status": "matched",
+      "reason": "Text matches actual layout after whitespace, apostrophe and display-case normalization."
+    }
+  ]
+}

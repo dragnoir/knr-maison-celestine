@@ -1,0 +1,1005 @@
+{
+  "date": "2026-10-26",
+  "theme": 189290447076,
+  "baselineCart": {
+    "count": "2",
+    "country": "FR",
+    "dialogOpen": false,
+    "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+    "productStatus": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "records": [
+    {
+      "test": "mobile-before-open",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Aller au contenu\n    \n      \n\n  Livraison est",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "mobile-cart-enter",
+      "state": {
+        "cart": {
+          "animation": "0.32s cubic-bezier(0.22, 1, 0.36, 1) both knr-cart-enter",
+          "backdropAnimation": "0.22s ease-out both knr-cart-backdrop-enter",
+          "backdropOpacity": "0.791023",
+          "classes": "theme-drawer__dialog color-custom-drawer theme-drawer__dialog--opening",
+          "closeFrom": "",
+          "inset": "0px",
+          "open": true,
+          "transform": "matrix(1, 0, 0, 1, 27.8162, 0)"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgba(0, 0, 0, 0) solid 2px",
+        "overflow": -10,
+        "scrollLocked": true,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "mobile-cart-settled",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "0px",
+          "open": true,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgba(0, 0, 0, 0) solid 2px",
+        "overflow": -10,
+        "scrollLocked": true,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "mobile-cart-exit",
+      "state": {
+        "cart": {
+          "animation": "0.24s cubic-bezier(0.4, 0, 1, 1) forwards knr-cart-exit",
+          "backdropAnimation": "0.22s ease-out forwards knr-cart-backdrop-exit",
+          "backdropOpacity": "0.761949",
+          "classes": "theme-drawer__dialog color-custom-drawer theme-drawer__dialog--closing",
+          "closeFrom": "none",
+          "inset": "0px",
+          "open": true,
+          "transform": "matrix(1, 0, 0, 1, 12.8955, 0)"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgba(0, 0, 0, 0) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "mobile-cart-closed",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "mobile-menu-enter",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0.238239",
+          "expanded": "true",
+          "open": true,
+          "transform": "matrix(1, 0, 0, 1, 222.171, 0)",
+          "transition": "transform 0.32s cubic-bezier(0.22, 1, 0.36, 1)"
+        },
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "mobile-menu-exit",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "1",
+          "expanded": "true",
+          "open": true,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "mobile-menu-closed",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Ouvrir le menu",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "reduced-cart-open",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "0px",
+          "open": true,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "none"
+        },
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": -10,
+        "scrollLocked": true,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "reduced-cart-closed",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "none"
+        },
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "reduced-menu-open-keyboard",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "1",
+          "expanded": "true",
+          "open": true,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "none"
+        },
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "reduced-menu-closed",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Ouvrir le menu",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "none"
+        },
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "live-reduced-cart-exit",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "none"
+        },
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "final-menu-keyboard-focus",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "1",
+          "expanded": "true",
+          "open": true,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "transform 0.32s cubic-bezier(0.22, 1, 0.36, 1)"
+        },
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 41,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    },
+    {
+      "test": "final-menu-touch-focus",
+      "state": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "1",
+          "expanded": "true",
+          "open": true,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "transform 0.32s cubic-bezier(0.22, 1, 0.36, 1)"
+        },
+        "outline": "rgb(0, 0, 0) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 390,
+        "wrapperWidth": 380
+      }
+    }
+  ],
+  "baselineNativeCartDurationMs": 125,
+  "interruptedEntry": {
+    "rendered": "matrix(1, 0, 0, 1, 89.3514, 0)",
+    "captured": "matrix(1, 0, 0, 1, 89.3514, 0)",
+    "entryKeyframes": [
+      {
+        "offset": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "composite": "auto",
+        "transform": "translate(100%)",
+        "computedOffset": 0
+      },
+      {
+        "offset": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "composite": "auto",
+        "transform": "translate(0px)",
+        "computedOffset": 1
+      }
+    ],
+    "exitKeyframes": [
+      {
+        "offset": 0,
+        "easing": "cubic-bezier(0.4, 0, 1, 1)",
+        "composite": "auto",
+        "transform": "matrix(1, 0, 0, 1, 89.3514, 0)",
+        "computedOffset": 0
+      },
+      {
+        "offset": 1,
+        "easing": "cubic-bezier(0.4, 0, 1, 1)",
+        "composite": "auto",
+        "transform": "translate(100%)",
+        "computedOffset": 1
+      }
+    ],
+    "closed": true,
+    "propertiesCleared": true
+  },
+  "queuedReopening": {
+    "reopened": {
+      "open": true,
+      "hostOpen": true,
+      "transform": "none",
+      "staleCloseProperties": ""
+    },
+    "closed": true
+  },
+  "responsive": [
+    {
+      "width": 320,
+      "before": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 320,
+        "wrapperWidth": 310
+      },
+      "opened": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "0px",
+          "open": true,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgba(0, 0, 0, 0) solid 2px",
+        "overflow": -10,
+        "scrollLocked": true,
+        "scrollY": 0,
+        "width": 320,
+        "wrapperWidth": 310
+      },
+      "rect": {
+        "bottom": 844,
+        "height": 844,
+        "left": 0,
+        "right": 310,
+        "top": 0,
+        "width": 310,
+        "x": 0,
+        "y": 0
+      },
+      "closed": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 320,
+        "wrapperWidth": 310
+      }
+    },
+    {
+      "width": 402,
+      "before": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 402,
+        "wrapperWidth": 392
+      },
+      "opened": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "0px",
+          "open": true,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": -10,
+        "scrollLocked": true,
+        "scrollY": 0,
+        "width": 402,
+        "wrapperWidth": 392
+      },
+      "rect": {
+        "bottom": 844,
+        "height": 844,
+        "left": 0,
+        "right": 392,
+        "top": 0,
+        "width": 392,
+        "x": 0,
+        "y": 0
+      },
+      "closed": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 402,
+        "wrapperWidth": 392
+      }
+    },
+    {
+      "width": 1440,
+      "before": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 1440,
+        "wrapperWidth": 1440
+      },
+      "opened": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "0px",
+          "open": true,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(0, 0, 0) solid 2px",
+        "overflow": 0,
+        "scrollLocked": true,
+        "scrollY": 0,
+        "width": 1440,
+        "wrapperWidth": 1440
+      },
+      "rect": {
+        "bottom": 1000,
+        "height": 1000,
+        "left": 960,
+        "right": 1440,
+        "top": 0,
+        "width": 480,
+        "x": 960,
+        "y": 0
+      },
+      "closed": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 1440,
+        "wrapperWidth": 1440
+      }
+    },
+    {
+      "width": 1920,
+      "before": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) none 3px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 1920,
+        "wrapperWidth": 1920
+      },
+      "opened": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "0px",
+          "open": true,
+          "transform": "none"
+        },
+        "focus": "Fermer",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgba(0, 0, 0, 0) solid 2px",
+        "overflow": 0,
+        "scrollLocked": true,
+        "scrollY": 0,
+        "width": 1920,
+        "wrapperWidth": 1920
+      },
+      "rect": {
+        "bottom": 1000,
+        "height": 1000,
+        "left": 1440,
+        "right": 1920,
+        "top": 0,
+        "width": 480,
+        "x": 1440,
+        "y": 0
+      },
+      "closed": {
+        "cart": {
+          "animation": "none",
+          "backdropAnimation": "none",
+          "backdropOpacity": "1",
+          "classes": "theme-drawer__dialog color-custom-drawer",
+          "closeFrom": "",
+          "inset": "-480px",
+          "open": false,
+          "transform": "none"
+        },
+        "focus": "Panier",
+        "menu": {
+          "backdropOpacity": "0",
+          "expanded": "false",
+          "open": false,
+          "transform": "none",
+          "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+        },
+        "outline": "rgb(255, 255, 255) solid 2px",
+        "overflow": 0,
+        "scrollLocked": false,
+        "scrollY": 0,
+        "width": 1920,
+        "wrapperWidth": 1920
+      }
+    }
+  ],
+  "quickAdd": {
+    "before": {
+      "cart": {
+        "animation": "none",
+        "backdropAnimation": "none",
+        "backdropOpacity": "1",
+        "classes": "theme-drawer__dialog color-custom-drawer",
+        "closeFrom": "",
+        "inset": "-480px",
+        "open": false,
+        "transform": "none"
+      },
+      "focus": "Huile Précieuse",
+      "menu": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "open": false,
+        "transform": "none",
+        "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+      },
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "overflow": 0,
+      "scrollLocked": false,
+      "scrollY": 1078,
+      "width": 390,
+      "wrapperWidth": 380
+    },
+    "opened": {
+      "cart": {
+        "animation": "none",
+        "backdropAnimation": "none",
+        "backdropOpacity": "1",
+        "classes": "theme-drawer__dialog color-custom-drawer",
+        "closeFrom": "",
+        "inset": "0px",
+        "open": true,
+        "transform": "none"
+      },
+      "focus": "Fermer",
+      "menu": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "open": false,
+        "transform": "none",
+        "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+      },
+      "outline": "rgba(0, 0, 0, 0) solid 2px",
+      "overflow": -10,
+      "scrollLocked": true,
+      "scrollY": 1078,
+      "width": 390,
+      "wrapperWidth": 380
+    },
+    "cart": {
+      "count": "3",
+      "country": "FR",
+      "dialogOpen": true,
+      "dialogText": "Panier 3 Nombre total d’articles dans le panier: 3 3 Total du panier 215,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Huile Précieuse Prix promotionnel 65,00 € Prix régulier 75,00 € Diminuer la quantité Augmenter la quantité Retirer 65,00 € Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 215,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "",
+        "Produit ajouté au panier.",
+        "",
+        ""
+      ]
+    },
+    "after": {
+      "cart": {
+        "animation": "none",
+        "backdropAnimation": "none",
+        "backdropOpacity": "1",
+        "classes": "theme-drawer__dialog color-custom-drawer",
+        "closeFrom": "",
+        "inset": "-480px",
+        "open": false,
+        "transform": "none"
+      },
+      "focus": "Ajouter Huile Précieuse au panier",
+      "menu": {
+        "backdropOpacity": "0",
+        "expanded": "false",
+        "open": false,
+        "transform": "none",
+        "transition": "transform 0.24s cubic-bezier(0.4, 0, 1, 1)"
+      },
+      "outline": "rgb(0, 0, 0) none 3px",
+      "overflow": 0,
+      "scrollLocked": false,
+      "scrollY": 1078,
+      "width": 390,
+      "wrapperWidth": 380
+    },
+    "restoredCart": {
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "",
+        "Produit ajouté au panier.",
+        "",
+        ""
+      ]
+    }
+  },
+  "cleanup": {
+    "cart": {
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "",
+        "Produit ajouté au panier.",
+        "",
+        ""
+      ]
+    },
+    "drawersClosed": true,
+    "temporaryOverrides": "cleared",
+    "noCartMutationRemaining": true,
+    "published": false,
+    "committed": false,
+    "newOrders": 0
+  },
+  "scope": {
+    "entryMs": 320,
+    "exitMs": 240,
+    "backdropMs": 220,
+    "properties": [
+      "transform",
+      "opacity"
+    ],
+    "newRuntimeDependency": false,
+    "realIPhoneRetest": false,
+    "newPageSpeed": false,
+    "interruptedEntryTest": "native entry animation paused at 80ms via Animation API before closing",
+    "queuedReopenTest": "public native drawer methods invoked during closure"
+  }
+}

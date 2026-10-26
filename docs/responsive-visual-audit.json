@@ -1,0 +1,499 @@
+[
+  {
+    "label": "390",
+    "documentWidth": 390,
+    "ingredientContentTop": -6077.796875,
+    "panelBottom": -6101.796875,
+    "sections": [
+      {
+        "h": 32,
+        "id": "shopify-section-knr-announcement",
+        "w": 390
+      },
+      {
+        "h": 56,
+        "id": "shopify-section-knr-header",
+        "w": 390
+      },
+      {
+        "h": 1556.203125,
+        "id": "shopify-section-knr-product",
+        "w": 390
+      },
+      {
+        "h": 747,
+        "id": "shopify-section-knr-ingredients",
+        "w": 390
+      },
+      {
+        "h": 683.796875,
+        "id": "shopify-section-knr-usage",
+        "w": 390
+      },
+      {
+        "h": 1030,
+        "id": "shopify-section-knr-results",
+        "w": 390
+      },
+      {
+        "h": 646,
+        "id": "shopify-section-knr-faq",
+        "w": 390
+      },
+      {
+        "h": 1280,
+        "id": "shopify-section-knr-reviews",
+        "w": 390
+      },
+      {
+        "h": 738.59375,
+        "id": "shopify-section-knr-news",
+        "w": 390
+      },
+      {
+        "h": 716,
+        "id": "shopify-section-knr-newsletter",
+        "w": 390
+      },
+      {
+        "h": 262.796875,
+        "id": "shopify-section-knr-reassurance",
+        "w": 390
+      },
+      {
+        "h": 817.515625,
+        "id": "shopify-section-knr-footer",
+        "w": 390
+      }
+    ],
+    "viewport": 390,
+    "wrapperScrollWidth": 390,
+    "wrapperWidth": 390
+  },
+  {
+    "label": "320-mobile",
+    "documentWidth": 320,
+    "ingredientContentTop": 1628.203125,
+    "panelBottom": 1604.203125,
+    "sections": [
+      {
+        "h": 32,
+        "id": "shopify-section-knr-announcement",
+        "w": 320
+      },
+      {
+        "h": 56,
+        "id": "shopify-section-knr-header",
+        "w": 320
+      },
+      {
+        "h": 1596.203125,
+        "id": "shopify-section-knr-product",
+        "w": 320
+      },
+      {
+        "h": 795,
+        "id": "shopify-section-knr-ingredients",
+        "w": 320
+      },
+      {
+        "h": 683.796875,
+        "id": "shopify-section-knr-usage",
+        "w": 320
+      },
+      {
+        "h": 1108.6875,
+        "id": "shopify-section-knr-results",
+        "w": 320
+      },
+      {
+        "h": 718,
+        "id": "shopify-section-knr-faq",
+        "w": 320
+      },
+      {
+        "h": 1340,
+        "id": "shopify-section-knr-reviews",
+        "w": 320
+      },
+      {
+        "h": 778.59375,
+        "id": "shopify-section-knr-news",
+        "w": 320
+      },
+      {
+        "h": 748.5,
+        "id": "shopify-section-knr-newsletter",
+        "w": 320
+      },
+      {
+        "h": 262.796875,
+        "id": "shopify-section-knr-reassurance",
+        "w": 320
+      },
+      {
+        "h": 830.1875,
+        "id": "shopify-section-knr-footer",
+        "w": 320
+      }
+    ],
+    "viewport": 320,
+    "wrapperScrollWidth": 320,
+    "wrapperWidth": 320
+  },
+  {
+    "label": "375-mobile",
+    "documentWidth": 375,
+    "ingredientContentTop": 1588.203125,
+    "panelBottom": 1564.203125,
+    "sections": [
+      {
+        "h": 32,
+        "id": "shopify-section-knr-announcement",
+        "w": 375
+      },
+      {
+        "h": 56,
+        "id": "shopify-section-knr-header",
+        "w": 375
+      },
+      {
+        "h": 1556.203125,
+        "id": "shopify-section-knr-product",
+        "w": 375
+      },
+      {
+        "h": 771,
+        "id": "shopify-section-knr-ingredients",
+        "w": 375
+      },
+      {
+        "h": 683.796875,
+        "id": "shopify-section-knr-usage",
+        "w": 375
+      },
+      {
+        "h": 1021.578125,
+        "id": "shopify-section-knr-results",
+        "w": 375
+      },
+      {
+        "h": 646,
+        "id": "shopify-section-knr-faq",
+        "w": 375
+      },
+      {
+        "h": 1280,
+        "id": "shopify-section-knr-reviews",
+        "w": 375
+      },
+      {
+        "h": 738.59375,
+        "id": "shopify-section-knr-news",
+        "w": 375
+      },
+      {
+        "h": 705.8125,
+        "id": "shopify-section-knr-newsletter",
+        "w": 375
+      },
+      {
+        "h": 262.796875,
+        "id": "shopify-section-knr-reassurance",
+        "w": 375
+      },
+      {
+        "h": 815.90625,
+        "id": "shopify-section-knr-footer",
+        "w": 375
+      }
+    ],
+    "viewport": 375,
+    "wrapperScrollWidth": 375,
+    "wrapperWidth": 375
+  },
+  {
+    "label": "768",
+    "documentWidth": 758,
+    "ingredientContentTop": 1485.390625,
+    "panelBottom": 1405.390625,
+    "sections": [
+      {
+        "h": 32,
+        "id": "shopify-section-knr-announcement",
+        "w": 758
+      },
+      {
+        "h": 56,
+        "id": "shopify-section-knr-header",
+        "w": 758
+      },
+      {
+        "h": 1373.390625,
+        "id": "shopify-section-knr-product",
+        "w": 758
+      },
+      {
+        "h": 800,
+        "id": "shopify-section-knr-ingredients",
+        "w": 758
+      },
+      {
+        "h": 672.65625,
+        "id": "shopify-section-knr-usage",
+        "w": 758
+      },
+      {
+        "h": 1147,
+        "id": "shopify-section-knr-results",
+        "w": 758
+      },
+      {
+        "h": 788,
+        "id": "shopify-section-knr-faq",
+        "w": 758
+      },
+      {
+        "h": 1058,
+        "id": "shopify-section-knr-reviews",
+        "w": 758
+      },
+      {
+        "h": 602.296875,
+        "id": "shopify-section-knr-news",
+        "w": 758
+      },
+      {
+        "h": 780,
+        "id": "shopify-section-knr-newsletter",
+        "w": 758
+      },
+      {
+        "h": 298,
+        "id": "shopify-section-knr-reassurance",
+        "w": 758
+      },
+      {
+        "h": 890.34375,
+        "id": "shopify-section-knr-footer",
+        "w": 758
+      }
+    ],
+    "viewport": 768,
+    "wrapperScrollWidth": 758,
+    "wrapperWidth": 758
+  },
+  {
+    "label": "1024",
+    "documentWidth": 1024,
+    "ingredientContentTop": 1417.390625,
+    "panelBottom": 1337.390625,
+    "sections": [
+      {
+        "h": 32,
+        "id": "shopify-section-knr-announcement",
+        "w": 1014
+      },
+      {
+        "h": 56,
+        "id": "shopify-section-knr-header",
+        "w": 1014
+      },
+      {
+        "h": 1305.390625,
+        "id": "shopify-section-knr-product",
+        "w": 1014
+      },
+      {
+        "h": 800,
+        "id": "shopify-section-knr-ingredients",
+        "w": 1014
+      },
+      {
+        "h": 714,
+        "id": "shopify-section-knr-usage",
+        "w": 1014
+      },
+      {
+        "h": 1195,
+        "id": "shopify-section-knr-results",
+        "w": 1014
+      },
+      {
+        "h": 788,
+        "id": "shopify-section-knr-faq",
+        "w": 1014
+      },
+      {
+        "h": 1058,
+        "id": "shopify-section-knr-reviews",
+        "w": 1014
+      },
+      {
+        "h": 590.296875,
+        "id": "shopify-section-knr-news",
+        "w": 1014
+      },
+      {
+        "h": 780,
+        "id": "shopify-section-knr-newsletter",
+        "w": 1014
+      },
+      {
+        "h": 258,
+        "id": "shopify-section-knr-reassurance",
+        "w": 1014
+      },
+      {
+        "h": 668.90625,
+        "id": "shopify-section-knr-footer",
+        "w": 1014
+      }
+    ],
+    "viewport": 1024,
+    "wrapperScrollWidth": 1014,
+    "wrapperWidth": 1014
+  },
+  {
+    "label": "1920",
+    "documentWidth": 1920,
+    "ingredientContentTop": 1661.140625,
+    "panelBottom": 1369.390625,
+    "sections": [
+      {
+        "h": 32,
+        "id": "shopify-section-knr-announcement",
+        "w": 1910
+      },
+      {
+        "h": 56,
+        "id": "shopify-section-knr-header",
+        "w": 1910
+      },
+      {
+        "h": 1549.140625,
+        "id": "shopify-section-knr-product",
+        "w": 1910
+      },
+      {
+        "h": 800,
+        "id": "shopify-section-knr-ingredients",
+        "w": 1910
+      },
+      {
+        "h": 990.65625,
+        "id": "shopify-section-knr-usage",
+        "w": 1910
+      },
+      {
+        "h": 1603,
+        "id": "shopify-section-knr-results",
+        "w": 1910
+      },
+      {
+        "h": 788,
+        "id": "shopify-section-knr-faq",
+        "w": 1910
+      },
+      {
+        "h": 1058,
+        "id": "shopify-section-knr-reviews",
+        "w": 1910
+      },
+      {
+        "h": 716.296875,
+        "id": "shopify-section-knr-news",
+        "w": 1910
+      },
+      {
+        "h": 780,
+        "id": "shopify-section-knr-newsletter",
+        "w": 1910
+      },
+      {
+        "h": 258,
+        "id": "shopify-section-knr-reassurance",
+        "w": 1910
+      },
+      {
+        "h": 761.859375,
+        "id": "shopify-section-knr-footer",
+        "w": 1910
+      }
+    ],
+    "viewport": 1920,
+    "wrapperScrollWidth": 1910,
+    "wrapperWidth": 1910
+  },
+  {
+    "label": "1440-content",
+    "documentWidth": 1450,
+    "ingredientContentTop": 1457.21875,
+    "panelBottom": 1421.390625,
+    "sections": [
+      {
+        "h": 32,
+        "id": "shopify-section-knr-announcement",
+        "w": 1440
+      },
+      {
+        "h": 56,
+        "id": "shopify-section-knr-header",
+        "w": 1440
+      },
+      {
+        "h": 1345.21875,
+        "id": "shopify-section-knr-product",
+        "w": 1440
+      },
+      {
+        "h": 800,
+        "id": "shopify-section-knr-ingredients",
+        "w": 1440
+      },
+      {
+        "h": 834,
+        "id": "shopify-section-knr-usage",
+        "w": 1440
+      },
+      {
+        "h": 1368,
+        "id": "shopify-section-knr-results",
+        "w": 1440
+      },
+      {
+        "h": 788,
+        "id": "shopify-section-knr-faq",
+        "w": 1440
+      },
+      {
+        "h": 1058,
+        "id": "shopify-section-knr-reviews",
+        "w": 1440
+      },
+      {
+        "h": 620.796875,
+        "id": "shopify-section-knr-news",
+        "w": 1440
+      },
+      {
+        "h": 780,
+        "id": "shopify-section-knr-newsletter",
+        "w": 1440
+      },
+      {
+        "h": 258,
+        "id": "shopify-section-knr-reassurance",
+        "w": 1440
+      },
+      {
+        "h": 713.09375,
+        "id": "shopify-section-knr-footer",
+        "w": 1440
+      }
+    ],
+    "viewport": 1450,
+    "wrapperScrollWidth": 1440,
+    "wrapperWidth": 1440
+  }
+]

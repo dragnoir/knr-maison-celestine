@@ -1,0 +1,36 @@
+
+> knr-maison-celestine@1.0.0 check
+> npm run check:js && npm run check:content && npm run check:reassurance && npm run check:format
+
+
+> knr-maison-celestine@1.0.0 check:js
+> node --check theme/assets/knr-components.js && node --check scripts/assemble.mjs && node --check scripts/patch-cart-overlay.mjs
+
+
+> knr-maison-celestine@1.0.0 check:content
+> node scripts/check-content.mjs
+
+12 sections : schémas, blocs, traductions, images et ressources locales cohérents.
+
+> knr-maison-celestine@1.0.0 check:reassurance
+> node --test scripts/test-reassurance.mjs
+
+✔ cycles all four messages with one timer, and stops while offscreen or in a hidden tab (3.2807ms)
+✔ sold-out selection restores the stock slide and prevents misleading rotation or manual selection (1.3326ms)
+✔ focus pauses manual selection until leaving the carousel; reduced motion stops rotation (2.5738ms)
+✔ autoplay setting, initial reduced motion and editor mode prevent timer startup (5.3286ms)
+✔ disconnect and section refresh remove timers/observers and do not duplicate listeners (2.457ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 142.2419
+
+> knr-maison-celestine@1.0.0 check:format
+> prettier --check "theme/**/*.liquid" "theme/assets/*.css" "theme/assets/*.js" "scripts/*.mjs"
+
+Checking formatting...
+All matched files use Prettier code style!

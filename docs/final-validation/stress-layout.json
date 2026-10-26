@@ -1,0 +1,93 @@
+[
+  {
+    "documentWidth": 310,
+    "nextStart": 1468.203125,
+    "noReviews": "Ce produit n’a pas encore d’avis.",
+    "overlap": 0,
+    "panelBottom": 1444.203125,
+    "reviewCards": 0,
+    "testimonials": 0,
+    "titleLength": 104,
+    "titleScrollWidth": 175,
+    "titleWidth": 175.296875,
+    "width": 320
+  },
+  {
+    "documentWidth": 365,
+    "nextStart": 1391.203125,
+    "noReviews": "Ce produit n’a pas encore d’avis.",
+    "overlap": 0,
+    "panelBottom": 1367.203125,
+    "reviewCards": 0,
+    "testimonials": 0,
+    "titleLength": 104,
+    "titleScrollWidth": 230,
+    "titleWidth": 230.296875,
+    "width": 375
+  },
+  {
+    "documentWidth": 380,
+    "nextStart": 1374.203125,
+    "noReviews": "Ce produit n’a pas encore d’avis.",
+    "overlap": 0,
+    "panelBottom": 1350.203125,
+    "reviewCards": 0,
+    "testimonials": 0,
+    "titleLength": 104,
+    "titleScrollWidth": 245,
+    "titleWidth": 245.296875,
+    "width": 390
+  },
+  {
+    "documentWidth": 758,
+    "nextStart": 1413.390625,
+    "noReviews": "Ce produit n’a pas encore d’avis.",
+    "overlap": 0,
+    "panelBottom": 1413.390625,
+    "reviewCards": 0,
+    "testimonials": 0,
+    "titleLength": 104,
+    "titleScrollWidth": 165,
+    "titleWidth": 164.953125,
+    "width": 768
+  },
+  {
+    "documentWidth": 1024,
+    "nextStart": 1567.390625,
+    "noReviews": "Ce produit n’a pas encore d’avis.",
+    "overlap": 0,
+    "panelBottom": 1567.390625,
+    "reviewCards": 0,
+    "testimonials": 0,
+    "titleLength": 104,
+    "titleScrollWidth": 275,
+    "titleWidth": 275.03125,
+    "width": 1024
+  },
+  {
+    "documentWidth": 1440,
+    "nextStart": 1607.390625,
+    "noReviews": "Ce produit n’a pas encore d’avis.",
+    "overlap": 80,
+    "panelBottom": 1687.390625,
+    "reviewCards": 0,
+    "testimonials": 0,
+    "titleLength": 104,
+    "titleScrollWidth": 284,
+    "titleWidth": 283.671875,
+    "width": 1440
+  },
+  {
+    "documentWidth": 1920,
+    "nextStart": 1503.390625,
+    "noReviews": "Ce produit n’a pas encore d’avis.",
+    "overlap": 80,
+    "panelBottom": 1583.390625,
+    "reviewCards": 0,
+    "testimonials": 0,
+    "titleLength": 104,
+    "titleScrollWidth": 444,
+    "titleWidth": 443.671875,
+    "width": 1920
+  }
+]

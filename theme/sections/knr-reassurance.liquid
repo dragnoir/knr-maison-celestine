@@ -1,0 +1,108 @@
+{% comment %}
+  KNR reassurance. Editable content is supplied through section settings or Shopify resources.
+{% endcomment %}
+<knr-scroller>
+  <div
+    class='knr-reassurance__list'
+    data-knr-scroll
+    tabindex='0'
+    role='region'
+    aria-label='{{ 'knr.reassurance' | t }}'
+  >
+    {% for block in section.blocks %}
+      <div class='knr-reassurance__item' {{ block.shopify_attributes }}>
+        <h2>{{ block.settings.heading | escape }}</h2>
+        <div>{{ block.settings.body }}</div>
+      </div>
+    {% endfor %}
+  </div>
+  {% render 'knr-scroll-progress' -%}
+</knr-scroller>
+{% stylesheet %}
+  .knr-reassurance {
+    background: var(--knr-sand);
+    padding: 80px 0;
+  }
+  .knr-reassurance__list {
+    display: flex;
+    gap: 80px;
+    padding-inline: 40px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .knr-reassurance__item {
+    flex: 1;
+    min-width: 0;
+    display: grid;
+    gap: 24px;
+    align-content: start;
+    text-align: center;
+    scroll-snap-align: center;
+  }
+  .knr-reassurance__item h2 {
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+  .knr-reassurance__item > div {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .knr-reassurance__item p {
+    max-width: none;
+    margin: auto;
+  }
+  @media (max-width: 749px) {
+    .knr-reassurance {
+      padding-block: 80px;
+    }
+    .knr-reassurance__list {
+      gap: 0;
+      padding: 0;
+    }
+    .knr-reassurance__item {
+      flex: 0 0 100%;
+      padding-inline: 40px;
+    }
+    .knr-reassurance__item p {
+      max-width: none;
+    }
+    .knr-reassurance__item br {
+      display: none;
+    }
+    .knr-reassurance .knr-scroll-progress {
+      margin-top: 24px;
+    }
+    .knr-reassurance .knr-scroll-progress {
+      width: 88px;
+      background: var(--knr-accent);
+    }
+  }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "t:knr.knr_reassurance",
+  "tag": "section",
+  "class": "knr-section knr-reassurance",
+  "blocks": [
+    {
+      "type": "promise",
+      "name": "t:knr.reassurance_item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:knr.heading"
+        },
+        {
+          "type": "richtext",
+          "id": "body",
+          "label": "t:knr.description"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

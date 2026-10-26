@@ -1,0 +1,330 @@
+{
+  "desktopInitial": {
+    "controller": true,
+    "hiddenTargets": 0,
+    "overflow": false,
+    "productTargets": 0,
+    "targets": 15,
+    "viewport": 1440
+  },
+  "desktopEntry": {
+    "cards": [
+      {
+        "animation": "knr-reveal-in",
+        "delay": "0s",
+        "duration": "0.4s",
+        "opacity": "0.999989",
+        "played": true,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.000129307)"
+      },
+      {
+        "animation": "knr-reveal-in",
+        "delay": "0.06s",
+        "duration": "0.4s",
+        "opacity": "0.998717",
+        "played": true,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0154011)"
+      },
+      {
+        "animation": "knr-reveal-in",
+        "delay": "0.12s",
+        "duration": "0.4s",
+        "opacity": "0.99081",
+        "played": true,
+        "transform": "matrix(1, 0, 0, 1, 0, 0.110276)"
+      }
+    ],
+    "overflow": false
+  },
+  "desktopSettled": {
+    "cards": [
+      {
+        "height": 591,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "height": 591,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "height": 591,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "running": 0
+  },
+  "desktopReentry": {
+    "completed": 6,
+    "running": 0
+  },
+  "mobileInitial": {
+    "animatedProduct": 0,
+    "controller": true,
+    "overflow": false,
+    "scrollY": 0,
+    "targets": [
+      {
+        "class": "knr-ingredients__eyebrow",
+        "top": 1668
+      },
+      {
+        "class": "knr-ingredients__quote",
+        "top": 2059
+      },
+      {
+        "class": "knr-heading",
+        "top": 2375
+      },
+      {
+        "class": "knr-usage__card",
+        "top": 2455
+      },
+      {
+        "class": "knr-usage__card",
+        "top": 2455
+      },
+      {
+        "class": "knr-usage__card",
+        "top": 2455
+      },
+      {
+        "class": "knr-results__intro",
+        "top": 3083
+      },
+      {
+        "class": "",
+        "top": 4089
+      },
+      {
+        "class": "knr-heading",
+        "top": 4735
+      },
+      {
+        "class": "knr-heading knr-news__heading",
+        "top": 5993
+      },
+      {
+        "class": "knr-news__card",
+        "top": 6073
+      },
+      {
+        "class": "knr-news__card",
+        "top": 6073
+      },
+      {
+        "class": "knr-news__card",
+        "top": 6073
+      },
+      {
+        "class": "knr-news__card",
+        "top": 6073
+      },
+      {
+        "class": "",
+        "top": 6988
+      }
+    ],
+    "width": 390
+  },
+  "mobileEntry": {
+    "overflow": false,
+    "scrollY": 1350,
+    "targets": [
+      {
+        "animation": "knr-reveal-in",
+        "class": "knr-ingredients__eyebrow knr-reveal--enter",
+        "delay": "0s",
+        "duration": "0.36s",
+        "opacity": "0"
+      },
+      {
+        "animation": "knr-reveal-in",
+        "class": "knr-ingredients__quote knr-reveal--enter",
+        "delay": "0s",
+        "duration": "0.36s",
+        "opacity": "0"
+      }
+    ]
+  },
+  "liveReduced": {
+    "nonVisible": 0,
+    "running": 2
+  },
+  "reducedAfterScroll": {
+    "allVisible": true,
+    "overflow": false,
+    "running": 0,
+    "scrollY": 1350
+  },
+  "settingOff": {
+    "animated": 0,
+    "controller": false,
+    "heroVisible": "1",
+    "targets": 0
+  },
+  "reducedInitial": {
+    "controller": true,
+    "running": 0,
+    "targets": 0,
+    "afterScroll": {
+      "opacity": "1",
+      "overflow": false,
+      "running": 0,
+      "transform": "none"
+    }
+  },
+  "mobileCards": {
+    "cards": [
+      {
+        "animation": "none",
+        "delay": "0s",
+        "duration": "0s",
+        "revealed": true
+      },
+      {
+        "animation": "none",
+        "delay": "0s",
+        "duration": "0s",
+        "revealed": true
+      },
+      {
+        "animation": "knr-reveal-in",
+        "delay": "0s",
+        "duration": "0.36s",
+        "revealed": true
+      }
+    ],
+    "left": 396,
+    "overflow": false
+  },
+  "keyboard": {
+    "active": "/blogs/journal/12-ingredients-actifs-selectionnes",
+    "card": "knr-news__card",
+    "focusVisible": true,
+    "opacity": "1",
+    "transform": "none"
+  },
+  "noJavaScript": {
+    "controllerPresent": true,
+    "form": true,
+    "newsVisible": "1",
+    "overflow": false,
+    "targets": 0,
+    "usageVisible": "1"
+  },
+  "narrow": [
+    {
+      "overflow": false,
+      "productTargets": 0,
+      "unavailableContent": 0,
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "productTargets": 0,
+      "unavailableContent": 0,
+      "width": 375
+    }
+  ],
+  "editor": {
+    "productPreviewLoaded": true,
+    "settingSavedEnabled": true,
+    "motionDisabledByLiquidDesignMode": true,
+    "iframeDomInspection": "unavailable: nested preview frame inspection timed out"
+  },
+  "console": [
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:10:57.186Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch\n    at fetch (event-observer-collector.js:2:837)\n    at https://maison-celestine-knr-test.myshopify.com/cdn/wpm/b49d3b31aw169a7c20pfc9cb2c9m68241e55m.js:1:82940\n    at https://maison-celestine-knr-test.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js:1:7379\n    at b.exportTo (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6141)\n    at b.exportBatches (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6966)\n    at b.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:5353)\n    at M.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:8005)\n    at https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2160\n    at he.exportByKeepalive (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:4231)\n    at he.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2119)",
+      "timestamp": "2026-10-23T15:11:07.321Z",
+      "url": "event-observer-collector.js"
+    },
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:11:07.632Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch\n    at fetch (event-observer-collector.js:2:837)\n    at https://maison-celestine-knr-test.myshopify.com/cdn/wpm/b49d3b31aw169a7c20pfc9cb2c9m68241e55m.js:1:82940\n    at https://maison-celestine-knr-test.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js:1:7379\n    at b.exportTo (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6141)\n    at b.exportBatches (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6966)\n    at b.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:5353)\n    at M.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:8005)\n    at https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2160\n    at he.exportByKeepalive (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:4231)\n    at he.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2119)",
+      "timestamp": "2026-10-23T15:11:34.710Z",
+      "url": "event-observer-collector.js"
+    },
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:11:35.002Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch\n    at fetch (event-observer-collector.js:2:837)\n    at https://maison-celestine-knr-test.myshopify.com/cdn/wpm/b49d3b31aw169a7c20pfc9cb2c9m68241e55m.js:1:82940\n    at https://maison-celestine-knr-test.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js:1:7379\n    at b.exportTo (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6141)\n    at b.exportBatches (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6966)\n    at b.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:5353)\n    at M.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:8005)\n    at https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2160\n    at he.exportByKeepalive (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:4231)\n    at he.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2119)",
+      "timestamp": "2026-10-23T15:12:20.890Z",
+      "url": "event-observer-collector.js"
+    },
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:12:21.150Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch\n    at fetch (event-observer-collector.js:2:837)\n    at https://maison-celestine-knr-test.myshopify.com/cdn/wpm/b49d3b31aw169a7c20pfc9cb2c9m68241e55m.js:1:82940\n    at https://maison-celestine-knr-test.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js:1:7379\n    at b.exportTo (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6141)\n    at b.exportBatches (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6966)\n    at b.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:5353)\n    at M.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:8005)\n    at https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2160\n    at he.exportByKeepalive (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:4231)\n    at he.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2119)",
+      "timestamp": "2026-10-23T15:12:36.766Z",
+      "url": "event-observer-collector.js"
+    },
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:12:36.999Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch\n    at fetch (event-observer-collector.js:2:837)\n    at https://maison-celestine-knr-test.myshopify.com/cdn/wpm/b49d3b31aw169a7c20pfc9cb2c9m68241e55m.js:1:82940\n    at https://maison-celestine-knr-test.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js:1:7379\n    at b.exportTo (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6141)\n    at b.exportBatches (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6966)\n    at b.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:5353)\n    at M.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:8005)\n    at https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2160\n    at he.exportByKeepalive (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:4231)\n    at he.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2119)",
+      "timestamp": "2026-10-23T15:13:56.847Z",
+      "url": "event-observer-collector.js"
+    },
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:13:57.190Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch\n    at fetch (event-observer-collector.js:2:837)\n    at https://maison-celestine-knr-test.myshopify.com/cdn/wpm/b49d3b31aw169a7c20pfc9cb2c9m68241e55m.js:1:82940\n    at https://maison-celestine-knr-test.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js:1:7379\n    at b.exportTo (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6141)\n    at b.exportBatches (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6966)\n    at b.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:5353)\n    at M.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:8005)\n    at https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2160\n    at he.exportByKeepalive (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:4231)\n    at he.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2119)",
+      "timestamp": "2026-10-23T15:13:57.936Z",
+      "url": "event-observer-collector.js"
+    },
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:13:58.136Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch\n    at fetch (event-observer-collector.js:2:837)\n    at https://maison-celestine-knr-test.myshopify.com/cdn/wpm/b49d3b31aw169a7c20pfc9cb2c9m68241e55m.js:1:82940\n    at https://maison-celestine-knr-test.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js:1:7379\n    at b.exportTo (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6141)\n    at b.exportBatches (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:6966)\n    at b.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:5353)\n    at M.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:8005)\n    at https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2160\n    at he.exportByKeepalive (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:4231)\n    at he.exportMetrics (https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_K8y2k-BJ.esm.js:1:2119)",
+      "timestamp": "2026-10-23T15:14:22.154Z",
+      "url": "event-observer-collector.js"
+    },
+    {
+      "level": "error",
+      "message": "[bugsnag] Session failed to send… Error: Request failed with status 0\n    at Q.onreadystatechange (https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js:25:2743)",
+      "timestamp": "2026-10-23T15:14:22.540Z",
+      "url": "https://cdn.shopify.com/shopifycloud/preview-bar/vendor-DS1bqi2U1wPA.js"
+    }
+  ]
+}

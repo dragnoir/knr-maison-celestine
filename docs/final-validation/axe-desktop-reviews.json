@@ -1,0 +1,576 @@
+{
+  "incomplete": [
+    {
+      "description": "Ensure <iframe> and <frame> elements contain the axe-core script",
+      "help": "Frames should be tested with axe-core",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-tested?application=axeAPI",
+      "id": "frame-tested",
+      "impact": "critical",
+      "nodes": [
+        {
+          "all": [
+            {
+              "data": null,
+              "id": "frame-tested",
+              "impact": "critical",
+              "message": "The iframe still has to be tested with axe-core",
+              "relatedNodes": []
+            }
+          ],
+          "any": [],
+          "failureSummary": "Fix all of the following:\n  The iframe still has to be tested with axe-core",
+          "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify....\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "#PBarNextFrame"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.structure",
+        "best-practice",
+        "review-item"
+      ]
+    },
+    {
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "help": "Links must be distinguishable without relying on color",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI",
+      "id": "link-in-text-block",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "messageKey": "bgOverlap"
+              },
+              "id": "link-in-text-block",
+              "impact": "serious",
+              "message": "Element's contrast ratio could not be determined because of element overlap",
+              "relatedNodes": [
+                {
+                  "html": "<nav class=\"knr-product__breadcrumb\" aria-label=\"Fil d’Ariane\">\n      <a href=\"/collections/collection-cactus\">Collection Cactus</a><span aria-hidden=\"true\"> / </span><span aria-current=\"page\">Sérum Précieux Régénérant</span>\n    </nav>",
+                  "target": [
+                    ".knr-product__breadcrumb"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's contrast ratio could not be determined because of element overlap",
+          "html": "<a href=\"/collections/collection-cactus\">Collection Cactus</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__breadcrumb > a[href$=\"collection-cactus\"]"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.color",
+        "wcag2a",
+        "wcag141",
+        "TTv5",
+        "TT13.a",
+        "EN-301-549",
+        "EN-9.1.4.1",
+        "RGAAv4",
+        "RGAA-10.6.1"
+      ]
+    }
+  ],
+  "passes": [
+    "aria-allowed-attr",
+    "aria-allowed-role",
+    "aria-conditional-attr",
+    "aria-deprecated-role",
+    "aria-hidden-body",
+    "aria-hidden-focus",
+    "aria-prohibited-attr",
+    "aria-required-attr",
+    "aria-roles",
+    "aria-valid-attr-value",
+    "aria-valid-attr",
+    "autocomplete-valid",
+    "avoid-inline-spacing",
+    "button-name",
+    "bypass",
+    "color-contrast",
+    "document-title",
+    "duplicate-id-aria",
+    "empty-heading",
+    "form-field-multiple-labels",
+    "heading-order",
+    "html-has-lang",
+    "html-lang-valid",
+    "image-alt",
+    "image-redundant-alt",
+    "label-title-only",
+    "label",
+    "landmark-banner-is-top-level",
+    "landmark-contentinfo-is-top-level",
+    "landmark-main-is-top-level",
+    "landmark-no-duplicate-banner",
+    "landmark-no-duplicate-contentinfo",
+    "landmark-no-duplicate-main",
+    "landmark-one-main",
+    "landmark-unique",
+    "link-name",
+    "meta-viewport-large",
+    "meta-viewport",
+    "nested-interactive",
+    "page-has-heading-one",
+    "presentation-role-conflict",
+    "region",
+    "role-img-alt",
+    "scrollable-region-focusable",
+    "select-name",
+    "skip-link",
+    "summary-name",
+    "tabindex"
+  ],
+  "scrollY": 0,
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.14.0"
+  },
+  "testEnvironment": {
+    "orientationAngle": 0,
+    "orientationType": "landscape-primary",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "windowHeight": 1000,
+    "windowWidth": 1440
+  },
+  "timestamp": "2026-10-23T09:49:57.615Z",
+  "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum#knr-reviews",
+  "violations": [
+    {
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#f9f8f5",
+                "contrastRatio": 1.06,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#ffffff",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__hero\">",
+                  "target": [
+                    ".knr-product__hero"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/collections/collection-cactus\">Produits</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-header__nav > a[href$=\"collection-cactus\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#f9f8f5",
+                "contrastRatio": 1.06,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#ffffff",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__hero\">",
+                  "target": [
+                    ".knr-product__hero"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/pages/le-rituel#choisir\">Diagnostic</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-header__nav > a[href$=\"le-rituel#choisir\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#f9f8f5",
+                "contrastRatio": 1.06,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#ffffff",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__hero\">",
+                  "target": [
+                    ".knr-product__hero"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/pages/nos-engagements\">La marque</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-header__nav > a[href$=\"nos-engagements\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#f9f8f5",
+                "contrastRatio": 1.06,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#ffffff",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__hero\">",
+                  "target": [
+                    ".knr-product__hero"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.06 (foreground color: #ffffff, background color: #f9f8f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/blogs/journal\">Journal</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-header__nav > a[href$=\"journal\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/collections/collection-cactus\">Collection Cactus</a>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__breadcrumb > a[href$=\"collection-cactus\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span aria-current=\"page\">Sérum Précieux Régénérant</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "span[aria-current=\"page\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.47,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#e2d3bb",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span>4.7</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__rating > span:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.47,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#e2d3bb",
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.47 (foreground color: #e2d3bb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span>6 avis</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__rating > span:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.6,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#cccccc",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.6 (foreground color: #cccccc, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.6 (foreground color: #cccccc, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<s class=\"knr-price__compare\" data-knr-compare=\"\">85,00 €</s>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__desktop-price > .knr-price[data-knr-price=\"\"] > s"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.48,
+                "expectedContrastRatio": "4.5:1",
+                "fgColor": "#b5a282",
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"knr-product__panel\">",
+                  "target": [
+                    ".knr-product__panel"
+                  ]
+                }
+              ]
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #b5a282, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"knr-price__unit\" data-knr-unit=\"\">500,00 € / 100 ml</span>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            ".knr-product__desktop-price > .knr-price[data-knr-price=\"\"] > .knr-price__unit[data-knr-unit=\"\"]"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ]
+    },
+    {
+      "description": "Ensure <iframe> and <frame> elements have an accessible name",
+      "help": "Frames must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axeAPI",
+      "id": "frame-title",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "presentational-role",
+              "impact": "serious",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+          "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify....\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "#PBarNextFrame"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.i",
+        "TTv5",
+        "TT12.d",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-2.1.1"
+      ]
+    }
+  ]
+}

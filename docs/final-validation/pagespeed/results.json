@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-23",
+  "method": "Google PageSpeed Insights UI, Lighthouse 13.5.0, preview theme with pb=0; screenshots verified to show the custom product page. Values transcribed from visible reports and their score calculator links, not a raw Lighthouse JSON export.",
+  "themeId": 189290447076,
+  "themeRole": "unpublished",
+  "storePasswordChanged": false,
+  "runs": [
+    {
+      "run": 1,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/8s0rbt66jf?form_factor=mobile",
+      "scores": {
+        "Performance": 93,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 2014.0,
+        "LCP": 2851.0,
+        "TBT": 62.0,
+        "CLS": 0.0,
+        "SI": 3327.0
+      }
+    },
+    {
+      "run": 1,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/8s0rbt66jf?form_factor=desktop",
+      "scores": {
+        "Performance": 97,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 534.0,
+        "LCP": 997.0,
+        "TBT": 103.0,
+        "CLS": 0.0,
+        "SI": 1157.0
+      }
+    },
+    {
+      "run": 2,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/s5megzo5q4?form_factor=mobile",
+      "scores": {
+        "Performance": 92,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 1991.0,
+        "LCP": 3151.0,
+        "TBT": 51.0,
+        "CLS": 0.0,
+        "SI": 2523.0
+      }
+    },
+    {
+      "run": 2,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/s5megzo5q4?form_factor=desktop",
+      "scores": {
+        "Performance": 99,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 536.0,
+        "LCP": 901.0,
+        "TBT": 82.0,
+        "CLS": 0.0,
+        "SI": 798.0
+      }
+    },
+    {
+      "run": 3,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/3iua9h8gf9?form_factor=mobile",
+      "scores": {
+        "Performance": 86,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 2274.0,
+        "LCP": 3451.0,
+        "TBT": 164.0,
+        "CLS": 0.0,
+        "SI": 2529.0
+      }
+    },
+    {
+      "run": 3,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/3iua9h8gf9?form_factor=desktop",
+      "scores": {
+        "Performance": 99,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 532.0,
+        "LCP": 961.0,
+        "TBT": 56.0,
+        "CLS": 0.0,
+        "SI": 935.0
+      }
+    }
+  ],
+  "medians": {
+    "mobile": {
+      "scores": {
+        "Performance": 92,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 2014.0,
+        "LCP": 3151.0,
+        "TBT": 62.0,
+        "CLS": 0.0,
+        "SI": 2529.0
+      }
+    },
+    "desktop": {
+      "scores": {
+        "Performance": 99,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 534.0,
+        "LCP": 961.0,
+        "TBT": 82.0,
+        "CLS": 0.0,
+        "SI": 935.0
+      }
+    }
+  },
+  "cacheNote": "Initial duplicate reports had identical timing data and were excluded. Runs 2 and 3 use inert knr_audit query parameters to obtain fresh reports.",
+  "fieldData": "No CrUX data; no field Core Web Vitals or INP claim.",
+  "remaining": [
+    "Figma text contrast",
+    "Shopify telemetry/pixel/Shop.app preview-domain errors",
+    "Preview noindex,nofollow",
+    "Mobile median LCP 3151 ms; remaining render-blocking native theme CSS"
+  ],
+  "fixes": [
+    "Related image and plus now use one shared link",
+    "Mobile rating filter targets are 24px high; group grows 18px"
+  ]
+}

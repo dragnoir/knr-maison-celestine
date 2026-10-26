@@ -1,0 +1,28 @@
+[
+  {
+    "path": "snippets/bento-grid.liquid",
+    "offenses": [
+      {
+        "check": "UnclosedHTMLElement",
+        "severity": "warning",
+        "start_row": 41,
+        "start_column": 4,
+        "end_row": 44,
+        "end_column": 5,
+        "message": "Opening tag does not have a matching closing tag for condition `forloop['first'] or item_modulo == 1` in LiquidBranch 'LiquidBranch'"
+      },
+      {
+        "check": "UnclosedHTMLElement",
+        "severity": "warning",
+        "start_row": 52,
+        "start_column": 4,
+        "end_row": 52,
+        "end_column": 10,
+        "message": "Closing tag does not have a matching opening tag for condition `forloop['last'] or item_modulo == 0` in LiquidBranch 'LiquidBranch'"
+      }
+    ],
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0
+  }
+]

@@ -1,0 +1,18 @@
+{% doc %}
+  Outputs an original Figma SVG asset as a decorative image.
+
+  @param {string} name - Asset name without its .svg extension.
+  @param {number} [width] - Rendered width, matching the Figma asset.
+  @param {number} [height] - Rendered height, matching the Figma asset.
+{% enddoc %}
+{% assign icon_asset = name | append: '.svg' %}
+<img
+  src='{{ icon_asset | asset_url }}'
+  width='{{ width | default: 16 }}'
+  height='{{ height | default: 16 }}'
+  style='--knr-icon-width: {{ width | default: 16 }}px; --knr-icon-height: {{ height | default: 16 }}px'
+  alt=''
+  aria-hidden='true'
+  class='knr-icon'
+  loading='lazy'
+>

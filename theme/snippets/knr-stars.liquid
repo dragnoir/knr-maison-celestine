@@ -1,0 +1,15 @@
+{% doc %}
+  Decorative rating row rounded to the nearest star; the caller supplies its exact accessible rating.
+
+  @param {number} rating - Rating on a five-point scale.
+{% enddoc %}
+{% assign filled_stars = rating | default: 0 | round | at_least: 0 | at_most: 5 %}
+<span class='knr-stars' aria-hidden='true'>
+  {%- for i in (1..5) -%}
+    {%- if i <= filled_stars -%}
+      {%- render 'knr-icon', name: 'knr-desktop-star-icon', width: 12, height: 12 -%}
+    {%- else -%}
+      {%- render 'knr-icon', name: 'knr-desktop-star-icon1', width: 12, height: 12 -%}
+    {%- endif -%}
+  {%- endfor -%}
+</span>

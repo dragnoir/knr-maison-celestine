@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-25",
+  "theme": 189290447076,
+  "role": "unpublished",
+  "figma": {
+    "desktop": "720:1315",
+    "mobile": "653:1667"
+  },
+  "checks": [
+    {
+      "label": "desktop-1440",
+      "applyVisible": false,
+      "bottom": {
+        "gap": "16px",
+        "height": 100,
+        "padding": "40px"
+      },
+      "country": "FR",
+      "overflow": 0,
+      "social": [
+        {
+          "height": 20,
+          "href": "https://www.facebook.com/",
+          "image": "",
+          "label": "Facebook",
+          "loaded": false,
+          "width": 20,
+          "x": 1262,
+          "y": 8525.03125
+        },
+        {
+          "height": 20,
+          "href": "https://www.instagram.com/",
+          "image": "",
+          "label": "Instagram",
+          "loaded": false,
+          "width": 20,
+          "x": 1298,
+          "y": 8525.03125
+        },
+        {
+          "height": 20,
+          "href": "https://www.tiktok.com/",
+          "image": "",
+          "label": "TikTok",
+          "loaded": false,
+          "width": 20,
+          "x": 1334,
+          "y": 8525.03125
+        },
+        {
+          "height": 20,
+          "href": "https://www.linkedin.com/",
+          "image": "",
+          "label": "LinkedIn",
+          "loaded": false,
+          "width": 20,
+          "x": 1370,
+          "y": 8525.03125
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "label": "desktop-1440-visible",
+      "applyVisible": false,
+      "bottom": {
+        "gap": "16px",
+        "height": 100,
+        "padding": "40px"
+      },
+      "country": "FR",
+      "overflow": 0,
+      "social": [
+        {
+          "height": 20,
+          "href": "https://www.facebook.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-facebook-link.svg?v=44932350116599549271792702764",
+          "label": "Facebook",
+          "loaded": true,
+          "width": 20,
+          "x": 1262,
+          "y": 940.234375
+        },
+        {
+          "height": 20,
+          "href": "https://www.instagram.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-instagram-link.svg?v=93062917518356435461792702764",
+          "label": "Instagram",
+          "loaded": true,
+          "width": 20,
+          "x": 1298,
+          "y": 940.234375
+        },
+        {
+          "height": 20,
+          "href": "https://www.tiktok.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-tik-tok-link.svg?v=65566170606601747311792702764",
+          "label": "TikTok",
+          "loaded": true,
+          "width": 20,
+          "x": 1334,
+          "y": 940.234375
+        },
+        {
+          "height": 20,
+          "href": "https://www.linkedin.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-linked-in-link.svg?v=60934103608503503191792702764",
+          "label": "LinkedIn",
+          "loaded": true,
+          "width": 20,
+          "x": 1370,
+          "y": 940.234375
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "label": "country-auto-submit-US",
+      "selected": "US",
+      "returnedToProduct": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?pb=0&view=knr-serum",
+      "buttonVisible": false
+    },
+    {
+      "label": "desktop-final",
+      "applyVisible": false,
+      "bottom": {
+        "gap": "16px",
+        "height": 100,
+        "padding": "40px"
+      },
+      "country": "FR",
+      "overflow": 0,
+      "social": [
+        {
+          "height": 20,
+          "href": "https://www.facebook.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-facebook-link.svg?v=44932350116599549271792702764",
+          "label": "Facebook",
+          "loaded": true,
+          "width": 20,
+          "x": 1262,
+          "y": 940.234375
+        },
+        {
+          "height": 20,
+          "href": "https://www.instagram.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-instagram-link.svg?v=93062917518356435461792702764",
+          "label": "Instagram",
+          "loaded": true,
+          "width": 20,
+          "x": 1298,
+          "y": 940.234375
+        },
+        {
+          "height": 20,
+          "href": "https://www.tiktok.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-tik-tok-link.svg?v=65566170606601747311792702764",
+          "label": "TikTok",
+          "loaded": true,
+          "width": 20,
+          "x": 1334,
+          "y": 940.234375
+        },
+        {
+          "height": 20,
+          "href": "https://www.linkedin.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-linked-in-link.svg?v=60934103608503503191792702764",
+          "label": "LinkedIn",
+          "loaded": true,
+          "width": 20,
+          "x": 1370,
+          "y": 940.234375
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "label": "mobile-390",
+      "applyVisible": false,
+      "bottom": {
+        "gap": "16px",
+        "height": 164,
+        "padding": "40px"
+      },
+      "country": "FR",
+      "overflow": 0,
+      "social": [
+        {
+          "height": 20,
+          "href": "https://www.facebook.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-facebook-link.svg?v=44932350116599549271792702764",
+          "label": "Facebook",
+          "loaded": true,
+          "width": 20,
+          "x": 126,
+          "y": 784.4375
+        },
+        {
+          "height": 20,
+          "href": "https://www.instagram.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-instagram-link.svg?v=93062917518356435461792702764",
+          "label": "Instagram",
+          "loaded": true,
+          "width": 20,
+          "x": 162,
+          "y": 784.4375
+        },
+        {
+          "height": 20,
+          "href": "https://www.tiktok.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-tik-tok-link.svg?v=65566170606601747311792702764",
+          "label": "TikTok",
+          "loaded": true,
+          "width": 20,
+          "x": 198,
+          "y": 784.4375
+        },
+        {
+          "height": 20,
+          "href": "https://www.linkedin.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-linked-in-link.svg?v=60934103608503503191792702764",
+          "label": "LinkedIn",
+          "loaded": true,
+          "width": 20,
+          "x": 234,
+          "y": 784.4375
+        }
+      ],
+      "width": 390
+    },
+    {
+      "label": "narrow-320",
+      "applyVisible": false,
+      "bottom": {
+        "gap": "16px",
+        "height": 180,
+        "padding": "40px"
+      },
+      "country": "FR",
+      "overflow": 0,
+      "social": [
+        {
+          "height": 20,
+          "href": "https://www.facebook.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-facebook-link.svg?v=44932350116599549271792702764",
+          "label": "Facebook",
+          "loaded": true,
+          "width": 20,
+          "x": 91,
+          "y": 740.390625
+        },
+        {
+          "height": 20,
+          "href": "https://www.instagram.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-instagram-link.svg?v=93062917518356435461792702764",
+          "label": "Instagram",
+          "loaded": true,
+          "width": 20,
+          "x": 127,
+          "y": 740.390625
+        },
+        {
+          "height": 20,
+          "href": "https://www.tiktok.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-tik-tok-link.svg?v=65566170606601747311792702764",
+          "label": "TikTok",
+          "loaded": true,
+          "width": 20,
+          "x": 163,
+          "y": 740.390625
+        },
+        {
+          "height": 20,
+          "href": "https://www.linkedin.com/",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/t/2/assets/knr-desktop-linked-in-link.svg?v=60934103608503503191792702764",
+          "label": "LinkedIn",
+          "loaded": true,
+          "width": 20,
+          "x": 199,
+          "y": 740.390625
+        }
+      ],
+      "width": 320
+    },
+    {
+      "label": "country-selection-persistence",
+      "tested": "FR to US, reload persisted US; restored FR through selection alone",
+      "returnView": "knr-serum",
+      "language": "fr"
+    },
+    {
+      "label": "keyboard",
+      "social": "Instagram retains visible outline via Tab",
+      "language": "Visible warm inset underline; no black box"
+    },
+    {
+      "label": "javascript-disabled-fallback",
+      "action": "/localization",
+      "fields": [
+        {
+          "name": "country_code",
+          "value": "FR"
+        },
+        {
+          "name": "language_code",
+          "value": "fr"
+        }
+      ],
+      "hintHidden": true,
+      "submitVisible": true
+    }
+  ],
+  "published": false,
+  "committed": false
+}

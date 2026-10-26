@@ -1,0 +1,292 @@
+Browser tab: 732698430, Title: "PageSpeed Insights", URL: "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/e238gsvu75?form_factor=mobile".
+0 AXWebArea PageSpeed Insights, URL: pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/e238gsvu75?form_factor=mobile
+	1 container yDmH0d
+		2 container kO001e
+			3 link Description: PageSpeed Insights logo PageSpeed Insights, Value: pagespeed.web.dev/
+			41 button Copy Link
+				42 image
+				43 text Copy Link
+			4 container
+				5 link Description: Docs, Value: developers.google.com/speed/docs/insights/v5/about
+		44 container
+			45 container
+				46 text Report from  Oct 23, 2026, 7:32:08 PM
+				47 text field (settable) ID: c3, Value: https://7den3zgw47juxmn5-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&knr_motion_ab=on-1-1792780326055
+				48 button Analyze
+					49 text Analyze
+				50 tab group
+					51 tab (selected, settable, boolean) Mobile, Value: 1, ID: mobile_tab
+					52 tab (selectable, settable, boolean) Desktop, Value: 0, ID: desktop_tab
+				53 container Mobile
+					54 text Discover what your real users are experiencing
+					55 button button
+					56 text No Data
+					58 text Diagnose performance issues
+					59 container
+						60 container
+							61 link Description: 90 Performance, Value: pagespeed.web.dev/#performance
+							62 link Description: 96 Accessibility, Value: pagespeed.web.dev/#accessibility
+							63 link Description: 92 Best Practices, Value: pagespeed.web.dev/#best-practices
+							64 link Description: 69 SEO, Value: pagespeed.web.dev/#seo
+							65 link Description: 4/5 Agentic Browsing, Value: pagespeed.web.dev/#agentic-browsing
+						66 container performance
+							67 image
+								68 text 90
+								69 text FCP
+								70 text +9
+								71 text LCP
+								72 text +17
+								73 text TBT
+								74 text +30
+								75 text CLS
+								76 text +25
+								77 text SI
+								78 text +10
+								79 text Performance
+							80 container
+								81 text Values are estimated and may vary. The 
+								82 link Description: performance score is calculated, Value: developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+								83 text  directly from these metrics.
+								84 link Description: See calculator., Value: googlechrome.github.io/lighthouse/scorecalc/#FCP=1982&LCP=3301&TBT=41&CLS=0&SI=2552&TTI=5347&device=mobile&version=13.5.0
+							85 text 0–49 50–89 90–100
+							86 image Final Screenshot
+							87 container
+								88 checkbox (settable, integer) Description: Toggle the display of metric descriptions, Value: 0, ID: lh-metrics-toggle0
+								89 text METRICS Expand view
+								90 container first-contentful-paint
+									91 text First Contentful Paint
+									92 text 2.0 s
+								93 container largest-contentful-paint
+									94 text Largest Contentful Paint
+									95 text 3.3 s
+								96 container total-blocking-time
+									97 text Total Blocking Time
+									98 text 40 ms
+								99 container cumulative-layout-shift
+									100 text Cumulative Layout Shift
+									101 text 0
+								102 container speed-index
+									103 text Speed Index
+									104 text 2.6 s
+								105 content list
+									106 text Captured at Oct 23, 2026, 7:32 PM GMT+1
+									107 text Emulated Moto G Power with Lighthouse 13.5.0
+									108 text Single page session
+									109 text Initial page load
+									110 text Slow 4G throttling
+									111 text Using HeadlessChromium 153.0.8010.36 with lr
+								112 button View Treemap
+							113 container screenshot-thumbnails
+								114 image Screenshot
+								115 image Screenshot
+								116 image Screenshot
+								117 image Screenshot
+								118 image Screenshot
+								119 image Screenshot
+								120 image Screenshot
+								121 image Screenshot
+							122 text Show audits relevant to:
+							123 radio button (settable, integer) Description: All, Value: 1, ID: metric-All-4
+							124 radio button (settable, integer) Description: FCP, Value: 0, ID: metric-FCP-4
+							125 container First Contentful Paint
+								126 text FCP
+							127 radio button (settable, integer) Description: LCP, Value: 0, ID: metric-LCP-4
+							128 container Largest Contentful Paint
+								129 text LCP
+							130 radio button (settable, integer) Description: TBT, Value: 0, ID: metric-TBT-4
+							131 container Total Blocking Time
+								132 text TBT
+							133 container
+								134 text INSIGHTS
+								135 button (collapsed) Render-blocking requests —Est savings of 350 ms, Secondary Actions: Expand
+									136 text Render-blocking requests
+									137 text —
+									138 text Est savings of 350 ms
+								139 button (collapsed) Forced reflow, Secondary Actions: Expand
+									140 text Forced reflow
+								141 button (collapsed) Network dependency tree, Secondary Actions: Expand
+									142 text Network dependency tree
+								143 button (collapsed) Use efficient cache lifetimes —Est savings of 5 KiB, Secondary Actions: Expand
+									144 text Use efficient cache lifetimes
+									145 text —
+									146 text Est savings of 5 KiB
+								147 button (collapsed) LCP breakdown, Secondary Actions: Expand
+									148 text LCP breakdown
+								149 button (collapsed) 3rd parties, Secondary Actions: Expand
+									150 text 3rd parties
+								151 text These insights are also available in the Chrome DevTools Performance Panel - 
+								152 link Description: record a trace, Value: developer.chrome.com/docs/devtools/performance/reference?utm_source=lighthouse&utm_medium=lr
+								153 text  to view more detailed information.
+							154 container
+								155 text DIAGNOSTICS
+								156 button (collapsed) Reduce unused CSS —Est savings of 51 KiB, Secondary Actions: Expand
+									157 text Reduce unused CSS
+									158 text —
+									159 text Est savings of 51 KiB
+								160 button (collapsed) Reduce unused JavaScript —Est savings of 37 KiB, Secondary Actions: Expand
+									161 text Reduce unused JavaScript
+									162 text —
+									163 text Est savings of 37 KiB
+								164 button (collapsed) Avoid long main-thread tasks —3 long tasks found, Secondary Actions: Expand
+									165 text Avoid long main-thread tasks
+									166 text —
+									167 text 3 long tasks found
+								168 button (collapsed) User Timing marks and measures —11 user timings, Secondary Actions: Expand
+									169 text User Timing marks and measures
+									170 text —
+									171 text 11 user timings
+								172 text More information about the performance of your application. These numbers don't 
+								173 link Description: directly affect, Value: developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr
+								174 text  the Performance score.
+							175 button (collapsed) PASSED AUDITS (17) Show, Secondary Actions: Expand
+								176 container
+									177 text PASSED AUDITS (17)
+								178 text Show
+						179 container accessibility
+							180 heading 96 Accessibility, Value: 2
+								181 container
+									182 image
+									183 text 96 Accessibility
+							184 container
+								185 text These checks highlight opportunities to 
+								186 link Description: improve the accessibility of your web app, Value: developer.chrome.com/docs/lighthouse/accessibility/?utm_source=lighthouse&utm_medium=lr
+								187 text . Automatic detection can only detect a subset of issues and does not guarantee the accessibility of your web app, so 
+								188 link Description: manual testing, Value: web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+								189 text  is also encouraged.
+							190 container
+								191 text CONTRAST
+								192 button (collapsed) Background and foreground colors do not have a sufficient contrast ratio., Secondary Actions: Expand
+									193 text Background and foreground colors do not have a sufficient contrast ratio.
+								194 text These are opportunities to improve the legibility of your content.
+							195 container
+								196 button (collapsed) ADDITIONAL ITEMS TO MANUALLY CHECK (10) Show, Secondary Actions: Expand
+									197 container
+										198 text ADDITIONAL ITEMS TO MANUALLY CHECK (10)
+									199 text Show
+								200 text These items address areas which an automated testing tool cannot cover. Learn more in our guide on 
+								201 link Description: conducting an accessibility review, Value: web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr
+								202 text .
+							203 button (collapsed) PASSED AUDITS (26) Show, Secondary Actions: Expand
+								204 container
+									205 text PASSED AUDITS (26)
+								206 text Show
+							207 button (collapsed) NOT APPLICABLE (36) Show, Secondary Actions: Expand
+								208 container
+									209 text NOT APPLICABLE (36)
+								210 text Show
+						211 container best-practices
+							212 heading 92 Best Practices, Value: 2
+								213 container
+									214 image
+									215 text 92 Best Practices
+							216 container
+								217 text GENERAL
+								218 button (collapsed) Browser errors were logged to the console, Secondary Actions: Expand
+									219 text Browser errors were logged to the console
+								220 button (collapsed) Issues were logged in the Issues panel in Chrome Devtools, Secondary Actions: Expand
+									221 text Issues were logged in the 
+									222 text Issues
+									223 text  panel in Chrome Devtools
+								224 button (collapsed) Detected JavaScript libraries, Secondary Actions: Expand
+									225 text Detected JavaScript libraries
+							226 container
+								227 text TRUST AND SAFETY
+								228 button (collapsed) Ensure CSP is effective against XSS attacks, Secondary Actions: Expand
+									229 text Ensure CSP is effective against XSS attacks
+								230 button (collapsed) Use a strong HSTS policy, Secondary Actions: Expand
+									231 text Use a strong HSTS policy
+								232 button (collapsed) Ensure proper origin isolation with COOP, Secondary Actions: Expand
+									233 text Ensure proper origin isolation with COOP
+								234 button (collapsed) Mitigate DOM-based XSS with Trusted Types, Secondary Actions: Expand
+									235 text Mitigate DOM-based XSS with Trusted Types
+							236 container
+								237 text BROWSER COMPATIBILITY
+								238 button (collapsed) Baseline Features, Secondary Actions: Expand
+									239 text Baseline Features
+							240 button (collapsed) PASSED AUDITS (11) Show, Secondary Actions: Expand
+								241 container
+									242 text PASSED AUDITS (11)
+								243 text Show
+							244 button (collapsed) NOT APPLICABLE (2) Show, Secondary Actions: Expand
+								245 container
+									246 text NOT APPLICABLE (2)
+								247 text Show
+						248 container seo
+							249 heading 69 SEO, Value: 2
+								250 container
+									251 image
+									252 text 69 SEO
+							253 container
+								254 text These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on 
+								255 link Description: Core Web Vitals, Value: web.dev/explore/vitals?utm_source=lighthouse&utm_medium=lr
+								256 text . 
+								257 link Description: Learn more about Google Search Essentials, Value: support.google.com/webmasters/answer/35769
+								258 text .
+							259 container
+								260 text CRAWLING AND INDEXING
+								261 button (collapsed) Page is blocked from indexing, Secondary Actions: Expand
+									262 text Page is blocked from indexing
+								263 text To appear in search results, crawlers need access to your app.
+							264 container
+								265 button (collapsed) ADDITIONAL ITEMS TO MANUALLY CHECK (1) Show, Secondary Actions: Expand
+									266 container
+										267 text ADDITIONAL ITEMS TO MANUALLY CHECK (1)
+									268 text Show
+								269 text Run these additional validators on your site to check additional SEO best practices.
+							270 button (collapsed) PASSED AUDITS (9) Show, Secondary Actions: Expand
+								271 container
+									272 text PASSED AUDITS (9)
+								273 text Show
+						274 container agentic-browsing
+							275 heading 4/5 Agentic Browsing, Value: 2
+								276 container
+									277 text 4/5 Agentic Browsing
+							278 container
+								279 text These checks ensure high-quality, 
+								280 link Description: browsable websites for AI agents, Value: goo.gle/lighthouse-agentic-web
+								281 text  and validate the correctness of WebMCP integrations. This category is still under development and subject to change.
+							282 container
+								283 text AGENT DISCOVERABILITY
+								284 button (collapsed) ai-catalog.json schema is invalid, Secondary Actions: Expand
+									285 text ai-catalog.json
+									286 text  schema is invalid
+								287 text These audits validate that websites expose discoverable resources, documentation, and catalogs for AI agents.
+							288 container
+								289 text WEBMCP
+								290 button (collapsed) WebMCP form coverage —9 forms missing annotations, Secondary Actions: Expand
+									291 text WebMCP form coverage
+									292 text —
+									293 text 9 forms missing annotations
+								294 button (collapsed) WebMCP tools registered, Secondary Actions: Expand
+									295 text WebMCP tools registered
+								296 text Audits validating WebMCP integration.
+							297 button (collapsed) PASSED AUDITS (4) Show, Secondary Actions: Expand
+								298 container
+									299 text PASSED AUDITS (4)
+								300 text Show
+		17 container ZCHFDb
+			18 text More on PageSpeed Insights
+			19 link Description: What's new, Value: developers.google.com/speed/docs/insights/release_notes
+			20 link Description: Documentation, Value: developers.google.com/speed/docs/insights/v5/about
+			21 link Description: Learn about Web Performance, Value: developers.google.com/speed
+			22 link Description: Ask questions on Stack Overflow, Value: stackoverflow.com/questions/tagged/pagespeed-insights
+			23 link Description: Mailing list, Value: groups.google.com/g/pagespeed-insights-discuss
+			24 text Related Content
+			25 link Description: Updates, Value: developer.chrome.com/blog
+			26 link Description: Web Fundamentals, Value: developers.google.com/focus/web-development
+			27 link Description: Case Studies, Value: web.dev/case-studies
+			28 link Description: Podcasts, Value: web.dev/shows
+			29 text Connect
+			30 link Description: Twitter, Value: twitter.com/ChromiumDev
+			31 link Description: Youtube, Value: youtube.com/user/ChromeDevelopers
+			32 link Description: Google Developers Logo, Value: developers.google.com/
+			33 link Description: Chrome, Value: developer.chrome.com/
+			34 link Description: Firebase, Value: firebase.google.com/
+			35 link Description: All products, Value: developers.google.com/products/
+			36 link Description: Terms and Privacy Policy, Value: policies.google.com/
+			37 container
+				38 text For details, see the 
+				39 link Description: Google Developers Site Policies, Value: developers.google.com/terms/site-policies
+				40 text .
+
+The focused UI element is 0 AXWebArea PageSpeed Insights, URL: pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/e238gsvu75?form_factor=mobile

@@ -1,0 +1,33 @@
+{
+  "filter": "4",
+  "overflow": false,
+  "ratings": [
+    {
+      "height": 24,
+      "width": 342
+    },
+    {
+      "height": 24,
+      "width": 342
+    },
+    {
+      "height": 24,
+      "width": 342
+    },
+    {
+      "height": 24,
+      "width": 342
+    },
+    {
+      "height": 24,
+      "width": 342
+    }
+  ],
+  "relatedImageLinks": [
+    1,
+    1,
+    1
+  ],
+  "viewport": 390,
+  "visibleReviews": 2
+}

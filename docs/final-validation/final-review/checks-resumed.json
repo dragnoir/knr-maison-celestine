@@ -1,0 +1,454 @@
+[
+  {
+    "test": "mobile cart restored and width",
+    "result": {
+      "body": 390,
+      "count": "2",
+      "width": 390
+    }
+  },
+  {
+    "test": "mobile footer menus",
+    "result": [
+      {
+        "links": 5,
+        "open": true
+      },
+      {
+        "links": 5,
+        "open": true
+      },
+      {
+        "links": 4,
+        "open": true
+      }
+    ]
+  },
+  {
+    "test": "privacy preferences opens",
+    "result": true
+  },
+  {
+    "test": "testimonial next settled",
+    "result": {
+      "left": 342,
+      "status": "2 / 3",
+      "width": 342
+    }
+  },
+  {
+    "test": "testimonial previous settled",
+    "result": {
+      "left": 0,
+      "status": "1 / 3"
+    }
+  },
+  {
+    "test": "mobile horizontal keyboard .knr-usage__list",
+    "result": {
+      "left": 0,
+      "maximum": 439,
+      "progress": "width: 25%; transform: translateX(0%);"
+    }
+  },
+  {
+    "test": "mobile horizontal keyboard .knr-news__list",
+    "result": {
+      "left": 0,
+      "maximum": 702,
+      "progress": "width: 25%; transform: translateX(0%);"
+    }
+  },
+  {
+    "test": "mobile horizontal keyboard .knr-reassurance__list",
+    "result": {
+      "left": 0,
+      "maximum": 1170,
+      "progress": "width: 25%; transform: translateX(0%);"
+    }
+  },
+  {
+    "test": "mobile usage ArrowRight",
+    "result": {
+      "left": 263,
+      "progress": "width: 25%; transform: translateX(179.727%);"
+    }
+  },
+  {
+    "test": "mobile usage horizontal gesture",
+    "result": {
+      "left": 439,
+      "maximum": 439
+    }
+  },
+  {
+    "test": "horizontal ArrowRight .knr-news__list",
+    "result": {
+      "left": 263,
+      "width": 390
+    }
+  },
+  {
+    "test": "horizontal ArrowRight .knr-reassurance__list",
+    "result": {
+      "left": 390,
+      "width": 390
+    }
+  },
+  {
+    "test": "responsive width 320",
+    "result": {
+      "body": 320,
+      "document": 320,
+      "h1": {
+        "bottom": 524.8125,
+        "height": 34,
+        "left": 32,
+        "right": 192.4375,
+        "top": 490.8125,
+        "width": 160.4375,
+        "x": 32,
+        "y": 490.8125
+      },
+      "horizontalOverflow": false,
+      "main": 320,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "viewport": 320
+    }
+  },
+  {
+    "test": "responsive width 375",
+    "result": {
+      "body": 375,
+      "document": 375,
+      "h1": {
+        "bottom": 524.8125,
+        "height": 34,
+        "left": 32,
+        "right": 247.4375,
+        "top": 490.8125,
+        "width": 215.4375,
+        "x": 32,
+        "y": 490.8125
+      },
+      "horizontalOverflow": false,
+      "main": 375,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "viewport": 375
+    }
+  },
+  {
+    "test": "responsive width 390",
+    "result": {
+      "body": 390,
+      "document": 390,
+      "h1": {
+        "bottom": 507.8125,
+        "height": 17,
+        "left": 32,
+        "right": 262.4375,
+        "top": 490.8125,
+        "width": 230.4375,
+        "x": 32,
+        "y": 490.8125
+      },
+      "horizontalOverflow": false,
+      "main": 390,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "viewport": 390
+    }
+  },
+  {
+    "test": "responsive width 768",
+    "result": {
+      "body": 758,
+      "document": 758,
+      "h1": {
+        "bottom": 320,
+        "height": 84,
+        "left": 456.046875,
+        "right": 621,
+        "top": 236,
+        "width": 164.953125,
+        "x": 456.046875,
+        "y": 236
+      },
+      "horizontalOverflow": false,
+      "main": 758,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "viewport": 768
+    }
+  },
+  {
+    "test": "responsive width 1024",
+    "result": {
+      "body": 1024,
+      "document": 1024,
+      "h1": {
+        "bottom": 292,
+        "height": 56,
+        "left": 601.96875,
+        "right": 877,
+        "top": 236,
+        "width": 275.03125,
+        "x": 601.96875,
+        "y": 236
+      },
+      "horizontalOverflow": false,
+      "main": 1014,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "viewport": 1024
+    }
+  },
+  {
+    "test": "responsive width 1440",
+    "result": {
+      "body": 1440,
+      "document": 1440,
+      "h1": {
+        "bottom": 332,
+        "height": 64,
+        "left": 977.328125,
+        "right": 1261,
+        "top": 268,
+        "width": 283.671875,
+        "x": 977.328125,
+        "y": 268
+      },
+      "horizontalOverflow": false,
+      "main": 1430,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "viewport": 1440
+    }
+  },
+  {
+    "test": "responsive width 1920",
+    "result": {
+      "body": 1920,
+      "document": 1920,
+      "h1": {
+        "bottom": 300,
+        "height": 32,
+        "left": 1297.328125,
+        "right": 1741,
+        "top": 268,
+        "width": 443.671875,
+        "x": 1297.328125,
+        "y": 268
+      },
+      "horizontalOverflow": false,
+      "main": 1910,
+      "prices": [
+        "75,00 €",
+        "75,00 €",
+        "75,00 €"
+      ],
+      "viewport": 1920
+    }
+  },
+  {
+    "test": "reduced motion after reload",
+    "result": {
+      "activeReveals": 0,
+      "bodyWidth": 1440,
+      "buttonTransition": "0s",
+      "cardAnimation": "none",
+      "cardScale": "none",
+      "marked": 0
+    }
+  },
+  {
+    "test": "sticky desktop enabled",
+    "result": {
+      "display": "none",
+      "hidden": true
+    }
+  },
+  {
+    "test": "desktop floating add confirmed",
+    "result": {
+      "count": "3",
+      "modal": true,
+      "quantity": "3",
+      "width": 480
+    }
+  },
+  {
+    "test": "cart cleanup confirmed total",
+    "result": "150,00 € EUR"
+  },
+  {
+    "test": "DOM semantics",
+    "result": {
+      "duplicateIds": [],
+      "emptyButtons": [],
+      "h1": 1,
+      "missingAlt": 0,
+      "placeholderLinks": [
+        "<a class=\"resource-card__link\" href=\"\">\n    <span class=\"visually-hidden\">\n      \n    </span>\n  </a>"
+      ]
+    }
+  },
+  {
+    "test": "native search results",
+    "result": {
+      "main": "Résultats de la recherche\nRechercher\nPasser à la liste des résultats\nDisponibilité\nPrix\n2 articles\nTrier\nGrille de colonnes\nPromotion\nAjouter\n\nSérum Éclat\n\nPrix promotionnel \n59,00 € \nPrix régulier \n69,00 €\nPromotion\nChoisir\n\nSérum Précieux Régénérant\n\nPrix promotionnel \n75,00 € \nPrix régulier \n85,00 €\nPrix unitaire\n500,00 €/100 ml",
+      "url": "https://maison-celestine-knr-test.myshopify.com/search?type=product&q=S%C3%A9rum"
+    }
+  },
+  {
+    "test": "product semantics",
+    "result": {
+      "cart": "2",
+      "duplicateIds": [],
+      "h1": 1,
+      "missingAlt": 0
+    }
+  },
+  {
+    "test": "empty cart",
+    "result": "Votre panier est vide\n\nVous possédez un compte ? Connectez-vous pour payer plus vite.\n\nContinuer vos achats"
+  },
+  {
+    "test": "double click adds one",
+    "result": {
+      "count": "1",
+      "quantity": "1"
+    }
+  },
+  {
+    "test": "cart restored after empty/double click",
+    "result": {
+      "count": "2",
+      "quantity": "2",
+      "total": "\n        150,00 € EUR\n      "
+    }
+  },
+  {
+    "test": "checkout handoff",
+    "result": {
+      "contactHeading": true,
+      "orderPlaced": false,
+      "paymentUnavailable": false,
+      "title": "Paiement - Maison Celestine - KNR Test"
+    }
+  },
+  {
+    "test": "localization preserves custom product",
+    "result": {
+      "custom": true,
+      "price": "75,00 €",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?pb=0&view=knr-serum"
+    }
+  },
+  {
+    "test": "visible images and animation completion",
+    "result": {
+      "animating": 0,
+      "broken": [],
+      "cart": "2",
+      "revealTargets": 15
+    }
+  },
+  {
+    "test": "account link",
+    "result": {
+      "destination": "Shopify customer sign-in",
+      "heading": "Se connecter",
+      "formSubmitted": false
+    }
+  },
+  {
+    "test": "final variant 150",
+    "result": {
+      "prices": [
+        "150,00 €",
+        "100,00 € / 100 ml",
+        "150,00 €",
+        "100,00 € / 100 ml",
+        "150,00 €"
+      ],
+      "variant": "67758438416612"
+    }
+  },
+  {
+    "test": "final variant browser back",
+    "result": {
+      "custom": true,
+      "price": "75,00 €",
+      "variant": null
+    }
+  },
+  {
+    "test": "final expanded product gallery",
+    "result": {
+      "before": {
+        "height": 617,
+        "images": [
+          {
+            "h": 626,
+            "w": 478
+          },
+          {
+            "h": 11,
+            "w": 11
+          },
+          {
+            "h": 609,
+            "w": 465
+          },
+          {
+            "h": 11,
+            "w": 11
+          }
+        ]
+      },
+      "after": {
+        "height": 617,
+        "images": [
+          {
+            "h": 626,
+            "w": 478
+          },
+          {
+            "h": 11,
+            "w": 11
+          },
+          {
+            "h": 609,
+            "w": 465
+          },
+          {
+            "h": 11,
+            "w": 11
+          }
+        ]
+      },
+      "equal": true
+    }
+  }
+]

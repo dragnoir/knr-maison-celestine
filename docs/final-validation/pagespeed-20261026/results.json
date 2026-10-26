@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-26",
+  "method": "Google PageSpeed Insights UI; visible score calculator supplies exact metric values",
+  "theme": {
+    "id": 189290447076,
+    "role": "unpublished"
+  },
+  "target": "https://38mjaon6zx1j18jh-85280489700.shopifypreview.com/products/serum-precieux-regenerant?view=knr-serum&pb=0",
+  "animationsEnabled": true,
+  "codeChanged": false,
+  "passwordRemoved": false,
+  "published": false,
+  "committed": false,
+  "runs": [
+    {
+      "run": 1,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-38mjaon6zx1j18jh-85280489700-shopifypreview-com-products-serum-precieux-regenerant/pook45h0ki?form_factor=desktop",
+      "performance": 98,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 561,
+      "lcpMs": 1068,
+      "tbtMs": 15,
+      "cls": 0,
+      "speedIndexMs": 1109,
+      "lighthouse": "13.5.0"
+    },
+    {
+      "run": 1,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-38mjaon6zx1j18jh-85280489700-shopifypreview-com-products-serum-precieux-regenerant/pook45h0ki?form_factor=mobile",
+      "performance": 81,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 2138,
+      "lcpMs": 4632,
+      "tbtMs": 15,
+      "cls": 0,
+      "speedIndexMs": 3214,
+      "lighthouse": "13.5.0"
+    },
+    {
+      "run": 2,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-38mjaon6zx1j18jh-85280489700-shopifypreview-com-products-serum-precieux-regenerant/5x6qo8xpb8?form_factor=desktop",
+      "performance": 96,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 573,
+      "lcpMs": 1098,
+      "tbtMs": 111,
+      "cls": 0,
+      "speedIndexMs": 1002,
+      "lighthouse": "13.5.0"
+    },
+    {
+      "run": 2,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-38mjaon6zx1j18jh-85280489700-shopifypreview-com-products-serum-precieux-regenerant/5x6qo8xpb8?form_factor=mobile",
+      "performance": 90,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 2132,
+      "lcpMs": 3301,
+      "tbtMs": 28,
+      "cls": 0,
+      "speedIndexMs": 2283,
+      "lighthouse": "13.5.0"
+    },
+    {
+      "run": 3,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-38mjaon6zx1j18jh-85280489700-shopifypreview-com-products-serum-precieux-regenerant/td69f8caj5?form_factor=desktop",
+      "performance": 98,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 560,
+      "lcpMs": 1100,
+      "tbtMs": 58,
+      "cls": 0,
+      "speedIndexMs": 856,
+      "lighthouse": "13.5.0"
+    },
+    {
+      "run": 3,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-38mjaon6zx1j18jh-85280489700-shopifypreview-com-products-serum-precieux-regenerant/td69f8caj5?form_factor=mobile",
+      "performance": 68,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 3429,
+      "lcpMs": 5689,
+      "tbtMs": 39,
+      "cls": 0,
+      "speedIndexMs": 5361,
+      "lighthouse": "13.5.0"
+    }
+  ],
+  "medians": {
+    "mobile": {
+      "performance": 81,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 2138,
+      "lcpMs": 4632,
+      "tbtMs": 28,
+      "cls": 0,
+      "speedIndexMs": 3214,
+      "range": [
+        68,
+        90
+      ]
+    },
+    "desktop": {
+      "performance": 98,
+      "accessibility": 96,
+      "bestPractices": 92,
+      "seo": 69,
+      "fcpMs": 561,
+      "lcpMs": 1098,
+      "tbtMs": 58,
+      "cls": 0,
+      "speedIndexMs": 1002,
+      "range": [
+        96,
+        98
+      ]
+    }
+  },
+  "scope": {
+    "realUserData": "No CrUX data",
+    "mobile": "Emulated Moto G Power; slow 4G",
+    "desktop": "Emulated Desktop; custom throttling",
+    "lighthouse": "13.5.0",
+    "browser": "HeadlessChromium 153.0.8010.36",
+    "runCountPerDevice": 3,
+    "shareLinkExpiresDays": 2,
+    "variantAvailabilityOnShareHost": false,
+    "variantAvailabilityOnNormalDraftAfterReload": true,
+    "normalDraftCartPreserved": 2
+  },
+  "diagnostic": {
+    "mobileRun1": {
+      "ttfbMs": 210,
+      "resourceLoadDelayMs": 450,
+      "resourceLoadDurationMs": 370,
+      "elementRenderDelayMs": 240
+    },
+    "mobileRun3": {
+      "ttfbMs": 50,
+      "resourceLoadDelayMs": 210,
+      "resourceLoadDurationMs": 110,
+      "elementRenderDelayMs": 2030
+    },
+    "lcpElement": "Main hero img; loading=eager; fetchpriority=high; responsive picture",
+    "scrollAnimationCausation": "Not established by these runs; the hero is excluded from custom reveal targets",
+    "noCodeChangeReason": "Variable results alone do not identify a safe corrective change; preserve native functions and visual fidelity"
+  },
+  "followUp": {
+    "date": "2026-10-26",
+    "issue": "International availability mismatch subsequently corrected in markets and standard shipping profiles",
+    "evidence": "../market-availability/checks.json",
+    "themeCodeChanged": false,
+    "renderedCountryOptionsNow": 237,
+    "measurementsPredateConfigurationFix": true,
+    "candidateIPhoneCartConfirmed": true,
+    "newPostFixScoreClaimed": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "badge": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "line": "12px",
+      "size": "8px",
+      "spacing": "normal",
+      "text": "2"
+    }
+  ],
+  "counts": [
+    {
+      "color": "rgb(181, 162, 130)",
+      "line": "14px",
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "4"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "line": "14px",
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "2"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "line": "14px",
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "0"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "line": "14px",
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "0"
+    },
+    {
+      "color": "rgb(181, 162, 130)",
+      "line": "14px",
+      "size": "10px",
+      "spacing": "-0.2px",
+      "text": "0"
+    }
+  ],
+  "sticky": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "line": "14px",
+      "size": "14px",
+      "spacing": "-0.28px",
+      "text": "Sérum Précieux Régénérant"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{% comment %}
+  KNR reviews. Editable content is supplied through section settings or Shopify resources.
+{% endcomment %}
+{% liquid
+  assign reviews = product.metafields.knr.reviews.value
+  assign review_count = reviews.count | default: 0
+  assign sum = 0
+  for review in reviews
+    assign sum = sum | plus: review.rating.value
+  endfor
+  if review_count > 0
+    assign average = sum | times: 1.0 | divided_by: review_count | round: 1
+  endif
+%}
+<knr-reviews id='knr-reviews' data-page-size='3'>
+  <h2 class='knr-heading'>{{ section.settings.heading | escape }}</h2>
+  <div class='knr-reviews__summary'>
+    <div class='knr-reviews__average'>
+      {% if review_count > 0 %}
+        <div>
+          {% render 'knr-stars', rating: average -%}
+          <span>{{ 'knr.review_average' | t: score: average }}</span>
+        </div>
+        <p>{{ 'knr.reviews_based_on' | t: count: review_count }}</p>
+      {% else %}
+        <p>{{ 'knr.no_reviews_yet' | t }}</p>
+      {% endif %}
+    </div>
+    <div class='knr-reviews__distribution'>
+      {% for stars in (1..5) reversed -%}
+        {%- assign count = 0 -%}
+        {%- for review in reviews -%}
+          {%- if review.rating.value == stars %}{% assign count = count | plus: 1 %}{% endif -%}
+        {%- endfor -%}
+        <button
+          type='button'
+          data-knr-rating='{{ stars }}'
+          aria-label='{{ 'knr.filter_stars' | t: count: stars }}'
+          aria-pressed='false'
+          {% if review_count == 0 %}
+            disabled
+          {% endif %}
+        >
+          <span aria-hidden='true'>
+            {%- for star in (1..5) -%}
+              <span
+                {% if star > stars %}
+                  class='knr-star-empty'
+                {% endif %}
+              >
+                {%- if star > stars -%}
+                  {%- render 'knr-icon', name: 'knr-desktop-star-icon1', width: 12, height: 12 -%}
+                {%- else -%}
+                  {%- render 'knr-icon', name: 'knr-desktop-star-icon', width: 12, height: 12 -%}
+                {%- endif -%}
+              </span>
+            {%- endfor -%}</span
+          ><meter
+            min='0'
+            max='{{ review_count | at_least: 1 }}'
+            value='{{ count }}'
+            aria-label='{{ 'knr.filter_stars' | t: count: stars }}'
+          >
+            {{ count }}</meter
+          ><span>{{ count }}</span>
+        </button>
+      {%- endfor %}
+    </div>
+    <div class='knr-reviews__actions'>
+      <button class='knr-button' type='button' data-knr-dialog-open='KnrReview-{{ section.id }}'>
+        {{ 'knr.write_review' | t }}</button
+      ><button
+        class='knr-button knr-button--outline'
+        type='button'
+        data-knr-dialog-open='KnrQuestion-{{ section.id }}'
+      >
+        {{ 'knr.ask_question' | t }}
+      </button>
+    </div>
+  </div>
+  <div class='knr-reviews__list'>
+    <div
+      class='knr-reviews__filter'
+      {% if review_count == 0 %}
+        hidden
+      {% endif %}
+    >
+      {% render 'knr-icon', name: 'knr-desktop-filter-lines', width: 18, height: 18 -%}
+      <label for='KnrReviewFilter-{{ section.id }}'>{{ 'knr.filter' | t }}</label
+      ><select id='KnrReviewFilter-{{ section.id }}' data-knr-filter>
+        <option value='all'>{{ 'knr.all_reviews' | t }}</option>
+        {% for stars in (1..5) reversed %}
+          <option value='{{ stars }}'>{{ 'knr.filter_stars' | t: count: stars }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    {% for review in reviews %}
+      <article class='knr-review' data-knr-review data-rating='{{ review.rating.value }}'>
+        <div class='knr-review__top'>
+          <span
+            class='knr-stars'
+            role='img'
+            aria-label='{{ 'knr.review_average' | t: score: review.rating.value }}'
+          >
+            {%- for star in (1..5) -%}
+              <span
+                {% if star > review.rating.value %}
+                  class='knr-star-empty'
+                {% endif %}
+              >
+                {%- if star > review.rating.value -%}
+                  {%- render 'knr-icon', name: 'knr-desktop-star-icon1', width: 12, height: 12 -%}
+                {%- else -%}
+                  {%- render 'knr-icon', name: 'knr-desktop-star-icon', width: 12, height: 12 -%}
+                {%- endif -%}
+              </span>
+            {%- endfor -%}</span
+          ><time datetime='{{ review.date.value | date: '%Y-%m-%d' }}'>
+            {{- review.date.value | date: '%d/%m/%y' -}}
+          </time>
+        </div>
+        <div class='knr-review__author'>
+          {{ review.author.value | escape -}}
+          <span class='knr-review__badge'>{{ 'knr.demo' | t }}</span>
+        </div>
+        <div class='knr-review__body'>
+          <h3 tabindex='-1'>{{ review.title.value | escape }}</h3>
+          <p>{{ review.body.value | escape }}</p>
+        </div>
+      </article>
+    {% endfor %}
+    <p
+      class='knr-reviews__empty'
+      data-knr-no-reviews
+      {% if review_count > 0 %}
+        hidden
+      {% endif %}
+    >
+      {{ 'knr.no_reviews' | t }}
+    </p>
+    <p
+      class='knr-sr-only'
+      role='status'
+      data-knr-review-status
+      data-label='{{ 'knr.reviews_shown' | t: shown: '[shown]', total: '[total]' }}'
+    ></p>
+  </div>
+  <button
+    type='button'
+    class='knr-button knr-button--outline knr-reviews__more'
+    data-knr-load-more
+    hidden
+  >
+    {{ 'knr.load_more' | t }}
+  </button>
+  <p class='knr-note knr-reviews__demo'>{{ section.settings.note | escape }}</p>
+  <dialog
+    class='knr-dialog'
+    id='KnrReview-{{ section.id }}'
+    aria-labelledby='KnrReviewTitle-{{ section.id }}'
+  >
+    <button
+      type='button'
+      class='knr-close'
+      data-knr-dialog-close
+      aria-label='{{ 'knr.close' | t }}'
+    >
+      ×
+    </button>
+    <h2 id='KnrReviewTitle-{{ section.id }}'>{{ 'knr.write_review' | t }}</h2>
+    {% assign review_form = 'KnrReviewForm-' | append: section.id -%}
+    {%- render 'knr-contact-form', id: review_form, kind: 'review', product: product %}
+  </dialog>
+  <dialog
+    class='knr-dialog'
+    id='KnrQuestion-{{ section.id }}'
+    aria-labelledby='KnrQuestionTitle-{{ section.id }}'
+  >
+    <button
+      type='button'
+      class='knr-close'
+      data-knr-dialog-close
+      aria-label='{{ 'knr.close' | t }}'
+    >
+      ×
+    </button>
+    <h2 id='KnrQuestionTitle-{{ section.id }}'>{{ 'knr.ask_question' | t }}</h2>
+    {% assign question_form = 'KnrQuestionForm-' | append: section.id -%}
+    {%- render 'knr-contact-form', id: question_form, kind: 'question', product: product %}
+  </dialog>
+</knr-reviews>
+{% stylesheet %}
+  .knr-reviews {
+    padding: 0 40px 120px;
+  }
+  .knr-reviews knr-reviews {
+    display: grid;
+    gap: 40px;
+  }
+  .knr-reviews .knr-heading {
+    text-align: center;
+    padding-block-end: 40px;
+  }
+  .knr-reviews__summary {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+    align-items: start;
+  }
+  .knr-reviews__average {
+    display: grid;
+    gap: 4px;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: var(--knr-accent);
+  }
+  .knr-reviews__average > div {
+    display: flex;
+    gap: 4px;
+    align-items: start;
+  }
+  .knr-reviews__average p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .knr-reviews__distribution {
+    display: grid;
+    gap: 8px;
+  }
+  .knr-reviews__distribution button {
+    display: grid;
+    grid-template-columns: 60px 104px 13px;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: 0;
+    padding: 0;
+    text-align: start;
+    min-height: 14px;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: var(--knr-accent);
+  }
+  .knr-reviews__distribution button > span:first-child {
+    display: flex;
+  }
+  .knr-reviews__distribution meter {
+    appearance: none;
+    width: 100%;
+    height: 12px;
+    border: 0;
+    background: var(--knr-paper);
+  }
+  .knr-reviews__distribution meter::-webkit-meter-bar {
+    height: 12px;
+    background: var(--knr-paper);
+    border: 0;
+    border-radius: 0;
+  }
+  .knr-reviews__distribution meter::-webkit-meter-optimum-value {
+    background: var(--knr-rating-fill, var(--knr-sand));
+  }
+  .knr-reviews__distribution meter::-moz-meter-bar {
+    background: var(--knr-rating-fill, var(--knr-sand));
+  }
+  .knr-reviews__actions {
+    display: grid;
+    gap: 4px;
+    width: 250px;
+    justify-self: end;
+  }
+  .knr-reviews__list {
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+  }
+  .knr-reviews__filter {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    box-shadow: inset 0 -1px #0000003d;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  .knr-reviews__filter select {
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    width: 100px;
+    max-width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    height: 20px;
+    line-height: 20px;
+  }
+  .knr-reviews__filter:has(select:focus) label {
+    text-decoration-color: var(--knr-field-focus);
+    text-decoration-thickness: 2px;
+  }
+  .knr-review {
+    padding-bottom: 16px;
+    margin-bottom: 0;
+    box-shadow: inset 0 -1px #0000003d;
+    display: grid;
+    gap: 16px;
+  }
+  .knr-review:not([hidden]):has(~ .knr-review:not([hidden])) {
+    margin-bottom: 16px;
+  }
+  .knr-review__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .knr-review__top time {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+  }
+  .knr-review__author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .knr-review__badge {
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 0 0.5px #000;
+    border-radius: 2px;
+    padding: 5px 4px 4px;
+  }
+  .knr-review__body {
+    display: grid;
+    gap: 8px;
+    max-width: 640px;
+  }
+  .knr-review__body h3:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+  }
+  .knr-reviews__more {
+    width: 250px;
+    justify-self: center;
+  }
+  .knr-reviews__demo {
+    text-align: center;
+  }
+  .knr-reviews .knr-dialog .knr-button {
+    margin-top: 20px;
+  }
+  @media (max-width: 749px) {
+    .knr-reviews {
+      padding: 40px 24px 64px;
+    }
+    .knr-reviews .knr-heading {
+      padding: 0;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+    }
+    .knr-reviews__summary {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      text-align: center;
+    }
+    .knr-reviews__actions {
+      grid-column: 1/-1;
+      grid-template-columns: 1fr;
+      gap: 4px;
+      width: 100%;
+    }
+    .knr-reviews__actions .knr-button {
+      padding-inline: 12px;
+    }
+    .knr-reviews__distribution {
+      gap: 0;
+    }
+    .knr-reviews__distribution button {
+      min-height: 24px;
+      justify-content: center;
+    }
+    .knr-reviews__average > div {
+      justify-content: center;
+    }
+    .knr-reviews__filter,
+    .knr-review {
+      box-shadow: inset 0 -1px #0035923d;
+    }
+    .knr-reviews__more {
+      width: 100%;
+    }
+  }
+
+  .knr-reviews__distribution button > span:last-child {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition:
+      color var(--knr-hover-duration) var(--knr-hover-ease),
+      text-decoration-color var(--knr-hover-duration) var(--knr-hover-ease);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .knr-reviews__distribution meter::-webkit-meter-optimum-value {
+      transition: background-color var(--knr-hover-duration) var(--knr-hover-ease);
+    }
+    .knr-reviews__distribution meter::-moz-meter-bar {
+      transition: background-color var(--knr-hover-duration) var(--knr-hover-ease);
+    }
+  }
+  .knr-reviews__filter label {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 4px;
+    transition: text-decoration-color var(--knr-hover-duration) var(--knr-hover-ease);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .knr-reviews__distribution button:not(:disabled):hover {
+      --knr-rating-fill: var(--knr-accent);
+    }
+    .knr-reviews__distribution button:not(:disabled):hover > span:last-child {
+      color: var(--knr-ink);
+      text-decoration-color: var(--knr-accent);
+    }
+    .knr-reviews__filter:has(select:hover) label {
+      text-decoration-color: currentColor;
+    }
+  }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "t:knr.knr_reviews",
+  "tag": "section",
+  "class": "knr-section knr-reviews",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:knr.heading"
+    },
+    {
+      "type": "textarea",
+      "id": "note",
+      "label": "t:knr.demonstration_data_notice"
+    }
+  ]
+}
+{% endschema %}

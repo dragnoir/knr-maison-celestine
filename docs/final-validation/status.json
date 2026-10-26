@@ -1,0 +1,3577 @@
+{
+  "date": "2026-10-26",
+  "theme": {
+    "id": 189290447076,
+    "role": "live",
+    "base": "Horizon 4.3.0"
+  },
+  "repository": {
+    "url": "https://github.com/dragnoir/knr-maison-celestine",
+    "visibility": "PUBLIC",
+    "isEmpty": false,
+    "deliveryCommitCount": 1
+  },
+  "checks": {
+    "npm": "passed",
+    "themeCheckErrors": 0,
+    "themeCheckWarnings": 2,
+    "contactEmail": "confirmed by candidate screenshot",
+    "contactServerSuccess": "observed",
+    "lighthouse": {
+      "method": "Google PageSpeed Insights UI; Lighthouse 13.5.0",
+      "date": "2026-10-26",
+      "medians": {
+        "mobile": {
+          "performance": 81,
+          "accessibility": 96,
+          "bestPractices": 92,
+          "seo": 69,
+          "fcpMs": 2138,
+          "lcpMs": 4632,
+          "tbtMs": 28,
+          "cls": 0,
+          "speedIndexMs": 3214,
+          "range": [
+            68,
+            90
+          ]
+        },
+        "desktop": {
+          "performance": 98,
+          "accessibility": 96,
+          "bestPractices": 92,
+          "seo": 69,
+          "fcpMs": 561,
+          "lcpMs": 1098,
+          "tbtMs": 58,
+          "cls": 0,
+          "speedIndexMs": 1002,
+          "range": [
+            96,
+            98
+          ]
+        }
+      },
+      "report": "pagespeed-20261026/results.json",
+      "passwordRemoved": false,
+      "mobilePerformanceOpen": true,
+      "measurementsPredateInternationalConfigurationFix": true,
+      "measurementsPredateMobileMenuFix": true,
+      "measurementsPredateQuickAddTouchFix": true,
+      "measurementsPredateDrawerMotionUpdate": true,
+      "measurementsPredateMobilePreviousArrow": true,
+      "measurementsPredateAccordionMotion": true,
+      "measurementsPredateCartPointerFocusFix": true
+    },
+    "safari": {
+      "candidateDevice": "iPhone 16 Pro",
+      "targetedVariantAndCartTest": "confirmed by candidate after configuration fix",
+      "initialBrowserEvidence": "Messenger in-app browser",
+      "fullSafariAuditCompleted": false,
+      "historicalBrowserStack": "devices unavailable"
+    },
+    "axe": "executed; contrast violations and Shopify preview iframe title remain",
+    "touchTargets": "Related quick-add button and image link are separate; mobile rating buttons 24px; final Google audits show no target-size failure",
+    "cartOverlay": "KNR cart uses native modal at all widths; geometry, backdrop, keyboard, quantity/removal, reduced motion and repeat opening verified. See cart-overlay/checks.json.",
+    "lightboxDismissal": "Backdrop, close button and Escape close the image dialog and restore gallery focus at 1440px and 390px; image clicks keep it open. See lightbox-dismissal/checks.json.",
+    "accordionGallery": "Gallery image dimensions remain unchanged when all product details expand; verified at 320, 390, 768, 1024, 1440 and 1920px, including keyboard toggling. See accordion-gallery/checks.json.",
+    "upsell": "Collection navigation and three direct quick adds verified; mobile, keyboard/focus, failed request/retry, double click, main purchase regression and original cart preservation checked. See upsell/checks.json.",
+    "focus": "Star filtering keeps focus on the rating; keyboard indicators retained; pagination, dialogs, menu, comparison, accordions, skip link and native validation checked in Chrome desktop/mobile. See focus/checks.json.",
+    "scrollMotion": "Optional once-only editorial reveals; Shopify off/on saved and verified, desktop stagger, mobile horizontal cards, live/initial reduced motion, keyboard visibility and disabled JavaScript checked. Chrome widths 320, 375, 390 and 1440px. See motion/checks.json. Fresh Lighthouse results in final-review/pagespeed-results.json. No real-device Safari result.",
+    "hover": "Consistent text links, controls, clickable images, forms and cart feedback. Desktop pointer, narrow mouse layout, touch-only, reduced motion and keyboard checks recorded in hover/checks.json; sampled element sizes remain stable. No cart mutation, publication or commit.",
+    "hoverRefinement": {
+      "report": "hover-refinement/checks.json",
+      "cssOnly": true,
+      "widths": [
+        390,
+        1440
+      ],
+      "accordion": "Fine accent underline and 2px chevron translation; no row background",
+      "rating": "Existing fill and count highlighted; values and widths unchanged",
+      "reducedMotion": "No chevron translation; immediate color feedback",
+      "touch": "Hover styling inactive",
+      "keyboard": "Visible focus preserved",
+      "published": false,
+      "commitCreated": false
+    },
+    "formFocus": {
+      "report": "form-focus/checks.json",
+      "cssOnly": true,
+      "widths": [
+        390,
+        1864
+      ],
+      "fields": "Newsletter, country, review/question fields, review filter, cart quantity and discount",
+      "style": "Warm 2px inset underline; no surrounding black focus box",
+      "keyboard": "Field underline and existing button/link indicators retained",
+      "forcedColors": "2px system Highlight outline verified",
+      "validation": "Invalid newsletter email and required review name focus verified; no message sent",
+      "localization": "France/EUR applied during mobile check",
+      "search": "Custom header opens native search page; supporting page keeps native theme styling",
+      "performance": "No new Lighthouse run",
+      "published": false,
+      "commitCreated": false
+    },
+    "footerBottom": {
+      "date": "2026-10-25",
+      "report": "footer-bottom/checks.json",
+      "figma": [
+        "720:1315",
+        "653:1667"
+      ],
+      "widths": [
+        320,
+        390,
+        1440
+      ],
+      "social": "Original four SVGs, 20px, 16px gaps, editable links to network homepages",
+      "localization": "Automatic native submission; US persisted after reload, France restored; visible fallback only without JS",
+      "keyboard": "Social outline and select underline retained",
+      "nativeFallback": "Verified with JavaScript disabled, then restored",
+      "performance": "No new Lighthouse run",
+      "published": false,
+      "commitCreated": false
+    },
+    "footerCopy": {
+      "date": "2026-10-25",
+      "report": "footer-copy/checks.json",
+      "figma": "720:1232",
+      "widths": [
+        390,
+        1440
+      ],
+      "labels": "All three footer menu headings and fourteen link labels match desktop Figma; certificate label matches",
+      "changes": "CGV to Conditions générales de vente; Voir les engagements to Voir le certificat; singular Livraison & retour and Paramètre des cookies",
+      "editable": "Shopify menus and draft footer section setting",
+      "codeChanged": false,
+      "published": false,
+      "commitCreated": false
+    },
+    "fullTextAudit": {
+      "date": "2026-10-25",
+      "report": "../AUDIT-TEXTES.md",
+      "comparison": "text-audit/comparison.json",
+      "interactions": "text-audit/interactions.json",
+      "sections": 12,
+      "figmaFrames": [
+        "720:729",
+        "653:1125"
+      ],
+      "textLayers": 279,
+      "matched": 176,
+      "agreedCorrections": 86,
+      "hiddenAlternatives": 17,
+      "unresolvedDifferences": 0,
+      "changes": "Figma breadcrumb and four complete FAQ answers restored",
+      "widths": [
+        390,
+        1440
+      ],
+      "prices": "15 mL 75/85 EUR, 500 EUR per 100 mL; 150 mL 150/170 EUR, 100 EUR per 100 mL preserved",
+      "performance": "No new Lighthouse run",
+      "published": false,
+      "commitCreated": false
+    },
+    "visual20261025": {
+      "date": "2026-10-25",
+      "theme": {
+        "id": 189290447076,
+        "role": "unpublished"
+      },
+      "figma": {
+        "file": "gkR3Ew3ksO4sd8AmoMeAHB",
+        "desktop": "720:729",
+        "mobile": "653:1125",
+        "freshDesignContext": true,
+        "freshGeometryAndTextMetrics": true,
+        "referenceSectionScreenshots": "Existing 22 October exports; unchanged frame geometry confirmed against fresh context and metrics."
+      },
+      "sectionsReviewed": 12,
+      "captureCount": 26,
+      "viewportContentWidths": [
+        1440,
+        390
+      ],
+      "additionalWidths": [
+        320,
+        375,
+        768,
+        1024,
+        1920
+      ],
+      "horizontalOverflow": false,
+      "typography": {
+        "desktop": {
+          "styleComparisons": 116,
+          "exactStyleMatches": 116,
+          "differences": [],
+          "unmatchedLiteralTexts": 28,
+          "unmatchedReason": "Dynamic/corrected content and text aggregation; checked visually using section captures and the separate complete text audit."
+        },
+        "mobile": {
+          "styleComparisons": 76,
+          "exactStyleMatches": 74,
+          "differences": [
+            {
+              "node": "653:1128",
+              "text": "Livraison estimée sous 48h",
+              "diffs": {
+                "color": [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "rgb(255, 255, 255)"
+                ]
+              },
+              "reason": "White announcement text remains legible on black, as previously agreed."
+            },
+            {
+              "node": "653:1154",
+              "text": "1",
+              "diffs": {
+                "line": [
+                  8,
+                  "12px"
+                ]
+              },
+              "reason": "8px badge glyph centered in its 12px circular container; line box differs, visible geometry preserved."
+            }
+          ],
+          "unmatchedLiteralTexts": 31,
+          "unmatchedReason": "Dynamic/corrected content and text aggregation; checked visually using section captures and the separate complete text audit."
+        }
+      },
+      "changes": [
+        "Intrinsic selected-label width for native footer country/language controls",
+        "Mobile reassurance cards keep 14px heading height and 24px heading/body gap; desktop text uses full card width",
+        "Original chevrons use 6.41421 x 10.8284 intrinsic proportions",
+        "Original footer SVG ratio reserved before image load"
+      ],
+      "functionalChecks": "interactions.json",
+      "responsiveChecks": "responsive.json",
+      "npmCheck": "passed",
+      "themeCheck": {
+        "errors": 0,
+        "warnings": 2,
+        "scope": "Existing Horizon bento snippet warnings"
+      },
+      "performance": "No new Lighthouse measurement; no new assets, dependencies, network requests or scroll listeners introduced. Historical reports remain dated.",
+      "realIOS": "Not tested; Chrome touch emulation only.",
+      "published": false,
+      "committed": false
+    },
+    "stickyImage": {
+      "date": "2026-10-25",
+      "figmaNode": "720:878",
+      "assetSha256": "da18f1377ac6192cd2717089e1382eb718bcea68588426c37cbe5af05b8b7f9a",
+      "desktop": {
+        "image": {
+          "fit": "cover",
+          "height": 104,
+          "position": "50% 69.23%",
+          "width": 104
+        },
+        "loaded": true,
+        "price": "75,00 €",
+        "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_ac70a3ba-d286-485c-b68b-0c9fadc3e0e9.png?v=1792690050&width=320",
+        "visible": true,
+        "blockRect": {
+          "height": 120,
+          "width": 561,
+          "x": 839,
+          "y": 688
+        }
+      },
+      "variants": [
+        {
+          "mainPrice": "150,00 €",
+          "stickyPrice": "150,00 €",
+          "stickySrc": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_ac70a3ba-d286-485c-b68b-0c9fadc3e0e9.png?v=1792690050&width=320",
+          "unit": "100,00 € / 100 ml",
+          "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&variant=67758438416612"
+        },
+        {
+          "mainPrice": "75,00 €",
+          "stickyPrice": "75,00 €",
+          "unit": "500,00 € / 100 ml",
+          "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum&pb=0&variant=67758438383844"
+        }
+      ],
+      "mobile": {
+        "mainPrice": "75,00 €",
+        "overflow": 0,
+        "stickyDisplay": "none",
+        "unit": [
+          "500,00 € / 100 ml"
+        ],
+        "width": 390
+      },
+      "announcement": {
+        "figma": "consectetur.",
+        "chosen": "En savoir plus",
+        "candidateReconfirmed": true
+      },
+      "unitPrice": {
+        "figma": "75 EUR / 100 mL",
+        "calculated": "75 / 15 * 100 = 500 EUR / 100 mL",
+        "preserved": true
+      },
+      "setting": "KNR · Produit → Image de la barre d’achat flottante",
+      "seedImage": "knr-desktop-product-image1.png",
+      "noNewAssets": true,
+      "theme": {
+        "id": 189290447076,
+        "role": "unpublished"
+      },
+      "npmCheck": "passed",
+      "themeCheck": {
+        "errors": 0,
+        "warnings": 2
+      },
+      "published": false,
+      "committed": false
+    },
+    "cartStyle": {
+      "date": "2026-10-25",
+      "changes": "KNR-scoped cart styling plus a guarded focus repair after last-item removal; native cart forms, totals and checkout retained",
+      "baseline": {
+        "count": 2,
+        "variant": "15 mL",
+        "total": "150,00 €"
+      },
+      "snapshots": [
+        {
+          "label": "desktop-initial",
+          "active": {
+            "cls": "theme-drawer__close-button",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.109375,
+                "x": 1353.890625,
+                "y": 117
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 199
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 213.59375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        },
+        {
+          "label": "desktop-quantity-three",
+          "active": {
+            "cls": "button quantity-plus button-unstyled",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "3",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.109375,
+                "x": 1353.890625,
+                "y": 117
+              },
+              "quantity": "3",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 199
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 213.59375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "225,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        },
+        {
+          "label": "desktop-quantity-restored",
+          "active": {
+            "cls": "button quantity-minus button-unstyled",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.109375,
+                "x": 1353.890625,
+                "y": 117
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 199
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 213.59375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        },
+        {
+          "label": "desktop-mixed-products",
+          "active": {
+            "cls": "theme-drawer__close-button",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "3",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "HUILE PRÉCIEUSE",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 179
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 22,
+                "w": 51.546875,
+                "x": 1366.453125,
+                "y": 117
+              },
+              "quantity": "1",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 178
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 179
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 117.84375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            },
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 349
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.109375,
+                "x": 1353.890625,
+                "y": 266
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 348
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 349
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 266
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 213.59375,
+                  "x": 1107,
+                  "y": 267
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "215,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        },
+        {
+          "label": "mobile-390-mixed",
+          "active": {
+            "cls": "theme-drawer__close-button",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 341,
+              "x": 25,
+              "y": 772
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "3",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 389,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 844,
+              "w": 390,
+              "x": 0,
+              "y": 0
+            },
+            "scroll": 389,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 25,
+              "y": 22
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "HUILE PRÉCIEUSE",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 193,
+                  "y": 163
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 22,
+                "w": 51.546875,
+                "x": 314.453125,
+                "y": 101
+              },
+              "quantity": "1",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 110,
+                  "y": 162
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 246,
+                  "y": 163
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 341,
+                "x": 25,
+                "y": 101
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 117.84375,
+                  "x": 109,
+                  "y": 102
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            },
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 193,
+                  "y": 354
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.109375,
+                "x": 301.890625,
+                "y": 250
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 110,
+                  "y": 353
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 246,
+                  "y": 354
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 150,
+                "w": 341,
+                "x": 25,
+                "y": 250
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 38,
+                  "w": 118.796875,
+                  "x": 109,
+                  "y": 251
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 390,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 389,
+              "x": 1,
+              "y": 589
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "215,00 € EUR",
+          "viewport": {
+            "h": 844,
+            "w": 390
+          }
+        },
+        {
+          "label": "mobile-restored-before-final-spacing",
+          "active": {
+            "cls": "button quantity-plus button-unstyled",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 341,
+              "x": 25,
+              "y": 772
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 389,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 844,
+              "w": 390,
+              "x": 0,
+              "y": 0
+            },
+            "scroll": 389,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 25,
+              "y": 22
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 193,
+                  "y": 205
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.109375,
+                "x": 301.890625,
+                "y": 101
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 110,
+                  "y": 204
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 246,
+                  "y": 205
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 150,
+                "w": 341,
+                "x": 25,
+                "y": 101
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 38,
+                  "w": 118.796875,
+                  "x": 109,
+                  "y": 102
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 390,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 389,
+              "x": 1,
+              "y": 589
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 844,
+            "w": 390
+          }
+        },
+        {
+          "label": "desktop-final",
+          "active": {
+            "cls": "theme-drawer__close-button",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.71875,
+                "x": 1353.28125,
+                "y": 117
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 199
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 212.59375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        },
+        {
+          "label": "mobile-390-final-settled",
+          "active": {
+            "cls": "theme-drawer__close-button",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 341,
+              "x": 25,
+              "y": 772
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 389,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 844,
+              "w": 390,
+              "x": 0,
+              "y": 0
+            },
+            "scroll": 389,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 25,
+              "y": 22
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 193,
+                  "y": 205
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.71875,
+                "x": 301.28125,
+                "y": 101
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 110,
+                  "y": 204
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 246,
+                  "y": 205
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 150,
+                "w": 341,
+                "x": 25,
+                "y": 101
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 38,
+                  "w": 118.234375,
+                  "x": 109,
+                  "y": 102
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 390,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 389,
+              "x": 1,
+              "y": 589
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 844,
+            "w": 390
+          }
+        },
+        {
+          "label": "desktop-restored-final",
+          "active": {
+            "cls": "button quantity-plus button-unstyled",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.71875,
+                "x": 1353.28125,
+                "y": 117
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 199
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 212.59375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        },
+        {
+          "label": "desktop-proof-final",
+          "active": {
+            "cls": "theme-drawer__dialog color-custom-drawer",
+            "tag": "DIALOG"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.71875,
+                "x": 1353.28125,
+                "y": 117
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 199
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 212.59375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        },
+        {
+          "label": "mobile-proof-final",
+          "active": {
+            "cls": "theme-drawer__close-button",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 341,
+              "x": 25,
+              "y": 772
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 389,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 844,
+              "w": 390,
+              "x": 0,
+              "y": 0
+            },
+            "scroll": 389,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 25,
+              "y": 22
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 193,
+                  "y": 205
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.71875,
+                "x": 301.28125,
+                "y": 101
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 110,
+                  "y": 204
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 246,
+                  "y": 205
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 150,
+                "w": 341,
+                "x": 25,
+                "y": 101
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 38,
+                  "w": 118.234375,
+                  "x": 109,
+                  "y": 102
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 390,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 389,
+              "x": 1,
+              "y": 589
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 844,
+            "w": 390
+          }
+        },
+        {
+          "label": "desktop-pointer-final",
+          "active": {
+            "cls": "theme-drawer__close-button",
+            "tag": "BUTTON"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "count": "2",
+          "dialog": {
+            "bg": "rgb(255, 255, 255)",
+            "border": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(220, 213, 195)",
+            "client": 479,
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 1000,
+              "w": 480,
+              "x": 970,
+              "y": 0
+            },
+            "scroll": 479,
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "items": [
+            {
+              "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+              "plus": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "0px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1191,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "price": {
+                "h": 40,
+                "w": 64.71875,
+                "x": 1353.28125,
+                "y": 117
+              },
+              "quantity": "2",
+              "quantityControl": {
+                "bg": "rgb(255, 255, 255)",
+                "border": "rgb(220, 213, 195)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "2px",
+                "rect": {
+                  "h": 46,
+                  "w": 128,
+                  "x": 1108,
+                  "y": 199
+                },
+                "size": "14px",
+                "spacing": "-0.24px",
+                "weight": "400"
+              },
+              "remove": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "14px",
+                "radius": "2px",
+                "rect": {
+                  "h": 44,
+                  "w": 44,
+                  "x": 1244,
+                  "y": 200
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              },
+              "row": {
+                "h": 129,
+                "w": 415,
+                "x": 1003,
+                "y": 117
+              },
+              "title": {
+                "bg": "rgba(0, 0, 0, 0)",
+                "border": "rgb(0, 0, 0)",
+                "color": "rgb(0, 0, 0)",
+                "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+                "line": "20px",
+                "radius": "0px",
+                "rect": {
+                  "h": 17,
+                  "w": 212.59375,
+                  "x": 1107,
+                  "y": 118
+                },
+                "size": "14px",
+                "spacing": "-0.28px",
+                "weight": "400"
+              }
+            }
+          ],
+          "modal": true,
+          "open": true,
+          "pageWidth": 1440,
+          "rgb": "0 0 0",
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          },
+          "total": "150,00 € EUR",
+          "viewport": {
+            "h": 1000,
+            "w": 1450
+          }
+        }
+      ],
+      "interactions": [
+        {
+          "test": "Quantity Ajax refresh",
+          "steps": [
+            "2 → 3: total225 EUR",
+            "3 → 2: total150 EUR"
+          ],
+          "stylePreserved": true
+        },
+        {
+          "test": "Invalid discount",
+          "error": "Le code de réduction ne peut pas être appliqué à votre panier",
+          "totalUnchanged": true,
+          "inputAndButtonRadius": "2px"
+        },
+        {
+          "focus": "Panier",
+          "open": false,
+          "pageWidth": 1440,
+          "test": "Escape and page width"
+        },
+        {
+          "focus": "Panier",
+          "open": false,
+          "pageWidth": 390,
+          "test": "Mobile Escape after animation completes"
+        },
+        {
+          "open": false,
+          "pageWidth": 1440,
+          "restoredFocus": "Panier",
+          "test": "Desktop backdrop after completed closing animation"
+        }
+      ],
+      "responsive": [
+        {
+          "requested": 320,
+          "checkoutWithinViewport": true,
+          "drawer": {
+            "client": 319,
+            "right": 320,
+            "scroll": 319,
+            "w": 320,
+            "x": 0
+          },
+          "itemsScroll": {
+            "client": 212,
+            "scroll": 299
+          },
+          "minimumQuantityButton": [
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            }
+          ],
+          "overflowingControls": [],
+          "pageWidth": 320,
+          "viewport": {
+            "h": 568,
+            "w": 320
+          }
+        },
+        {
+          "requested": 375,
+          "checkoutWithinViewport": true,
+          "drawer": {
+            "client": 374,
+            "right": 375,
+            "scroll": 374,
+            "w": 375,
+            "x": 0
+          },
+          "itemsScroll": {
+            "client": 299,
+            "scroll": 299
+          },
+          "minimumQuantityButton": [
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            }
+          ],
+          "overflowingControls": [],
+          "pageWidth": 375,
+          "viewport": {
+            "h": 812,
+            "w": 375
+          }
+        },
+        {
+          "requested": 768,
+          "checkoutWithinViewport": true,
+          "drawer": {
+            "client": 479,
+            "right": 768,
+            "scroll": 479,
+            "w": 480,
+            "x": 288
+          },
+          "itemsScroll": {
+            "client": 278,
+            "scroll": 278
+          },
+          "minimumQuantityButton": [
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            }
+          ],
+          "overflowingControls": [],
+          "pageWidth": 768,
+          "viewport": {
+            "h": 1024,
+            "w": 778
+          }
+        },
+        {
+          "requested": 1024,
+          "checkoutWithinViewport": true,
+          "drawer": {
+            "client": 479,
+            "right": 1034,
+            "scroll": 479,
+            "w": 480,
+            "x": 554
+          },
+          "itemsScroll": {
+            "client": 278,
+            "scroll": 278
+          },
+          "minimumQuantityButton": [
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            }
+          ],
+          "overflowingControls": [],
+          "pageWidth": 1024,
+          "viewport": {
+            "h": 900,
+            "w": 1034
+          }
+        },
+        {
+          "requested": 1920,
+          "checkoutWithinViewport": true,
+          "drawer": {
+            "client": 479,
+            "right": 1930,
+            "scroll": 479,
+            "w": 480,
+            "x": 1450
+          },
+          "itemsScroll": {
+            "client": 278,
+            "scroll": 278
+          },
+          "minimumQuantityButton": [
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            },
+            {
+              "h": 44,
+              "w": 44
+            }
+          ],
+          "overflowingControls": [],
+          "pageWidth": 1920,
+          "viewport": {
+            "h": 1080,
+            "w": 1930
+          }
+        }
+      ],
+      "empty": {
+        "button": {
+          "height": 48,
+          "href": "/collections/all",
+          "label": "Continuer vos achats",
+          "radius": "2px"
+        },
+        "count": "0",
+        "heading": {
+          "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+          "size": "24px",
+          "weight": "400"
+        },
+        "title": "Votre panier est vide",
+        "keyboardContained": true,
+        "keyboardContainedBeforeFix": false
+      },
+      "restored": {
+        "count": "2",
+        "total": "150,00 € EUR",
+        "items": [
+          {
+            "name": "SÉRUM PRÉCIEUX RÉGÉNÉRANT",
+            "quantity": "2"
+          }
+        ]
+      },
+      "keyboard": {
+        "active": "button cart-discount__button",
+        "insideDialog": true,
+        "outline": "solid",
+        "width": "2px"
+      },
+      "fieldFocus": {
+        "cls": "cart-discount__input",
+        "outline": "none",
+        "shadow": "color(srgb 0.468471 0.419294 0.336471) 0px -2px 0px 0px inset"
+      },
+      "systemPreferences": {
+        "checkoutTransition": "0s",
+        "drawerAnimation": "none",
+        "fieldOutline": "2px solid",
+        "fieldShadow": "none",
+        "forced": true
+      },
+      "hover": {
+        "background": "color(srgb 0.0851765 0.0762353 0.0611765)",
+        "border": "color(srgb 0.0851765 0.0762353 0.0611765)",
+        "color": "rgb(255, 255, 255)",
+        "finePointer": true,
+        "height": 48
+      },
+      "finalStyles": {
+        "desktop": {
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 1003,
+              "y": 30
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 415,
+              "x": 1003,
+              "y": 928
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 479,
+              "x": 971,
+              "y": 745
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          }
+        },
+        "mobile": {
+          "heading": {
+            "bg": "rgba(0, 0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "32px",
+            "radius": "0px",
+            "rect": {
+              "h": 32,
+              "w": 96.953125,
+              "x": 25,
+              "y": 22
+            },
+            "size": "24px",
+            "spacing": "-0.48px",
+            "weight": "400"
+          },
+          "checkout": {
+            "bg": "rgb(0, 0, 0)",
+            "border": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "21px",
+            "radius": "2px",
+            "rect": {
+              "h": 48,
+              "w": 341,
+              "x": 25,
+              "y": 772
+            },
+            "size": "13px",
+            "spacing": "-0.26px",
+            "weight": "400"
+          },
+          "summary": {
+            "bg": "rgb(249, 248, 245)",
+            "border": "rgb(220, 213, 195) rgb(0, 0, 0) rgb(0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "font": "\"KNR Inter\", Inter, Arial, sans-serif",
+            "line": "20px",
+            "radius": "0px",
+            "rect": {
+              "h": 255,
+              "w": 389,
+              "x": 1,
+              "y": 589
+            },
+            "size": "12px",
+            "spacing": "-0.24px",
+            "weight": "400"
+          }
+        }
+      },
+      "emptyFocus": {
+        "active": "theme-drawer__close-button cart-drawer__close-button--empty",
+        "empty": true,
+        "inside": true,
+        "name": "Fermer",
+        "open": true,
+        "afterTab": {
+          "inside": true,
+          "name": "Connectez-vous",
+          "tag": "A"
+        }
+      },
+      "theme": {
+        "id": 189290447076,
+        "role": "unpublished"
+      },
+      "published": false,
+      "committed": false,
+      "validation": {
+        "npm": "passed",
+        "themeCheckErrors": 0,
+        "themeCheckWarnings": 2,
+        "compiledNativeJavaScript": "node --check passed",
+        "freshAssembly": "passed on Horizon 4.3.0",
+        "realIOS": "not tested",
+        "newLighthouse": "not run"
+      },
+      "checkedWidths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ]
+    },
+    "usageLinkSpacing": {
+      "date": "2026-10-25",
+      "before": [
+        {
+          "containerGap": "16px",
+          "gap": -6,
+          "margin": "-22px"
+        },
+        {
+          "containerGap": "16px",
+          "gap": -6,
+          "margin": "-22px"
+        },
+        {
+          "containerGap": "16px",
+          "gap": -6,
+          "margin": "-22px"
+        }
+      ],
+      "after": [
+        {
+          "cards": [
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            },
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            },
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            }
+          ],
+          "height": 705.796875,
+          "overflow": 0,
+          "width": 320
+        },
+        {
+          "cards": [
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            },
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            },
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            }
+          ],
+          "height": 705.796875,
+          "overflow": 0,
+          "width": 375
+        },
+        {
+          "cards": [
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            },
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            },
+            {
+              "gap": 16,
+              "href": "/pages/le-rituel",
+              "margin": "0px",
+              "visible": "block"
+            }
+          ],
+          "height": 705.796875,
+          "overflow": 0,
+          "width": 390
+        }
+      ],
+      "desktop": {
+        "height": 834,
+        "links": [
+          "none",
+          "none",
+          "none"
+        ],
+        "width": 1440
+      },
+      "theme": {
+        "id": 189290447076,
+        "role": "unpublished"
+      },
+      "npmCheck": "passed",
+      "themeCheck": {
+        "errors": 0,
+        "warnings": 2
+      },
+      "approvedDesignAdjustment": true,
+      "published": false,
+      "committed": false
+    },
+    "finalReview": {
+      "report": "../REVUE-FINALE.md",
+      "widths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "newFunctionalDefects": 0,
+      "codeChanged": false,
+      "cartRestored": "2 x 15 mL, 150 EUR",
+      "newFormSubmissions": 0,
+      "checkout": "handoff only; no order"
+    },
+    "reassuranceCarousel": {
+      "report": "../CARROUSEL-REASSURANCE.md",
+      "browser": "reassurance/revision-without-button.json",
+      "nodeTests": 5,
+      "autoplay": true,
+      "intervalSeconds": 4,
+      "shopifyEditing": "saved and verified; original copy restored",
+      "performance": "Latest paired mobile/desktop check includes the carousel; see desktop-mobile-comparison/results.json. One run per device, not new medians."
+    },
+    "heroStatic": {
+      "report": "hero-static/checks.json",
+      "heroZoomControls": 0,
+      "secondaryZoomControls": 2,
+      "widths": [
+        320,
+        390,
+        1440
+      ],
+      "published": false
+    },
+    "motionPerformanceComparison": {
+      "report": "../PERFORMANCE-ANIMATIONS.md",
+      "summary": {
+        "on": {
+          "scores": [
+            90,
+            90,
+            88
+          ],
+          "medianScore": 90,
+          "medianMetrics": {
+            "FCP": 2197,
+            "LCP": 3301,
+            "TBT": 41,
+            "CLS": 0,
+            "SI": 2552
+          }
+        },
+        "off": {
+          "scores": [
+            75,
+            57,
+            94
+          ],
+          "medianScore": 75,
+          "medianMetrics": {
+            "FCP": 2299,
+            "LCP": 3451,
+            "TBT": 387,
+            "CLS": 0,
+            "SI": 2668
+          }
+        },
+        "restored": {
+          "scrollReveals": true,
+          "reassuranceIntervalSeconds": 4,
+          "themeRole": "unpublished",
+          "commitCreated": false
+        }
+      },
+      "codeChanged": false
+    },
+    "latestDesktopMobileComparison": {
+      "report": "../PERFORMANCE-PAGESPEED.md",
+      "results": {
+        "mobile": {
+          "device": "mobile",
+          "score": 92,
+          "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/bz0q3k3etz?form_factor=mobile",
+          "captured": "Oct 23, 2026, 7:47 PM GMT+1",
+          "metrics": {
+            "FCP": 1981,
+            "LCP": 3151,
+            "TBT": 33,
+            "CLS": 0,
+            "SI": 2504
+          }
+        },
+        "desktop": {
+          "device": "desktop",
+          "score": 98,
+          "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/bz0q3k3etz?form_factor=desktop",
+          "captured": "Oct 23, 2026, 7:47 PM GMT+1",
+          "metrics": {
+            "FCP": 526,
+            "LCP": 1001,
+            "TBT": 0,
+            "CLS": 0,
+            "SI": 962
+          }
+        }
+      },
+      "runsPerDevice": 1,
+      "codeChanged": false,
+      "animationsEnabled": true
+    },
+    "preSubmission20261026": {
+      "report": "../REVUE-AVANT-SOUMISSION.md",
+      "evidence": "pre-submission-20261025/checks.json",
+      "testsPerformedOn": [
+        "2026-10-25",
+        "2026-10-26"
+      ],
+      "visualReviewOn": "2026-10-26",
+      "functionalRecords": 53,
+      "visualPairs": 22,
+      "videoScenes": 16,
+      "widths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "documentOverflow": false,
+      "newThemeDefectsIdentified": 0,
+      "codeChanged": false,
+      "freshLighthouseCompleted": true,
+      "historicalPerformanceDate": "2026-10-23",
+      "cartRestored": "2 x 15 mL, 150 EUR",
+      "countryRestored": "FR",
+      "heroZoom": false,
+      "secondaryDesktopZoom": true,
+      "mobileGalleryZoom": false,
+      "newFormSubmissions": 0,
+      "newOrders": 0,
+      "published": false,
+      "committed": false,
+      "plannedSubmission": "2026-10-27",
+      "deadline": "2026-10-27T14:55:00+01:00",
+      "remainingApprovalGates": [
+        "candidate submission"
+      ],
+      "mobilePerformanceConcern": "Median 81, range 68–90, median LCP 4632 ms; cause not isolated by these tests.",
+      "fullSafariAuditVerified": false,
+      "candidateIPhoneCartConfirmed": true,
+      "internationalConfigurationIssueResolved": true,
+      "laterMenuCodeFix": "See mobileMenuRefinement; original visual pairs/video predate this fix."
+    },
+    "historyNote": "Earlier checks retain their original scope. The pre-submission entry describes the current hero without zoom and secondary desktop zoom only. Historical PageSpeed and axe reports are not new measurements of the final package.",
+    "latestPageSpeed20261026": {
+      "report": "../PERFORMANCE-PAGESPEED.md",
+      "evidence": "pagespeed-20261026/results.json",
+      "medians": {
+        "mobile": {
+          "performance": 81,
+          "accessibility": 96,
+          "bestPractices": 92,
+          "seo": 69,
+          "fcpMs": 2138,
+          "lcpMs": 4632,
+          "tbtMs": 28,
+          "cls": 0,
+          "speedIndexMs": 3214,
+          "range": [
+            68,
+            90
+          ]
+        },
+        "desktop": {
+          "performance": 98,
+          "accessibility": 96,
+          "bestPractices": 92,
+          "seo": 69,
+          "fcpMs": 561,
+          "lcpMs": 1098,
+          "tbtMs": 58,
+          "cls": 0,
+          "speedIndexMs": 1002,
+          "range": [
+            96,
+            98
+          ]
+        }
+      },
+      "runsPerDevice": 3,
+      "codeChanged": false,
+      "animationsEnabled": true,
+      "mobilePerformanceOpen": true,
+      "measurementsPredateInternationalConfigurationFix": true,
+      "measurementsPredateMobileMenuFix": true,
+      "measurementsPredateQuickAddTouchFix": true,
+      "measurementsPredateDrawerMotionUpdate": true,
+      "measurementsPredateMobilePreviousArrow": true,
+      "measurementsPredateAccordionMotion": true,
+      "measurementsPredateCartPointerFocusFix": true
+    },
+    "internationalAvailability": {
+      "report": "../DISPONIBILITE-INTERNATIONALE.md",
+      "evidence": "market-availability/checks.json",
+      "configurationChanged": true,
+      "themeCodeChanged": false,
+      "internationalMarketId": 64046465252,
+      "internationalMarketRegions": 235,
+      "shippingMode": "standard profiles",
+      "generalProfileId": 116504723684,
+      "shippingZoneRegions": 236,
+      "demoRateEUR": 5.9,
+      "freeFromEUR": 60,
+      "stockTrackingRetained": true,
+      "stockPerVariant": 100,
+      "oversellingEnabled": false,
+      "tests": [
+        "Tunisia 15/150 mL confirmed; both 225 EUR",
+        "Tunisia upsell confirmed; total 290 EUR",
+        "US 150 mL confirmed; 150 EUR",
+        "France cart and quantity confirmed; baseline 150 EUR restored"
+      ],
+      "candidateIPhone16ProConfirmed": true,
+      "newOrders": 0,
+      "cartRestored": "2 x 15 mL / 150 EUR / France; visitor test cart empty",
+      "published": false,
+      "committed": false
+    },
+    "mobileMenuRefinement": {
+      "report": "../MENU-MOBILE.md",
+      "evidence": "mobile-menu-refinement/checks.json",
+      "date": "2026-10-26",
+      "themeCodeChanged": true,
+      "files": [
+        "assets/knr-components.js",
+        "sections/knr-header.liquid"
+      ],
+      "pointerFocusOutline": "suppressed only for close/menu controls; actual modal focus retained",
+      "keyboardFocus": "retained and re-enabled when using keyboard",
+      "transitionMs": 280,
+      "backdropTransitionMs": 220,
+      "reducedMotion": "no transitions",
+      "widths": [
+        320,
+        390,
+        402,
+        430
+      ],
+      "desktopRegressionWidth": 1440,
+      "finalRecords": 18,
+      "rapidReopen": "stale native close event guarded",
+      "lifecycle": "simulated component refresh tested; page reloaded afterward",
+      "realIPhoneRetestAfterMenuFix": false,
+      "newPageSpeedAfterMenuFix": false,
+      "cartUnchanged": true,
+      "published": false,
+      "committed": false,
+      "subsequentMotionUpdate": "drawerMotion: entry 320 ms / exit 240 ms / backdrop 220 ms"
+    },
+    "quickAddTouch": {
+      "date": "2026-10-26",
+      "report": "../AJOUT-RAPIDE-TACTILE.md",
+      "evidence": "quick-add-touch/checks.json",
+      "file": "sections/knr-product.liquid",
+      "cssOnly": true,
+      "javascriptChanged": false,
+      "targetBeforePx": 24,
+      "targetAfterPx": 44,
+      "figmaIconPx": 16,
+      "touchProducts": [
+        "Huile Précieuse",
+        "Sérum Éclat",
+        "Crème Régénérante"
+      ],
+      "touchCartConfirmed": "5 items / 359 EUR including baseline 2 x 15 mL",
+      "keyboardConfirmed": "6 items / 424 EUR after extra Huile Précieuse",
+      "urlUnchanged": true,
+      "swipeConfirmed": true,
+      "widths": [
+        320,
+        390,
+        402,
+        1440
+      ],
+      "cartRestored": "2 x 15 mL / 150 EUR / FR; drawer closed",
+      "realIPhoneRetestAfterFix": false,
+      "newPageSpeedAfterFix": false,
+      "published": false,
+      "committed": false
+    },
+    "drawerMotion": {
+      "date": "2026-10-26",
+      "report": "../TRANSITIONS-TIROIRS.md",
+      "evidence": "drawer-motion/checks.json",
+      "themeCodeChanged": true,
+      "nativePatchReassembledFromBase": true,
+      "entryMs": 320,
+      "exitMs": 240,
+      "backdropMs": 220,
+      "properties": [
+        "transform",
+        "opacity"
+      ],
+      "widths": [
+        320,
+        390,
+        402,
+        1440,
+        1920
+      ],
+      "pageWidthStable": true,
+      "interruptedEntry": "simulated at 80 ms; exact rendered transform retained",
+      "queuedReopen": true,
+      "keyboardAndPointerFocusRetained": true,
+      "reducedMotion": "initial and live exit checked",
+      "quickAdd": "confirmed; 3 items / 215 EUR, baseline cart restored",
+      "scrollPositionRetainedPx": 1078,
+      "realIPhoneRetest": false,
+      "newPageSpeed": false,
+      "published": false,
+      "committed": false
+    },
+    "mobileGalleryPrevious": {
+      "date": "2026-10-26",
+      "report": "../GALERIE-MOBILE.md",
+      "evidence": "gallery-previous/checks.json",
+      "figmaExceptionApproved": true,
+      "previousArrow": true,
+      "nextArrowRetained": true,
+      "iconPx": 16,
+      "touchTargetPx": 44,
+      "rightIconCenterPreserved": true,
+      "wrapsBothDirections": true,
+      "swipeAndKeyboard": true,
+      "reducedMotionImmediate": true,
+      "variantMediaAndPrices": "15 mL 75 EUR; 150 mL 150 EUR; restored 15 mL / first image",
+      "widths": [
+        320,
+        375,
+        390,
+        402,
+        749,
+        750,
+        1440
+      ],
+      "arrowsVisibleBelowPx": 750,
+      "functionalRecords": 17,
+      "heroZoomAdded": false,
+      "cartChanged": false,
+      "realIPhoneRetest": false,
+      "newPageSpeed": false,
+      "published": false,
+      "committed": false
+    },
+    "accordionMotion": {
+      "date": "2026-10-26",
+      "report": "../ACCORDIONS.md",
+      "evidence": "accordion-motion/checks.json",
+      "groups": [
+        "product details",
+        "FAQ"
+      ],
+      "rows": 9,
+      "durationMs": 260,
+      "properties": [
+        "height",
+        "opacity"
+      ],
+      "chevronSynchronized": true,
+      "nativeDetailsSemantics": true,
+      "nativeNoJavaScriptFallbackVerified": true,
+      "restingSpacingUnchanged": true,
+      "galleryContainerHeightDesktopPx": 609,
+      "rapidReversal": true,
+      "keyboardFocusAndClosingInert": true,
+      "reducedMotion": "initial and live checked",
+      "resizeAndSimulatedRefresh": true,
+      "widths": [
+        320,
+        375,
+        390,
+        768,
+        1024,
+        1440,
+        1920
+      ],
+      "newStyleOwner": "snippets/knr-accordion-styles.liquid",
+      "cartUnchanged": true,
+      "realIPhoneRetest": false,
+      "newPageSpeed": false,
+      "published": false,
+      "committed": false
+    },
+    "cartPointerFocus": {
+      "date": "2026-10-26",
+      "report": "../FOCUS-PANIER.md",
+      "evidence": "cart-pointer-focus/checks.json",
+      "themeCodeChanged": true,
+      "files": [
+        "assets/knr-components.js",
+        "layout/knr.liquid",
+        "snippets/knr-cart-styles.liquid"
+      ],
+      "nativeFocusMovesRetained": true,
+      "pointerCloseAndReturnRingsSuppressed": true,
+      "keyboardIndicatorsRetained": true,
+      "quantityFieldUnderlineRetained": true,
+      "interactionRecords": 19,
+      "widths": [
+        390,
+        1864
+      ],
+      "helperInstances": 1,
+      "candidateIPhoneChromeConfirmed": "Both are clear",
+      "candidateScope": "top cart icon and upsell +, close button and returned +",
+      "cartRestored": "2 x 15 mL / 150 EUR / FR; drawer closed",
+      "fullIOSAudit": false,
+      "newPageSpeed": false,
+      "published": false,
+      "committed": false
+    }
+  },
+  "testCleanup": {
+    "qaProduct": "archived",
+    "menu": "restored and observed",
+    "articleExcerpt": "restored and observed",
+    "faqBlockOrder": "restored and observed",
+    "usageImage": "restored and observed"
+  },
+  "publication": "2026-10-26, verified live theme 189290447076",
+  "commit": "single initial delivery commit; exact SHA and remote count verified after push in external package manifest",
+  "submission": "not performed; message prepared for candidate",
+  "productTemplate": "knr-serum, saved in product admin",
+  "visitorVerification": "release-20261026/checks.json",
+  "historyNote": "Checks below preserve their original draft state and measurement scope. Current release state is above and in LIVRAISON.md; historical published:false values are not current theme status."
+}

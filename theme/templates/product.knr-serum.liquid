@@ -1,0 +1,13 @@
+{% layout 'knr' %}
+{% comment %}The exercise explicitly requires a Liquid product template. Section order is fixed; content stays editable.{% endcomment %}
+{% section 'knr-product' %}
+{% section 'knr-ingredients' %}
+{% section 'knr-usage' %}
+{% section 'knr-results' %}
+{% section 'knr-faq' %}
+{% section 'knr-reviews' %}
+{% section 'knr-news' %}
+{% section 'knr-newsletter' %}
+<script type='application/ld+json'>
+  {{ product | structured_data }}
+</script>

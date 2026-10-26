@@ -1,0 +1,2100 @@
+{
+  "date": "2026-10-26",
+  "theme": 189290447076,
+  "baseline": [
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "height": 108,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "height": 60,
+              "label": "Bienfaits",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "height": 60,
+              "label": "Ingrédients clés",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "height": 60,
+              "label": "Adapté aux peaux",
+              "open": false,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "DIV",
+          "type": "knr-product__details",
+          "width": 372.671875
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "height": 132,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "height": 72,
+              "label": "Quand voir les effets ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "height": 72,
+              "label": "Convient-il à tous ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "height": 72,
+              "label": "Est-il naturel ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "height": 72,
+              "label": "Peut-on l’associer ?",
+              "open": false,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "DIV",
+          "type": "knr-faq__list",
+          "width": 720
+        }
+      ],
+      "images": [
+        {
+          "height": 626.234375,
+          "width": 477.609375
+        },
+        {
+          "height": 609,
+          "width": 464.671875
+        }
+      ],
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "height": 128,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "height": 60,
+              "label": "Bienfaits",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "height": 60,
+              "label": "Ingrédients clés",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "height": 60,
+              "label": "Adapté aux peaux",
+              "open": false,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "DIV",
+          "type": "knr-product__details",
+          "width": 316
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "height": 198,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "height": 72,
+              "label": "Quand voir les effets ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "height": 72,
+              "label": "Convient-il à tous ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "height": 72,
+              "label": "Est-il naturel ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "height": 72,
+              "label": "Peut-on l’associer ?",
+              "open": false,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "DIV",
+          "type": "knr-faq__list",
+          "width": 332
+        }
+      ],
+      "images": [
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 0,
+          "width": 0
+        }
+      ],
+      "overflow": 0,
+      "width": 390
+    }
+  ],
+  "records": [],
+  "baselineGalleryBoxes": [
+    {
+      "width": 1440,
+      "boxes": [
+        {
+          "height": 609,
+          "width": 464.65625
+        },
+        {
+          "height": 609,
+          "width": 464.671875
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "boxes": [
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 0,
+          "width": 0
+        }
+      ]
+    }
+  ],
+  "afterInitial": [
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 48,
+              "height": 108,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Bienfaits",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Ingrédients clés",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Adapté aux peaux",
+              "open": false,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 372.671875
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Quand voir les effets ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Convient-il à tous ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Est-il naturel ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Peut-on l’associer ?",
+              "open": false,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 720
+        }
+      ],
+      "images": [
+        {
+          "height": 626.234375,
+          "width": 477.609375
+        },
+        {
+          "height": 609,
+          "width": 464.671875
+        }
+      ],
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 60,
+              "label": "Bienfaits",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Ingrédients clés",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Adapté aux peaux",
+              "open": false,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 316
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 104,
+              "height": 72,
+              "label": "Quand voir les effets ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 72,
+              "label": "Convient-il à tous ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 104,
+              "height": 72,
+              "label": "Est-il naturel ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 72,
+              "label": "Peut-on l’associer ?",
+              "open": false,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 332
+        }
+      ],
+      "images": [
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 0,
+          "width": 0
+        }
+      ],
+      "overflow": 0,
+      "width": 390
+    }
+  ],
+  "animationTrace": {
+    "opened": {
+      "open": true,
+      "height": 0,
+      "animations": 1,
+      "frames": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "height": "0px",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "height": "88px",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 260,
+        "easing": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      }
+    },
+    "closing": {
+      "open": true,
+      "closing": true,
+      "inert": true,
+      "animations": 1,
+      "frames": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "height": "88px",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "height": "0px",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 260,
+        "easing": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      }
+    },
+    "finished": {
+      "open": false,
+      "animations": 0,
+      "inert": false,
+      "heightStyle": "",
+      "opacityStyle": ""
+    }
+  },
+  "developmentFix": {
+    "issue": "Shopify minified 260ms to .26s; initial parser treated seconds as milliseconds",
+    "resolution": "Normalize CSS time units before passing duration to Web Animations"
+  },
+  "rowCycles": [
+    {
+      "group": 0,
+      "row": 0,
+      "before": {
+        "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 128,
+        "label": "Description",
+        "open": true,
+        "summaryHeight": 20
+      },
+      "toggled": {
+        "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 60,
+        "label": "Description",
+        "open": false,
+        "summaryHeight": 20
+      },
+      "restored": {
+        "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 128,
+        "label": "Description",
+        "open": true,
+        "summaryHeight": 20
+      }
+    },
+    {
+      "group": 0,
+      "row": 1,
+      "before": {
+        "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+        "closing": false,
+        "contentHeight": 88,
+        "height": 60,
+        "label": "Bienfaits",
+        "open": false,
+        "summaryHeight": 20
+      },
+      "toggled": {
+        "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+        "closing": false,
+        "contentHeight": 88,
+        "height": 148,
+        "label": "Bienfaits",
+        "open": true,
+        "summaryHeight": 20
+      },
+      "restored": {
+        "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+        "closing": false,
+        "contentHeight": 88,
+        "height": 60,
+        "label": "Bienfaits",
+        "open": false,
+        "summaryHeight": 20
+      }
+    },
+    {
+      "group": 0,
+      "row": 2,
+      "before": {
+        "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 60,
+        "label": "Ingrédients clés",
+        "open": false,
+        "summaryHeight": 20
+      },
+      "toggled": {
+        "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 128,
+        "label": "Ingrédients clés",
+        "open": true,
+        "summaryHeight": 20
+      },
+      "restored": {
+        "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 60,
+        "label": "Ingrédients clés",
+        "open": false,
+        "summaryHeight": 20
+      }
+    },
+    {
+      "group": 0,
+      "row": 3,
+      "before": {
+        "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 60,
+        "label": "Adapté aux peaux",
+        "open": false,
+        "summaryHeight": 20
+      },
+      "toggled": {
+        "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 128,
+        "label": "Adapté aux peaux",
+        "open": true,
+        "summaryHeight": 20
+      },
+      "restored": {
+        "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+        "closing": false,
+        "contentHeight": 68,
+        "height": 60,
+        "label": "Adapté aux peaux",
+        "open": false,
+        "summaryHeight": 20
+      }
+    },
+    {
+      "group": 1,
+      "row": 0,
+      "before": {
+        "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 198,
+        "label": "Comment utiliser ?",
+        "open": true,
+        "summaryHeight": 32
+      },
+      "toggled": {
+        "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 72,
+        "label": "Comment utiliser ?",
+        "open": false,
+        "summaryHeight": 32
+      },
+      "restored": {
+        "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 198,
+        "label": "Comment utiliser ?",
+        "open": true,
+        "summaryHeight": 32
+      }
+    },
+    {
+      "group": 1,
+      "row": 1,
+      "before": {
+        "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+        "closing": false,
+        "contentHeight": 104,
+        "height": 72,
+        "label": "Quand voir les effets ?",
+        "open": false,
+        "summaryHeight": 32
+      },
+      "toggled": {
+        "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+        "closing": false,
+        "contentHeight": 104,
+        "height": 176,
+        "label": "Quand voir les effets ?",
+        "open": true,
+        "summaryHeight": 32
+      },
+      "restored": {
+        "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+        "closing": false,
+        "contentHeight": 104,
+        "height": 72,
+        "label": "Quand voir les effets ?",
+        "open": false,
+        "summaryHeight": 32
+      }
+    },
+    {
+      "group": 1,
+      "row": 2,
+      "before": {
+        "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 72,
+        "label": "Convient-il à tous ?",
+        "open": false,
+        "summaryHeight": 32
+      },
+      "toggled": {
+        "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 198,
+        "label": "Convient-il à tous ?",
+        "open": true,
+        "summaryHeight": 32
+      },
+      "restored": {
+        "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 72,
+        "label": "Convient-il à tous ?",
+        "open": false,
+        "summaryHeight": 32
+      }
+    },
+    {
+      "group": 1,
+      "row": 3,
+      "before": {
+        "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+        "closing": false,
+        "contentHeight": 104,
+        "height": 72,
+        "label": "Est-il naturel ?",
+        "open": false,
+        "summaryHeight": 32
+      },
+      "toggled": {
+        "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+        "closing": false,
+        "contentHeight": 104,
+        "height": 176,
+        "label": "Est-il naturel ?",
+        "open": true,
+        "summaryHeight": 32
+      },
+      "restored": {
+        "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+        "closing": false,
+        "contentHeight": 104,
+        "height": 72,
+        "label": "Est-il naturel ?",
+        "open": false,
+        "summaryHeight": 32
+      }
+    },
+    {
+      "group": 1,
+      "row": 4,
+      "before": {
+        "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 72,
+        "label": "Peut-on l’associer ?",
+        "open": false,
+        "summaryHeight": 32
+      },
+      "toggled": {
+        "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 198,
+        "label": "Peut-on l’associer ?",
+        "open": true,
+        "summaryHeight": 32
+      },
+      "restored": {
+        "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+        "closing": false,
+        "contentHeight": 126,
+        "height": 72,
+        "label": "Peut-on l’associer ?",
+        "open": false,
+        "summaryHeight": 32
+      }
+    }
+  ],
+  "rapidReversal": {
+    "beforeClose": 90.265625,
+    "reverseStart": "90.2656px",
+    "beforeReopen": 17.953125,
+    "reopenStart": "17.9531px",
+    "finalOpen": true,
+    "finalClosed": true,
+    "animationsRemaining": 0
+  },
+  "keyboardFocus": {
+    "focusVisible": true,
+    "outline": "rgb(0, 0, 0) solid 2px",
+    "tag": "SUMMARY",
+    "text": "Quand voir les effets ?"
+  },
+  "focusInsideClosing": {
+    "during": {
+      "focusOnSummary": true,
+      "inert": true,
+      "open": true
+    },
+    "closed": true,
+    "inertCleared": true,
+    "temporaryLinkRemoved": true
+  },
+  "reducedOpen": {
+    "open": true,
+    "animations": 0
+  },
+  "reducedClosed": {
+    "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+    "closing": false,
+    "contentHeight": 104,
+    "height": 72,
+    "label": "Quand voir les effets ?",
+    "open": false,
+    "summaryHeight": 32
+  },
+  "liveReduced": {
+    "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+    "closing": false,
+    "contentHeight": 104,
+    "height": 176,
+    "label": "Quand voir les effets ?",
+    "open": true,
+    "summaryHeight": 32
+  },
+  "resizeDuringAnimation": {
+    "cartCount": "2",
+    "groups": [
+      {
+        "rows": [
+          {
+            "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+            "closing": false,
+            "contentHeight": 48,
+            "height": 108,
+            "label": "Description",
+            "open": true,
+            "summaryHeight": 20
+          },
+          {
+            "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+            "closing": false,
+            "contentHeight": 68,
+            "height": 128,
+            "label": "Bienfaits",
+            "open": true,
+            "summaryHeight": 20
+          },
+          {
+            "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+            "closing": false,
+            "contentHeight": 0,
+            "height": 60,
+            "label": "Ingrédients clés",
+            "open": false,
+            "summaryHeight": 20
+          },
+          {
+            "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+            "closing": false,
+            "contentHeight": 0,
+            "height": 60,
+            "label": "Adapté aux peaux",
+            "open": false,
+            "summaryHeight": 20
+          }
+        ],
+        "tag": "KNR-ACCORDIONS",
+        "type": "knr-product__details",
+        "width": 372.671875
+      },
+      {
+        "rows": [
+          {
+            "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 132,
+            "label": "Comment utiliser ?",
+            "open": true,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 72,
+            "label": "Quand voir les effets ?",
+            "open": false,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 72,
+            "label": "Convient-il à tous ?",
+            "open": false,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 72,
+            "label": "Est-il naturel ?",
+            "open": false,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 72,
+            "label": "Peut-on l’associer ?",
+            "open": false,
+            "summaryHeight": 32
+          }
+        ],
+        "tag": "KNR-ACCORDIONS",
+        "type": "knr-faq__list",
+        "width": 720
+      }
+    ],
+    "images": [
+      {
+        "height": 626.234375,
+        "width": 477.609375
+      },
+      {
+        "height": 609,
+        "width": 464.671875
+      }
+    ],
+    "overflow": 0,
+    "width": 1440
+  },
+  "allOpenDesktop": {
+    "cartCount": "2",
+    "groups": [
+      {
+        "rows": [
+          {
+            "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+            "closing": false,
+            "contentHeight": 48,
+            "height": 108,
+            "label": "Description",
+            "open": true,
+            "summaryHeight": 20
+          },
+          {
+            "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+            "closing": false,
+            "contentHeight": 68,
+            "height": 128,
+            "label": "Bienfaits",
+            "open": true,
+            "summaryHeight": 20
+          },
+          {
+            "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+            "closing": false,
+            "contentHeight": 68,
+            "height": 128,
+            "label": "Ingrédients clés",
+            "open": true,
+            "summaryHeight": 20
+          },
+          {
+            "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+            "closing": false,
+            "contentHeight": 68,
+            "height": 128,
+            "label": "Adapté aux peaux",
+            "open": true,
+            "summaryHeight": 20
+          }
+        ],
+        "tag": "KNR-ACCORDIONS",
+        "type": "knr-product__details",
+        "width": 372.671875
+      },
+      {
+        "rows": [
+          {
+            "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 132,
+            "label": "Comment utiliser ?",
+            "open": true,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 132,
+            "label": "Quand voir les effets ?",
+            "open": true,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 132,
+            "label": "Convient-il à tous ?",
+            "open": true,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 132,
+            "label": "Est-il naturel ?",
+            "open": true,
+            "summaryHeight": 32
+          },
+          {
+            "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+            "closing": false,
+            "contentHeight": 60,
+            "height": 132,
+            "label": "Peut-on l’associer ?",
+            "open": true,
+            "summaryHeight": 32
+          }
+        ],
+        "tag": "KNR-ACCORDIONS",
+        "type": "knr-faq__list",
+        "width": 720
+      }
+    ],
+    "images": [
+      {
+        "height": 626.234375,
+        "width": 477.609375
+      },
+      {
+        "height": 609,
+        "width": 464.671875
+      }
+    ],
+    "overflow": 0,
+    "width": 1440
+  },
+  "allOpenGalleryBoxes": [
+    {
+      "height": 609,
+      "width": 464.65625
+    },
+    {
+      "height": 609,
+      "width": 464.671875
+    }
+  ],
+  "responsive": [
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Bienfaits",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Ingrédients clés",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Adapté aux peaux",
+              "open": true,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 246
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 148,
+              "height": 220,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 148,
+              "height": 252,
+              "label": "Quand voir les effets ?",
+              "open": true,
+              "summaryHeight": 64
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 148,
+              "height": 220,
+              "label": "Convient-il à tous ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Est-il naturel ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 148,
+              "height": 220,
+              "label": "Peut-on l’associer ?",
+              "open": true,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 262
+        }
+      ],
+      "images": [
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 0,
+          "width": 0
+        }
+      ],
+      "overflow": 0,
+      "width": 320
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Bienfaits",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Ingrédients clés",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Adapté aux peaux",
+              "open": true,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 301
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Quand voir les effets ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Convient-il à tous ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 104,
+              "height": 176,
+              "label": "Est-il naturel ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Peut-on l’associer ?",
+              "open": true,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 317
+        }
+      ],
+      "images": [
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 0,
+          "width": 0
+        }
+      ],
+      "overflow": 0,
+      "width": 375
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Bienfaits",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Ingrédients clés",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Adapté aux peaux",
+              "open": true,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 316
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 104,
+              "height": 176,
+              "label": "Quand voir les effets ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Convient-il à tous ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 104,
+              "height": 176,
+              "label": "Est-il naturel ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 126,
+              "height": 198,
+              "label": "Peut-on l’associer ?",
+              "open": true,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 332
+        }
+      ],
+      "images": [
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 0,
+          "width": 0
+        }
+      ],
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Bienfaits",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Ingrédients clés",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 88,
+              "height": 148,
+              "label": "Adapté aux peaux",
+              "open": true,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 253.953125
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Quand voir les effets ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Convient-il à tous ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Est-il naturel ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Peut-on l’associer ?",
+              "open": true,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 678
+        }
+      ],
+      "images": [
+        {
+          "height": 588.1875,
+          "width": 217.921875
+        },
+        {
+          "height": 572,
+          "width": 212.03125
+        }
+      ],
+      "overflow": 0,
+      "width": 768
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Bienfaits",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Ingrédients clés",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Adapté aux peaux",
+              "open": true,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 364.03125
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Quand voir les effets ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Convient-il à tous ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Est-il naturel ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Peut-on l’associer ?",
+              "open": true,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 720
+        }
+      ],
+      "images": [
+        {
+          "height": 588.1875,
+          "width": 292.921875
+        },
+        {
+          "height": 572,
+          "width": 284.984375
+        }
+      ],
+      "overflow": 0,
+      "width": 1024
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 48,
+              "height": 108,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Bienfaits",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Ingrédients clés",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 128,
+              "label": "Adapté aux peaux",
+              "open": true,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 372.671875
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Quand voir les effets ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Convient-il à tous ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Est-il naturel ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Peut-on l’associer ?",
+              "open": true,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 720
+        }
+      ],
+      "images": [
+        {
+          "height": 626.234375,
+          "width": 477.609375
+        },
+        {
+          "height": 609,
+          "width": 464.671875
+        }
+      ],
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 48,
+              "height": 108,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 48,
+              "height": 108,
+              "label": "Bienfaits",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 48,
+              "height": 108,
+              "label": "Ingrédients clés",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 48,
+              "height": 108,
+              "label": "Adapté aux peaux",
+              "open": true,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 532.671875
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Quand voir les effets ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Convient-il à tous ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Est-il naturel ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Peut-on l’associer ?",
+              "open": true,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 720
+        }
+      ],
+      "images": [
+        {
+          "height": 626.234375,
+          "width": 642.078125
+        },
+        {
+          "height": 609,
+          "width": 624.671875
+        }
+      ],
+      "overflow": 0,
+      "width": 1920
+    }
+  ],
+  "simulatedEditorRefresh": {
+    "refreshed": {
+      "open": false,
+      "closing": false,
+      "animations": 0,
+      "inert": false
+    },
+    "reopened": true,
+    "finalOpen": false,
+    "animationsRemaining": 0
+  },
+  "noJavaScript": {
+    "disabled": true,
+    "method": "Native DOM box model and touch input, without Runtime-based locator click",
+    "beforeOpen": false,
+    "afterOpen": true,
+    "targetBox": [
+      24,
+      283.375,
+      356,
+      283.375,
+      356,
+      315.375,
+      24,
+      315.375
+    ],
+    "earlierAttempts": "Locator click unavailable with scripts disabled; earlier coordinate tap used stale layout and did not establish a result"
+  },
+  "cleanup": {
+    "state": {
+      "cartCount": "2",
+      "groups": [
+        {
+          "rows": [
+            {
+              "answer": "Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+              "closing": false,
+              "contentHeight": 48,
+              "height": 108,
+              "label": "Description",
+              "open": true,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Une huile anti-âge sèche ultra fine qui aide à maintenir la peau ferme et pleine de vitalité tout en lissant les rides. Un rituel quotidien pour une peau nourrie, souple et lumineuse.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Bienfaits",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Huile de rosier muscat, rétinol végétal et extrait de cactus : trois actifs au cœur du rituel Maison Célestine. Formulé avec 97 % d’ingrédients d’origine naturelle.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Ingrédients clés",
+              "open": false,
+              "summaryHeight": 20
+            },
+            {
+              "answer": "Pour les peaux en quête de confort, de souplesse et d’éclat. Adaptez la quantité à votre routine et consultez la liste des ingrédients avant application.",
+              "closing": false,
+              "contentHeight": 68,
+              "height": 60,
+              "label": "Adapté aux peaux",
+              "open": false,
+              "summaryHeight": 20
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-product__details",
+          "width": 372.671875
+        },
+        {
+          "rows": [
+            {
+              "answer": "Appliquez 3 à 5 gouttes le soir sur visage et cou préalablement nettoyés. Massez délicatement en mouvements ascendants jusqu’à absorption complète. Peut s’utiliser seul ou sous votre crème habituelle.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 132,
+              "label": "Comment utiliser ?",
+              "open": true,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Les premières améliorations sont visibles dès 4 semaines d’utilisation régulière : teint plus uniforme et peau lissée. Les effets se renforcent après 8 à 12 semaines pour une régénération cellulaire profonde.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Quand voir les effets ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Formulé pour toutes les peaux, même sensibles. Sa composition sans parfum, sans perturbateur endocrinien et testée dermatologiquement en fait un allié de choix pour les peaux matures ou fragilisées.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Convient-il à tous ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "97 % d’ingrédients d’origine naturelle. Sans silicone, sans paraben, sans parfum synthétique. Certifié par un laboratoire indépendant et produit selon les plus hautes exigences cosmétiques.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Est-il naturel ?",
+              "open": false,
+              "summaryHeight": 32
+            },
+            {
+              "answer": "Il se marie parfaitement avec notre Crème Régénérante. Appliquez d’abord le sérum, laissez pénétrer quelques instants, puis appliquez votre crème. Évitez l’association avec d’autres rétinoïdes actifs.",
+              "closing": false,
+              "contentHeight": 60,
+              "height": 72,
+              "label": "Peut-on l’associer ?",
+              "open": false,
+              "summaryHeight": 32
+            }
+          ],
+          "tag": "KNR-ACCORDIONS",
+          "type": "knr-faq__list",
+          "width": 720
+        }
+      ],
+      "images": [
+        {
+          "height": 626.234375,
+          "width": 477.609375
+        },
+        {
+          "height": 609,
+          "width": 464.671875
+        }
+      ],
+      "overflow": 0,
+      "width": 1440
+    },
+    "cart": {
+      "count": "2",
+      "country": "FR",
+      "dialogOpen": false,
+      "dialogText": "Panier 2 Nombre total d’articles dans le panier: 2 2 Total du panier 150,00 € EUR Image de produit Informations sur le produit Quantité Nombre total de produits Sérum Précieux Régénérant Taille: 15 mL Prix promotionnel 75,00 € Prix régulier 85,00 € Diminuer la quantité Augmenter la quantité Retirer 150,00 € Prix unitaire 500,00 €/100 ml Réduction Appliquer un code de réduction Appliquer Le code de réduction ne peut pas être appliqué à votre panier Les réductions sur l’expédition sont affichées lors du paiement après avoir ajouté une adresse Total estimé 150,00 € EUR Taxes et expédition calculés lors du paiement. Payer",
+      "productStatus": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "temporaryLinkRemoved": true,
+    "scriptExecutionEnabled": true,
+    "touchEmulation": false,
+    "mediaOverride": false,
+    "initialDisclosureStatesRestored": true,
+    "published": false,
+    "committed": false,
+    "newOrders": 0
+  },
+  "scope": {
+    "durationMs": 260,
+    "groups": [
+      "product details",
+      "FAQ"
+    ],
+    "rows": 9,
+    "newStyleOwner": "snippets/knr-accordion-styles.liquid",
+    "realIPhoneRetest": false,
+    "newPageSpeed": false
+  },
+  "finalScreenshotState": [
+    {
+      "open": true,
+      "height": 132,
+      "opacity": "1",
+      "animations": 0
+    },
+    {
+      "open": false,
+      "height": 72,
+      "opacity": "1",
+      "animations": 0
+    },
+    {
+      "open": false,
+      "height": 72,
+      "opacity": "1",
+      "animations": 0
+    },
+    {
+      "open": true,
+      "height": 132,
+      "opacity": "1",
+      "animations": 0
+    },
+    {
+      "open": false,
+      "height": 72,
+      "opacity": "1",
+      "animations": 0
+    }
+  ]
+}

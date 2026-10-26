@@ -1,0 +1,78 @@
+{
+  "images": [
+    {
+      "alt": "Sérum Précieux Régénérant",
+      "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/5aab8d21-6f60-48fd-8059-cd7ae99fa563.png?v=1792690047"
+    },
+    {
+      "alt": "Sérum Précieux Régénérant",
+      "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/8c22bf62-65ed-4a59-8fc5-cbad23eb681a.png?v=1792690048"
+    },
+    {
+      "alt": "Le sérum Maison Célestine et sa texture",
+      "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/44c2be4e-50f5-485d-a8ca-e05f3e15a079.png?v=1792690048"
+    },
+    {
+      "alt": "Sérum Précieux Régénérant",
+      "src": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/knr-desktop-product-image-container2.png?v=1792690105"
+    }
+  ],
+  "related": [
+    {
+      "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_ac70a3ba-d286-485c-b68b-0c9fadc3e0e9.png?v=1792690050",
+      "url": "/products/huile-precieuse"
+    },
+    {
+      "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_af13ef09-6d53-42e9-8f21-50dcd487d89c.png?v=1792690053",
+      "url": "/products/serum-eclat"
+    },
+    {
+      "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/612af94e-946a-4d39-bd11-8eb0d81c7359_0cd2070c-f484-41be-ace3-4dd04825cfe3.png?v=1792690056",
+      "url": "/products/creme-regenerante"
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Mathilde S.",
+      "body": "La texture est agréable et quelques gouttes suffisent pour mon rituel du soir. Le sérum s’étale facilement et laisse ma peau douce, sans sensation grasse.",
+      "date": "2026-10-18",
+      "rating": 5,
+      "title": "Une belle découverte"
+    },
+    {
+      "author": "Camille R.",
+      "body": "J’aime prendre le temps de masser quelques gouttes avant ma crème. Le flacon compte-gouttes est pratique et la texture soyeuse rend ce moment particulièrement agréable.",
+      "date": "2026-10-15",
+      "rating": 5,
+      "title": "Mon nouveau rituel du soir"
+    },
+    {
+      "author": "Élodie L.",
+      "body": "Le sérum trouve facilement sa place dans ma routine. Deux ou trois gouttes suffisent et je peux appliquer ma crème juste après. J’apprécie surtout sa texture légère.",
+      "date": "2026-10-12",
+      "rating": 5,
+      "title": "Un soin facile à adopter"
+    },
+    {
+      "author": "Clara T.",
+      "body": "J’utilise ce sérum depuis trois mois et la différence est saisissante. Mes rides d’expression se sont considérablement atténuées et mon teint a retrouvé une luminosité que je n’avais plus depuis des années. Une texture soyeuse qui pénètre instantanément. Je ne peux plus m’en passer.",
+      "date": "2026-10-10",
+      "rating": 5,
+      "title": "Une texture soyeuse"
+    },
+    {
+      "author": "Sophie M.",
+      "body": "J’apprécie la douceur de la texture et le format pratique. Je préfère l’utiliser le soir pour prendre mon temps. Le compte-gouttes demande un petit temps d’adaptation.",
+      "date": "2026-10-08",
+      "rating": 4,
+      "title": "Une routine toute simple"
+    },
+    {
+      "author": "Anne D.",
+      "body": "Une huile fine et confortable, agréable à appliquer sur le visage. Je dose avec parcimonie pour ma peau mixte. Le petit format permet de découvrir le soin à son rythme.",
+      "date": "2026-10-05",
+      "rating": 4,
+      "title": "Un moment de douceur"
+    }
+  ]
+}

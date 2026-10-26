@@ -1,0 +1,117 @@
+{
+  "canonical": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant",
+  "description": "Découvrez le Sérum Précieux Régénérant Maison Célestine, à 97 % d’ingrédients d’origine naturelle. Deux formats : 15 mL et 150 mL.",
+  "h1": [
+    "SÉRUM PRÉCIEUX RÉGÉNÉRANT"
+  ],
+  "lang": "fr",
+  "robots": [],
+  "social": [
+    {
+      "content": "Maison Celestine - KNR Test",
+      "name": "og:site_name"
+    },
+    {
+      "content": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant",
+      "name": "og:url"
+    },
+    {
+      "content": "Sérum Précieux Régénérant",
+      "name": "og:title"
+    },
+    {
+      "content": "product",
+      "name": "og:type"
+    },
+    {
+      "content": "Découvrez le Sérum Précieux Régénérant Maison Célestine, à 97 % d’ingrédients d’origine naturelle. Deux formats : 15 mL et 150 mL.",
+      "name": "og:description"
+    },
+    {
+      "content": "http://maison-celestine-knr-test.myshopify.com/cdn/shop/files/5aab8d21-6f60-48fd-8059-cd7ae99fa563.png?v=1792690047",
+      "name": "og:image"
+    },
+    {
+      "content": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/5aab8d21-6f60-48fd-8059-cd7ae99fa563.png?v=1792690047",
+      "name": "og:image:secure_url"
+    },
+    {
+      "content": "2158",
+      "name": "og:image:width"
+    },
+    {
+      "content": "1174",
+      "name": "og:image:height"
+    },
+    {
+      "content": "75,00",
+      "name": "og:price:amount"
+    },
+    {
+      "content": "EUR",
+      "name": "og:price:currency"
+    },
+    {
+      "content": "summary_large_image",
+      "name": "twitter:card"
+    },
+    {
+      "content": "Sérum Précieux Régénérant",
+      "name": "twitter:title"
+    },
+    {
+      "content": "Découvrez le Sérum Précieux Régénérant Maison Célestine, à 97 % d’ingrédients d’origine naturelle. Deux formats : 15 mL et 150 mL.",
+      "name": "twitter:description"
+    }
+  ],
+  "structuredData": [
+    {
+      "@context": "http://schema.org/",
+      "@id": "/products/serum-precieux-regenerant#product",
+      "@type": "ProductGroup",
+      "brand": {
+        "@type": "Brand",
+        "name": "Maison Célestine"
+      },
+      "category": "Soins anti-âge",
+      "description": "Une huile anti-âge sèche ultra fine qui travaille en synergie avec la peau pour la maintenir ferme, pleine de vitalité tout en lissant les rides.Formulé à partir de 97 % d’ingrédients d’origine naturelle, ce sérum précieux active les mécanismes naturels de régénération cellulaire.",
+      "hasVariant": [
+        {
+          "@id": "/products/serum-precieux-regenerant?variant=67758438383844#variant",
+          "@type": "Product",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/5aab8d21-6f60-48fd-8059-cd7ae99fa563.png?v=1792690047&width=1920",
+          "name": "Sérum Précieux Régénérant - 15 mL",
+          "offers": {
+            "@id": "/products/serum-precieux-regenerant?variant=67758438383844#offer",
+            "@type": "Offer",
+            "availability": "http://schema.org/InStock",
+            "price": "75.00",
+            "priceCurrency": "EUR",
+            "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?variant=67758438383844"
+          },
+          "sku": "MC-SER-15"
+        },
+        {
+          "@id": "/products/serum-precieux-regenerant?variant=67758438416612#variant",
+          "@type": "Product",
+          "image": "https://maison-celestine-knr-test.myshopify.com/cdn/shop/files/knr-desktop-product-image-container2.png?v=1792690105&width=1920",
+          "name": "Sérum Précieux Régénérant - 150 mL",
+          "offers": {
+            "@id": "/products/serum-precieux-regenerant?variant=67758438416612#offer",
+            "@type": "Offer",
+            "availability": "http://schema.org/InStock",
+            "price": "150.00",
+            "priceCurrency": "EUR",
+            "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?variant=67758438416612"
+          },
+          "sku": "MC-SER-150"
+        }
+      ],
+      "name": "Sérum Précieux Régénérant",
+      "productGroupID": "15385323372772",
+      "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant"
+    }
+  ],
+  "title": "Sérum Précieux Régénérant – Maison Celestine - KNR Test",
+  "url": "https://maison-celestine-knr-test.myshopify.com/products/serum-precieux-regenerant?view=knr-serum"
+}

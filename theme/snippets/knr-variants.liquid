@@ -1,0 +1,27 @@
+{% doc %}
+  Progressive variant links work through server-rendered URLs without JavaScript.
+
+  @param {product} product - Shopify product.
+  @param {string} [label] - Optional editable label for the variant selector.
+{% enddoc %}
+<div class='knr-variants' role='group' aria-label='{{ product.options.first | escape }}'>
+  {% if label != blank -%}
+    <span class='knr-variants__label'>{{ label | escape }}</span>
+  {%- endif %}
+  <div class='knr-variants__links'>
+    {% for variant in product.variants %}
+      <a
+        href='{{ product.url }}?variant={{ variant.id }}&view=knr-serum'
+        data-knr-variant='{{ variant.id }}'
+        {% if variant.id == product.selected_or_first_available_variant.id %}
+          aria-current='true'
+        {% endif %}
+        {% unless variant.available %}
+          class='knr-variants__unavailable'
+        {% endunless %}
+      >
+        {{- variant.title | escape -}}
+      </a>
+    {% endfor %}
+  </div>
+</div>

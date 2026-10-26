@@ -1,0 +1,65 @@
+[
+  {
+    "requested": 320,
+    "height": 844,
+    "ingredientTop": -2919.1875,
+    "overflow": false,
+    "productPanel": -2943.1875,
+    "scrollWidth": 310,
+    "width": 320
+  },
+  {
+    "requested": 375,
+    "height": 844,
+    "ingredientTop": 1566.8125,
+    "overflow": false,
+    "productPanel": 1542.8125,
+    "scrollWidth": 365,
+    "width": 375
+  },
+  {
+    "requested": 390,
+    "height": 844,
+    "ingredientTop": -1291.1875,
+    "overflow": false,
+    "productPanel": -1315.1875,
+    "scrollWidth": 380,
+    "width": 390
+  },
+  {
+    "requested": 768,
+    "height": 1000,
+    "ingredientTop": 1396,
+    "overflow": false,
+    "productPanel": 1396,
+    "scrollWidth": 758,
+    "width": 768
+  },
+  {
+    "requested": 1024,
+    "height": 1000,
+    "ingredientTop": 1328,
+    "overflow": false,
+    "productPanel": 1328,
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "requested": 1440,
+    "height": 1000,
+    "ingredientTop": 1404,
+    "overflow": false,
+    "productPanel": 1404,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "requested": 1920,
+    "height": 1000,
+    "ingredientTop": 1581.140625,
+    "overflow": false,
+    "productPanel": 1352,
+    "scrollWidth": 1920,
+    "width": 1920
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "desktop": {
+    "styleComparisons": 116,
+    "exactStyleMatches": 116,
+    "differences": [],
+    "unmatchedLiteralTexts": 28,
+    "unmatchedReason": "Dynamic/corrected content and text aggregation; checked visually using section captures and the separate complete text audit."
+  },
+  "mobile": {
+    "styleComparisons": 76,
+    "exactStyleMatches": 74,
+    "differences": [
+      {
+        "node": "653:1128",
+        "text": "Livraison estimée sous 48h",
+        "diffs": {
+          "color": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rgb(255, 255, 255)"
+          ]
+        },
+        "reason": "White announcement text remains legible on black, as previously agreed."
+      },
+      {
+        "node": "653:1154",
+        "text": "1",
+        "diffs": {
+          "line": [
+            8,
+            "12px"
+          ]
+        },
+        "reason": "8px badge glyph centered in its 12px circular container; line box differs, visible geometry preserved."
+      }
+    ],
+    "unmatchedLiteralTexts": 31,
+    "unmatchedReason": "Dynamic/corrected content and text aggregation; checked visually using section captures and the separate complete text audit."
+  }
+}

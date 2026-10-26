@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang='{{ request.locale.iso_code }}' dir='{{ request.locale.direction | default: 'ltr' }}'>
+  <head>
+    {% render 'meta-tags' %}
+    {% render 'stylesheets' %}
+    {% render 'theme-styles-variables' %}
+    {% render 'color-palette' %}
+    {% render 'scripts' %}
+    {% render 'knr-fonts' %}
+    {{ 'knr-base.css' | asset_url | stylesheet_tag }}
+    {{
+      'knr-inter-400.woff2'
+      | asset_url
+      | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous'
+    }}
+    {% if request.design_mode %}{% render 'theme-editor' %}{% endif %}
+    {{ content_for_header }}
+    <script type='module' src='{{ 'knr-components.js' | asset_url }}'></script>
+  </head>
+  <body
+    class='knr-page'
+    style='--knr-paper:{{ settings.knr_paper }};--knr-sand:{{ settings.knr_sand }};--knr-sand-rgb:{{ settings.knr_sand.rgb }};--knr-accent:{{ settings.knr_accent }};--knr-ink:{{ settings.knr_ink }};--knr-ink-rgb:{{ settings.knr_ink.rgb }}'
+  >
+    <knr-input-modality hidden></knr-input-modality>
+    <a class='knr-skip' href='#MainContent'>{{ 'knr.skip' | t }}</a>
+    <div class='page-wrapper'>
+      {% section 'knr-announcement' %}
+      {% section 'knr-header' %}
+      <main id='MainContent' tabindex='-1'>{{ content_for_layout }}</main>
+      {% if settings.knr_scroll_reveals and request.design_mode == false %}
+        <knr-reveals hidden></knr-reveals>
+      {% endif %}
+      {% section 'knr-reassurance' %}
+      {% section 'knr-footer' %}
+    </div>
+    {% render 'cart-drawer', render_wrapper: true %}
+    {% render 'knr-cart-styles' %}
+    {% render 'theme-drawer' %}
+    {% render 'search-modal' %}
+    <div class='knr-sr-only' role='status' aria-live='polite' data-knr-cart-status></div>
+  </body>
+</html>

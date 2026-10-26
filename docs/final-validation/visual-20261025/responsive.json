@@ -1,0 +1,1255 @@
+[
+  {
+    "targetWidth": 320,
+    "content": 320,
+    "headings": [
+      {
+        "line": "12px",
+        "size": "12px",
+        "text": "Complétez votre rituel"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "Notre engagement pour une beauté régénérée"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Comment l’utiliser"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Ce que disent nos clientes"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Questions fréquentes"
+      },
+      {
+        "line": "32px",
+        "size": "24px",
+        "text": "Avis clients"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Dernières actualités"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines."
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Livraison offerte"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Retours gratuits"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Paiement sécurisé"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Service client"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "À propos de Maison Célestine"
+      }
+    ],
+    "overflow": 0,
+    "reassurance": [
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      }
+    ],
+    "sections": [
+      {
+        "height": 32,
+        "id": "shopify-section-knr-announcement",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 56,
+        "id": "shopify-section-knr-header",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 1596.203125,
+        "id": "shopify-section-knr-product",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 795,
+        "id": "shopify-section-knr-ingredients",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 683.796875,
+        "id": "shopify-section-knr-usage",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 1108.6875,
+        "id": "shopify-section-knr-results",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 718,
+        "id": "shopify-section-knr-faq",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 1358,
+        "id": "shopify-section-knr-reviews",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 778.59375,
+        "id": "shopify-section-knr-news",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 748.5,
+        "id": "shopify-section-knr-newsletter",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 262.796875,
+        "id": "shopify-section-knr-reassurance",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      },
+      {
+        "height": 865.234375,
+        "id": "shopify-section-knr-footer",
+        "right": 320,
+        "width": 320,
+        "x": 0
+      }
+    ],
+    "viewport": 320,
+    "documentClientWidth": 320,
+    "sectionOverflow": []
+  },
+  {
+    "targetWidth": 375,
+    "content": 375,
+    "headings": [
+      {
+        "line": "12px",
+        "size": "12px",
+        "text": "Complétez votre rituel"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "Notre engagement pour une beauté régénérée"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Comment l’utiliser"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Ce que disent nos clientes"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Questions fréquentes"
+      },
+      {
+        "line": "32px",
+        "size": "24px",
+        "text": "Avis clients"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Dernières actualités"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines."
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Livraison offerte"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Retours gratuits"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Paiement sécurisé"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Service client"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "À propos de Maison Célestine"
+      }
+    ],
+    "overflow": 0,
+    "reassurance": [
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      }
+    ],
+    "sections": [
+      {
+        "height": 32,
+        "id": "shopify-section-knr-announcement",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 56,
+        "id": "shopify-section-knr-header",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 1556.203125,
+        "id": "shopify-section-knr-product",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 771,
+        "id": "shopify-section-knr-ingredients",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 683.796875,
+        "id": "shopify-section-knr-usage",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 1021.578125,
+        "id": "shopify-section-knr-results",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 646,
+        "id": "shopify-section-knr-faq",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 1298,
+        "id": "shopify-section-knr-reviews",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 738.59375,
+        "id": "shopify-section-knr-news",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 705.8125,
+        "id": "shopify-section-knr-newsletter",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 262.796875,
+        "id": "shopify-section-knr-reassurance",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      },
+      {
+        "height": 834.953125,
+        "id": "shopify-section-knr-footer",
+        "right": 375,
+        "width": 375,
+        "x": 0
+      }
+    ],
+    "viewport": 375,
+    "documentClientWidth": 375,
+    "sectionOverflow": []
+  },
+  {
+    "targetWidth": 390,
+    "content": 390,
+    "headings": [
+      {
+        "line": "12px",
+        "size": "12px",
+        "text": "Complétez votre rituel"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "Notre engagement pour une beauté régénérée"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Comment l’utiliser"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Ce que disent nos clientes"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Questions fréquentes"
+      },
+      {
+        "line": "32px",
+        "size": "24px",
+        "text": "Avis clients"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Dernières actualités"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines."
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Livraison offerte"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Retours gratuits"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Paiement sécurisé"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Service client"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "À propos de Maison Célestine"
+      }
+    ],
+    "overflow": 0,
+    "reassurance": [
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      }
+    ],
+    "sections": [
+      {
+        "height": 32,
+        "id": "shopify-section-knr-announcement",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 56,
+        "id": "shopify-section-knr-header",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 1556.203125,
+        "id": "shopify-section-knr-product",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 747,
+        "id": "shopify-section-knr-ingredients",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 683.796875,
+        "id": "shopify-section-knr-usage",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 1030,
+        "id": "shopify-section-knr-results",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 646,
+        "id": "shopify-section-knr-faq",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 1298,
+        "id": "shopify-section-knr-reviews",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 738.59375,
+        "id": "shopify-section-knr-news",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 716,
+        "id": "shopify-section-knr-newsletter",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 262.796875,
+        "id": "shopify-section-knr-reassurance",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      },
+      {
+        "height": 836.515625,
+        "id": "shopify-section-knr-footer",
+        "right": 390,
+        "width": 390,
+        "x": 0
+      }
+    ],
+    "viewport": 390,
+    "documentClientWidth": 390,
+    "sectionOverflow": []
+  },
+  {
+    "targetWidth": 768,
+    "content": 768,
+    "headings": [
+      {
+        "line": "12px",
+        "size": "12px",
+        "text": "Complétez votre rituel"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "Notre engagement pour une beauté régénérée"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Comment l’utiliser"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Ce que disent nos clientes"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Questions fréquentes"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Avis clients"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Dernières actualités"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines."
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Livraison offerte"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Retours gratuits"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Paiement sécurisé"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Service client"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "À propos de Maison Célestine"
+      }
+    ],
+    "overflow": 0,
+    "reassurance": [
+      {
+        "gap": 24,
+        "headingHeight": 28
+      },
+      {
+        "gap": 24,
+        "headingHeight": 28
+      },
+      {
+        "gap": 24,
+        "headingHeight": 28
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      }
+    ],
+    "sections": [
+      {
+        "height": 32,
+        "id": "shopify-section-knr-announcement",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 56,
+        "id": "shopify-section-knr-header",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 1353.390625,
+        "id": "shopify-section-knr-product",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 800,
+        "id": "shopify-section-knr-ingredients",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 676,
+        "id": "shopify-section-knr-usage",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 1152,
+        "id": "shopify-section-knr-results",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 788,
+        "id": "shopify-section-knr-faq",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 1058,
+        "id": "shopify-section-knr-reviews",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 604.796875,
+        "id": "shopify-section-knr-news",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 780,
+        "id": "shopify-section-knr-newsletter",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 292,
+        "id": "shopify-section-knr-reassurance",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      },
+      {
+        "height": 891.46875,
+        "id": "shopify-section-knr-footer",
+        "right": 768,
+        "width": 768,
+        "x": 0
+      }
+    ],
+    "viewport": 778,
+    "documentClientWidth": 768,
+    "sectionOverflow": []
+  },
+  {
+    "targetWidth": 1024,
+    "content": 1024,
+    "headings": [
+      {
+        "line": "12px",
+        "size": "12px",
+        "text": "Complétez votre rituel"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "Notre engagement pour une beauté régénérée"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Comment l’utiliser"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Ce que disent nos clientes"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Questions fréquentes"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Avis clients"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Dernières actualités"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines."
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Livraison offerte"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Retours gratuits"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Paiement sécurisé"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Service client"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "À propos de Maison Célestine"
+      }
+    ],
+    "overflow": 0,
+    "reassurance": [
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      }
+    ],
+    "sections": [
+      {
+        "height": 32,
+        "id": "shopify-section-knr-announcement",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 56,
+        "id": "shopify-section-knr-header",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 1285.390625,
+        "id": "shopify-section-knr-product",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 800,
+        "id": "shopify-section-knr-ingredients",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 717.34375,
+        "id": "shopify-section-knr-usage",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 1160,
+        "id": "shopify-section-knr-results",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 788,
+        "id": "shopify-section-knr-faq",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 1058,
+        "id": "shopify-section-knr-reviews",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 592.796875,
+        "id": "shopify-section-knr-news",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 780,
+        "id": "shopify-section-knr-newsletter",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 258,
+        "id": "shopify-section-knr-reassurance",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      },
+      {
+        "height": 670.078125,
+        "id": "shopify-section-knr-footer",
+        "right": 1024,
+        "width": 1024,
+        "x": 0
+      }
+    ],
+    "viewport": 1034,
+    "documentClientWidth": 1034,
+    "sectionOverflow": []
+  },
+  {
+    "targetWidth": 1440,
+    "content": 1440,
+    "headings": [
+      {
+        "line": "12px",
+        "size": "12px",
+        "text": "Complétez votre rituel"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "Notre engagement pour une beauté régénérée"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Comment l’utiliser"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Ce que disent nos clientes"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Questions fréquentes"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Avis clients"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Dernières actualités"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines."
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Livraison offerte"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Retours gratuits"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Paiement sécurisé"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Service client"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "À propos de Maison Célestine"
+      }
+    ],
+    "overflow": 0,
+    "reassurance": [
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      }
+    ],
+    "sections": [
+      {
+        "height": 32,
+        "id": "shopify-section-knr-announcement",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 56,
+        "id": "shopify-section-knr-header",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 1345,
+        "id": "shopify-section-knr-product",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 800,
+        "id": "shopify-section-knr-ingredients",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 834,
+        "id": "shopify-section-knr-usage",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 1368,
+        "id": "shopify-section-knr-results",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 788,
+        "id": "shopify-section-knr-faq",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 1058,
+        "id": "shopify-section-knr-reviews",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 620.796875,
+        "id": "shopify-section-knr-news",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 780,
+        "id": "shopify-section-knr-newsletter",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 258,
+        "id": "shopify-section-knr-reassurance",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      },
+      {
+        "height": 713.296875,
+        "id": "shopify-section-knr-footer",
+        "right": 1440,
+        "width": 1440,
+        "x": 0
+      }
+    ],
+    "viewport": 1450,
+    "documentClientWidth": 1450,
+    "sectionOverflow": []
+  },
+  {
+    "targetWidth": 1920,
+    "content": 1920,
+    "headings": [
+      {
+        "line": "12px",
+        "size": "12px",
+        "text": "Complétez votre rituel"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "Notre engagement pour une beauté régénérée"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Comment l’utiliser"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Ce que disent nos clientes"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "Questions fréquentes"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Avis clients"
+      },
+      {
+        "line": "40px",
+        "size": "32px",
+        "text": "Dernières actualités"
+      },
+      {
+        "line": "48px",
+        "size": "40px",
+        "text": "L’alliance de la science botanique et du luxe naturel pour une peau visiblement rajeunie en 4 semaines."
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Livraison offerte"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Retours gratuits"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Paiement sécurisé"
+      },
+      {
+        "line": "14px",
+        "size": "14px",
+        "text": "Service client"
+      },
+      {
+        "line": "20px",
+        "size": "12px",
+        "text": "À propos de Maison Célestine"
+      }
+    ],
+    "overflow": 0,
+    "reassurance": [
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      },
+      {
+        "gap": 24,
+        "headingHeight": 14
+      }
+    ],
+    "sections": [
+      {
+        "height": 32,
+        "id": "shopify-section-knr-announcement",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 56,
+        "id": "shopify-section-knr-header",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 1345,
+        "id": "shopify-section-knr-product",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 800,
+        "id": "shopify-section-knr-ingredients",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 994,
+        "id": "shopify-section-knr-usage",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 1608,
+        "id": "shopify-section-knr-results",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 788,
+        "id": "shopify-section-knr-faq",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 1058,
+        "id": "shopify-section-knr-reviews",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 718.796875,
+        "id": "shopify-section-knr-news",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 780,
+        "id": "shopify-section-knr-newsletter",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 258,
+        "id": "shopify-section-knr-reassurance",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      },
+      {
+        "height": 763.171875,
+        "id": "shopify-section-knr-footer",
+        "right": 1920,
+        "width": 1920,
+        "x": 0
+      }
+    ],
+    "viewport": 1930,
+    "documentClientWidth": 1930,
+    "sectionOverflow": []
+  }
+]

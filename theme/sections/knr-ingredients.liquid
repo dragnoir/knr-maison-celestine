@@ -1,0 +1,172 @@
+{% comment %}
+  KNR ingredients. Editable content is supplied through section settings or Shopify resources.
+{% endcomment %}
+<div class='knr-ingredients__scene'>
+  <picture class='knr-ingredients__image'>
+    {% if section.settings.mobile_image != blank %}
+      <source
+        media='(max-width: 749px)'
+        srcset='{{ section.settings.mobile_image | image_url: width: 1500 }}'
+      >
+    {% endif %}
+    {% render 'knr-image',
+      image: section.settings.image,
+      sizes: '131vw',
+      alt: section.settings.image.alt
+    %}
+  </picture>
+  <div class='knr-ingredients__content'>
+    <h2 class='knr-ingredients__eyebrow'>{{ section.settings.heading | escape }}</h2>
+    <div class='knr-ingredients__quote'>
+      <p>
+        {{
+          product.metafields.knr.ingredient_story.value
+          | default: section.settings.body
+          | escape
+        }}
+      </p>
+      <span>{{ section.settings.author | escape }}</span>
+    </div>
+  </div>
+</div>
+{% stylesheet %}
+  .knr-ingredients {
+    padding-block-start: 80px;
+  }
+  .knr-ingredients__scene {
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+  .knr-ingredients__image {
+    position: absolute;
+    inset: 0;
+  }
+  .knr-ingredients__image img {
+    position: absolute;
+    width: 130.94%;
+    height: 156.39%;
+    max-width: none;
+    left: -8.39%;
+    top: -28.19%;
+    object-fit: cover;
+  }
+  .knr-ingredients__scene::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #00000014, transparent);
+    pointer-events: none;
+  }
+  .knr-ingredients__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 40px;
+    height: 100%;
+  }
+  .knr-ingredients__eyebrow {
+    flex: 1;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  }
+  .knr-ingredients__eyebrow::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 1px;
+    background: currentColor;
+    margin-block-start: 8px;
+  }
+  .knr-ingredients__quote {
+    width: 510px;
+    max-width: 50%;
+    display: grid;
+    gap: 16px;
+  }
+  .knr-ingredients__quote p {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+  }
+  .knr-ingredients__quote span {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.04em;
+  }
+  @media (max-width: 749px) {
+    .knr-ingredients {
+      padding: 0;
+    }
+    .knr-ingredients__scene {
+      height: auto;
+    }
+    .knr-ingredients__image img {
+      width: 320.74%;
+      height: 116.64%;
+      left: -43.38%;
+      top: -16.65%;
+    }
+    .knr-ingredients__content {
+      padding: 80px 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 360px;
+    }
+    .knr-ingredients__eyebrow {
+      flex: none;
+      min-height: 31px;
+      letter-spacing: -0.02em;
+    }
+    .knr-ingredients__quote {
+      width: auto;
+      max-width: none;
+    }
+    .knr-ingredients__quote p {
+      font-size: 22px;
+      line-height: 24px;
+    }
+    .knr-ingredients__scene::after {
+      background: linear-gradient(-77.325deg, #82796400 35.467%, #8f8777 108.44%);
+    }
+  }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "t:knr.knr_ingredients",
+  "tag": "section",
+  "class": "knr-section knr-ingredients",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:knr.heading"
+    },
+    {
+      "type": "textarea",
+      "id": "body",
+      "label": "t:knr.ingredient_story"
+    },
+    {
+      "type": "text",
+      "id": "author",
+      "label": "t:knr.attribution"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:knr.desktop_image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "t:knr.mobile_image"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,80 @@
+[
+  {
+    "label": "on-1",
+    "score": 90,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/e238gsvu75?form_factor=mobile",
+    "metrics": {
+      "FCP": 1982,
+      "LCP": 3301,
+      "TBT": 41,
+      "CLS": 0,
+      "SI": 2552
+    },
+    "captured": "Oct 23, 2026, 7:32 PM GMT+1"
+  },
+  {
+    "label": "off-1",
+    "score": 75,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/rp2ud2k6gq?form_factor=mobile",
+    "metrics": {
+      "FCP": 2299,
+      "LCP": 3451,
+      "TBT": 535,
+      "CLS": 0,
+      "SI": 2668
+    },
+    "captured": "Oct 23, 2026, 7:34 PM GMT+1"
+  },
+  {
+    "label": "off-2",
+    "score": 57,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/vwf9vr0j6q?form_factor=mobile",
+    "metrics": {
+      "FCP": 3669,
+      "LCP": 6033,
+      "TBT": 387,
+      "CLS": 0,
+      "SI": 5576
+    },
+    "captured": "Oct 23, 2026, 7:36 PM GMT+1"
+  },
+  {
+    "label": "off-3",
+    "score": 94,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/a9wcthcw2l?form_factor=mobile",
+    "metrics": {
+      "FCP": 2003,
+      "LCP": 2456,
+      "TBT": 166,
+      "CLS": 0,
+      "SI": 2425
+    },
+    "captured": "Oct 23, 2026, 7:39 PM GMT+1"
+  },
+  {
+    "label": "on-2",
+    "score": 90,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/30igf0969v?form_factor=mobile",
+    "metrics": {
+      "FCP": 2198,
+      "LCP": 3301,
+      "TBT": 27,
+      "CLS": 0,
+      "SI": 2656
+    },
+    "captured": "Oct 23, 2026, 7:41 PM GMT+1"
+  },
+  {
+    "label": "on-3",
+    "score": 88,
+    "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/epvxgbacr6?form_factor=mobile",
+    "metrics": {
+      "FCP": 2197,
+      "LCP": 3451,
+      "TBT": 93,
+      "CLS": 0,
+      "SI": 2396
+    },
+    "captured": "Oct 23, 2026, 7:42 PM GMT+1"
+  }
+]

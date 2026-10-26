@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-23",
+  "method": "Google PageSpeed Insights UI; Lighthouse 13.5.0. Three fresh reports after motion and hover deployment. Transcribed from visible reports and calculator links; not raw Lighthouse JSON.",
+  "themeId": 189290447076,
+  "themeRole": "unpublished",
+  "storePasswordChanged": false,
+  "animationsEnabled": true,
+  "hoverStylesEnabled": true,
+  "runs": [
+    {
+      "run": 1,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/jnuj12ttox?form_factor=mobile",
+      "scores": {
+        "Performance": 88,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 2348.0,
+        "LCP": 3451.0,
+        "TBT": 22.0,
+        "CLS": 0.0,
+        "SI": 3105.0
+      }
+    },
+    {
+      "run": 1,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/jnuj12ttox?form_factor=desktop",
+      "scores": {
+        "Performance": 98,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 532.0,
+        "LCP": 941.0,
+        "TBT": 71.0,
+        "CLS": 0.0,
+        "SI": 1009.0
+      }
+    },
+    {
+      "run": 2,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/64oph2gy2u?form_factor=mobile",
+      "scores": {
+        "Performance": 90,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 2191.0,
+        "LCP": 3301.0,
+        "TBT": 39.0,
+        "CLS": 0.0,
+        "SI": 2202.0
+      }
+    },
+    {
+      "run": 2,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/64oph2gy2u?form_factor=desktop",
+      "scores": {
+        "Performance": 99,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 525.0,
+        "LCP": 820.0,
+        "TBT": 13.0,
+        "CLS": 0.0,
+        "SI": 754.0
+      }
+    },
+    {
+      "run": 3,
+      "device": "mobile",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/0mwy9awbah?form_factor=mobile",
+      "scores": {
+        "Performance": 88,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 2303.0,
+        "LCP": 3301.0,
+        "TBT": 145.0,
+        "CLS": 0.0,
+        "SI": 2784.0
+      }
+    },
+    {
+      "run": 3,
+      "device": "desktop",
+      "report": "https://pagespeed.web.dev/analysis/https-7den3zgw47juxmn5-85280489700-shopifypreview-com-products-serum-precieux-regenerant/0mwy9awbah?form_factor=desktop",
+      "scores": {
+        "Performance": 98,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 557.0,
+        "LCP": 941.0,
+        "TBT": 101.0,
+        "CLS": 0.0,
+        "SI": 846.0
+      }
+    }
+  ],
+  "medians": {
+    "mobile": {
+      "scores": {
+        "Performance": 88,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 2303.0,
+        "LCP": 3301.0,
+        "TBT": 39.0,
+        "CLS": 0.0,
+        "SI": 2784.0
+      }
+    },
+    "desktop": {
+      "scores": {
+        "Performance": 98,
+        "Accessibility": 96,
+        "Best Practices": 92,
+        "SEO": 69
+      },
+      "metrics": {
+        "FCP": 532.0,
+        "LCP": 941.0,
+        "TBT": 71.0,
+        "CLS": 0.0,
+        "SI": 846.0
+      }
+    }
+  },
+  "fieldData": "No CrUX data; no field Core Web Vitals, INP or real-device FPS claim.",
+  "comparison": {
+    "previous": "../pagespeed/results.json",
+    "previousMobileMedian": 92,
+    "previousDesktopMedian": 99,
+    "interpretation": "Latest medians are lower. Ranges overlap the previous samples; this is not an isolated animation on/off experiment, so causation cannot be inferred."
+  },
+  "remaining": [
+    "Client Figma contrast retained by request",
+    "Shopify preview telemetry/pixel/CSP warnings",
+    "Preview indexing protection",
+    "Mobile median LCP 3301 ms; render-blocking shared theme styles"
+  ],
+  "codeChangesInThisPass": false
+}
